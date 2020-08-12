@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYLavenderSoap.label>薰衣草香皂</AYLavenderSoap.label>
+  <AYLavenderSoap.description>薰衣草香皂是氣味香甜的活性清潔劑，適用於個人或其他清潔。效果持續約一天。</AYLavenderSoap.description>
+  <AYLavenderSoap.ingestible.ingestCommandString>使用{0}</AYLavenderSoap.ingestible.ingestCommandString>
+  <AYLavenderSoap.ingestible.ingestReportString>正在使用{0}。</AYLavenderSoap.ingestible.ingestReportString>
+</LanguageData>

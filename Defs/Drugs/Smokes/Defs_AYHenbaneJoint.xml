@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>AYHenbaneJoint</defName>
+    <label>Henbane joint</label>
+    <description>Henbane leaves prepared in small rolls for smoking. Henbane use increases aggressiveness, increases appetite, but can be useful for pain relief. Henbane use can produce a dependency.\n\nJoints can be produced at a crafting spot without equipment, and are a fixture in many traditional low-industriousness cultures.</description>
+    <descriptionHyperlinks>
+      <HediffDef>AYHenbaneHigh</HediffDef>
+      <HediffDef>AYHenbaneTolerance</HediffDef>
+      <HediffDef>AYHenbaneAddiction</HediffDef>
+      <HediffDef>Carcinoma</HediffDef>
+      <HediffDef>Asthma</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/Smokes/AYHenbaneJoint</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>450</WorkToMake>
+      <MarketValue>11</MarketValue>
+      <Mass>0.05</Mass>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Flammability>1.3</Flammability>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Plant, Processed</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.50</joy>
+      <baseIngestTicks>720</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Smoke</ingestSound>
+      <ingestEffect>Smoke_Joint</ingestEffect>
+      <ingestEffectEat>EatVegetarian</ingestEffectEat>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.27,0,0.08)</offset>
+          <behind>true</behind>
+        </northDefault>
+        <east>
+          <offset>(0.45,0,0.08)</offset>
+        </east>
+        <south>
+          <offset>(0.27,0,0.08)</offset>
+        </south>
+        <west>
+          <offset>(-0.50,0,0.08)</offset>
+          <flip>true</flip>
+        </west>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Smoke {0}</ingestCommandString>
+      <ingestReportString>Smoking {0}.</ingestReportString>
+      <ingestReportStringEat>Consuming {0}.</ingestReportStringEat>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHenbaneHigh</hediffDef>
+          <severity>0.5</severity>
+          <toleranceChemical>AYHenbane</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>-0.1</offset>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHenbaneTolerance</hediffDef>
+          <severity>0.030</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>AYApothecaryTable</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+    </recipeMaker>
+    <costList>
+      <AYHenbaneLeaves>5</AYHenbaneLeaves>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>AYHenbane</chemical>
+        <addictiveness>0.015</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.04</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>20</listOrder>
+      </li>
+    </comps>
+    <thingCategories Inherit="false">
+      <li>AYSmokes</li>
+    </thingCategories>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYHenbaneHigh</defName>
+    <label>stoned on henbane</label>
+    <labelNoun>a henbane high</labelNoun>
+    <description>Henbane's active chemical in the bloodstream. Generates pain relief.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+          <ToxicSensitivity>+0.05</ToxicSensitivity>
+        </statOffsets>
+        <painFactor>0.50</painFactor>
+        <socialFightChanceFactor>1.35</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.02</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.03</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.02</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <minSeverity>0.8</minSeverity>
+        <statOffsets>
+          <ToxicSensitivity>+0.07</ToxicSensitivity>
+        </statOffsets>
+        <painFactor>0.45</painFactor>
+        <socialFightChanceFactor>1.5</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.04</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.07</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>50.0</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>AYHenbaneHighThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYHenbaneHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>high on henbane</label>
+        <description>Groovy.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>stoned on henbane</label>
+        <description>Super Groovy.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Henbane addiction -->
+  <ChemicalDef>
+    <defName>AYHenbane</defName>
+    <label>Henbane</label>
+    <addictionHediff>AYHenbaneAddiction</addictionHediff>
+    <toleranceHediff>AYHenbaneTolerance</toleranceHediff>
+    <onGeneratedAddictedToleranceChance>0.5</onGeneratedAddictedToleranceChance>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_AYHenbane</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>henbane</label>
+    <description>Because of a henbane dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>24</listPriority>
+  </NeedDef>
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>AYHenbaneTolerance</defName>
+    <label>henbane tolerance</label>
+    <description>A built-up tolerance to henbane. The more severe this tolerance is, the more henbane it takes to get the same effect.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.02</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>AYHenbane</chemical>
+      </li>
+    </comps>
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Asthma</hediff>
+        <baseMtbDays>180</baseMtbDays>
+        <minSeverity>0.50</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>2</countToAffect>
+      </li>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Carcinoma</hediff>
+        <baseMtbDays>180</baseMtbDays>
+        <minSeverity>0.40</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>1</countToAffect>
+      </li>
+    </hediffGivers>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>AYHenbaneAddiction</defName>
+    <label>henbane dependence</label>
+    <description>A chemical addiction to henbane. Long-term use of henbane alkaloids has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of henbane, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <causesNeed>Chemical_AYHenbane</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.04</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_Food</mentalState>
+            <mtbDays>60</mtbDays>
+          </li>
+          <li>
+            <mentalState>Binging_DrugMajor</mentalState>
+            <mtbDays>60</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>AYHenbaneWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYHenbaneAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>henbane withdrawal</label>
+        <description>I really wish I could smoke. I feel jittery, and my gut has that anxious sensation all the time.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

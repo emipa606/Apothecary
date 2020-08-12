@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYWormwoodOil.label>Stelle Wermut-Öl her</MakeAYWormwoodOil.label>
+  <MakeAYWormwoodOil.description>Stelle ein Wermut-Öl her.</MakeAYWormwoodOil.description>
+  <MakeAYWormwoodOil.jobString>Stellt Wermut-Öl her.</MakeAYWormwoodOil.jobString>
+  <MakeBulkAYWormwoodOil.label>Stelle Wermut-Öle in Massen her</MakeBulkAYWormwoodOil.label>
+  <MakeBulkAYWormwoodOil.description>Stelle 5 Wermut-Öle her.</MakeBulkAYWormwoodOil.description>
+  <MakeBulkAYWormwoodOil.jobString>Stellt Wermut-Öl her.</MakeBulkAYWormwoodOil.jobString>
+</LanguageData>

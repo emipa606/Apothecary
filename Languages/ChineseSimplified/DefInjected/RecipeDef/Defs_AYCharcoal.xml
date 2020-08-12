@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Post Kiln Production : No ashes -->
+  <MakeAYCharcoalFromBenches.label>烧制木炭</MakeAYCharcoalFromBenches.label>
+  <MakeAYCharcoalFromBenches.description>烧制25份木炭.</MakeAYCharcoalFromBenches.description>
+  <MakeAYCharcoalFromBenches.jobString>正在烧制木炭</MakeAYCharcoalFromBenches.jobString>
+</LanguageData>

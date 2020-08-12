@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYCharcoal.label>木炭</AYCharcoal.label>
+  <AYCharcoal.description>木炭是去除有機材料中的水分和其他揮發性成分所產生的碳輕質殘餘物.炭通常通過長時間的熱解下製成,有機物在隔氧緩慢加熱的過程,通常被稱為碳化。</AYCharcoal.description>
+  <AYWoodAshes.label>木灰</AYWoodAshes.label>
+  <AYWoodAshes.description>木灰是木材燃燒後殘留的粉末。</AYWoodAshes.description>
+  <!-- Ammonia Treated Charcoal -->
+  <AYAmmoniaCharcoal.label>木炭 (氨處理)</AYAmmoniaCharcoal.label>
+  <AYAmmoniaCharcoal.description>用氨處理的木炭專門用作於被動冷卻器</AYAmmoniaCharcoal.description>
+</LanguageData>

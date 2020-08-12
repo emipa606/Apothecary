@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHerbBox.label>草药盆</AYHerbBox.label>
+  <AYHerbBox.description>一个装入了盆栽混合物的简单花盆,能让你种植植物 (肥沃度是125%)</AYHerbBox.description>
+  <AYHerbBox_Blueprint.label>草药盆(蓝图)</AYHerbBox_Blueprint.label>
+  <AYHerbBox_Frame.label>草药盆(建造中)</AYHerbBox_Frame.label>
+  <AYHerbBox_Frame.description>一个装入了盆栽混合物的简单花盆,能让你种植植物 (肥沃度是125%)</AYHerbBox_Frame.description>
+  <AYHerbBoxLime.label>草药盆 (碱化)</AYHerbBoxLime.label>
+  <AYHerbBoxLime.description>一个装入了盆栽混合物并用石灰改良了的简单花盆,能让你种植植物 (肥沃度是150%)</AYHerbBoxLime.description>
+  <AYHerbBoxLime_Blueprint.label>草药盆(碱化) (蓝图)</AYHerbBoxLime_Blueprint.label>
+  <AYHerbBoxLime_Frame.label>草药盆(碱化) (建造中)</AYHerbBoxLime_Frame.label>
+  <AYHerbBoxLime_Frame.description>一个装入了盆栽混合物并用石灰改良了的简单花盆,能让你种植植物 (肥沃度是150%)</AYHerbBoxLime_Frame.description>
+</LanguageData>

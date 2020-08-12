@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYElixirLucidity.label>Stelle Elixier (Klarheit) her</MakeAYElixirLucidity.label>
+  <MakeAYElixirLucidity.description>Stelle ein Elixier (Klarheit) her.</MakeAYElixirLucidity.description>
+  <MakeAYElixirLucidity.jobString>Stellt Elixier (Klarheit) her.</MakeAYElixirLucidity.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYElixirLucidity.label>Stelle Elixier (Klarheit) in Massen her</MakeBulkAYElixirLucidity.label>
+  <MakeBulkAYElixirLucidity.description>Stelle 5 Elixiere (Klarheit) her.</MakeBulkAYElixirLucidity.description>
+  <MakeBulkAYElixirLucidity.jobString>Stellt Elixier (Klarheit) her.</MakeBulkAYElixirLucidity.jobString>
+</LanguageData>

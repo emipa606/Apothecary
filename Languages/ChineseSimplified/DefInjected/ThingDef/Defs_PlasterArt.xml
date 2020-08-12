@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Unfinished ThingDef -->
+  <UnfinishedAYPlaster.label>未完成的灰泥雕塑</UnfinishedAYPlaster.label>
+  <!--花盆 -->
+  <AYPlasterPlanter.label>花盆</AYPlasterPlanter.label>
+  <AYPlasterPlanter.description>一个装饰华丽的花盆，用灰泥浇筑而成.</AYPlasterPlanter.description>
+  <AYPlasterPlanter_Blueprint_Install.label>花盆(蓝图)</AYPlasterPlanter_Blueprint_Install.label>
+</LanguageData>

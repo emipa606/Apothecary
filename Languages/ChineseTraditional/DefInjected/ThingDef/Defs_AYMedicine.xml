@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Yarrow Bandages -->
+  <AYYarrowBandage.label>蓍草繃帶</AYYarrowBandage.label>
+  <AYYarrowBandage.description>用棉布或蕁麻製成的紗布注入了蓍草油。作用與藥物相似，但效果較差。</AYYarrowBandage.description>
+  <!-- Treated Herbal Medicine -->
+  <AYTreatedMedHerb.label>強化草藥</AYTreatedMedHerb.label>
+  <AYTreatedMedHerb.description>通過添加蓍草油跟蘆薈油來改良草藥。</AYTreatedMedHerb.description>
+</LanguageData>

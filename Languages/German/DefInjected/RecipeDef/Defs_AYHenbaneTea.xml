@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYHenbaneTea.label>Stelle Bilsenkraut-Tee her</MakeAYHenbaneTea.label>
+  <MakeAYHenbaneTea.description>Stelle ein Bilsenkraut-Tee her.</MakeAYHenbaneTea.description>
+  <MakeAYHenbaneTea.jobString>Stellt Bilsenkraut-Tee her</MakeAYHenbaneTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYHenbaneTea.label>Stelle Bilsenkraut-Tee in Massen her</MakeBulkAYHenbaneTea.label>
+  <MakeBulkAYHenbaneTea.description>Stelle 5 Bilsenkraut-Tee her.</MakeBulkAYHenbaneTea.description>
+  <MakeBulkAYHenbaneTea.jobString>Stellt Bilsenkraut-Tee her</MakeBulkAYHenbaneTea.jobString>
+</LanguageData>

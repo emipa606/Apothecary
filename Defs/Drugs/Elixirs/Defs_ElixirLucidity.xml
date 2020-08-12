@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugElixirBase">
+    <defName>AYElixirLucidity</defName>
+    <label>Elixir of Lucidity</label>
+    <description>This elixir improves concentration and memory. Effects last about a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Elixir/AYElixirLucidity/AYElixirLucidity</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>220</WorkToMake>
+      <MarketValue>16</MarketValue>
+      <!-- GP: 40 x 0.4 -->
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYElixirLucidityHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3589</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYElixirLucidityHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Elixir (Lucidity)</label>
+    <description>Elixir Lucidity Effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.79</painFactor>
+        <statOffsets>
+          <GlobalLearningFactor>+0.12</GlobalLearningFactor>
+          <ResearchSpeed>+0.06</ResearchSpeed>
+          <PsychicSensitivity>-0.15</PsychicSensitivity>
+        </statOffsets>
+        <restFallFactor>1.1</restFallFactor>
+        <socialFightChanceFactor>0.9</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>+0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYElixirLucidity</defName>
+    <label>Make Elixir of Lucidity</label>
+    <description>Make 1 Elixir (Lucidity).</description>
+    <jobString>Making Elixir (Lucidity)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGinkgoPowder</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGinkgoPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirLucidity>1</AYElixirLucidity>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYElixirLucidity</defName>
+    <label>Make Elixir of Lucidity in bulk</label>
+    <description>Make 5 Elixir (Lucidity).</description>
+    <jobString>Making Elixir (Lucidity)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGinkgoPowder</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGinkgoPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirLucidity>5</AYElixirLucidity>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Industrialisation</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Charcoal -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromBenches"]/recipeUsers</xpath>
+          <value>
+            <li>Ind_ElectricArcFurnace</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>MakeAYCharcoalFromIndEAF</defName>
+              <label>Make Charcoal in bulk</label>
+              <description>Make 50 Charcoal.</description>
+              <jobString>Making Charcoal</jobString>
+              <workSpeedStat>SmeltingSpeed</workSpeedStat>
+              <effectWorking>Cremate</effectWorking>
+              <soundWorking>Recipe_Cremate</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>2500</workAmount>
+              <targetCountAdjustment>50</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>WoodLog</li>
+                    </thingDefs>
+                  </filter>
+                  <count>50</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>WoodLog</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <AYCharcoal>50</AYCharcoal>
+              </products>
+              <recipeUsers>
+                <li>Ind_ElectricArcFurnace</li>
+              </recipeUsers>
+              <researchPrerequisite>AYCharcoal</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Industrialisation</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>[WD] Simple Coal 1.0</li>
+        <li>[WD] Simple Coal</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromIndEAF"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>WDCoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromIndEAF"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>WDCoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef ParentName="Ind_DeepMineBase">
+                <defName>AYWDInd_DeepMineWDCoal</defName>
+                <label>Mine deep Coal</label>
+                <description>Mine deep coal [WD]</description>
+                <workAmount>2500</workAmount>
+                <products>
+                  <WDCoal>25</WDCoal>
+                </products>
+              </RecipeDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Industrialisation</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Medieval Times</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromIndEAF"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>MedTimes_Resource_Coal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromIndEAF"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>MedTimes_Resource_Coal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef ParentName="Ind_DeepMineBase">
+                <defName>AYMTInd_DeepMineWDCoal</defName>
+                <label>Mine deep Coal</label>
+                <description>Mine deep coal [MT]</description>
+                <workAmount>2500</workAmount>
+                <products>
+                  <MedTimes_Resource_Coal>25</MedTimes_Resource_Coal>
+                </products>
+              </RecipeDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Industrialisation</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>[1.0] Atlas' Materials</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromIndEAF"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>AM_Coal</li>
+              <li>AM_CokeCoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromIndEAF"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>AM_Coal</li>
+              <li>AM_CokeCoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef ParentName="Ind_DeepMineBase">
+                <defName>AYAMInd_DeepMineWDCoal</defName>
+                <label>Mine deep Coal</label>
+                <description>Mine deep coal [AM]</description>
+                <workAmount>2500</workAmount>
+                <products>
+                  <AM_Coal>25</AM_Coal>
+                </products>
+              </RecipeDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

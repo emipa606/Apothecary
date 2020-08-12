@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Lime Plaster floors -->
+  <TileAYPlaster.label>石膏地板</TileAYPlaster.label>
+  <TileAYPlaster.description>石膏地磚。相對鋪設較快的基本構造。</TileAYPlaster.description>
+  <!-- Salted Tile terrain -->
+  <TileAYPlasterSalt.label>石膏地板 (含鹽)</TileAYPlasterSalt.label>
+  <TileAYPlasterSalt.description>鹽覆蓋石膏地磚。將防止積雪在表面上形成，並且清潔度略有改善。</TileAYPlasterSalt.description>
+</LanguageData>

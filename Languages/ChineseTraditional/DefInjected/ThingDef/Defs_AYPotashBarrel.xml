@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYPotashBarrel.label>鉀鹽桶</AYPotashBarrel.label>
+  <AYPotashBarrel.description>一個裝有木灰和乾草的桶，隨著時間推移它將慢慢滲出鉀鹽。</AYPotashBarrel.description>
+  <AYPotashBarrel_Blueprint.label>鉀鹽桶(藍圖)</AYPotashBarrel_Blueprint.label>
+  <AYPotashBarrel_Frame.label>鉀鹽桶(框架)</AYPotashBarrel_Frame.label>
+  <AYPotashBarrel_Frame.description>一個裝有木灰和乾草的桶，隨著時間推移它將慢慢滲出鉀鹽。</AYPotashBarrel_Frame.description>
+</LanguageData>

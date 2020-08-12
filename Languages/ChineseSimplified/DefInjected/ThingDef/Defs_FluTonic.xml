@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYFluTonic.label>伤寒汤</AYFluTonic.label>
+  <AYFluTonic.description>浓缩的草药汤，能帮助预防流感. 每三天一服.</AYFluTonic.description>
+  <AYFluTonic.ingestible.ingestCommandString>喝{0}</AYFluTonic.ingestible.ingestCommandString>
+  <AYFluTonic.ingestible.ingestReportString>正在喝{0}.</AYFluTonic.ingestible.ingestReportString>
+</LanguageData>

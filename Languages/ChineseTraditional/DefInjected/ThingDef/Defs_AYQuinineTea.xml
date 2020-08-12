@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYQuinineTea.label>奎寧茶</AYQuinineTea.label>
+  <AYQuinineTea.description>奎寧茶，有效預防瘧疾，並且能充當溫和的抗生素。效果持續約半天。</AYQuinineTea.description>
+  <AYQuinineTea.ingestible.ingestCommandString>喝下{0}</AYQuinineTea.ingestible.ingestCommandString>
+  <AYQuinineTea.ingestible.ingestReportString>正在喝下{0}。</AYQuinineTea.ingestible.ingestReportString>
+</LanguageData>

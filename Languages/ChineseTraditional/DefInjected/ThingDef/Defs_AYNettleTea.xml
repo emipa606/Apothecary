@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYNettleTea.label>蕁麻茶</AYNettleTea.label>
+  <AYNettleTea.description>蕁麻茶,有助於避免哮喘和流感,還有其他的自然元素、抗組胺劑. 效果持續約一天。</AYNettleTea.description>
+  <AYNettleTea.ingestible.ingestCommandString>喝下{0}</AYNettleTea.ingestible.ingestCommandString>
+  <AYNettleTea.ingestible.ingestReportString>正在喝下{0}。</AYNettleTea.ingestible.ingestReportString>
+</LanguageData>

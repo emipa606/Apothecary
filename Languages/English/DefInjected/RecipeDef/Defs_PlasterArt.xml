@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Planter -->
+
+  <MakeAYPlasterPlanter.label>Cast Planter</MakeAYPlasterPlanter.label>
+  <MakeAYPlasterPlanter.description>Cast Planter from plaster.</MakeAYPlasterPlanter.description>
+  <MakeAYPlasterPlanter.jobString>Casting Planter.</MakeAYPlasterPlanter.jobString>
+
+
+  <!-- Bird Bath -->
+
+  <MakeAYPlasterBirdBath.label>Cast Bird Bath</MakeAYPlasterBirdBath.label>
+  <MakeAYPlasterBirdBath.description>Cast Bird Bath from plaster.</MakeAYPlasterBirdBath.description>
+  <MakeAYPlasterBirdBath.jobString>Casting Bird Bath.</MakeAYPlasterBirdBath.jobString>
+
+
+  <!-- Bat -->
+
+  <MakeAYPlasterBat.label>Cast Bat sculpture</MakeAYPlasterBat.label>
+  <MakeAYPlasterBat.description>Cast Bat sculpture from plaster.</MakeAYPlasterBat.description>
+  <MakeAYPlasterBat.jobString>Casting Bat sculpture.</MakeAYPlasterBat.jobString>
+
+
+  <!-- Edgy -->
+
+  <MakeAYPlasterLargeEdgy.label>Cast Large edgy sculpture</MakeAYPlasterLargeEdgy.label>
+  <MakeAYPlasterLargeEdgy.description>Cast large edgy sculpture from plaster.</MakeAYPlasterLargeEdgy.description>
+  <MakeAYPlasterLargeEdgy.jobString>Casting large sculpture.</MakeAYPlasterLargeEdgy.jobString>
+
+
+  <!-- Owly -->
+
+  <MakeAYPlasterLargeOwly.label>Cast Large Owly sculpture</MakeAYPlasterLargeOwly.label>
+  <MakeAYPlasterLargeOwly.description>Cast large owly sculpture from plaster.</MakeAYPlasterLargeOwly.description>
+  <MakeAYPlasterLargeOwly.jobString>Casting large sculpture.</MakeAYPlasterLargeOwly.jobString>
+
+
+</LanguageData>

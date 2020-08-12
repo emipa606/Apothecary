@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYStarAniseOil.label>Stelle Sternanis-Öl her</MakeAYStarAniseOil.label>
+  <MakeAYStarAniseOil.description>Stelle ein Sternanis-Öl her.</MakeAYStarAniseOil.description>
+  <MakeAYStarAniseOil.jobString>Stellt Sternanis-Öl her.</MakeAYStarAniseOil.jobString>
+  <MakeBulkAYStarAniseOil.label>Stelle Sternanis-Öle in Massen her</MakeBulkAYStarAniseOil.label>
+  <MakeBulkAYStarAniseOil.description>Stelle 5 Sternanis-Öle her.</MakeBulkAYStarAniseOil.description>
+  <MakeBulkAYStarAniseOil.jobString>Stellt Sternanis-Öl her.</MakeBulkAYStarAniseOil.jobString>
+</LanguageData>

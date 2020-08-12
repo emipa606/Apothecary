@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYWoodAsh_Bucket.label>Eimer (Holzasche)</AYWoodAsh_Bucket.label>
+  <AYWoodAsh_Bucket.description>Ein Eimer voller Holzasche. Kann auf Gebiete geworfen werden, in denen Bäume wachsen, um ihr Wachstum leicht zu verbessern, Pflanzenfäule zu entfernen und die Chance von Bränden zu verhindern.</AYWoodAsh_Bucket.description>
+  <Bullet_AYWoodAsh.label>Holzasche</Bullet_AYWoodAsh.label>
+  <AYWoodAsh_Filth.label>Holzasche</AYWoodAsh_Filth.label>
+  <AYAshScrap_Filth.label>Asche/Pflanzenreste</AYAshScrap_Filth.label>
+</LanguageData>

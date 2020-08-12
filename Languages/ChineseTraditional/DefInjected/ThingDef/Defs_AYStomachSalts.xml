@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYStomachSalts.label>胃藥</AYStomachSalts.label>
+  <AYStomachSalts.description>胃藥,能緩解胃部不適,降低胃酸分泌. 效果持續約半天。</AYStomachSalts.description>
+  <AYStomachSalts.ingestible.ingestCommandString>服用{0}</AYStomachSalts.ingestible.ingestCommandString>
+  <AYStomachSalts.ingestible.ingestReportString>服用{0}中。</AYStomachSalts.ingestible.ingestReportString>
+</LanguageData>

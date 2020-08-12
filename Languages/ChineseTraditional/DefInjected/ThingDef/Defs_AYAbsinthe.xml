@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYAbsinthe.label>苦艾酒</AYAbsinthe.label>
+  <AYAbsinthe.description>苦艾酒在歷史上被描述為蒸餾的高酒精飲料。它是一種茴香味的烈酒，從植物性藥材中萃取，其中包括苦艾的花和葉和其他藥材和食用香草。</AYAbsinthe.description>
+  <AYAbsinthe.tools.0.label>瓶身</AYAbsinthe.tools.0.label>
+  <AYAbsinthe.tools.1.label>瓶頸</AYAbsinthe.tools.1.label>
+  <AYAbsinthe.ingestible.ingestCommandString>喝下{0}</AYAbsinthe.ingestible.ingestCommandString>
+  <AYAbsinthe.ingestible.ingestReportString>正在喝下{0}。</AYAbsinthe.ingestible.ingestReportString>
+  <AYAbsintheMash.label>苦艾酒醪</AYAbsintheMash.label>
+  <AYAbsintheMash.description>未經發酵的苦艾酒材料。該物質需要發酵。</AYAbsintheMash.description>
+</LanguageData>

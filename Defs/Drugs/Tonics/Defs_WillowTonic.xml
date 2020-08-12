@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugTonicBase">
+    <defName>AYWillowTonic</defName>
+    <label>Willow Tonic</label>
+    <description>A concentrated tincture of white willow that helps ward off malaria and some heart conditions. Effects last for 5 days.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Tonic/AYWillowTonic/AYWillowTonic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>10.5</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYWillowTonicHigh</hediffDef>
+          <severity>5.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3499</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYWillowTonicHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Willow Tonic</label>
+    <description>Willow Tonic effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>5.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <makeImmuneTo>
+          <li>Malaria</li>
+          <li>HeartArteryBlockage</li>
+        </makeImmuneTo>
+        <painFactor>0.95</painFactor>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>+0.03</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.01</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>2.5</minSeverity>
+        <lifeThreatening>false</lifeThreatening>
+        <makeImmuneTo>
+          <li>Malaria</li>
+          <li>HeartArteryBlockage</li>
+        </makeImmuneTo>
+        <painFactor>0.90</painFactor>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>+0.07</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYWillowTonic</defName>
+    <label>Make Willow Tonic</label>
+    <description>Make 1 Willow Tonic.</description>
+    <jobString>Making Willow Tonic</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>250</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWhiteWillowPowder</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWhiteWillowPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWillowTonic>1</AYWillowTonic>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTonics</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYWillowTonic</defName>
+    <label>Make Willow Tonic</label>
+    <description>Make 5 Willow Tonic.</description>
+    <jobString>Making Willow Tonic</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWhiteWillowPowder</li>
+          </thingDefs>
+        </filter>
+        <count>375</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWhiteWillowPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWillowTonic>5</AYWillowTonic>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTonics</researchPrerequisite>
+  </RecipeDef>
+</Defs>

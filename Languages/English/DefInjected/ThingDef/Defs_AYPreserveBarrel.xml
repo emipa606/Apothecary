@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AYPreserveBarrel.label>Preserving barrel</AYPreserveBarrel.label>
+  <AYPreserveBarrel.description>A barrel that contains a mix of crushed rocks, sand and dirt that can be used to store vegetable matter and help preserve it.</AYPreserveBarrel.description>
+  <AYPreserveBarrel_Blueprint.label>Preserving barrel (blueprint)</AYPreserveBarrel_Blueprint.label>
+  <AYPreserveBarrel_Blueprint_Install.label>Preserving barrel (blueprint)</AYPreserveBarrel_Blueprint_Install.label>
+  <AYPreserveBarrel_Frame.label>Preserving barrel (building)</AYPreserveBarrel_Frame.label>
+  <AYPreserveBarrel_Frame.description>A barrel that contains a mix of crushed rocks, sand and dirt that can be used to store vegetable matter and help preserve it.</AYPreserveBarrel_Frame.description>
+
+
+</LanguageData>

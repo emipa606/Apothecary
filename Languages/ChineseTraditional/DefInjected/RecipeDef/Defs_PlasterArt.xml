@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Planter -->
+  <MakeAYPlasterPlanter.label>鑄造花盆</MakeAYPlasterPlanter.label>
+  <MakeAYPlasterPlanter.description>鑄造石膏花盆.</MakeAYPlasterPlanter.description>
+  <MakeAYPlasterPlanter.jobString>正在鑄造花盆.</MakeAYPlasterPlanter.jobString>
+  <!-- Bird Bath -->
+  <MakeAYPlasterBirdBath.label>鑄造鳥浴盆</MakeAYPlasterBirdBath.label>
+  <MakeAYPlasterBirdBath.description>鑄造石膏浴盆.</MakeAYPlasterBirdBath.description>
+  <MakeAYPlasterBirdBath.jobString>正在鑄造鳥浴盆.</MakeAYPlasterBirdBath.jobString>
+  <!-- Bat -->
+  <MakeAYPlasterBat.label>鑄造蝙蝠雕塑</MakeAYPlasterBat.label>
+  <MakeAYPlasterBat.description>鑄造蝙蝠石膏雕塑.</MakeAYPlasterBat.description>
+  <MakeAYPlasterBat.jobString>正在鑄造蝙蝠雕塑.</MakeAYPlasterBat.jobString>
+  <!-- Edgy -->
+  <MakeAYPlasterLargeEdgy.label>鑄造大型前衛雕塑</MakeAYPlasterLargeEdgy.label>
+  <MakeAYPlasterLargeEdgy.description>鑄造大型前衛石膏雕塑</MakeAYPlasterLargeEdgy.description>
+  <MakeAYPlasterLargeEdgy.jobString>正在鑄造大型雕塑.</MakeAYPlasterLargeEdgy.jobString>
+  <!-- Owly -->
+  <MakeAYPlasterLargeOwly.label>鑄造大型貓頭鷹雕塑</MakeAYPlasterLargeOwly.label>
+  <MakeAYPlasterLargeOwly.description>鑄造大型貓頭鷹石膏雕塑</MakeAYPlasterLargeOwly.description>
+  <MakeAYPlasterLargeOwly.jobString>正在鑄造大型雕塑.</MakeAYPlasterLargeOwly.jobString>
+</LanguageData>

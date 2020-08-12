@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYAloeOil.label>Stelle Aloe-Öl her</MakeAYAloeOil.label>
+  <MakeAYAloeOil.description>Stelle ein Aloe-Öl her.</MakeAYAloeOil.description>
+  <MakeAYAloeOil.jobString>Stellt Aloe-Öl her.</MakeAYAloeOil.jobString>
+  <MakeBulkAYAloeOil.label>Stelle Aloe-Öl in Massen her</MakeBulkAYAloeOil.label>
+  <MakeBulkAYAloeOil.description>Stelle 5 Aloe-Öle her.</MakeBulkAYAloeOil.description>
+  <MakeBulkAYAloeOil.jobString>Stellt Aloe-Öl her.</MakeBulkAYAloeOil.jobString>
+</LanguageData>

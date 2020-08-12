@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYPassiveCooler.label>被動式冷卻器(氨)</AYPassiveCooler.label>
+  <AYPassiveCooler.description>無動力的傳統冷卻器通過水蒸發來工作，該冷卻器使用經過氨處理的木炭來提高蒸發速率。會稍微有點臭。</AYPassiveCooler.description>
+  <AYPassiveCooler_Blueprint.label>被動式冷卻器(氨)(藍圖)</AYPassiveCooler_Blueprint.label>
+  <AYPassiveCooler_Frame.label>被動式冷卻器(氨)(框架)</AYPassiveCooler_Frame.label>
+  <AYPassiveCooler_Frame.description>無動力的傳統冷卻器通過水蒸發來工作，該冷卻器使用經過氨處理的木炭來提高蒸發速率。會稍微有點臭。</AYPassiveCooler_Frame.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYCandle.label>蜡烛</AYCandle.label>
+  <AYCandle.description>能照亮周围的蜡脂蜡烛. 人们需要一定的光亮才能以最大效率工作.殖民者会自动补充蜡脂. 产生少量的热.</AYCandle.description>
+  <AYCandle_Blueprint.label>蜡烛 (蓝图)</AYCandle_Blueprint.label>
+  <AYCandle_Blueprint_Install.label>蜡烛 (蓝图)</AYCandle_Blueprint_Install.label>
+  <AYCandle_Frame.label>蜡烛 (建造中)</AYCandle_Frame.label>
+  <AYCandle_Frame.description>能照亮周围的蜡脂蜡烛. 人们需要一定的光亮才能以最大效率工作.殖民者会自动补充蜡脂. 产生少量的热.</AYCandle_Frame.description>
+</LanguageData>

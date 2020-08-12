@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Lime Plaster floors -->
+  <TileAYPlaster.label>Kalkputzfliesen</TileAYPlaster.label>
+  <TileAYPlaster.description>Kalkputzfliesen. Eine Grundkonstruktion, die relativ schnell zu verlegen ist.</TileAYPlaster.description>
+  <!-- Salted Tile terrain -->
+  <TileAYPlasterSalt.label>Kalkputzfliesen (gesalzen)</TileAYPlasterSalt.label>
+  <TileAYPlasterSalt.description>Mit Salz verkrustete Kalkputzfliesen. Verhindert die Bildung von Schnee auf der Oberfläche und verbessert die Sauberkeit geringfügig.</TileAYPlasterSalt.description>
+</LanguageData>

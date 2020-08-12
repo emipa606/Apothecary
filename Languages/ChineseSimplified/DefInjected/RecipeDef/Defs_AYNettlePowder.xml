@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYNettlePowder.label>研磨荨麻粉</MakeAYNettlePowder.label>
+  <MakeAYNettlePowder.description>研磨25份荨麻粉</MakeAYNettlePowder.description>
+  <MakeAYNettlePowder.jobString>正在研磨荨麻粉</MakeAYNettlePowder.jobString>
+  <MakeBulkAYNettlePowder.label>批量研磨荨麻粉</MakeBulkAYNettlePowder.label>
+  <MakeBulkAYNettlePowder.description>研磨100份荨麻粉</MakeBulkAYNettlePowder.description>
+  <MakeBulkAYNettlePowder.jobString>正在研磨荨麻粉</MakeBulkAYNettlePowder.jobString>
+</LanguageData>

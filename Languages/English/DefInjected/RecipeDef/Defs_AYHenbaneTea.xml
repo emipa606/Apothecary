@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYHenbaneTea.label>Make Henbane Tea</MakeAYHenbaneTea.label>
+  <MakeAYHenbaneTea.description>Make 1 Henbane Tea.</MakeAYHenbaneTea.description>
+  <MakeAYHenbaneTea.jobString>Making Henbane Tea</MakeAYHenbaneTea.jobString>
+
+
+  <!-- Bulk Recipe -->
+
+  <MakeBulkAYHenbaneTea.label>Make Henbane Tea in bulk</MakeBulkAYHenbaneTea.label>
+  <MakeBulkAYHenbaneTea.description>Make 5 Henbane Teas.</MakeBulkAYHenbaneTea.description>
+  <MakeBulkAYHenbaneTea.jobString>Making Henbane Tea</MakeBulkAYHenbaneTea.jobString>
+
+
+</LanguageData>

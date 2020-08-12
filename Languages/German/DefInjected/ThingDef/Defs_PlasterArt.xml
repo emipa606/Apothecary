@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Unfinished ThingDef -->
+  <UnfinishedAYPlaster.label>unfertige Kalkputzarbeiten</UnfinishedAYPlaster.label>
+  <!-- Planter -->
+  <AYPlasterPlanter.label>Pflanztopf</AYPlasterPlanter.label>
+  <AYPlasterPlanter.description>Ein reich verzierter Pflanztopf aus Kalkputz.</AYPlasterPlanter.description>
+  <AYPlasterPlanter_Blueprint_Install.label>Planter (Entwurf)</AYPlasterPlanter_Blueprint_Install.label>
+  <!-- Bird Bath -->
+  <AYPlasterBirdBath.label>Vogelbad</AYPlasterBirdBath.label>
+  <AYPlasterBirdBath.description>Ein Vogelbad aus Kalkputz.</AYPlasterBirdBath.description>
+  <AYPlasterBirdBath_Blueprint_Install.label>Vogelbad (Entwurf)</AYPlasterBirdBath_Blueprint_Install.label>
+  <!-- Bat -->
+  <AYPlasterBat.label>Kalkputzfledermausskulptur</AYPlasterBat.label>
+  <AYPlasterBat.description>Eine Fledermausskulptur aus Kalkputz.</AYPlasterBat.description>
+  <AYPlasterBat_Blueprint_Install.label>Kalkputzfledermausskulptur (Entwurf)</AYPlasterBat_Blueprint_Install.label>
+  <!-- Edgy -->
+  <AYPlasterLargeEdgy.label>Kantige Kalkputzskulptur</AYPlasterLargeEdgy.label>
+  <AYPlasterLargeEdgy.description>Eine kantige Skulptur aus Kalkputz.</AYPlasterLargeEdgy.description>
+  <AYPlasterLargeEdgy_Blueprint_Install.label> Kantige Kalkputzskulptur (Entwurf)</AYPlasterLargeEdgy_Blueprint_Install.label>
+  <!-- Owly -->
+  <AYPlasterLargeOwly.label>Große Kalkputzeulenskulptur</AYPlasterLargeOwly.label>
+  <AYPlasterLargeOwly.description>Eine große Eulenskulptur aus Kalkputz.</AYPlasterLargeOwly.description>
+  <AYPlasterLargeOwly_Blueprint_Install.label>Große Kalkputzeulenskulptur (Entwurf)</AYPlasterLargeOwly_Blueprint_Install.label>
+</LanguageData>

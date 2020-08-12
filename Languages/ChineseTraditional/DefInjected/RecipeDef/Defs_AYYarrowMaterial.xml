@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Herbal Medicine Recipe -->
+  <MakeAYHerbalMedsFromYarrow.label>製做草藥</MakeAYHerbalMedsFromYarrow.label>
+  <MakeAYHerbalMedsFromYarrow.description>製做5個草藥(歐蓍草).</MakeAYHerbalMedsFromYarrow.description>
+  <MakeAYHerbalMedsFromYarrow.jobString>正在製做草藥</MakeAYHerbalMedsFromYarrow.jobString>
+  <MakeBulkAYHerbalMedsFromYarrow.label>製做草藥(大量)</MakeBulkAYHerbalMedsFromYarrow.label>
+  <MakeBulkAYHerbalMedsFromYarrow.description>製做25個草藥(歐蓍草).</MakeBulkAYHerbalMedsFromYarrow.description>
+  <MakeBulkAYHerbalMedsFromYarrow.jobString>正在製做草藥</MakeBulkAYHerbalMedsFromYarrow.jobString>
+  <!-- Herbal MedicineRecipe -->
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Neutro from ammonia water -->
+  <MakeNeutroFromAmmonia.label>Stelle Neutroamin (Ammoniak) her</MakeNeutroFromAmmonia.label>
+  <MakeNeutroFromAmmonia.description>Stelle 5 Neutroamin aus Ammoniak her.</MakeNeutroFromAmmonia.description>
+  <MakeNeutroFromAmmonia.jobString>Stellt Neutroamin aus Ammoniak her.</MakeNeutroFromAmmonia.jobString>
+  <MakeBulkNeutroFromAmmonia.label>Stelle Neutroamin (Ammoniak) in Massen her</MakeBulkNeutroFromAmmonia.label>
+  <MakeBulkNeutroFromAmmonia.description>Stelle 10 Neutroamin aus Ammoniak her.</MakeBulkNeutroFromAmmonia.description>
+  <MakeBulkNeutroFromAmmonia.jobString>Stellt Neutroamin aus Ammoniak her.</MakeBulkNeutroFromAmmonia.jobString>
+  <!-- Improved Hay -->
+  <MakeAYAmmoniaHay.label>Behandel Heu mit Ammoniak</MakeAYAmmoniaHay.label>
+  <MakeAYAmmoniaHay.description>Behandel Heu mit Ammoniak, um es für Tiere genießbarer zu machen.</MakeAYAmmoniaHay.description>
+  <MakeAYAmmoniaHay.jobString>Behandelt Heu mit Ammoniak.</MakeAYAmmoniaHay.jobString>
+</LanguageData>

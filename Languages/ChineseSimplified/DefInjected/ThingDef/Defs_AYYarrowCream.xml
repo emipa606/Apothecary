@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYYarrowCream.label>西洋蓍草膏</AYYarrowCream.label>
+  <AYYarrowCream.description>西洋蓍草膏能够有效防止伤口感染.药效持续约一天.</AYYarrowCream.description>
+  <AYYarrowCream.ingestible.ingestCommandString>涂抹{0}</AYYarrowCream.ingestible.ingestCommandString>
+  <AYYarrowCream.ingestible.ingestReportString>正在涂抹{0}.</AYYarrowCream.ingestible.ingestReportString>
+</LanguageData>

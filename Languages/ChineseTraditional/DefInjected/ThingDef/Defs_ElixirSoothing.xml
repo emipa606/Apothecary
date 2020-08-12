@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYElixirSoothing.label>舒緩藥水</AYElixirSoothing.label>
+  <AYElixirSoothing.description>這個藥水是溫和的鎮定劑和止痛劑. 效果持續約一天。</AYElixirSoothing.description>
+  <AYElixirSoothing.ingestible.ingestCommandString>喝下{0}</AYElixirSoothing.ingestible.ingestCommandString>
+  <AYElixirSoothing.ingestible.ingestReportString>正在喝下{0}。</AYElixirSoothing.ingestible.ingestReportString>
+</LanguageData>

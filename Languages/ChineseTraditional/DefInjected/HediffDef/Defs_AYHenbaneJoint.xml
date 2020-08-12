@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHenbaneHigh.label>天仙子效果</AYHenbaneHigh.label>
+  <AYHenbaneHigh.description>流淌在血液裡的天仙子藥效。減輕疼痛。</AYHenbaneHigh.description>
+  <AYHenbaneHigh.labelNoun>天仙子亢奮</AYHenbaneHigh.labelNoun>
+  <!-- Henbane addiction -->
+  <AYHenbaneTolerance.label>天仙子耐受</AYHenbaneTolerance.label>
+  <AYHenbaneTolerance.description>對天仙子的耐受性強。耐受性越嚴重，想達到同樣效果也就所需越多。</AYHenbaneTolerance.description>
+  <AYHenbaneAddiction.label>天仙子成癮</AYHenbaneAddiction.label>
+  <AYHenbaneAddiction.description>一種對天仙子的藥物依賴。長期服用天仙子生物鹼會造成神經細胞適應天仙子，導致大腦沒有天仙子的話就無法運作。\n如果沒有定期服用該類藥物，戒斷反應就會開始。然而，長時間的戒斷會迫使大腦恢復正常狀態，解決成癮問題。</AYHenbaneAddiction.description>
+  <AYHenbaneAddiction.stages.1.label>戒斷</AYHenbaneAddiction.stages.1.label>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHenbaneHighThought.stages.0.label>Bilsenkrautrausch</AYHenbaneHighThought.stages.0.label>
+  <AYHenbaneHighThought.stages.0.description>Groovy.</AYHenbaneHighThought.stages.0.description>
+  <AYHenbaneHighThought.stages.1.label>Starker Bilsenkrautrausch</AYHenbaneHighThought.stages.1.label>
+  <AYHenbaneHighThought.stages.1.description>Super Groovy.</AYHenbaneHighThought.stages.1.description>
+  <!-- Henbane addiction -->
+  <AYHenbaneWithdrawal.stages.1.label>Bilsenkrautentzug</AYHenbaneWithdrawal.stages.1.label>
+  <AYHenbaneWithdrawal.stages.1.description>Ich wünschte wirklich, ich könnte rauchen. Ich fühle mich nervös und mein Bauch hat die ganze Zeit dieses ängstliche Gefühl.</AYHenbaneWithdrawal.stages.1.description>
+</LanguageData>

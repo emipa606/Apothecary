@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYWormwoodTonic.label>Make Wormwood Tonic</MakeAYWormwoodTonic.label>
+  <MakeAYWormwoodTonic.description>Make 1 Wormwood Tonic.</MakeAYWormwoodTonic.description>
+  <MakeAYWormwoodTonic.jobString>Making Wormwood Tonic</MakeAYWormwoodTonic.jobString>
+
+
+  <!-- Bulk Recipe -->
+
+  <MakeBulkAYWormwoodTonic.label>Make Wormwood Tonic</MakeBulkAYWormwoodTonic.label>
+  <MakeBulkAYWormwoodTonic.description>Make 5 Wormwood Tonic.</MakeBulkAYWormwoodTonic.description>
+  <MakeBulkAYWormwoodTonic.jobString>Making Wormwood Tonic</MakeBulkAYWormwoodTonic.jobString>
+
+
+</LanguageData>

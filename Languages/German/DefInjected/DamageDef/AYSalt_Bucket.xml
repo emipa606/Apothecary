@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYSaltDmg.label>Salz</AYSaltDmg.label>
+  <AYSaltDmg.deathMessage>{0} wurde getötet.</AYSaltDmg.deathMessage>
+</LanguageData>

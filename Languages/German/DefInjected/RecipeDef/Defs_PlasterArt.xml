@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Planter -->
+  <MakeAYPlasterPlanter.label>Stelle Kalkpuztpflanzgefäß her</MakeAYPlasterPlanter.label>
+  <MakeAYPlasterPlanter.description>Ein Pflanzgefäß aus Kalkputz gießen.</MakeAYPlasterPlanter.description>
+  <MakeAYPlasterPlanter.jobString>Gießt Pflanzgefäß.</MakeAYPlasterPlanter.jobString>
+  <!-- Bird Bath -->
+  <MakeAYPlasterBirdBath.label>Stelle Kalkputzvogelbad her</MakeAYPlasterBirdBath.label>
+  <MakeAYPlasterBirdBath.description>Ein Vogelbad aus Kalkputz gießen.</MakeAYPlasterBirdBath.description>
+  <MakeAYPlasterBirdBath.jobString>Gießt Vogelbad.</MakeAYPlasterBirdBath.jobString>
+  <!-- Bat -->
+  <MakeAYPlasterBat.label>Stelle Kalkputzfledermausskulptur her</MakeAYPlasterBat.label>
+  <MakeAYPlasterBat.description>Eine Fledermausskulptur aus Kalkputz gießen.</MakeAYPlasterBat.description>
+  <MakeAYPlasterBat.jobString>Gießt Fledermausskulptur.</MakeAYPlasterBat.jobString>
+  <!-- Edgy -->
+  <MakeAYPlasterLargeEdgy.label>Stelle Kantige Kalkputzskulptur her</MakeAYPlasterLargeEdgy.label>
+  <MakeAYPlasterLargeEdgy.description>Eine Kantige Skulptur aus Kalkputz gießen.</MakeAYPlasterLargeEdgy.description>
+  <MakeAYPlasterLargeEdgy.jobString>Gießt Große Skulptur.</MakeAYPlasterLargeEdgy.jobString>
+  <!-- Owly -->
+  <MakeAYPlasterLargeOwly.label>Stelle Große Kalkputzeulenskulptur her</MakeAYPlasterLargeOwly.label>
+  <MakeAYPlasterLargeOwly.description>Eine Große Eulenskulptur aus Kalkputz gießen.</MakeAYPlasterLargeOwly.description>
+  <MakeAYPlasterLargeOwly.jobString>Gießt Große Skulptur.</MakeAYPlasterLargeOwly.jobString>
+</LanguageData>

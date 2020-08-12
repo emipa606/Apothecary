@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYSalt.label>Make Salt</MakeAYSalt.label>
+  <MakeAYSalt.description>Make 50 Salt.</MakeAYSalt.description>
+  <MakeAYSalt.jobString>Making Salt.</MakeAYSalt.jobString>
+
+  <MakeAYSaltBlocks.label>Make Salt (Blocks)</MakeAYSaltBlocks.label>
+  <MakeAYSaltBlocks.description>Make 50 Salt from stone blocks</MakeAYSaltBlocks.description>
+  <MakeAYSaltBlocks.jobString>Making Salt</MakeAYSaltBlocks.jobString>
+
+
+  <!-- Salted Meat -->
+
+  <MakeAYSaltedMeatBarrel.label>Make Barrel (Salted Meat)</MakeAYSaltedMeatBarrel.label>
+  <MakeAYSaltedMeatBarrel.description>Make a barrel of salted meats.</MakeAYSaltedMeatBarrel.description>
+  <MakeAYSaltedMeatBarrel.jobString>Making Barrel (Salted Meat).</MakeAYSaltedMeatBarrel.jobString>
+
+  <ExtractAYSaltedMeatFromBarrel.label>Extract salted meats from barrel</ExtractAYSaltedMeatFromBarrel.label>
+  <ExtractAYSaltedMeatFromBarrel.description>Extract 150 salted meat from a barrel.</ExtractAYSaltedMeatFromBarrel.description>
+  <ExtractAYSaltedMeatFromBarrel.jobString>Extracting salted meat.</ExtractAYSaltedMeatFromBarrel.jobString>
+
+
+</LanguageData>

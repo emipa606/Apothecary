@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Raw Material -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYKaleLeaves</defName>
+    <label>Kale leaves</label>
+    <description>A heady version of cabbage these leaves are highly nutritious and full of vitamins</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYKaleLeaves/AYKaleLeaves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.9</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.06</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>28</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

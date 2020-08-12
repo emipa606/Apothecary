@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYStomachSalts.label>Magensalz</AYStomachSalts.label>
+  <AYStomachSalts.description>Magensalze können verwendet werden, um Magenverstimmungen zu beseitigen und die Säureanhäufung zu verringern. Die Wirkung hält etwa einen halben Tag an.</AYStomachSalts.description>
+  <AYStomachSalts.ingestible.ingestCommandString>Nehme {0}</AYStomachSalts.ingestible.ingestCommandString>
+  <AYStomachSalts.ingestible.ingestReportString>Nimmt {0}.</AYStomachSalts.ingestible.ingestReportString>
+</LanguageData>

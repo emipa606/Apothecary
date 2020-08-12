@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugOintmentBase">
+    <defName>AYLavenderBalm</defName>
+    <label>Lavender Balm</label>
+    <description>Lavender balm is a sweet smelling ointment that can help with sleep disorders. Effects last about a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Ointment/AYLavenderBalm/AYLavenderBalm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>250</WorkToMake>
+      <MarketValue>25.6</MarketValue>
+      <!-- T: 5 x 0.5, LO: 3 x 7.7 -->
+      <Mass>0.15</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYLavenderBalmHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3687</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYLavenderBalmHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Lavender Balm</label>
+    <description>Lavender Balm effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.95</painFactor>
+        <statOffsets>
+          <GlobalLearningFactor>-0.05</GlobalLearningFactor>
+          <ResearchSpeed>-0.03</ResearchSpeed>
+          <PsychicSensitivity>+0.05</PsychicSensitivity>
+          <SocialImpact>+0.1</SocialImpact>
+        </statOffsets>
+        <restFallFactor>1.3</restFallFactor>
+        <socialFightChanceFactor>0.85</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.07</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYLavenderBalm</defName>
+    <label>Make Lavender Balm</label>
+    <description>Make 1 Lavender Balm.</description>
+    <jobString>Making Lavender Balm</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>225</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYLavenderOil</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYTallow</li>
+        <li>AYLavenderOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYLavenderBalm>1</AYLavenderBalm>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYLavenderBalm</defName>
+    <label>Make Lavender Balm in bulk</label>
+    <description>Make 5 Lavender Balm.</description>
+    <jobString>Making Lavender Balm</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1125</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYLavenderOil</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYTallow</li>
+        <li>AYLavenderOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYLavenderBalm>5</AYLavenderBalm>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+</Defs>

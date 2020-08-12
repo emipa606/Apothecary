@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 草药医学-->
+  <AYHerbsSimple.label>草药医学(简单)</AYHerbsSimple.label>
+  <AYHerbsSimple.description>使你掌握如何种植常见的药草.</AYHerbsSimple.description>
+  <AYHerbsIntermediate.label>草药医学(Intermediate)</AYHerbsIntermediate.label>
+  <AYHerbsIntermediate.description>使你掌握如何种植较为罕见的药草.</AYHerbsIntermediate.description>
+  <AYHerbsComplex.label>草药医学(复杂)</AYHerbsComplex.label>
+  <AYHerbsComplex.description>使你掌握如何培育难以生长的药草.</AYHerbsComplex.description>
+  <AYHerbsYield.label>药草收获</AYHerbsYield.label>
+  <AYHerbsYield.description>使你掌握如何更好地收获各种药草.</AYHerbsYield.description>
+  <!-- Products -->
+  <AYTallow.label>蜡脂</AYTallow.label>
+  <AYTallow.description>使你掌握如何制作蜡脂和相关产物.</AYTallow.description>
+  <AYCharcoal.label>木炭</AYCharcoal.label>
+  <AYCharcoal.description>使你掌握如何制作木炭和相关产物.</AYCharcoal.description>
+  <AYPowders.label>研末</AYPowders.label>
+  <AYPowders.description>使你掌握如何将药草干燥并研末.</AYPowders.description>
+  <AYExtracts.label>萃取</AYExtracts.label>
+  <AYExtracts.description>使你掌握如何从药草中萃取精油及其他有用的物质.</AYExtracts.description>
+  <AYSalts.label>盐</AYSalts.label>
+  <AYSalts.description>使你掌握如何制作医用盐类, 在药丸出现前的主流用药方式.</AYSalts.description>
+  <!-- Drugs -->
+  <AYTeas.label>花草茶</AYTeas.label>
+  <AYTeas.description>使你掌握如何冲泡花草茶.</AYTeas.description>
+  <AYElixirs.label>丸剂</AYElixirs.label>
+  <AYElixirs.description>使你掌握如何制备丸剂.</AYElixirs.description>
+  <AYOintments.label>油膏</AYOintments.label>
+  <AYOintments.description>使你掌握如何制备油膏.</AYOintments.description>
+  <AYTonics.label>汤剂</AYTonics.label>
+  <AYTonics.description>使你掌握如何熬煮汤药.</AYTonics.description>
+</LanguageData>

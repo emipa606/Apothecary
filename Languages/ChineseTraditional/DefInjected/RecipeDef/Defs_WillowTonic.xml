@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYWillowTonic.label>製做白柳補劑</MakeAYWillowTonic.label>
+  <MakeAYWillowTonic.description>製做1個白柳補劑.</MakeAYWillowTonic.description>
+  <MakeAYWillowTonic.jobString>正在製做白柳補劑</MakeAYWillowTonic.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYWillowTonic.label>製做白柳補劑(大量)</MakeBulkAYWillowTonic.label>
+  <MakeBulkAYWillowTonic.description>製做5個白柳補劑.</MakeBulkAYWillowTonic.description>
+  <MakeBulkAYWillowTonic.jobString>正在製做白柳補劑</MakeBulkAYWillowTonic.jobString>
+</LanguageData>

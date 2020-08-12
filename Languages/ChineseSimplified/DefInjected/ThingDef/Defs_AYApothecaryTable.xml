@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Apothecary Table -->
+  <AYApothecaryTable.label>草药桌</AYApothecaryTable.label>
+  <AYApothecaryTable.description>配备了杵臼和简易蒸馏设备的工作台，能够用来配置多种酏剂和草药.</AYApothecaryTable.description>
+  <AYApothecaryTable_Blueprint.label>草药桌(蓝图)</AYApothecaryTable_Blueprint.label>
+  <AYApothecaryTable_Blueprint_Install.label>草药桌(蓝图)</AYApothecaryTable_Blueprint_Install.label>
+  <AYApothecaryTable_Frame.label>草药桌(建造中)</AYApothecaryTable_Frame.label>
+  <AYApothecaryTable_Frame.description>配备了杵臼和简易蒸馏设备的工作台，能够用来配置多种酏剂和草药.</AYApothecaryTable_Frame.description>
+</LanguageData>

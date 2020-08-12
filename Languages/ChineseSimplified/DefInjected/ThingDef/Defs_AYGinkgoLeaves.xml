@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Will need harmony patch for mulitple harvested items -->
+  <AYGinkgoLeaves.label>银杏叶</AYGinkgoLeaves.label>
+  <AYGinkgoLeaves.description>从银杏树上采下的叶片，有微弱的毒性.</AYGinkgoLeaves.description>
+</LanguageData>

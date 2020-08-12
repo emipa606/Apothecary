@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYAbsinthe.label>Absinth</AYAbsinthe.label>
+  <AYAbsinthe.description>Absinth wird historisch als destilliertes, hochalkoholisches Getränk beschrieben. Es ist ein Geist mit Anisgeschmack, der aus pflanzlichen Stoffen gewonnen wird, einschließlich der Blüten und Blätter von Artemisia absinthium (Wermut), manchmal zusammen mit Heil- und Küchenkräutern.</AYAbsinthe.description>
+  <AYAbsinthe.tools.0.label>Flasche</AYAbsinthe.tools.0.label>
+  <AYAbsinthe.tools.1.label>Hals</AYAbsinthe.tools.1.label>
+  <AYAbsinthe.ingestible.ingestCommandString>Trinke {0}</AYAbsinthe.ingestible.ingestCommandString>
+  <AYAbsinthe.ingestible.ingestReportString>Trinkt {0}.</AYAbsinthe.ingestible.ingestReportString>
+  <AYAbsintheMash.label>Absinthbrei</AYAbsintheMash.label>
+  <AYAbsintheMash.description>Nicht als Rohmaterial zu gebrauchen. Diese Substanz muss fermentiert werden.</AYAbsintheMash.description>
+</LanguageData>

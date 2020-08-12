@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AYLavenderBalm.label>Lavender Balm</AYLavenderBalm.label>
+  <AYLavenderBalm.description>Lavender balm is a sweet smelling ointment that can help with sleep disorders. Effects last about a day.</AYLavenderBalm.description>
+  <AYLavenderBalm.ingestible.ingestCommandString>Apply {0}</AYLavenderBalm.ingestible.ingestCommandString>
+  <AYLavenderBalm.ingestible.ingestReportString>Applying {0}.</AYLavenderBalm.ingestible.ingestReportString>
+
+
+</LanguageData>

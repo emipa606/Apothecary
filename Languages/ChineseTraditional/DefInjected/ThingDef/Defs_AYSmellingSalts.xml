@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYSmellingSalts.label>嗅鹽</AYSmellingSalts.label>
+  <AYSmellingSalts.description>嗅鹽,氨鹽的通用俗名,有著非常刺鼻的氣味.藥效極短暫。</AYSmellingSalts.description>
+  <AYSmellingSalts.ingestible.ingestCommandString>服用{0}</AYSmellingSalts.ingestible.ingestCommandString>
+  <AYSmellingSalts.ingestible.ingestReportString>服用{0}中。</AYSmellingSalts.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYFluTonic.label>Stelle Grippetonikum her</MakeAYFluTonic.label>
+  <MakeAYFluTonic.description>Stelle ein Grippetonikum her.</MakeAYFluTonic.description>
+  <MakeAYFluTonic.jobString>Stellt Grippetonikum her.</MakeAYFluTonic.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYFluTonic.label>Stelle Grippetonika in Massen her</MakeBulkAYFluTonic.label>
+  <MakeBulkAYFluTonic.description>Stelle 5 Grippetonika her.</MakeBulkAYFluTonic.description>
+  <MakeBulkAYFluTonic.jobString>Stellt Grippetonikum her.</MakeBulkAYFluTonic.jobString>
+</LanguageData>

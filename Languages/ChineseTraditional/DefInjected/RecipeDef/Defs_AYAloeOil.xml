@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYAloeOil.label>製做蘆薈油</MakeAYAloeOil.label>
+  <MakeAYAloeOil.description>製做1個蘆薈油</MakeAYAloeOil.description>
+  <MakeAYAloeOil.jobString>正在製做蘆薈油</MakeAYAloeOil.jobString>
+  <MakeBulkAYAloeOil.label>製做蘆薈油(大量)</MakeBulkAYAloeOil.label>
+  <MakeBulkAYAloeOil.description>製做5個蘆薈油</MakeBulkAYAloeOil.description>
+  <MakeBulkAYAloeOil.jobString>正在製做蘆薈油</MakeBulkAYAloeOil.jobString>
+</LanguageData>

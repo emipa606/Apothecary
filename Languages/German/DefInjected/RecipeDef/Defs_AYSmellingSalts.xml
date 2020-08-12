@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYSmellingSalts.label>Stelle Riechsalz her</MakeAYSmellingSalts.label>
+  <MakeAYSmellingSalts.description>Stelle ein Riechsalz her.</MakeAYSmellingSalts.description>
+  <MakeAYSmellingSalts.jobString>Stellt Riechsalz her.</MakeAYSmellingSalts.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYSmellingSalts.label>Stelle Riechsalz in Massen her</MakeBulkAYSmellingSalts.label>
+  <MakeBulkAYSmellingSalts.description>Stelle 5 Riechsalze her.</MakeBulkAYSmellingSalts.description>
+  <MakeBulkAYSmellingSalts.jobString>Stellt Riechsalz her.</MakeBulkAYSmellingSalts.jobString>
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYPlantMatter.label>Apotheker-Pflanzenmaterial</AYPlantMatter.label>
+  <AYProducts.label>Apothekerprodukte</AYProducts.label>
+  <AYOils.label>Öl-Extrakte</AYOils.label>
+  <AYPowders.label>Pulver</AYPowders.label>
+  <!-- Drugs -->
+  <AYDrugs.label>Apotheker-Drogen</AYDrugs.label>
+  <AYElixirs.label>Elixiere</AYElixirs.label>
+  <AYSalts.label>Salze</AYSalts.label>
+  <AYOintments.label>Salben</AYOintments.label>
+  <AYTeas.label>Kräutertee</AYTeas.label>
+  <AYTonics.label>Tonika</AYTonics.label>
+  <AYBooze.label>Alkohol</AYBooze.label>
+  <AYSmokes.label>Rauchartikel</AYSmokes.label>
+  <!-- Plaster Art -->
+  <AYPlasterArt.label>Kalkputz-Kunst</AYPlasterArt.label>
+</LanguageData>

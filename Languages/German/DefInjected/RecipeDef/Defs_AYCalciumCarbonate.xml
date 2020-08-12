@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYCalciumCarbonate.label>Stelle Kalziumkarbonat her </MakeAYCalciumCarbonate.label>
+  <MakeAYCalciumCarbonate.description>Stelle 50 Kalziumkarbonate her.</MakeAYCalciumCarbonate.description>
+  <MakeAYCalciumCarbonate.jobString>Stellt Kalziumkarbonat her.</MakeAYCalciumCarbonate.jobString>
+  <MakeAYCalciumCarbonateFromEggs.label>Stelle Kalziumkarbonat (Eier) her</MakeAYCalciumCarbonateFromEggs.label>
+  <MakeAYCalciumCarbonateFromEggs.description>Stelle 25 Kalziumkarbonate aus Eiern her.</MakeAYCalciumCarbonateFromEggs.description>
+  <MakeAYCalciumCarbonateFromEggs.jobString>Stellt Kalziumkarbonat aus Eiern her.</MakeAYCalciumCarbonateFromEggs.jobString>
+  <MakeAYCalciumCarbonateBlocks.label>Stelle Kalziumkarbonat (Steinblöcken) her</MakeAYCalciumCarbonateBlocks.label>
+  <MakeAYCalciumCarbonateBlocks.description>Stelle 50 Kalziumkarbonate aus Steinblöcken her.</MakeAYCalciumCarbonateBlocks.description>
+  <MakeAYCalciumCarbonateBlocks.jobString>Stellt Kalziumkarbonat her.</MakeAYCalciumCarbonateBlocks.jobString>
+  <!-- Lime Stone Blocks -->
+  <Make_StoneBlocksAYLimePlaster.label>Stelle Kalkputzblöcke her</Make_StoneBlocksAYLimePlaster.label>
+  <Make_StoneBlocksAYLimePlaster.description>Gieße Kalk in brauchbare Blöcke.</Make_StoneBlocksAYLimePlaster.description>
+  <Make_StoneBlocksAYLimePlaster.jobString>Stellt Kalkputzblöcke her.</Make_StoneBlocksAYLimePlaster.jobString>
+</LanguageData>

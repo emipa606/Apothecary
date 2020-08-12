@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AYWormwoodTonic.label>Wormwood Tonic</AYWormwoodTonic.label>
+  <AYWormwoodTonic.description>A concentrated tincture of Wormwood that helps ward off malaria and gut worms. Effects last for 4 days.</AYWormwoodTonic.description>
+  <AYWormwoodTonic.ingestible.ingestCommandString>Drink {0}</AYWormwoodTonic.ingestible.ingestCommandString>
+  <AYWormwoodTonic.ingestible.ingestReportString>Drinking {0}.</AYWormwoodTonic.ingestible.ingestReportString>
+
+
+</LanguageData>

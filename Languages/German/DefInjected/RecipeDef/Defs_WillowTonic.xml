@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYWillowTonic.label>Stelle Silberweidentonikum her</MakeAYWillowTonic.label>
+  <MakeAYWillowTonic.description>Stelle ein Silberweidentonikum her.</MakeAYWillowTonic.description>
+  <MakeAYWillowTonic.jobString>Stellt Silberweidentonikum her.</MakeAYWillowTonic.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYWillowTonic.label>Stelle Silberweidentonika in Massen her</MakeBulkAYWillowTonic.label>
+  <MakeBulkAYWillowTonic.description>Stelle 5 Silberweidentonika her.</MakeBulkAYWillowTonic.description>
+  <MakeBulkAYWillowTonic.jobString>Stellt Silberweidentonikum her.</MakeBulkAYWillowTonic.jobString>
+</LanguageData>

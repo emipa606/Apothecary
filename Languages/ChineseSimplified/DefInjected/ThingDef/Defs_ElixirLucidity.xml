@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYElixirLucidity.label>醒神丸</AYElixirLucidity.label>
+  <AYElixirLucidity.description>这种药丸能让人更加集中，也能提高记忆力.药效持续约一天.</AYElixirLucidity.description>
+  <AYElixirLucidity.ingestible.ingestCommandString>吞服{0}</AYElixirLucidity.ingestible.ingestCommandString>
+  <AYElixirLucidity.ingestible.ingestReportString>正在吞服{0}.</AYElixirLucidity.ingestible.ingestReportString>
+</LanguageData>

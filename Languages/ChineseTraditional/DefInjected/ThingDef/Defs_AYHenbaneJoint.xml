@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHenbaneJoint.label>天仙葉捲</AYHenbaneJoint.label>
+  <AYHenbaneJoint.description>處理好的天仙子葉捲成菸捲來抽。使用天仙葉捲可以增加攻擊性，增加食慾，但對緩解疼痛很有用。天仙子使用頻繁可能會產生依賴性。\n\n菸捲可以在沒有任何設備的手工點製作,並在許多傳統的低工業文化中發揮作用。</AYHenbaneJoint.description>
+  <AYHenbaneJoint.ingestible.ingestCommandString>抽{0}</AYHenbaneJoint.ingestible.ingestCommandString>
+  <AYHenbaneJoint.ingestible.ingestReportString>正在抽{0}。</AYHenbaneJoint.ingestible.ingestReportString>
+</LanguageData>

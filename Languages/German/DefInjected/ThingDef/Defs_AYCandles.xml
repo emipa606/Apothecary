@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYCandle.label>Kerze</AYCandle.label>
+  <AYCandle.description>Eine Talgkerze zum Beleuchten eines Bereichs. Menschen brauchen Licht, um sich zu bewegen und mit voller Geschwindigkeit zu arbeiten. Kann automatisch mit Talg betankt werden. Erzeugt eine kleine Menge Wärme.</AYCandle.description>
+  <AYCandle_Blueprint.label>Kerze (Entwurf)</AYCandle_Blueprint.label>
+  <AYCandle_Blueprint_Install.label>Kerze (Entwurf)</AYCandle_Blueprint_Install.label>
+  <AYCandle_Frame.label>Kerze (im Bau)</AYCandle_Frame.label>
+  <AYCandle_Frame.description>Eine Talgkerze zum Beleuchten eines Bereichs. Menschen brauchen Licht, um sich zu bewegen und mit voller Geschwindigkeit zu arbeiten. Kann automatisch mit Talg betankt werden. Erzeugt eine kleine Menge Wärme.</AYCandle_Frame.description>
+</LanguageData>

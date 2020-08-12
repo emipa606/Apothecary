@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Charcoal Generator -->
+  <AYCharcoalFiredGenerator.label>Holzkohlegenerator</AYCharcoalFiredGenerator.label>
+  <AYCharcoalFiredGenerator.description>Erzeugt Strom durch den Verbrauch von Holzkohle. Muss regelmäßig von Hand mit Holzkohlekraftstoff beladen werden.</AYCharcoalFiredGenerator.description>
+  <AYCharcoalFiredGenerator_Blueprint.label>Holzkohlegenerator (Entwurf)</AYCharcoalFiredGenerator_Blueprint.label>
+  <AYCharcoalFiredGenerator_Frame.label>Holzkohlegenerator (im Bau)</AYCharcoalFiredGenerator_Frame.label>
+  <AYCharcoalFiredGenerator_Frame.description>Erzeugt Strom durch den Verbrauch von Holzkohle. Muss regelmäßig von Hand mit Holzkohlekraftstoff beladen werden.</AYCharcoalFiredGenerator_Frame.description>
+  <!-- Charcoal Smithy -->
+  <AYCharcoalSmithy.label>Holzkohlenschmiede</AYCharcoalSmithy.label>
+  <AYCharcoalSmithy.description>Eine mit Holzkohle betriebene Station zum Schmieden nicht mechanischer Waffen und Werkzeuge.</AYCharcoalSmithy.description>
+  <AYCharcoalSmithy_Blueprint.label>Holzkohlenschmiede (Entwurf)</AYCharcoalSmithy_Blueprint.label>
+  <AYCharcoalSmithy_Blueprint_Install.label>Holzkohlenschmiede (Entwurf)</AYCharcoalSmithy_Blueprint_Install.label>
+  <AYCharcoalSmithy_Frame.label>Holzkohlenschmiede (im Bau)</AYCharcoalSmithy_Frame.label>
+  <AYCharcoalSmithy_Frame.description>Eine mit Holzkohle betriebene Station zum Schmieden nicht mechanischer Waffen und Werkzeuge.</AYCharcoalSmithy_Frame.description>
+  <!-- Stove -->
+  <AYCharcoalStove.label>Holzkohleofen</AYCharcoalStove.label>
+  <AYCharcoalStove.description>Ein Holzkohleofen mit angeschlossener Arbeitsplatte für die Zubereitung von Mahlzeiten.</AYCharcoalStove.description>
+  <AYCharcoalStove_Blueprint.label>Holzkohleofen (Entwurf)</AYCharcoalStove_Blueprint.label>
+  <AYCharcoalStove_Blueprint_Install.label>Holzkohleofen (Entwurf)</AYCharcoalStove_Blueprint_Install.label>
+  <AYCharcoalStove_Frame.label>Holzkohleofen (im Bau)</AYCharcoalStove_Frame.label>
+  <AYCharcoalStove_Frame.description>Ein Holzkohleofen mit angeschlossener Arbeitsplatte für die Zubereitung von Mahlzeiten.</AYCharcoalStove_Frame.description>
+  <!-- Charcoal Crematorium -->
+  <AYCharcoalCrematorium.label>Holzkohlekrematorium</AYCharcoalCrematorium.label>
+  <AYCharcoalCrematorium.description>Ein riesiges Steinkrematorium, das Leichen bei extrem hohen Temperaturen verdampft.</AYCharcoalCrematorium.description>
+  <AYCharcoalCrematorium_Blueprint.label>Holzkohlekrematorium (Entwurf)</AYCharcoalCrematorium_Blueprint.label>
+  <AYCharcoalCrematorium_Frame.label>Holzkohlekrematorium (im Bau)</AYCharcoalCrematorium_Frame.label>
+  <AYCharcoalCrematorium_Frame.description>Ein riesiges Steinkrematorium, das Leichen bei extrem hohen Temperaturen verdampft.</AYCharcoalCrematorium_Frame.description>
+</LanguageData>

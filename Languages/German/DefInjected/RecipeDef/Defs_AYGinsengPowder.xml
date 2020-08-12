@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGinsengPowder.label>Stelle Ginsengpulver her</MakeAYGinsengPowder.label>
+  <MakeAYGinsengPowder.description>Stelle 25 Ginsengpulver her.</MakeAYGinsengPowder.description>
+  <MakeAYGinsengPowder.jobString>Stellt Ginsengpulver her.</MakeAYGinsengPowder.jobString>
+  <MakeBulkAYGinsengPowder.label>Stelle Ginsengpulver in Massen her</MakeBulkAYGinsengPowder.label>
+  <MakeBulkAYGinsengPowder.description>Stelle 100 Ginsengpulver her.</MakeBulkAYGinsengPowder.description>
+  <MakeBulkAYGinsengPowder.jobString>Stellt Ginsengpulver her.</MakeBulkAYGinsengPowder.jobString>
+</LanguageData>

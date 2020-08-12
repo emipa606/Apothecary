@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Charcoal Generator -->
+  <AYCharcoalFiredGenerator.label>木炭發電機</AYCharcoalFiredGenerator.label>
+  <AYCharcoalFiredGenerator.description>通過木炭消耗來發電.必須定期添加木炭。</AYCharcoalFiredGenerator.description>
+  <!-- Charcoal Smithy -->
+  <AYCharcoalSmithy.label>木炭鑄造爐</AYCharcoalSmithy.label>
+  <AYCharcoalSmithy.description>以木炭為燃料來鍛造簡單物品的鍛造台。</AYCharcoalSmithy.description>
+  <!-- Stove -->
+  <AYCharcoalStove.label>木炭爐</AYCharcoalStove.label>
+  <AYCharcoalStove.description>一個連接著桌板的木炭爐,可以用來烹飪。</AYCharcoalStove.description>
+  <!-- Charcoal Crematorium -->
+  <AYCharcoalCrematorium.label>木炭焚化爐</AYCharcoalCrematorium.label>
+  <AYCharcoalCrematorium.description>一個巨大石造焚化爐,使用高溫處理屍體。</AYCharcoalCrematorium.description>
+</LanguageData>

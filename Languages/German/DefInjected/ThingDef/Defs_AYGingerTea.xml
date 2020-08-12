@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYGingerTea.label>Ingwer-Tee</AYGingerTea.label>
+  <AYGingerTea.description>Ingwertee, ein nützliches Hilfsmittel bei Magenbeschwerden und zur Vorbeugung von Darmwürmern. Die Wirkung hält ungefähr einen Tag an.</AYGingerTea.description>
+  <AYGingerTea.ingestible.ingestCommandString>Trinke {0}</AYGingerTea.ingestible.ingestCommandString>
+  <AYGingerTea.ingestible.ingestReportString>Trinkt {0}.</AYGingerTea.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Raw Material -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYStJohnsWortFlowers</defName>
+    <label>St Johns Wort Flowers</label>
+    <description>Used as a medicinal herb with possible antidepressant activity. The primary phytochemical constituent of St John's wort is hyperforin.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYStJohnsWortFlowers/AYStJohnsWortFlowers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.02</Mass>
+      <Nutrition>0.02</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>19</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

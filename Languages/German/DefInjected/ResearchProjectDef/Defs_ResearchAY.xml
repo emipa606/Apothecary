@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Herbalism -->
+  <AYHerbsSimple.label>Kräuterkunde (Simpel)</AYHerbsSimple.label>
+  <AYHerbsSimple.description>Gewährt die Fähigkeit, einfache Kräuter anzubauen.</AYHerbsSimple.description>
+  <AYHerbsIntermediate.label>Kräuterkunde (Fortgeschritten)</AYHerbsIntermediate.label>
+  <AYHerbsIntermediate.description>Gewährt die Fähigkeit, ungewöhnliche Kräuter anzubauen.</AYHerbsIntermediate.description>
+  <AYHerbsComplex.label>Kräuterkunde (Komplex)</AYHerbsComplex.label>
+  <AYHerbsComplex.description>Gewährt die Fähigkeit, komplexe Kräuter anzubauen.</AYHerbsComplex.description>
+  <AYHerbsYield.label>Kräuterkunder (Erträge)</AYHerbsYield.label>
+  <AYHerbsYield.description>Gewährt die Fähigkeit, die Erträge aus Apothekenkräutern zu verbessern.</AYHerbsYield.description>
+  <!-- Products -->
+  <AYTallow.label>Talg</AYTallow.label>
+  <AYTallow.description>Gewährt die Fähigkeit, Talg und zugehörige Produkte herzustellen.</AYTallow.description>
+  <AYCharcoal.label>Holzkohle</AYCharcoal.label>
+  <AYCharcoal.description>Gewährt die Fähigkeit, Holzkohle und zugehörige Produkte herzustellen.</AYCharcoal.description>
+  <AYPowders.label>Pulver</AYPowders.label>
+  <AYPowders.description>Gewährt die Fähigkeit, Pflanzenmaterialien zu trocken und diese dann zu Pulver zuverarbeiten.</AYPowders.description>
+  <AYExtracts.label>Extrakte</AYExtracts.label>
+  <AYExtracts.description>Gewährt die Fähigkeit, nützliche Öle und andere Elemente aus Pflanzenmaterialien zu extrahieren.</AYExtracts.description>
+  <AYSalts.label>Salze</AYSalts.label>
+  <AYSalts.description>Gewährt die Fähigkeit, Salze herzustellen, eine frühe Form der medizinischen Verwendung vor späteren Pillen.</AYSalts.description>
+  <!-- Drugs -->
+  <AYTeas.label>Kräutertee</AYTeas.label>
+  <AYTeas.description>Gewährt die Fähigkeit, Kräutertee herzustellen.</AYTeas.description>
+  <AYElixirs.label>Elixiere</AYElixirs.label>
+  <AYElixirs.description>Gewährt die Fähigkeit, Elixiere herzustellen.</AYElixirs.description>
+  <AYOintments.label>Salben</AYOintments.label>
+  <AYOintments.description>Gewährt die Fähigkeit, Salben herzustellen.</AYOintments.description>
+  <AYTonics.label>Tonika</AYTonics.label>
+  <AYTonics.description>Gewährt die Fähigkeit, Tonika herzustellen.</AYTonics.description>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Apothecary Table -->
+  <AYApothecaryTable.label>Apothekertisch</AYApothecaryTable.label>
+  <AYApothecaryTable.description>Eine Werkbank mit Stößel und Mörser und Rohbrennerei zur Herstellung von Elixieren und pflanzlichen Heilmitteln.</AYApothecaryTable.description>
+  <AYApothecaryTable_Blueprint.label>Apothekertisch (Entwurf)</AYApothecaryTable_Blueprint.label>
+  <AYApothecaryTable_Blueprint_Install.label>Apothekertisch (Entwurf)</AYApothecaryTable_Blueprint_Install.label>
+  <AYApothecaryTable_Frame.label>Apothekertisch (im Bau)</AYApothecaryTable_Frame.label>
+  <AYApothecaryTable_Frame.description>Eine Werkbank mit Stößel und Mörser und Rohbrennerei zur Herstellung von Elixieren und pflanzlichen Heilmitteln.</AYApothecaryTable_Frame.description>
+</LanguageData>

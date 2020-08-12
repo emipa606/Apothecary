@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Post Kiln Production : No ashes -->
+  <MakeAYCharcoalFromBenches.label>Stelle Holzkohle her</MakeAYCharcoalFromBenches.label>
+  <MakeAYCharcoalFromBenches.description>Stelle 25 Holzkohle her.</MakeAYCharcoalFromBenches.description>
+  <MakeAYCharcoalFromBenches.jobString>Stellt Holzkohle her.</MakeAYCharcoalFromBenches.jobString>
+  <!-- Ammonia Treated Charcoal -->
+  <MakeAYAmmoniaCharcoal.label>Stelle Ammoniakkohle her</MakeAYAmmoniaCharcoal.label>
+  <MakeAYAmmoniaCharcoal.description>Stelle 25 Ammoniakkohle aus Holzkohle und Ammoniak her.</MakeAYAmmoniaCharcoal.description>
+  <MakeAYAmmoniaCharcoal.jobString>Stellt Ammoniakkohle her.</MakeAYAmmoniaCharcoal.jobString>
+  <!-- Make Chemfuel from charcoal -->
+  <MakeChemfuelFromAYCharcoal.label>Stelle Kraftstoff her</MakeChemfuelFromAYCharcoal.label>
+  <MakeChemfuelFromAYCharcoal.description>Stelle 50 Kraftstoff aus Holzkohle her.</MakeChemfuelFromAYCharcoal.description>
+  <MakeChemfuelFromAYCharcoal.jobString>Stellt Kraftstoff her.</MakeChemfuelFromAYCharcoal.jobString>
+</LanguageData>

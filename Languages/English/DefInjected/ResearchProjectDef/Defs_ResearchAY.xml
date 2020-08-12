@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Herbalism -->
+
+  <AYHerbsSimple.label>Herbalism (Simple)</AYHerbsSimple.label>
+  <AYHerbsSimple.description>Grants the ability to cultivate simple herbs.</AYHerbsSimple.description>
+
+  <AYHerbsIntermediate.label>Herbalism (Intermediate)</AYHerbsIntermediate.label>
+  <AYHerbsIntermediate.description>Grants the ability to cultivate uncommon herbs.</AYHerbsIntermediate.description>
+
+  <AYHerbsComplex.label>Herbalism (Complex)</AYHerbsComplex.label>
+  <AYHerbsComplex.description>Grants the ability to cultivate complex herbs.</AYHerbsComplex.description>
+
+  <AYHerbsYield.label>Herbalism Yields</AYHerbsYield.label>
+  <AYHerbsYield.description>Grants the ability to improve yields from apothecary herbs.</AYHerbsYield.description>
+
+
+  <!-- Products -->
+
+  <AYTallow.label>Tallow</AYTallow.label>
+  <AYTallow.description>Grants the ability to make tallow and associated products.</AYTallow.description>
+
+  <AYCharcoal.label>Charcoal</AYCharcoal.label>
+  <AYCharcoal.description>Grants the ability to make charcoal and associated products.</AYCharcoal.description>
+
+  <AYPowders.label>Powders</AYPowders.label>
+  <AYPowders.description>Grants the ability to grind and dry plant materials into powders.</AYPowders.description>
+
+  <AYExtracts.label>Extracts</AYExtracts.label>
+  <AYExtracts.description>Grants the ability to extract useful oils and other elements from plant materials.</AYExtracts.description>
+
+  <AYSalts.label>Salts</AYSalts.label>
+  <AYSalts.description>Grants the ability to make salts, an early form of medicinal use prior to later pills.</AYSalts.description>
+
+
+  <!-- Drugs -->
+
+  <AYTeas.label>Herbal Teas</AYTeas.label>
+  <AYTeas.description>Grants the ability to prepare herbal teas.</AYTeas.description>
+
+  <AYElixirs.label>Elixirs</AYElixirs.label>
+  <AYElixirs.description>Grants the ability to prepare Elixirs.</AYElixirs.description>
+
+  <AYOintments.label>Ointments</AYOintments.label>
+  <AYOintments.description>Grants the ability to prepare ointments.</AYOintments.description>
+
+  <AYTonics.label>Tonics</AYTonics.label>
+  <AYTonics.description>Grants the ability to prepare tonics.</AYTonics.description>
+
+
+</LanguageData>

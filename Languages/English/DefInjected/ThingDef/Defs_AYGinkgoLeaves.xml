@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Will need harmony patch for mulitple harvested items -->
+
+  <AYGinkgoLeaves.label>Ginkgo Leaves</AYGinkgoLeaves.label>
+  <AYGinkgoLeaves.description>Leaves taken from the ginko plant. They are mildly poisonous.</AYGinkgoLeaves.description>
+
+
+</LanguageData>

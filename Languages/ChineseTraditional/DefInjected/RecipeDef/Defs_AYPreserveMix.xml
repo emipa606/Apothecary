@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYPreserveMix.label>製做保鮮桶內容物</MakeAYPreserveMix.label>
+  <MakeAYPreserveMix.description>製做5個保鮮桶內容物.</MakeAYPreserveMix.description>
+  <MakeAYPreserveMix.jobString>正在製做保鮮桶內容物.</MakeAYPreserveMix.jobString>
+</LanguageData>

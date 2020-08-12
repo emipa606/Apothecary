@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Yarrow Bandages -->
+  <AYYarrowBandage.label>Bandage (Schafgarbe)</AYYarrowBandage.label>
+  <AYYarrowBandage.description>Eine Bandage aus Stoff oder Brennnesselfasern mit Schafgarben-Öl. Sie kann verwendet werden, um ähnlich wie Medizin zu wirken ist aber weniger wirksam.</AYYarrowBandage.description>
+  <!-- Treated Herbal Medicine -->
+  <AYTreatedMedHerb.label>Behandelte Kräutermedizin</AYTreatedMedHerb.label>
+  <AYTreatedMedHerb.description>Verbesserte Kräutermedizin durch Infusion von Schafgarben-Öl und Aloe-Öl.</AYTreatedMedHerb.description>
+</LanguageData>

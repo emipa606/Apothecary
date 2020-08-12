@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYLavenderBalm.label>Stelle Lavendelbalsam her</MakeAYLavenderBalm.label>
+  <MakeAYLavenderBalm.description>Stelle ein Lavendelbalsam her.</MakeAYLavenderBalm.description>
+  <MakeAYLavenderBalm.jobString>Stellt Lavendelbalsam her.</MakeAYLavenderBalm.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYLavenderBalm.label>Stelle Lavendelbalsam in Massen her</MakeBulkAYLavenderBalm.label>
+  <MakeBulkAYLavenderBalm.description>Stelle 5 Lavendelbalsam her.</MakeBulkAYLavenderBalm.description>
+  <MakeBulkAYLavenderBalm.jobString>Stellt Lavendelbalsam her.</MakeBulkAYLavenderBalm.jobString>
+</LanguageData>

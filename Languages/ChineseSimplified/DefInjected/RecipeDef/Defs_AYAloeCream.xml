@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYAloeCream.label>制作芦荟膏</MakeAYAloeCream.label>
+  <MakeAYAloeCream.description>制作1份芦荟膏.</MakeAYAloeCream.description>
+  <MakeAYAloeCream.jobString>正在制作芦荟膏</MakeAYAloeCream.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYAloeCream.label>批量制作芦荟膏</MakeBulkAYAloeCream.label>
+  <MakeBulkAYAloeCream.description>制作5份芦荟膏.</MakeBulkAYAloeCream.description>
+  <MakeBulkAYAloeCream.jobString>正在制作芦荟膏</MakeBulkAYAloeCream.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYScarCream.label>製做除疤霜</MakeAYScarCream.label>
+  <MakeAYScarCream.description>製做1個除疤霜.</MakeAYScarCream.description>
+  <MakeAYScarCream.jobString>正在製做除疤霜</MakeAYScarCream.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYScarCream.label>製做除疤霜(大量)</MakeBulkAYScarCream.label>
+  <MakeBulkAYScarCream.description>製做5個除疤霜.</MakeBulkAYScarCream.description>
+  <MakeBulkAYScarCream.jobString>正在製做除疤霜</MakeBulkAYScarCream.jobString>
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHerbBox.label>Kräuterbox</AYHerbBox.label>
+  <AYHerbBox.description>Einfache Box mit Blumenerde, mit der Sie Pflanzen züchten können. (Fruchtbarkeit 125%)</AYHerbBox.description>
+  <AYHerbBox_Blueprint.label>Kräuterbox(Entwurf)</AYHerbBox_Blueprint.label>
+  <AYHerbBox_Frame.label>Kräuterbox (Im Bau)</AYHerbBox_Frame.label>
+  <AYHerbBox_Frame.description>Einfache Box mit Blumenerde, mit der Sie Pflanzen züchten können. (Fruchtbarkeit 125%)</AYHerbBox_Frame.description>
+  <AYHerbBoxLime.label>Kräuterbox (gedüngt)</AYHerbBoxLime.label>
+  <AYHerbBoxLime.description>Einfache Box mit Blumenerde die mit Kalk verbessert wurde, mit der Sie Pflanzen züchten können. (Fruchtbarkeit beträgt 150%)</AYHerbBoxLime.description>
+  <AYHerbBoxLime_Blueprint.label>Kräuterbox (gedüngt) (Entwurf)</AYHerbBoxLime_Blueprint.label>
+  <AYHerbBoxLime_Frame.label>Kräuterbox (gedüngt) (im Bau)</AYHerbBoxLime_Frame.label>
+  <AYHerbBoxLime_Frame.description>Einfache Box mit Blumenerde die mit Kalk verbessert wurde, mit der Sie Pflanzen züchten können. (Fruchtbarkeit beträgt 150%)</AYHerbBoxLime_Frame.description>
+</LanguageData>

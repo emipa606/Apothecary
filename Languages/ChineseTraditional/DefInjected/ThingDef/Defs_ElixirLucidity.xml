@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYElixirLucidity.label>清神藥水</AYElixirLucidity.label>
+  <AYElixirLucidity.description>這種藥水能提高注意力跟記憶力. 效果持續約一天。</AYElixirLucidity.description>
+  <AYElixirLucidity.ingestible.ingestCommandString>喝下{0}</AYElixirLucidity.ingestible.ingestCommandString>
+  <AYElixirLucidity.ingestible.ingestReportString>正在喝下{0}。</AYElixirLucidity.ingestible.ingestReportString>
+</LanguageData>

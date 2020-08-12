@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYCalciumCarbonate.label>製做碳酸鈣</MakeAYCalciumCarbonate.label>
+  <MakeAYCalciumCarbonate.description>製做50個碳酸鈣。</MakeAYCalciumCarbonate.description>
+  <MakeAYCalciumCarbonate.jobString>正在製做碳酸鈣。</MakeAYCalciumCarbonate.jobString>
+  <MakeAYCalciumCarbonateFromEggs.label>製做碳酸鈣(蛋)</MakeAYCalciumCarbonateFromEggs.label>
+  <MakeAYCalciumCarbonateFromEggs.description>製做25個碳酸鈣。</MakeAYCalciumCarbonateFromEggs.description>
+  <MakeAYCalciumCarbonateFromEggs.jobString>正在製做碳酸鈣。</MakeAYCalciumCarbonateFromEggs.jobString>
+  <MakeAYCalciumCarbonateBlocks.label>製做碳酸鈣(石塊)</MakeAYCalciumCarbonateBlocks.label>
+  <MakeAYCalciumCarbonateBlocks.description>使用石塊製做50個碳酸鈣。</MakeAYCalciumCarbonateBlocks.description>
+  <MakeAYCalciumCarbonateBlocks.jobString>正在製做碳酸鈣。</MakeAYCalciumCarbonateBlocks.jobString>
+  <!-- Lime Stone Blocks -->
+  <Make_StoneBlocksAYLimePlaster.label>鑄造石膏塊</Make_StoneBlocksAYLimePlaster.label>
+  <Make_StoneBlocksAYLimePlaster.description>把石灰鑄造成可用建築材料.</Make_StoneBlocksAYLimePlaster.description>
+  <Make_StoneBlocksAYLimePlaster.jobString>鑄造石膏塊.</Make_StoneBlocksAYLimePlaster.jobString>
+</LanguageData>

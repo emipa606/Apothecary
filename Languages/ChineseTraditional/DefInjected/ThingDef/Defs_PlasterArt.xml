@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Unfinished ThingDef -->
+  <UnfinishedAYPlaster.label>石膏半成品</UnfinishedAYPlaster.label>
+  <!-- Planter -->
+  <AYPlasterPlanter.label>花盆</AYPlasterPlanter.label>
+  <AYPlasterPlanter.description>用石膏製作的華麗花盆。</AYPlasterPlanter.description>
+  <!-- Bird Bath -->
+  <AYPlasterBirdBath.label>鳥浴盆</AYPlasterBirdBath.label>
+  <AYPlasterBirdBath.description>用石膏製作的華麗鳥浴盆。</AYPlasterBirdBath.description>
+  <!-- Bat -->
+  <AYPlasterBat.label>蝙蝠雕像</AYPlasterBat.label>
+  <AYPlasterBat.description>用石膏製作的蝙蝠雕塑。</AYPlasterBat.description>
+  <!-- Edgy -->
+  <AYPlasterLargeEdgy.label>大型前衛雕像</AYPlasterLargeEdgy.label>
+  <AYPlasterLargeEdgy.description>一個用石膏製作的抽象鋒利的雕塑。</AYPlasterLargeEdgy.description>
+  <!-- Owly -->
+  <AYPlasterLargeOwly.label>大型貓頭鷹雕像</AYPlasterLargeOwly.label>
+  <AYPlasterLargeOwly.description>用石膏製作抽象風的貓頭鷹雕塑。</AYPlasterLargeOwly.description>
+</LanguageData>

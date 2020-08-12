@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Casting Table -->
+  <AYCastArtTable.label>鑄造台</AYCastArtTable.label>
+  <AYCastArtTable.description>一張配備澆鑄工具的工作台,配合適當的材料製作雕像。</AYCastArtTable.description>
+</LanguageData>

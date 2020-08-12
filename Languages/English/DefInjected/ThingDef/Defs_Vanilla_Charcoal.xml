@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Charcoal Generator -->
+
+  <AYCharcoalFiredGenerator.label>Charcoal-fired generator</AYCharcoalFiredGenerator.label>
+  <AYCharcoalFiredGenerator.description>Produces power by consuming charcoal. Must be periodically loaded with charcoal fuel by hand.</AYCharcoalFiredGenerator.description>
+
+
+  <!-- Charcoal Smithy -->
+
+  <AYCharcoalSmithy.label>Charcoal smithy</AYCharcoalSmithy.label>
+  <AYCharcoalSmithy.description>A Charcoal-fueled station for smithing non-mechanical weapons and tools.</AYCharcoalSmithy.description>
+
+
+  <!-- Stove -->
+
+  <AYCharcoalStove.label>Charcoal stove</AYCharcoalStove.label>
+  <AYCharcoalStove.description>A charcoal-fueled stove with an attached countertop for preparing meals.</AYCharcoalStove.description>
+
+
+  <!-- Charcoal Crematorium -->
+
+  <AYCharcoalCrematorium.label>Charcoal crematorium</AYCharcoalCrematorium.label>
+  <AYCharcoalCrematorium.description>A huge stone crematorium which vaporizes corpses with extremely high temperatures.</AYCharcoalCrematorium.description>
+
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Apothecary.WoundHealed>{PAWN_labelShort}'s {2} wurde geheilt. Grund: {0}</Apothecary.WoundHealed>
+  <Apothecary.CureMsg>{0}'s Zustand {1} wurde geheilt.</Apothecary.CureMsg>
+  <!-- Composting -->
+  <AY.Progress>Fortschritt:</AY.Progress>
+  <!--  Settings -->
+  <AY.Name>Apothecary</AY.Name>
+  <AY.RealismBandages>Erlaube den Einsatz von realistischen Verbänden:</AY.RealismBandages>
+  <AY.AllowCollapseRocks>Lasse kollabierte Steine ​​Bergbaustücke produzieren:</AY.AllowCollapseRocks>
+  <AY.WashLowersQual>Die Reinigung von Wäsche mindert die Qualität:</AY.WashLowersQual>
+  <AY.ResPct>Relative Forschungskosten in %:</AY.ResPct>
+  <AY.ResTip>Beachte, dass diese Änderungen nur wirksam wird, wenn RimWorld neu gestartet wird.</AY.ResTip>
+  <AY.ResWarn>(Warnung: Wenn du den Prozentsatz erhöhst, wird die Forschung mit dem vorherigen Wert zurückgesetzt.)</AY.ResWarn>
+</LanguageData>

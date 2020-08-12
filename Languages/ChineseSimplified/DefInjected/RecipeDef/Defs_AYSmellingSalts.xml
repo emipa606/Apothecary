@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYSmellingSalts.label>制作嗅盐</MakeAYSmellingSalts.label>
+  <MakeAYSmellingSalts.description>制作1份嗅盐.</MakeAYSmellingSalts.description>
+  <MakeAYSmellingSalts.jobString>正在制作嗅盐</MakeAYSmellingSalts.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYSmellingSalts.label>批量制作嗅盐</MakeBulkAYSmellingSalts.label>
+  <MakeBulkAYSmellingSalts.description>制作5份嗅盐.</MakeBulkAYSmellingSalts.description>
+  <MakeBulkAYSmellingSalts.jobString>正在制作嗅盐</MakeBulkAYSmellingSalts.jobString>
+</LanguageData>

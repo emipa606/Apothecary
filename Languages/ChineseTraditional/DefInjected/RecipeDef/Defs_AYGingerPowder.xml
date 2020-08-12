@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGingerPowder.label>製做薑粉</MakeAYGingerPowder.label>
+  <MakeAYGingerPowder.description>製做25個薑粉</MakeAYGingerPowder.description>
+  <MakeAYGingerPowder.jobString>正在製做薑粉</MakeAYGingerPowder.jobString>
+  <MakeBulkAYGingerPowder.label>製做薑粉(大量)</MakeBulkAYGingerPowder.label>
+  <MakeBulkAYGingerPowder.description>製做100個薑粉</MakeBulkAYGingerPowder.description>
+  <MakeBulkAYGingerPowder.jobString>正在製做薑粉</MakeBulkAYGingerPowder.jobString>
+</LanguageData>

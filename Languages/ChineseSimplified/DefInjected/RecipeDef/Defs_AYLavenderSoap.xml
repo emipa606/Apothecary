@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYLavenderSoap.label>制作薰衣草精油皂</MakeAYLavenderSoap.label>
+  <MakeAYLavenderSoap.description>制作1块薰衣草精油皂.</MakeAYLavenderSoap.description>
+  <MakeAYLavenderSoap.jobString>正在制作薰衣草精油皂</MakeAYLavenderSoap.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYLavenderSoap.label>批量制作薰衣草精油皂</MakeBulkAYLavenderSoap.label>
+  <MakeBulkAYLavenderSoap.description>制作5块薰衣草精油皂.</MakeBulkAYLavenderSoap.description>
+  <MakeBulkAYLavenderSoap.jobString>正在制作薰衣草精油皂</MakeBulkAYLavenderSoap.jobString>
+</LanguageData>

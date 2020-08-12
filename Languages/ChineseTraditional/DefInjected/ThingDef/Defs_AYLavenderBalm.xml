@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYLavenderBalm.label>薰衣草香膏</AYLavenderBalm.label>
+  <AYLavenderBalm.description>薰衣草香膏是一種氣味好聞的藥膏，對睡眠障礙有幫助。 效果持續約一天。</AYLavenderBalm.description>
+  <AYLavenderBalm.ingestible.ingestCommandString>使用{0}</AYLavenderBalm.ingestible.ingestCommandString>
+  <AYLavenderBalm.ingestible.ingestReportString>正在使用{0}。</AYLavenderBalm.ingestible.ingestReportString>
+</LanguageData>

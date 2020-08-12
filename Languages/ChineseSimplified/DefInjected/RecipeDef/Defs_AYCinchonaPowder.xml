@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYCinchonaPowder.label>研磨金鸡纳树皮粉</MakeAYCinchonaPowder.label>
+  <MakeAYCinchonaPowder.description>研磨25份金鸡纳树皮粉</MakeAYCinchonaPowder.description>
+  <MakeAYCinchonaPowder.jobString>正在研磨金鸡纳树皮粉</MakeAYCinchonaPowder.jobString>
+  <MakeBulkAYCinchonaPowder.label>批量研磨金鸡纳树皮粉</MakeBulkAYCinchonaPowder.label>
+  <MakeBulkAYCinchonaPowder.description>研磨100份金鸡纳树皮粉</MakeBulkAYCinchonaPowder.description>
+  <MakeBulkAYCinchonaPowder.jobString>正在研磨金鸡纳树皮粉</MakeBulkAYCinchonaPowder.jobString>
+</LanguageData>

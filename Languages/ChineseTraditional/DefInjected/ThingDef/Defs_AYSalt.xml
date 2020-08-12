@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYSalt.label>粗岩鹽</AYSalt.label>
+  <AYSalt.description>白色結晶鹽通常被稱為岩鹽,便是"常見"的鹽(氯化鈉)的礦物形式。</AYSalt.description>
+  <!-- Salted Meat -->
+  <AYBarrelSaltedMeat.label>桶裝鹹肉</AYBarrelSaltedMeat.label>
+  <AYBarrelSaltedMeat.description>一個裝滿各種肉類的鹽桶,用來保存它們。</AYBarrelSaltedMeat.description>
+  <AYSaltedMeat.label>鹹肉</AYSaltedMeat.label>
+  <AYSaltedMeat.description>用鹽保存的肉。</AYSaltedMeat.description>
+</LanguageData>

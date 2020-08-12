@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYCinchonaPowder.label>Stelle Cinchonapulver her</MakeAYCinchonaPowder.label>
+  <MakeAYCinchonaPowder.description>Stelle 25 Cinchonapulver her.</MakeAYCinchonaPowder.description>
+  <MakeAYCinchonaPowder.jobString>Stellt Cinchonapulver her.</MakeAYCinchonaPowder.jobString>
+  <MakeBulkAYCinchonaPowder.label>Stelle Cinchonapulver in Massen her</MakeBulkAYCinchonaPowder.label>
+  <MakeBulkAYCinchonaPowder.description>Stelle 100 Cinchonapulver her.</MakeBulkAYCinchonaPowder.description>
+  <MakeBulkAYCinchonaPowder.jobString>Stellt Cinchonapulver her.</MakeBulkAYCinchonaPowder.jobString>
+</LanguageData>

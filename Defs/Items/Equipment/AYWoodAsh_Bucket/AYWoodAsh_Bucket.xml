@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="AYWoodAshMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+    <weaponTags>
+      <li>WoodAsh_NotUsed</li>
+    </weaponTags>
+  </ThingDef>
+  <ThingDef ParentName="AYWoodAshMakeableGun">
+    <defName>AYWoodAsh_Bucket</defName>
+    <label>Bucket (Wood Ash)</label>
+    <description>A bucket full of wood ash. Can be thrown onto areas where trees grow to slightly improve their growth, remove blight from plants and prevent fires from catching.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/AYWoodAsh_Bucket/AYWoodAsh_Bucket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>AYCharcoal</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="false">
+        <li>CraftingSpot</li>
+        <li>AYApothecaryTable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <weaponTags Inherit="false">
+      <li>WoodAsh_NotUsed</li>
+    </weaponTags>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+    <generateCommonality>0.0001</generateCommonality>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>2.0</Mass>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+      <Flammability>0.05</Flammability>
+      <SellPriceFactor>0.25</SellPriceFactor>
+    </statBases>
+    <costList>
+      <WoodLog>4</WoodLog>
+      <AYWoodAshes>50</AYWoodAshes>
+    </costList>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <forcedMissRadius>1</forcedMissRadius>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AYWoodAsh</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>4</range>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>GunTail_Light</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <DamageDef>
+    <defName>AYWoodAshDmg</defName>
+    <label>Wood Ash</label>
+    <workerClass>Apothecary.DamageWorker_AYWoodAsh</workerClass>
+    <canInterruptJobs>false</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>0</defaultDamage>
+    <explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
+    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+    <harmsHealth>false</harmsHealth>
+    <soundExplosion>GunTail_Light</soundExplosion>
+    <combatLogRules>Damage_Smoke</combatLogRules>
+  </DamageDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AYWoodAsh</defName>
+    <label>Wood Ash</label>
+    <graphicData>
+      <texPath>Things/Projectile/AYWoodAsh_Proj</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>AYWoodAshDmg</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>25</speed>
+      <explosionRadius>3</explosionRadius>
+      <flyOverhead>false</flyOverhead>
+      <soundExplode>GunTail_Light</soundExplode>
+      <postExplosionSpawnThingDef>AYWoodAsh_Filth</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      <applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
+    <defName>AYWoodAsh_Filth</defName>
+    <label>Wood Ash</label>
+    <thingClass>Apothecary.AYFilth_WoodAsh</thingClass>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Beauty>-8</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/AYWoodAsh_Filth</texPath>
+    </graphicData>
+    <pathCost>1</pathCost>
+    <filth>
+      <rainWashes>false</rainWashes>
+      <cleaningWorkToReduceThickness>50</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <allowsFire>false</allowsFire>
+    </filth>
+  </ThingDef>
+  <ThingDef ParentName="AYBaseFilth">
+    <defName>AYAshScrap_Filth</defName>
+    <label>Ash/Plant Scraps</label>
+    <thingClass>Apothecary.AYFilth_WoodAsh</thingClass>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Beauty>-12</Beauty>
+      <Cleanliness>-3</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/AYAshScrap_Filth</texPath>
+    </graphicData>
+    <pathCost>5</pathCost>
+    <filth>
+      <rainWashes>false</rainWashes>
+      <cleaningWorkToReduceThickness>80</cleaningWorkToReduceThickness>
+      <canFilthAttach>false</canFilthAttach>
+      <allowsFire>true</allowsFire>
+    </filth>
+  </ThingDef>
+</Defs>

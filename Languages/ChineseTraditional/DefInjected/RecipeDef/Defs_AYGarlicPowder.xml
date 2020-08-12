@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGarlicPowder.label>製做大蒜粉</MakeAYGarlicPowder.label>
+  <MakeAYGarlicPowder.description>製做25個大蒜粉</MakeAYGarlicPowder.description>
+  <MakeAYGarlicPowder.jobString>正在製做大蒜粉</MakeAYGarlicPowder.jobString>
+  <MakeBulkAYGarlicPowder.label>製做大蒜粉(大量)</MakeBulkAYGarlicPowder.label>
+  <MakeBulkAYGarlicPowder.description>製做100個大蒜粉</MakeBulkAYGarlicPowder.description>
+  <MakeBulkAYGarlicPowder.jobString>正在製做大蒜粉</MakeBulkAYGarlicPowder.jobString>
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYSalt.label>製做鹽</MakeAYSalt.label>
+  <MakeAYSalt.description>製做50個鹽.</MakeAYSalt.description>
+  <MakeAYSalt.jobString>正在製做鹽.</MakeAYSalt.jobString>
+  <MakeAYSaltBlocks.label>製做鹽 (石塊)</MakeAYSaltBlocks.label>
+  <MakeAYSaltBlocks.description>使用石塊製做50個鹽</MakeAYSaltBlocks.description>
+  <MakeAYSaltBlocks.jobString>正在製做鹽</MakeAYSaltBlocks.jobString>
+  <!-- Salted Meat -->
+  <MakeAYSaltedMeatBarrel.label>製做桶裝鹹肉</MakeAYSaltedMeatBarrel.label>
+  <MakeAYSaltedMeatBarrel.description>製做一桶醃鹹肉.</MakeAYSaltedMeatBarrel.description>
+  <MakeAYSaltedMeatBarrel.jobString>正在製做桶裝鹹肉.</MakeAYSaltedMeatBarrel.jobString>
+  <ExtractAYSaltedMeatFromBarrel.label>解開桶裝鹹肉</ExtractAYSaltedMeatFromBarrel.label>
+  <ExtractAYSaltedMeatFromBarrel.description>從桶中提取150個鹹肉。</ExtractAYSaltedMeatFromBarrel.description>
+  <ExtractAYSaltedMeatFromBarrel.jobString>解開桶裝鹹肉中</ExtractAYSaltedMeatFromBarrel.jobString>
+</LanguageData>

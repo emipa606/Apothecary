@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHenbaneHigh.label>Bilsenkrautrausch</AYHenbaneHigh.label>
+  <AYHenbaneHigh.labelNoun>Ein Rausch der durch Bilsenkraut hervorgerufen wurde.</AYHenbaneHigh.labelNoun>
+  <AYHenbaneHigh.description>Bilsenkrautchemikalien im Blutkreislauf. Erzeugt Schmerzlinderung.</AYHenbaneHigh.description>
+  <!-- Henbane addiction -->
+  <AYHenbaneTolerance.label>Bilsenkrauttoleranz</AYHenbaneTolerance.label>
+  <AYHenbaneTolerance.description>Eine aufgebaute Toleranz gegenüber Bilsenkraut. Je strenger diese Toleranz ist, desto mehr Bilsenkraut braucht es, um den gleichen Effekt zu erzielen.</AYHenbaneTolerance.description>
+  <AYHenbaneAddiction.label>Bilsenkrautabhängigkeit</AYHenbaneAddiction.label>
+  <AYHenbaneAddiction.description>Eine Sucht nach Bilsenkraut. Die Langzeitanwendung von Bilsenkraut-Alkaloiden hat zu neurologischen Anpassungen auf zellulärer Ebene geführt, sodass das Gehirn ohne das Medikament nicht mehr richtig funktionieren kann.
+Ohne regelmäßige Dosen von Bilsenkraut beginnen Entzugssymptome. Eine längere Abstinenz zwingt das Gehirn jedoch dazu, sich wieder an seinen normalen Zustand anzupassen und die Sucht zu lösen.</AYHenbaneAddiction.description>
+  <AYHenbaneAddiction.stages.1.label>Entzug</AYHenbaneAddiction.stages.1.label>
+</LanguageData>

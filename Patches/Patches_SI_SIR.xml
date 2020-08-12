@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Smokeleaf Industry</li>
+      <li>Smokeleaf Industry Reborn</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>MakeAYCharcoalFromBioCoal</defName>
+              <label>Make Charcoal from BioCoal</label>
+              <description>Make 25 Charcoal for Hemp Biocoal</description>
+              <jobString>Making Charcoal</jobString>
+              <workSpeedStat>SmeltingSpeed</workSpeedStat>
+              <effectWorking>Cremate</effectWorking>
+              <soundWorking>Recipe_Cremate</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>500</workAmount>
+              <targetCountAdjustment>25</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>HempBiocoal</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>HempBiocoal</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <AYCharcoal>25</AYCharcoal>
+              </products>
+              <recipeUsers>
+                <li>FueledSmithy</li>
+                <li>ElectricSmithy</li>
+                <li>ElectricSmelter</li>
+                <!--  <li>AYCharcoalSmithy</li> -->
+              </recipeUsers>
+              <researchPrerequisite>AYCharcoal</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYElixirInciting.label>Stelle Elixier (Provozierung) her</MakeAYElixirInciting.label>
+  <MakeAYElixirInciting.description>Stelle ein Elixier (Provozierung) her.</MakeAYElixirInciting.description>
+  <MakeAYElixirInciting.jobString>Stellt Elixier (Provozierung) her.</MakeAYElixirInciting.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYElixirInciting.label>Stelle Elixier (Provozierung) in Massen her</MakeBulkAYElixirInciting.label>
+  <MakeBulkAYElixirInciting.description>Stelle 5 Elixiere (Provozierung) her.</MakeBulkAYElixirInciting.description>
+  <MakeBulkAYElixirInciting.jobString>Stellt Elixier (Provozierung) her.</MakeBulkAYElixirInciting.jobString>
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYLavenderBalm.label>Lavendelbalsam</AYLavenderBalm.label>
+  <AYLavenderBalm.description>Lavendelbalsam ist eine süß riechende Salbe, die bei Schlafstörungen helfen kann. Die Wirkung hält ungefähr einen Tag an.</AYLavenderBalm.description>
+  <AYLavenderBalm.ingestible.ingestCommandString> Benutze {0}</AYLavenderBalm.ingestible.ingestCommandString>
+  <AYLavenderBalm.ingestible.ingestReportString>Benutzt {0}.</AYLavenderBalm.ingestible.ingestReportString>
+</LanguageData>

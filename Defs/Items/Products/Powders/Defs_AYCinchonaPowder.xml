@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYCinchonaPowder</defName>
+    <label>Cinchona Powder</label>
+    <description>Dried and ground Cinchona bark.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powders/AYCinchonaPowder/AYCinchonaPowder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stackLimit>500</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.16</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.85</Flammability>
+      <DeteriorationRate>0.75</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPowders</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYCinchonaPowder</defName>
+    <label>Make Cinchona Powder</label>
+    <description>Make 25 Cinchona Powder</description>
+    <jobString>Making Cinchona Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>400</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCinchonaBark</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCinchonaBark</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYCinchonaPowder>25</AYCinchonaPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYCinchonaPowder</defName>
+    <label>Make Cinchona Powder in bulk</label>
+    <description>Make 100 Cinchona Powder</description>
+    <jobString>Making Cinchona Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1600</workAmount>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCinchonaBark</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCinchonaBark</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYCinchonaPowder>100</AYCinchonaPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+</Defs>

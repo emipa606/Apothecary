@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Large Casting Table -->
+  <AYLargeCastArtTable.label>Großer Gußtisch</AYLargeCastArtTable.label>
+  <AYLargeCastArtTable.description>Ein Tisch zum Gießen größerer Skulpturen unter Verwendung geeigneter Gussmaterialien.</AYLargeCastArtTable.description>
+  <AYLargeCastArtTable_Blueprint.label>Großer Gußtisch (Entwurf)</AYLargeCastArtTable_Blueprint.label>
+  <AYLargeCastArtTable_Blueprint_Install.label>Großer Gußtisch (Entwurf)</AYLargeCastArtTable_Blueprint_Install.label>
+  <AYLargeCastArtTable_Frame.label> Großer Gußtisch (im Bau)</AYLargeCastArtTable_Frame.label>
+  <AYLargeCastArtTable_Frame.description>Ein Tisch zum Gießen größerer Skulpturen unter Verwendung geeigneter Gussmaterialien.</AYLargeCastArtTable_Frame.description>
+</LanguageData>

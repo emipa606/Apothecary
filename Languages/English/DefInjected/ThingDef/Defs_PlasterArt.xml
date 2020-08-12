@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Unfinished ThingDef -->
+
+  <UnfinishedAYPlaster.label>unfinished plaster work</UnfinishedAYPlaster.label>
+
+
+  <!-- Planter -->
+
+  <AYPlasterPlanter.label>Planter</AYPlasterPlanter.label>
+  <AYPlasterPlanter.description>An ornate planter cast from lime plaster.</AYPlasterPlanter.description>
+
+
+  <!-- Bird Bath -->
+
+  <AYPlasterBirdBath.label>Bird bath</AYPlasterBirdBath.label>
+  <AYPlasterBirdBath.description>A bird bath cast from lime plaster.</AYPlasterBirdBath.description>
+
+
+  <!-- Bat -->
+
+  <AYPlasterBat.label>Bat sculpture</AYPlasterBat.label>
+  <AYPlasterBat.description>A bat sculpture cast from lime plaster.</AYPlasterBat.description>
+
+
+  <!-- Edgy -->
+
+  <AYPlasterLargeEdgy.label>Large Edgy sculpture</AYPlasterLargeEdgy.label>
+  <AYPlasterLargeEdgy.description>An abstract edgy sculpture cast from lime plaster.</AYPlasterLargeEdgy.description>
+
+
+  <!-- Owly -->
+
+  <AYPlasterLargeOwly.label>Large Owly sculpture</AYPlasterLargeOwly.label>
+  <AYPlasterLargeOwly.description>An abstract owl faced sculpture cast from lime plaster.</AYPlasterLargeOwly.description>
+
+
+</LanguageData>

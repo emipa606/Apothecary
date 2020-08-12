@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYAloeOil.label>萃取芦荟精油</MakeAYAloeOil.label>
+  <MakeAYAloeOil.description>萃取1瓶芦荟精油</MakeAYAloeOil.description>
+  <MakeAYAloeOil.jobString>正在萃取芦荟精油</MakeAYAloeOil.jobString>
+  <MakeBulkAYAloeOil.label>批量萃取芦荟精油</MakeBulkAYAloeOil.label>
+  <MakeBulkAYAloeOil.description>萃取5瓶芦荟精油</MakeBulkAYAloeOil.description>
+  <MakeBulkAYAloeOil.jobString>正在萃取芦荟精油</MakeBulkAYAloeOil.jobString>
+</LanguageData>

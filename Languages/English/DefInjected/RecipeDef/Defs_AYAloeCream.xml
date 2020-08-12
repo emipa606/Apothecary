@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYAloeCream.label>Make Aloe Cream</MakeAYAloeCream.label>
+  <MakeAYAloeCream.description>Make 1 Aloe Cream.</MakeAYAloeCream.description>
+  <MakeAYAloeCream.jobString>Making Aloe Cream</MakeAYAloeCream.jobString>
+
+
+  <!-- Bulk Recipe -->
+
+  <MakeBulkAYAloeCream.label>Make Aloe Cream in bulk</MakeBulkAYAloeCream.label>
+  <MakeBulkAYAloeCream.description>Make 5 Aloe Cream.</MakeBulkAYAloeCream.description>
+  <MakeBulkAYAloeCream.jobString>Making Aloe Cream</MakeBulkAYAloeCream.jobString>
+
+
+</LanguageData>

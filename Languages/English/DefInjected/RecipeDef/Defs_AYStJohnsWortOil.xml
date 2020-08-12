@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeAYStJohnsWortOil.label>Make St Johns Wort Oil</MakeAYStJohnsWortOil.label>
+  <MakeAYStJohnsWortOil.description>Make 1 St Johns Wort oil</MakeAYStJohnsWortOil.description>
+  <MakeAYStJohnsWortOil.jobString>Making St Johns Wort oil</MakeAYStJohnsWortOil.jobString>
+
+  <MakeBulkAYStJohnsWortOil.label>Make St Johns Wort Oil in bulk</MakeBulkAYStJohnsWortOil.label>
+  <MakeBulkAYStJohnsWortOil.description>Make 5 St Johns Wort oil</MakeBulkAYStJohnsWortOil.description>
+  <MakeBulkAYStJohnsWortOil.jobString>Making St Johns Wort oil</MakeBulkAYStJohnsWortOil.jobString>
+
+
+</LanguageData>

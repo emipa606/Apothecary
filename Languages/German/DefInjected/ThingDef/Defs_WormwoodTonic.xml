@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYWormwoodTonic.label>Wermuttonikum</AYWormwoodTonic.label>
+  <AYWormwoodTonic.description>Eine konzentrierte Tinktur aus Wermut, die Malaria und Darmwürmer abwehrt. Die Wirkung hält 4 Tage an.</AYWormwoodTonic.description>
+  <AYWormwoodTonic.ingestible.ingestCommandString>Trinke {0}</AYWormwoodTonic.ingestible.ingestCommandString>
+  <AYWormwoodTonic.ingestible.ingestReportString>Trinkt {0}.</AYWormwoodTonic.ingestible.ingestReportString>
+</LanguageData>

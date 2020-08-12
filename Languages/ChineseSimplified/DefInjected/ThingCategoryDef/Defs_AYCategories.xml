@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYPlantMatter.label>草药学物质</AYPlantMatter.label>
+  <AYProducts.label>草药学产物</AYProducts.label>
+  <AYOils.label>精油</AYOils.label>
+  <AYPowders.label>粉末</AYPowders.label>
+  <!-- Drugs -->
+  <AYDrugs.label>草药</AYDrugs.label>
+  <AYElixirs.label>丸剂</AYElixirs.label>
+  <AYSalts.label>盐类</AYSalts.label>
+  <AYOintments.label>油膏</AYOintments.label>
+  <AYTeas.label>花草茶</AYTeas.label>
+  <AYTonics.label>汤药</AYTonics.label>
+  <!-- Plaster Art -->
+  <AYPlasterArt.label>灰泥艺术品</AYPlasterArt.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYNettlePowder.label>Stelle Brennnesselpulver her</MakeAYNettlePowder.label>
+  <MakeAYNettlePowder.description>Stelle 25 Brennnesselpulver her.</MakeAYNettlePowder.description>
+  <MakeAYNettlePowder.jobString>Stellt Brennnesselpulver her.</MakeAYNettlePowder.jobString>
+  <MakeBulkAYNettlePowder.label>Stelle Brennnesselpulver in Massen her</MakeBulkAYNettlePowder.label>
+  <MakeBulkAYNettlePowder.description>Stelle 100 Brennnesselpulver her.</MakeBulkAYNettlePowder.description>
+  <MakeBulkAYNettlePowder.jobString>Stellt Brennnesselpulver her.</MakeBulkAYNettlePowder.jobString>
+</LanguageData>

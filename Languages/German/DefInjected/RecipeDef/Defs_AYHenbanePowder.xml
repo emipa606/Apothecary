@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYHenbanePowder.label>Stelle Bilsenkrautpulver her</MakeAYHenbanePowder.label>
+  <MakeAYHenbanePowder.description>Stelle 25 Bilsenkrautpulver her.</MakeAYHenbanePowder.description>
+  <MakeAYHenbanePowder.jobString>Stellt Bilsenkrautpulver her</MakeAYHenbanePowder.jobString>
+  <MakeBulkAYHenbanePowder.label>Stelle Bilsenkrautpulver in Massen her</MakeBulkAYHenbanePowder.label>
+  <MakeBulkAYHenbanePowder.description>Stelle 100 Bilsenkrautpulver her.</MakeBulkAYHenbanePowder.description>
+  <MakeBulkAYHenbanePowder.jobString>Stellt Bilsenkrautpulver her</MakeBulkAYHenbanePowder.jobString>
+</LanguageData>

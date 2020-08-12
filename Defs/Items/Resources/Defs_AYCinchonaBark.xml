@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Raw Material -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYCinchonaBark</defName>
+    <label>Cinchona bark</label>
+    <description>Bark taken from the Cinchona tree otherwise refered to as quinine.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYCinchonaBark/AYCinchonaBark</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.01</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.2</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>52</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYStarAniseOil.label>萃取八角精油</MakeAYStarAniseOil.label>
+  <MakeAYStarAniseOil.description>萃取1瓶八角精油</MakeAYStarAniseOil.description>
+  <MakeAYStarAniseOil.jobString>正在萃取八角精油</MakeAYStarAniseOil.jobString>
+  <MakeBulkAYStarAniseOil.label>批量萃取八角精油</MakeBulkAYStarAniseOil.label>
+  <MakeBulkAYStarAniseOil.description>萃取5瓶八角精油</MakeBulkAYStarAniseOil.description>
+  <MakeBulkAYStarAniseOil.jobString>正在萃取八角精油</MakeBulkAYStarAniseOil.jobString>
+</LanguageData>

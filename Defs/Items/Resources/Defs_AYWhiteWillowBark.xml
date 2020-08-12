@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Raw Material -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYWhiteWillowBark</defName>
+    <label>White willow bark</label>
+    <description>Bark taken from the White willow. As a prepared tincture with alcohol it can ease aches and pains and reduce fevers (specifically malarial). The active extract of the bark, called salicin, after the Latin name Salix is a form of salicylic acid, like aspirin.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYWhiteWillowBark/AYWhiteWillowBark</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.85</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.01</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>48</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

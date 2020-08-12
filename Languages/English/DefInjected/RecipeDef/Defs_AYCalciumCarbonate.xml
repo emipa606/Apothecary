@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYCalciumCarbonate.label>Make CalciumCarbonate</MakeAYCalciumCarbonate.label>
+  <MakeAYCalciumCarbonate.description>Make 50 Calcium Carbonate.</MakeAYCalciumCarbonate.description>
+  <MakeAYCalciumCarbonate.jobString>Making Calcium Carbonate.</MakeAYCalciumCarbonate.jobString>
+
+  <MakeAYCalciumCarbonateFromEggs.label>Make Calcium Carbonate (Eggs)</MakeAYCalciumCarbonateFromEggs.label>
+  <MakeAYCalciumCarbonateFromEggs.description>Make 25 Calcium Carbonate.</MakeAYCalciumCarbonateFromEggs.description>
+  <MakeAYCalciumCarbonateFromEggs.jobString>Making Calcium Carbonate.</MakeAYCalciumCarbonateFromEggs.jobString>
+
+  <MakeAYCalciumCarbonateBlocks.label>Make Calcium Carbonate (Blocks)</MakeAYCalciumCarbonateBlocks.label>
+  <MakeAYCalciumCarbonateBlocks.description>Make 50 Calcium Carbonate from blocks.</MakeAYCalciumCarbonateBlocks.description>
+  <MakeAYCalciumCarbonateBlocks.jobString>Making Calcium Carbonate.</MakeAYCalciumCarbonateBlocks.jobString>
+
+
+  <!-- Lime Stone Blocks -->
+
+  <Make_StoneBlocksAYLimePlaster.label>Cast lime plaster blocks</Make_StoneBlocksAYLimePlaster.label>
+  <Make_StoneBlocksAYLimePlaster.description>Cast lime into usable blocks.</Make_StoneBlocksAYLimePlaster.description>
+  <Make_StoneBlocksAYLimePlaster.jobString>Casting plaster blocks.</Make_StoneBlocksAYLimePlaster.jobString>
+
+
+</LanguageData>

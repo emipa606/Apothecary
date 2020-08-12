@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Yarrow Bandages -->
+  <MakeAYYarrowBandage.label>Stelle Bandagen (Schafgarbe) her</MakeAYYarrowBandage.label>
+  <MakeAYYarrowBandage.description>Stelle 5 Bandagen aus Schafgarbe her.</MakeAYYarrowBandage.description>
+  <MakeAYYarrowBandage.jobString>Stellt Bandagen her.</MakeAYYarrowBandage.jobString>
+  <!-- Treated Herbal Medicine -->
+  <MakeAYTreatedMedHerb.label>Stelle behandelte Kräutermedizin her</MakeAYTreatedMedHerb.label>
+  <MakeAYTreatedMedHerb.description>Stelle 5 behandelte Kräutermedizin her.</MakeAYTreatedMedHerb.description>
+  <MakeAYTreatedMedHerb.jobString>Behandel Kräutermedizin.</MakeAYTreatedMedHerb.jobString>
+</LanguageData>

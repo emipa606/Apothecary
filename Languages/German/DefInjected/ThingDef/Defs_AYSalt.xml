@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYSalt.label>Grobes Steinsalz</AYSalt.label>
+  <AYSalt.description>Ein weißes kristallines Salz, besser bekannt als Halit, das die Mineralversion von "gewöhnlichem" Salz (Natriumchlorid) ist.</AYSalt.description>
+  <!-- Salted Meat -->
+  <AYBarrelSaltedMeat.label>Fass (gesalzenes Fleisch)</AYBarrelSaltedMeat.label>
+  <AYBarrelSaltedMeat.description>Ein Fass voller verschiedener Fleischsorten, die gesalzen wurden, um sie zu konservieren.</AYBarrelSaltedMeat.description>
+  <AYSaltedMeat.label>Gesalzenes Fleisch</AYSaltedMeat.label>
+  <AYSaltedMeat.description>In Salz eingelegtes Fleisch.</AYSaltedMeat.description>
+</LanguageData>

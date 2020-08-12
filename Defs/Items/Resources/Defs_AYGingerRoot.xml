@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Raw Material -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYGingerRoot</defName>
+    <label>Ginger Root</label>
+    <description>Ginger produces a hot, fragrant kitchen spice. Young ginger rhizomes are juicy and fleshy with a mild taste.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYGingerRoot/AYGingerRoot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.04</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHedGinger</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>28</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYHedGinger</defName>
+    <label>Ate Ginger</label>
+    <description>Ginger effect</description>
+    <initialSeverity>0.5</initialSeverity>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <defaultLabelColor>(0.65, 0.65, 0.65)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.97</painFactor>
+        <statOffsets>
+          <SocialImpact>-0.01</SocialImpact>
+          <ToxicSensitivity>-0.01</ToxicSensitivity>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.02</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <painFactor>0.95</painFactor>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+          <SocialImpact>-0.02</SocialImpact>
+          <ToxicSensitivity>-0.03</ToxicSensitivity>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

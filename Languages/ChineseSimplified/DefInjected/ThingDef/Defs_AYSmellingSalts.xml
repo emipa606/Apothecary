@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYSmellingSalts.label>嗅盐</AYSmellingSalts.label>
+  <AYSmellingSalts.description>嗅盐, 铵盐的通用名，有着非常刺鼻的气味.药效很短.</AYSmellingSalts.description>
+  <AYSmellingSalts.ingestible.ingestCommandString>嗅闻{0}</AYSmellingSalts.ingestible.ingestCommandString>
+  <AYSmellingSalts.ingestible.ingestReportString>正在嗅闻{0}.</AYSmellingSalts.ingestible.ingestReportString>
+</LanguageData>

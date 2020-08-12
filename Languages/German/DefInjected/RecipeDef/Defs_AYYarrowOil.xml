@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYYarrowOil.label>Stelle Schafgarben-Öl her</MakeAYYarrowOil.label>
+  <MakeAYYarrowOil.description>Stelle ein Schafgarben-Öl her.</MakeAYYarrowOil.description>
+  <MakeAYYarrowOil.jobString>Stellt Schafgarben-Öl her.</MakeAYYarrowOil.jobString>
+  <MakeBulkAYYarrowOil.label>Stelle Schafgarben-Öle in Massen her</MakeBulkAYYarrowOil.label>
+  <MakeBulkAYYarrowOil.description>Stelle 5 Schafgarben-Öle her.</MakeBulkAYYarrowOil.description>
+  <MakeBulkAYYarrowOil.jobString>Stellt Schafgarben-Öl her.</MakeBulkAYYarrowOil.jobString>
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYAmmoniaWater.label>Ammoniakwasser</AYAmmoniaWater.label>
+  <AYAmmoniaWater.description>Ammoniumhydroxid, auch bekannt als Ammoniakwasser, Ammoniaklösung, Ammoniaklauge, Ammoniaklauge, Aquaammoniak, wässriges Ammoniak oder (ungenau) Ammoniak, ist eine Lösung von Ammoniak in Wasser.</AYAmmoniaWater.description>
+  <!-- Improved Hay -->
+  <AYAmmoniaHay.label>Heu (mit Ammoniak behandelt)</AYAmmoniaHay.label>
+  <AYAmmoniaHay.description>Verbessertes Heu, das mit Ammoniakwasser behandelt wurde, um es für Tiere genießbarer zu machen.</AYAmmoniaHay.description>
+</LanguageData>

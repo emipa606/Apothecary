@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYGingerTea.label>姜茶</AYGingerTea.label>
+  <AYGingerTea.description>一杯热腾腾的姜茶, 能够有效缓解胃部不适，也能预防肠道蠕虫病.药效持续约一天.</AYGingerTea.description>
+  <AYGingerTea.ingestible.ingestCommandString>喝{0}</AYGingerTea.ingestible.ingestCommandString>
+  <AYGingerTea.ingestible.ingestReportString>正在喝{0}.</AYGingerTea.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- From Charcoal -->
+  <MakeSalAmmoniacFromCharcoal.label>制作氯化铵</MakeSalAmmoniacFromCharcoal.label>
+  <MakeSalAmmoniacFromCharcoal.description>制作25份氯化铵</MakeSalAmmoniacFromCharcoal.description>
+  <MakeSalAmmoniacFromCharcoal.jobString>正在制作氯化铵</MakeSalAmmoniacFromCharcoal.jobString>
+  <MakeBulkSalAmmoniacFromCharcoal.label>批量制作氯化铵</MakeBulkSalAmmoniacFromCharcoal.label>
+  <MakeBulkSalAmmoniacFromCharcoal.description>制作100份氯化铵</MakeBulkSalAmmoniacFromCharcoal.description>
+  <MakeBulkSalAmmoniacFromCharcoal.jobString>正在制作氯化铵</MakeBulkSalAmmoniacFromCharcoal.jobString>
+  <!-- Ammonia Water -->
+  <MakeAmmoniaWaterFromSalAmmoniac.label>制作氨水(氯化铵)</MakeAmmoniaWaterFromSalAmmoniac.label>
+  <MakeAmmoniaWaterFromSalAmmoniac.description>用氯化铵制作5瓶氨水</MakeAmmoniaWaterFromSalAmmoniac.description>
+  <MakeAmmoniaWaterFromSalAmmoniac.jobString>正在制作氨水</MakeAmmoniaWaterFromSalAmmoniac.jobString>
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.label>批量制作氨水(氯化铵)</MakeBulkAmmoniaWaterFromSalAmmoniac.label>
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.description>用氯化铵制作25瓶氨水</MakeBulkAmmoniaWaterFromSalAmmoniac.description>
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.jobString>正在制作氨水</MakeBulkAmmoniaWaterFromSalAmmoniac.jobString>
+</LanguageData>

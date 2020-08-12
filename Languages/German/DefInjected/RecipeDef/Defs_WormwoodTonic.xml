@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYWormwoodTonic.label>Stelle Wermuttonikum her</MakeAYWormwoodTonic.label>
+  <MakeAYWormwoodTonic.description>Stelle ein Wermuttonikum her.</MakeAYWormwoodTonic.description>
+  <MakeAYWormwoodTonic.jobString>Stellt Wermuttonikum her.</MakeAYWormwoodTonic.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYWormwoodTonic.label>Stelle Wermuttonika in Massen her</MakeBulkAYWormwoodTonic.label>
+  <MakeBulkAYWormwoodTonic.description>Stelle 5 Wermuttonika her.</MakeBulkAYWormwoodTonic.description>
+  <MakeBulkAYWormwoodTonic.jobString>Stellt Wermuttonika her.</MakeBulkAYWormwoodTonic.jobString>
+</LanguageData>

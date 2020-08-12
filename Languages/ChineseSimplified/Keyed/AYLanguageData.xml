@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Apothecary.WoundHealed>{PAWN_labelShort}'的 {2} 已经被{0}治愈</Apothecary.WoundHealed>
+  <!-- Composting -->
+  <AY.Progress>进度:</AY.Progress>
+</LanguageData>

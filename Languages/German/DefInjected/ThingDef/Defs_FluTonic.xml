@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYFluTonic.label>Grippetonikum</AYFluTonic.label>
+  <AYFluTonic.description>Eine Mischung aus Kräutern, die helfen, die Grippe abzuwehren. Die Wirkung hält 3 Tage an.</AYFluTonic.description>
+  <AYFluTonic.ingestible.ingestCommandString>Trinke {0}</AYFluTonic.ingestible.ingestCommandString>
+  <AYFluTonic.ingestible.ingestReportString>Trinkt {0}.</AYFluTonic.ingestible.ingestReportString>
+</LanguageData>

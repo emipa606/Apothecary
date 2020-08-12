@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Belladonna -->
+  <!-- Plant -->
+  <ThingDef ParentName="AYWildBush">
+    <defName>Plant_AYBelladonna</defName>
+    <label>Belladonna</label>
+    <description>Atropa belladonna, commonly known as belladonna or deadly nightshade, is a perennial herbaceous bush in the nightshade family Solanaceae, which includes tomatoes, potatoes, and eggplant (aubergine).</description>
+    <graphicData>
+      <texPath>Things/Plant/AYBelladonna</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>0.04</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <ingestible />
+    <plant>
+      <immatureGraphicPath>Things/Plant/AYBelladonna/AYBelladonnaImmature</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plant/AYBelladonna/AYBelladonnaLeafless</leaflessGraphicPath>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>AYBelladonnaBerries</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>10</growDays>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <fertilityMin>0.4</fertilityMin>
+      <visualSizeRange>
+        <min>0.4</min>
+        <max>1.00</max>
+      </visualSizeRange>
+      <wildBiomes>
+        <TemperateForest>0.05</TemperateForest>
+        <TemperateSwamp>0.05</TemperateSwamp>
+        <TropicalRainforest>0.03</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <BorealForest>0.03</BorealForest>
+        <ColdBog>0.02</ColdBog>
+        <AridShrubland>0.04</AridShrubland>
+        <Desert>0.02</Desert>
+        <ExtremeDesert>0.00</ExtremeDesert>
+      </wildBiomes>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowWork>570</sowWork>
+      <harvestWork>280</harvestWork>
+      <purpose>Health</purpose>
+      <sowResearchPrerequisites>
+        <li>AYHerbsIntermediate</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+</Defs>

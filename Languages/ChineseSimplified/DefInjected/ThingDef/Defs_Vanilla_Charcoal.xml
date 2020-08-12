@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Charcoal Generator -->
+  <AYCharcoalFiredGenerator.label>木炭发电机</AYCharcoalFiredGenerator.label>
+  <AYCharcoalFiredGenerator.description>消耗木炭来发电.必须周期性手动添加燃料.</AYCharcoalFiredGenerator.description>
+  <AYCharcoalFiredGenerator_Blueprint.label>木炭发电机 (蓝图)</AYCharcoalFiredGenerator_Blueprint.label>
+  <AYCharcoalFiredGenerator_Frame.label>木炭发电机 (建造中)</AYCharcoalFiredGenerator_Frame.label>
+  <AYCharcoalFiredGenerator_Frame.description>消耗木炭来发电.必须周期性手动添加燃料.</AYCharcoalFiredGenerator_Frame.description>
+  <!-- 木炭锻造台 -->
+  <AYCharcoalSmithy.label>木炭锻造台</AYCharcoalSmithy.label>
+  <AYCharcoalSmithy.description>以木炭为燃料来锻造简单物品的锻造台.</AYCharcoalSmithy.description>
+  <AYCharcoalSmithy_Blueprint.label>木炭锻造台 (蓝图)</AYCharcoalSmithy_Blueprint.label>
+  <AYCharcoalSmithy_Blueprint_Install.label>木炭锻造台 (蓝图)</AYCharcoalSmithy_Blueprint_Install.label>
+  <AYCharcoalSmithy_Frame.label>木炭锻造台 (建造中)</AYCharcoalSmithy_Frame.label>
+  <AYCharcoalSmithy_Frame.description>以木炭为燃料来锻造简单物品的锻造台.</AYCharcoalSmithy_Frame.description>
+  <!-- Stove -->
+  <AYCharcoalStove.label>木炭炉</AYCharcoalStove.label>
+  <AYCharcoalStove.description>一个连接着桌板的木炭炉，可以用来烹饪.</AYCharcoalStove.description>
+  <AYCharcoalStove_Blueprint.label>木炭炉 (蓝图)</AYCharcoalStove_Blueprint.label>
+  <AYCharcoalStove_Blueprint_Install.label>木炭炉 (蓝图)</AYCharcoalStove_Blueprint_Install.label>
+  <AYCharcoalStove_Frame.label>木炭炉 (建造中)</AYCharcoalStove_Frame.label>
+  <AYCharcoalStove_Frame.description>一个连接着桌板的木炭炉，可以用来烹饪.</AYCharcoalStove_Frame.description>
+</LanguageData>

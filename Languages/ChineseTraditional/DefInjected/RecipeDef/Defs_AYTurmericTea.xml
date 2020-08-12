@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYTurmericTea.label>製做薑黃茶</MakeAYTurmericTea.label>
+  <MakeAYTurmericTea.description>製做1個薑黃茶.</MakeAYTurmericTea.description>
+  <MakeAYTurmericTea.jobString>正在製做薑黃茶</MakeAYTurmericTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYTurmericTea.label>製做薑黃茶(大量)</MakeBulkAYTurmericTea.label>
+  <MakeBulkAYTurmericTea.description>製做5個薑黃茶.</MakeBulkAYTurmericTea.description>
+  <MakeBulkAYTurmericTea.jobString>正在製做薑黃茶</MakeBulkAYTurmericTea.jobString>
+</LanguageData>

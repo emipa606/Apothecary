@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYScarCream.label>Narbencreme</AYScarCream.label>
+  <AYScarCream.description>Die Narbencreme ist eine antibiotische und regenerative Hautcreme, die bei dauerhaften Narbenverletzungen hilft. Sie ist in der Lage, bleibende Narben zu heilen. Heilwirkungen dauert ungefähr einen Tag.</AYScarCream.description>
+  <AYScarCream.ingestible.ingestCommandString>Benutze {0}</AYScarCream.ingestible.ingestCommandString>
+  <AYScarCream.ingestible.ingestReportString>Benutzt {0}.</AYScarCream.ingestible.ingestReportString>
+</LanguageData>

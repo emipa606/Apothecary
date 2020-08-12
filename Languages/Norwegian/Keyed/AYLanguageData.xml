@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Apothecary.WoundHealed>{PAWN_labelShort}'s {2} has healed. Cause: {0}</Apothecary.WoundHealed>
+  <Apothecary.CureMsg>{0}'s condition of {1} has been cured.</Apothecary.CureMsg>
+  <!-- Composting -->
+  <AY.Progress>Progress:</AY.Progress>
+  <!--  Settings -->
+  <AY.Name>Apothecary</AY.Name>
+  <AY.AllowCollapseRocks>Allow Collapsed rocks to produce mining bits:</AY.AllowCollapseRocks>
+  <AY.ResPct>Relative cost for research %:</AY.ResPct>
+  <AY.ResTip>Note these changes will only take effect when RimWorld is restarted.</AY.ResTip>
+  <AY.ResWarn>(Warning: increasing the % will mean research will become incomplete using the previous value.)</AY.ResWarn>
+</LanguageData>

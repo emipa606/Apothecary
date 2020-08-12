@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Yarrow Bandages -->
+  <MakeAYYarrowBandage.label>製做繃帶(歐蓍草)</MakeAYYarrowBandage.label>
+  <MakeAYYarrowBandage.description>製做5個繃帶(歐蓍草).</MakeAYYarrowBandage.description>
+  <MakeAYYarrowBandage.jobString>製作繃帶中.</MakeAYYarrowBandage.jobString>
+  <!-- Treated Herbal Medicine -->
+  <MakeAYTreatedMedHerb.label>製作強化草藥</MakeAYTreatedMedHerb.label>
+  <MakeAYTreatedMedHerb.description>製作5個強化草藥。</MakeAYTreatedMedHerb.description>
+  <MakeAYTreatedMedHerb.jobString>改良草藥中。</MakeAYTreatedMedHerb.jobString>
+</LanguageData>

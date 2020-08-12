@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Casting Table -->
+  <AYCastArtTable.label>Gußtisch</AYCastArtTable.label>
+  <AYCastArtTable.description>Ein Tisch zum Gießen von Skulpturen unter Verwendung geeigneter Gussmaterialien.</AYCastArtTable.description>
+  <AYCastArtTable_Blueprint.label>Gußtisch (Entwurf)</AYCastArtTable_Blueprint.label>
+  <AYCastArtTable_Blueprint_Install.label>Gußtisch (Entwurf)</AYCastArtTable_Blueprint_Install.label>
+  <AYCastArtTable_Frame.label>Gußtisch (im Bau)</AYCastArtTable_Frame.label>
+  <AYCastArtTable_Frame.description>Ein Tisch zum Gießen von Skulpturen unter Verwendung geeigneter Gussmaterialien.</AYCastArtTable_Frame.description>
+</LanguageData>

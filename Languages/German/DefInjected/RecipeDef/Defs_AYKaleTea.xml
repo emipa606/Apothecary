@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYKaleTea.label>Stelle Grünkohl-Tee her</MakeAYKaleTea.label>
+  <MakeAYKaleTea.description>Stelle ein Grünkohl-Tee her.</MakeAYKaleTea.description>
+  <MakeAYKaleTea.jobString>Stellt Grünkohl-Tee her.</MakeAYKaleTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYKaleTea.label>Stelle Grünkohl-Tee in Massen her</MakeBulkAYKaleTea.label>
+  <MakeBulkAYKaleTea.description>Stelle 5 Grünkohl-Tee her.</MakeBulkAYKaleTea.description>
+  <MakeBulkAYKaleTea.jobString>Stellt Grünkohl-Tee.</MakeBulkAYKaleTea.jobString>
+</LanguageData>

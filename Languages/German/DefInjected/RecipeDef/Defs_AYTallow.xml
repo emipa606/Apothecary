@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYTallow.label>Stelle Talg her</MakeAYTallow.label>
+  <MakeAYTallow.description>Stelle 10 Talg her.</MakeAYTallow.description>
+  <MakeAYTallow.jobString>Stellt Talg her.</MakeAYTallow.jobString>
+  <MakeBulkAYTallow.label>Stelle Talg in Massen her</MakeBulkAYTallow.label>
+  <MakeBulkAYTallow.description>Stelle 50 Talg her.</MakeBulkAYTallow.description>
+  <MakeBulkAYTallow.jobString>Stellt Talg her.</MakeBulkAYTallow.jobString>
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYNettleTea.label>荨麻茶</AYNettleTea.label>
+  <AYNettleTea.description>荨麻茶, 能够帮助抵御流感和哮喘.药效持续约一天.</AYNettleTea.description>
+  <AYNettleTea.ingestible.ingestCommandString>喝{0}</AYNettleTea.ingestible.ingestCommandString>
+  <AYNettleTea.ingestible.ingestReportString>正在喝{0}.</AYNettleTea.ingestible.ingestReportString>
+</LanguageData>

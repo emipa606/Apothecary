@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYGinsengTea.label>人參茶</AYGinsengTea.label>
+  <AYGinsengTea.description>人參茶,飲用它時會幫助提升情緒. 效果持續約半天。</AYGinsengTea.description>
+  <AYGinsengTea.ingestible.ingestCommandString>喝下{0}</AYGinsengTea.ingestible.ingestCommandString>
+  <AYGinsengTea.ingestible.ingestReportString>正在喝下{0}。</AYGinsengTea.ingestible.ingestReportString>
+</LanguageData>

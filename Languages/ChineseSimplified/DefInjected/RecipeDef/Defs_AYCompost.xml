@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYCompost.label>制作盆栽用废弃物</MakeAYCompost.label>
+  <MakeAYCompost.description>制作10份盆栽用废弃物</MakeAYCompost.description>
+  <MakeAYCompost.jobString>正在制作盆栽用废弃物</MakeAYCompost.jobString>
+  <MakeBulkAYCompost.label>批量制作盆栽用废弃物</MakeBulkAYCompost.label>
+  <MakeBulkAYCompost.description>制作25份盆栽用废弃物</MakeBulkAYCompost.description>
+  <MakeBulkAYCompost.jobString>正在制作盆栽用废弃物</MakeBulkAYCompost.jobString>
+</LanguageData>

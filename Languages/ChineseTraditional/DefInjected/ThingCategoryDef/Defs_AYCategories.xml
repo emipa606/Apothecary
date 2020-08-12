@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYPlantMatter.label>草藥植物</AYPlantMatter.label>
+  <AYProducts.label>草藥產品</AYProducts.label>
+  <AYOils.label>精油</AYOils.label>
+  <AYPowders.label>粉末</AYPowders.label>
+  <!-- Drugs -->
+  <AYDrugs.label>草藥藥品</AYDrugs.label>
+  <AYElixirs.label>酏劑</AYElixirs.label>
+  <AYSalts.label>鹽類</AYSalts.label>
+  <AYOintments.label>軟膏</AYOintments.label>
+  <AYTeas.label>草藥茶</AYTeas.label>
+  <AYTonics.label>補品</AYTonics.label>
+  <AYBooze.label>酒精</AYBooze.label>
+  <AYSmokes.label>香煙</AYSmokes.label>
+  <!-- Plaster Art -->
+  <AYPlasterArt.label>石膏藝術品</AYPlasterArt.label>
+</LanguageData>

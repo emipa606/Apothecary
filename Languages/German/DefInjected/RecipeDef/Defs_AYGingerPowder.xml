@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGingerPowder.label>Stelle Ingwerpulver her</MakeAYGingerPowder.label>
+  <MakeAYGingerPowder.description>Stelle 25 Ingwerpulver her.</MakeAYGingerPowder.description>
+  <MakeAYGingerPowder.jobString>Stellt Ingwerpulver her.</MakeAYGingerPowder.jobString>
+  <MakeBulkAYGingerPowder.label>Stelle Ingwerpulver in Massen her</MakeBulkAYGingerPowder.label>
+  <MakeBulkAYGingerPowder.description>Stelle 100 Ingwerpulver her.</MakeBulkAYGingerPowder.description>
+  <MakeBulkAYGingerPowder.jobString>Stellt Ingwerpulver her.</MakeBulkAYGingerPowder.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYNettleTea.label>製做蕁麻茶</MakeAYNettleTea.label>
+  <MakeAYNettleTea.description>製做1個蕁麻茶.</MakeAYNettleTea.description>
+  <MakeAYNettleTea.jobString>正在製做蕁麻茶</MakeAYNettleTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYNettleTea.label>製做蕁麻茶(大量)</MakeBulkAYNettleTea.label>
+  <MakeBulkAYNettleTea.description>製做5個蕁麻茶.</MakeBulkAYNettleTea.description>
+  <MakeBulkAYNettleTea.jobString>正在製做蕁麻茶</MakeBulkAYNettleTea.jobString>
+</LanguageData>

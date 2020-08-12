@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AYPotashBarrel.label>Potash barrel</AYPotashBarrel.label>
+  <AYPotashBarrel.description>A barrel filled with wood ashes and hay that will slowly leech potash over time.</AYPotashBarrel.description>
+  <AYPotashBarrel_Blueprint.label>Potash barrel (blueprint)</AYPotashBarrel_Blueprint.label>
+  <AYPotashBarrel_Frame.label>Potash barrel (building)</AYPotashBarrel_Frame.label>
+  <AYPotashBarrel_Frame.description>A barrel filled with wood ashes and hay that will slowly leech potash over time.</AYPotashBarrel_Frame.description>
+
+
+</LanguageData>

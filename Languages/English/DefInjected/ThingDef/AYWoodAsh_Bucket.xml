@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AYWoodAsh_Bucket.label>Bucket (Wood Ash)</AYWoodAsh_Bucket.label>
+  <AYWoodAsh_Bucket.description>A bucket full of wood ash. Can be thrown onto areas where trees grow to slightly improve their growth, remove blight from plants and prevent fires from catching.</AYWoodAsh_Bucket.description>
+
+  <Bullet_AYWoodAsh.label>Wood Ash</Bullet_AYWoodAsh.label>
+  <AYWoodAsh_Filth.label>Wood Ash</AYWoodAsh_Filth.label>
+  <AYAshScrap_Filth.label>Ash/Plant Scraps</AYAshScrap_Filth.label>
+
+
+</LanguageData>

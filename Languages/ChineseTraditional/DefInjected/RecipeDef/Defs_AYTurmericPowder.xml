@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYTurmericPowder.label>製做薑黃粉</MakeAYTurmericPowder.label>
+  <MakeAYTurmericPowder.description>製做25個薑黃粉</MakeAYTurmericPowder.description>
+  <MakeAYTurmericPowder.jobString>正在製做薑黃粉</MakeAYTurmericPowder.jobString>
+  <MakeBulkAYTurmericPowder.label>製做薑黃粉(大量)</MakeBulkAYTurmericPowder.label>
+  <MakeBulkAYTurmericPowder.description>製做100個薑黃粉</MakeBulkAYTurmericPowder.description>
+  <MakeBulkAYTurmericPowder.jobString>正在製做薑黃粉</MakeBulkAYTurmericPowder.jobString>
+</LanguageData>

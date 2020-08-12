@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Apothecary.WoundHealed>{PAWN_labelShort}的{2}已經痊癒了。原因：{0}</Apothecary.WoundHealed>
+  <Apothecary.CureMsg>{0}的狀態{1}已治愈。</Apothecary.CureMsg>
+  <!-- Composting -->
+  <AY.Progress>進度:</AY.Progress>
+  <!--  Settings -->
+  <AY.Name>藥劑師</AY.Name>
+  <AY.RealismBandages>實際使用繃帶：</AY.RealismBandages>
+  <AY.AllowCollapseRocks>允許崩落岩石能開採出物品:</AY.AllowCollapseRocks>
+  <AY.WashLowersQual>洗滌服裝會降低質量:</AY.WashLowersQual>
+  <AY.ResPct>研究百分比:</AY.ResPct>
+  <AY.ResTip>請注意，這些更改僅在重新啟動RimWorld時生效。</AY.ResTip>
+  <AY.ResWarn>(警告:修改百分比意味著先前使用默認值的研究將會失效並須重新研究.)</AY.ResWarn>
+</LanguageData>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYHenbaneOil</defName>
+    <label>Henbane Oil</label>
+    <description>An extract of Henbane</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Oils/AYHenbaneOil/AYHenbaneOil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>9.7</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.70</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYOils</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYHenbaneOil</defName>
+    <label>Make Henbane Oil</label>
+    <description>Make 1 Henbane oil</description>
+    <jobString>Making Henbane oil</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYHenbaneLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYHenbaneLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYHenbaneOil>1</AYHenbaneOil>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYExtracts</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYHenbaneOil</defName>
+    <label>Make Henbane Oil in bulk</label>
+    <description>Make 5 Henbane oil</description>
+    <jobString>Making Henbane oil</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYHenbaneLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYHenbaneLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYHenbaneOil>5</AYHenbaneOil>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYExtracts</researchPrerequisite>
+  </RecipeDef>
+</Defs>

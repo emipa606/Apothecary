@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYStomachSalts.label>Make Stomach Salts</MakeAYStomachSalts.label>
+  <MakeAYStomachSalts.description>Make 1 Stomach Salts.</MakeAYStomachSalts.description>
+  <MakeAYStomachSalts.jobString>Making Stomach Salts</MakeAYStomachSalts.jobString>
+
+
+  <!-- Bulk Recipe -->
+
+  <MakeBulkAYStomachSalts.label>Make Stomach Salts in bulk</MakeBulkAYStomachSalts.label>
+  <MakeBulkAYStomachSalts.description>Make 5 Stomach Salts.</MakeBulkAYStomachSalts.description>
+  <MakeBulkAYStomachSalts.jobString>Making Stomach Salts</MakeBulkAYStomachSalts.jobString>
+
+
+</LanguageData>

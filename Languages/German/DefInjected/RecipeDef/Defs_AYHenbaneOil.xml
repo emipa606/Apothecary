@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYHenbaneOil.label>Stelle Bilsenkraut-Öl her</MakeAYHenbaneOil.label>
+  <MakeAYHenbaneOil.description>Stelle ein Bilsenkraut-Öl her.</MakeAYHenbaneOil.description>
+  <MakeAYHenbaneOil.jobString>Stellt Bilsenkraut-Öl her</MakeAYHenbaneOil.jobString>
+  <MakeBulkAYHenbaneOil.label>Stelle Bilsenkraut-Öle in Massen her</MakeBulkAYHenbaneOil.label>
+  <MakeBulkAYHenbaneOil.description>Stelle 5 Bilsenkraut-Öle her.</MakeBulkAYHenbaneOil.description>
+  <MakeBulkAYHenbaneOil.jobString>Stellt Bilsenkraut-Öl her</MakeBulkAYHenbaneOil.jobString>
+</LanguageData>

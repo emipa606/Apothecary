@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYCalciumCarbonate.label>碳酸鈣</AYCalciumCarbonate.label>
+  <AYCalciumCarbonate.description>一種白色晶體或粉狀,可當制藥用的前驅物,盆栽的肥沃劑或與油脂混合制成石膏當作建築材料。</AYCalciumCarbonate.description>
+  <!-- Lime Stone Blocks -->
+  <BlocksAYLimePlaster.label>石膏塊</BlocksAYLimePlaster.label>
+  <BlocksAYLimePlaster.description>石灰泥的磚塊。</BlocksAYLimePlaster.description>
+  <BlocksAYLimePlaster.stuffProps.stuffAdjective>石膏</BlocksAYLimePlaster.stuffProps.stuffAdjective>
+</LanguageData>

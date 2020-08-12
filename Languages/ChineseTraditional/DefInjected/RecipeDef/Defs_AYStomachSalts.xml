@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYStomachSalts.label>製做胃藥</MakeAYStomachSalts.label>
+  <MakeAYStomachSalts.description>製做1個胃藥.</MakeAYStomachSalts.description>
+  <MakeAYStomachSalts.jobString>正在製做胃藥</MakeAYStomachSalts.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYStomachSalts.label>製做胃藥(大量)</MakeBulkAYStomachSalts.label>
+  <MakeBulkAYStomachSalts.description>製做5個胃藥.</MakeBulkAYStomachSalts.description>
+  <MakeBulkAYStomachSalts.jobString>正在製做胃藥</MakeBulkAYStomachSalts.jobString>
+</LanguageData>

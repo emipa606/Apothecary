@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYYarrowOil.label>制作荨麻油</MakeAYYarrowOil.label>
+  <MakeAYYarrowOil.description>制作一份荨麻油</MakeAYYarrowOil.description>
+  <MakeAYYarrowOil.jobString>正在制作荨麻油</MakeAYYarrowOil.jobString>
+  <MakeBulkAYYarrowOil.label>批量制作荨麻油</MakeBulkAYYarrowOil.label>
+  <MakeBulkAYYarrowOil.description>制作5份荨麻油</MakeBulkAYYarrowOil.description>
+  <MakeBulkAYYarrowOil.jobString>正在制作荨麻油</MakeBulkAYYarrowOil.jobString>
+</LanguageData>

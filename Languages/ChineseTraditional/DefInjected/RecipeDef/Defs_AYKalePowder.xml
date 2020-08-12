@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYKalePowder.label>製做羽衣甘藍粉</MakeAYKalePowder.label>
+  <MakeAYKalePowder.description>製做25個羽衣甘藍粉</MakeAYKalePowder.description>
+  <MakeAYKalePowder.jobString>正在製做羽衣甘藍粉</MakeAYKalePowder.jobString>
+  <MakeBulkAYKalePowder.label>製做羽衣甘藍粉(大量)</MakeBulkAYKalePowder.label>
+  <MakeBulkAYKalePowder.description>製做100個羽衣甘藍粉</MakeBulkAYKalePowder.description>
+  <MakeBulkAYKalePowder.jobString>正在製做羽衣甘藍粉</MakeBulkAYKalePowder.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYElixirLucidity.label>制作醒神丸</MakeAYElixirLucidity.label>
+  <MakeAYElixirLucidity.description>制作1粒醒神丸.</MakeAYElixirLucidity.description>
+  <MakeAYElixirLucidity.jobString>正在制作醒神丸</MakeAYElixirLucidity.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYElixirLucidity.label>批量制作醒神丸</MakeBulkAYElixirLucidity.label>
+  <MakeBulkAYElixirLucidity.description>制作5粒醒神丸.</MakeBulkAYElixirLucidity.description>
+  <MakeBulkAYElixirLucidity.jobString>正在制作醒神丸</MakeBulkAYElixirLucidity.jobString>
+</LanguageData>

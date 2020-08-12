@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Coal</li>
+      <li>Coal Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromBenches"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>Coal</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromBenches"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Coal</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Coal Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Coal</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef>
+                <defName>MakeCharcoalToCharcoalBenches</defName>
+                <label>Convert Charcoal (Coal mod)</label>
+                <description>Make 25 Charcoal.</description>
+                <jobString>Making Charcoal</jobString>
+                <workSpeedStat>SmeltingSpeed</workSpeedStat>
+                <effectWorking>Cremate</effectWorking>
+                <soundWorking>Recipe_Cremate</soundWorking>
+                <allowMixingIngredients>true</allowMixingIngredients>
+                <workAmount>250</workAmount>
+                <targetCountAdjustment>25</targetCountAdjustment>
+                <ingredients>
+                  <li>
+                    <filter>
+                      <thingDefs>
+                        <li>Charcoal</li>
+                      </thingDefs>
+                    </filter>
+                    <count>25</count>
+                  </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                  <thingDefs>
+                    <li>Charcoal</li>
+                  </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                  <AYCharcoal>25</AYCharcoal>
+                </products>
+                <recipeUsers>
+                  <li>FueledSmithy</li>
+                  <li>ElectricSmithy</li>
+                  <li>ElectricSmelter</li>
+                </recipeUsers>
+                <researchPrerequisite>AYCharcoal</researchPrerequisite>
+              </RecipeDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef>
+                <defName>MakeCharcoalToCharcoalBenches</defName>
+                <label>Convert Charcoal (Coal mod)</label>
+                <description>Make 25 Charcoal.</description>
+                <jobString>Making Charcoal</jobString>
+                <workSpeedStat>SmeltingSpeed</workSpeedStat>
+                <effectWorking>Cremate</effectWorking>
+                <soundWorking>Recipe_Cremate</soundWorking>
+                <allowMixingIngredients>true</allowMixingIngredients>
+                <workAmount>250</workAmount>
+                <targetCountAdjustment>25</targetCountAdjustment>
+                <ingredients>
+                  <li>
+                    <filter>
+                      <thingDefs>
+                        <li>Charcoal</li>
+                      </thingDefs>
+                    </filter>
+                    <count>50</count>
+                  </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                  <thingDefs>
+                    <li>Charcoal</li>
+                  </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                  <AYCharcoal>25</AYCharcoal>
+                </products>
+                <recipeUsers>
+                  <li>FueledSmithy</li>
+                  <li>ElectricSmithy</li>
+                  <li>ElectricSmelter</li>
+                </recipeUsers>
+                <researchPrerequisite>AYCharcoal</researchPrerequisite>
+              </RecipeDef>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+    <nomatch Class="PatchOperationFindMod">
+      <mods>
+        <li>Coal</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef>
+                <defName>MakeCharcoalToCharcoalBenches</defName>
+                <label>Convert Charcoal (Coal mod)</label>
+                <description>Make 25 Charcoal.</description>
+                <jobString>Making Charcoal</jobString>
+                <workSpeedStat>SmeltingSpeed</workSpeedStat>
+                <effectWorking>Cremate</effectWorking>
+                <soundWorking>Recipe_Cremate</soundWorking>
+                <allowMixingIngredients>true</allowMixingIngredients>
+                <workAmount>250</workAmount>
+                <targetCountAdjustment>25</targetCountAdjustment>
+                <ingredients>
+                  <li>
+                    <filter>
+                      <thingDefs>
+                        <li>Charcoal</li>
+                      </thingDefs>
+                    </filter>
+                    <count>13</count>
+                  </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                  <thingDefs>
+                    <li>Charcoal</li>
+                  </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                  <AYCharcoal>25</AYCharcoal>
+                </products>
+                <recipeUsers>
+                  <li>FueledSmithy</li>
+                  <li>ElectricSmithy</li>
+                  <li>ElectricSmelter</li>
+                </recipeUsers>
+                <researchPrerequisite>AYCharcoal</researchPrerequisite>
+              </RecipeDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Coal Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Coal</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalFiredGenerator"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalCrematorium"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalSmelter"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalGrill"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="NECCoalLamp"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="NECActiveCooler"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYAmmoniaCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalFiredGenerator"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalCrematorium"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalSmelter"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalGrill"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="NECCoalLamp"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="NECActiveCooler"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYAmmoniaCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+    <nomatch Class="PatchOperationFindMod">
+      <mods>
+        <li>Coal</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalFiredGenerator"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalCrematorium"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalSmelter"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalGrill"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="CoalStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+            <value>
+              <li>AYCharcoal</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYTurmericTea.label>Stelle Kurkuma-Tee her</MakeAYTurmericTea.label>
+  <MakeAYTurmericTea.description>Stelle ein Kurkuma-Tee her.</MakeAYTurmericTea.description>
+  <MakeAYTurmericTea.jobString>Stellt Kurkuma-Tee her.</MakeAYTurmericTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYTurmericTea.label>Stelle Kurkuma-Tee in Massen her</MakeBulkAYTurmericTea.label>
+  <MakeBulkAYTurmericTea.description>Stelle 5 Kurkuma-Tee her.</MakeBulkAYTurmericTea.description>
+  <MakeBulkAYTurmericTea.jobString>Stellt Kurkuma-Tee her.</MakeBulkAYTurmericTea.jobString>
+</LanguageData>

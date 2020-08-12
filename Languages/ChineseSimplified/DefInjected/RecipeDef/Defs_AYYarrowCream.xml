@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYYarrowCream.label>制作西洋蓍草膏</MakeAYYarrowCream.label>
+  <MakeAYYarrowCream.description>制作1 西洋蓍草膏.</MakeAYYarrowCream.description>
+  <MakeAYYarrowCream.jobString>正在制作西洋蓍草膏</MakeAYYarrowCream.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYYarrowCream.label>制作西洋蓍草膏</MakeBulkAYYarrowCream.label>
+  <MakeBulkAYYarrowCream.description>制作5 西洋蓍草膏.</MakeBulkAYYarrowCream.description>
+  <MakeBulkAYYarrowCream.jobString>正在制作西洋蓍草膏</MakeBulkAYYarrowCream.jobString>
+</LanguageData>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Stove -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+        <value>
+          <li>AYCharcoalStove</li>
+          <li>AYBrazier</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef/recipeUsers[li='FueledStove']</xpath>
+        <value>
+          <li>AYCharcoalStove</li>
+          <li>AYBrazier</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef/recipeMaker/recipeUsers[li='FueledStove']</xpath>
+        <value>
+          <li>AYCharcoalStove</li>
+          <li>AYBrazier</li>
+        </value>
+      </li>
+      <!-- Smithy -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+        <value>
+          <li>AYCharcoalSmithy</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef/recipeUsers[li='FueledSmithy']</xpath>
+        <value>
+          <li>AYCharcoalSmithy</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef/recipeMaker/recipeUsers[li='FueledSmithy']</xpath>
+        <value>
+          <li>AYCharcoalSmithy</li>
+        </value>
+      </li>
+      <!--  Crematorium -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsCremate"]/fixedBillGiverDefs</xpath>
+        <value>
+          <li>AYCharcoalCrematorium</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

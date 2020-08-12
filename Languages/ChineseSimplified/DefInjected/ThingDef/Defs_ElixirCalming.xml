@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYElixirCalming.label>安神丸</AYElixirCalming.label>
+  <AYElixirCalming.description>这种药丸有着轻微的抗抑郁作用.药效持续约一天.</AYElixirCalming.description>
+  <AYElixirCalming.ingestible.ingestCommandString>吞服{0}</AYElixirCalming.ingestible.ingestCommandString>
+  <AYElixirCalming.ingestible.ingestReportString>正在吞服{0}.</AYElixirCalming.ingestible.ingestReportString>
+</LanguageData>

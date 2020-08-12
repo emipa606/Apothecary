@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- From Charcoal -->
+  <MakeSalAmmoniacFromCharcoal.label>Stelle Salmiak her</MakeSalAmmoniacFromCharcoal.label>
+  <MakeSalAmmoniacFromCharcoal.description>Stelle 25 Salmiak her.</MakeSalAmmoniacFromCharcoal.description>
+  <MakeSalAmmoniacFromCharcoal.jobString>Stellt Salmiak her.</MakeSalAmmoniacFromCharcoal.jobString>
+  <MakeBulkSalAmmoniacFromCharcoal.label>Stelle Salmiak in Massen her</MakeBulkSalAmmoniacFromCharcoal.label>
+  <MakeBulkSalAmmoniacFromCharcoal.description>Stelle 100 Salmiak her.</MakeBulkSalAmmoniacFromCharcoal.description>
+  <MakeBulkSalAmmoniacFromCharcoal.jobString>Stellt Salmiak her.</MakeBulkSalAmmoniacFromCharcoal.jobString>
+  <!-- Ammonia Water -->
+  <MakeAmmoniaWaterFromSalAmmoniac.label>Stelle Ammoniakwasser (Salmiak) her</MakeAmmoniaWaterFromSalAmmoniac.label>
+  <MakeAmmoniaWaterFromSalAmmoniac.description>Stelle 5 Ammoniakwasser aus Salmiak her.</MakeAmmoniaWaterFromSalAmmoniac.description>
+  <MakeAmmoniaWaterFromSalAmmoniac.jobString>Stellt Ammoniakwasser her.</MakeAmmoniaWaterFromSalAmmoniac.jobString>
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.label>Stelle Ammoniakwasser (Salmiak) in Massen her</MakeBulkAmmoniaWaterFromSalAmmoniac.label>
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.description>Stelle 25 Ammoniakwasser aus Salmiak her.</MakeBulkAmmoniaWaterFromSalAmmoniac.description>
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.jobString>Stellt Ammoniakwasser her.</MakeBulkAmmoniaWaterFromSalAmmoniac.jobString>
+</LanguageData>

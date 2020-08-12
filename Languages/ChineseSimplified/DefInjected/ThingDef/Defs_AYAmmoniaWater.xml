@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYAmmoniaWater.label>氨水</AYAmmoniaWater.label>
+  <AYAmmoniaWater.description>一水合氨, 也被称为氨水, 是氨的水溶液.</AYAmmoniaWater.description>
+  <!-- Improved Hay -->
+  <AYAmmoniaHay.label>干草(氨处理)</AYAmmoniaHay.label>
+  <AYAmmoniaHay.description>经过氨水处理的干草，是良好的饲料.</AYAmmoniaHay.description>
+</LanguageData>

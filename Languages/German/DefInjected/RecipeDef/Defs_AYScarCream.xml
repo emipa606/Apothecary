@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYScarCream.label>Stelle Narbencreme her</MakeAYScarCream.label>
+  <MakeAYScarCream.description>Stelle eine Narbencreme her.</MakeAYScarCream.description>
+  <MakeAYScarCream.jobString>Stellt Narbencreme her.</MakeAYScarCream.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYScarCream.label>Stelle Narbencreme in Massen her</MakeBulkAYScarCream.label>
+  <MakeBulkAYScarCream.description>Stelle 5 Narbencreme her.</MakeBulkAYScarCream.description>
+  <MakeBulkAYScarCream.jobString>Stellt Narbencreme her.</MakeBulkAYScarCream.jobString>
+</LanguageData>

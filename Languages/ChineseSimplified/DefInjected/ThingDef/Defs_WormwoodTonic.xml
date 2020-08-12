@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYWormwoodTonic.label>苦艾汤</AYWormwoodTonic.label>
+  <AYWormwoodTonic.description>浓缩的苦艾汤剂，能帮助预防疟疾和肠道蠕虫病.每四天一服.</AYWormwoodTonic.description>
+  <AYWormwoodTonic.ingestible.ingestCommandString>喝{0}</AYWormwoodTonic.ingestible.ingestCommandString>
+  <AYWormwoodTonic.ingestible.ingestReportString>正在喝{0}.</AYWormwoodTonic.ingestible.ingestReportString>
+</LanguageData>

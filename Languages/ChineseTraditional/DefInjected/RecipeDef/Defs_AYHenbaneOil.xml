@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYHenbaneOil.label>製做天仙子油</MakeAYHenbaneOil.label>
+  <MakeAYHenbaneOil.description>製做1個天仙子油</MakeAYHenbaneOil.description>
+  <MakeAYHenbaneOil.jobString>正在製做天仙子油</MakeAYHenbaneOil.jobString>
+  <MakeBulkAYHenbaneOil.label>製做天仙子油(大量)</MakeBulkAYHenbaneOil.label>
+  <MakeBulkAYHenbaneOil.description>製做5個天仙子油</MakeBulkAYHenbaneOil.description>
+  <MakeBulkAYHenbaneOil.jobString>正在製做天仙子油</MakeBulkAYHenbaneOil.jobString>
+</LanguageData>

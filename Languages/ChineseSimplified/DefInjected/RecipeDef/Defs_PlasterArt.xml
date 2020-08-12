@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--花盆 -->
+  <MakeAYPlasterPlanter.label>浇筑花盆</MakeAYPlasterPlanter.label>
+  <MakeAYPlasterPlanter.description>用石灰浇筑花盆.</MakeAYPlasterPlanter.description>
+  <MakeAYPlasterPlanter.jobString>正在浇筑花盆.</MakeAYPlasterPlanter.jobString>
+</LanguageData>

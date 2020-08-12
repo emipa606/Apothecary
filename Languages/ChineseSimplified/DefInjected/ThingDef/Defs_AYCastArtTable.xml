@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Casting Table -->
+  <AYCastArtTable.label>浇筑台</AYCastArtTable.label>
+  <AYCastArtTable.description>用合适的浇筑材料来浇筑雕塑的地方.</AYCastArtTable.description>
+  <AYCastArtTable_Blueprint.label>浇筑台(蓝图)</AYCastArtTable_Blueprint.label>
+  <AYCastArtTable_Blueprint_Install.label>浇筑台(蓝图)</AYCastArtTable_Blueprint_Install.label>
+  <AYCastArtTable_Frame.label>浇筑台(建造中)</AYCastArtTable_Frame.label>
+  <AYCastArtTable_Frame.description>用合适的浇筑材料来浇筑雕塑的地方.</AYCastArtTable_Frame.description>
+</LanguageData>

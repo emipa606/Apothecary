@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYWormwoodTonic.label>製做艾草補劑</MakeAYWormwoodTonic.label>
+  <MakeAYWormwoodTonic.description>製做1個艾草補劑.</MakeAYWormwoodTonic.description>
+  <MakeAYWormwoodTonic.jobString>正在製做艾草補劑</MakeAYWormwoodTonic.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYWormwoodTonic.label>製做艾草補劑(大量)</MakeBulkAYWormwoodTonic.label>
+  <MakeBulkAYWormwoodTonic.description>製做5個艾草補劑.</MakeBulkAYWormwoodTonic.description>
+  <MakeBulkAYWormwoodTonic.jobString>正在製做艾草補劑</MakeBulkAYWormwoodTonic.jobString>
+</LanguageData>

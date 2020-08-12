@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYElixirInciting.label>製做煽動藥水</MakeAYElixirInciting.label>
+  <MakeAYElixirInciting.description>製做1個煽動藥水.</MakeAYElixirInciting.description>
+  <MakeAYElixirInciting.jobString>正在製做煽動藥水</MakeAYElixirInciting.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYElixirInciting.label>製做煽動藥水(大量)</MakeBulkAYElixirInciting.label>
+  <MakeBulkAYElixirInciting.description>製做5個煽動藥水.</MakeBulkAYElixirInciting.description>
+  <MakeBulkAYElixirInciting.jobString>正在製做煽動藥水</MakeBulkAYElixirInciting.jobString>
+</LanguageData>

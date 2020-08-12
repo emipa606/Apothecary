@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYWillowTonic.label>柳白皮汤</AYWillowTonic.label>
+  <AYWillowTonic.description>浓缩的柳白皮药剂，能帮助预防疟疾和某些心脏疾病. 每五天一服.</AYWillowTonic.description>
+  <AYWillowTonic.ingestible.ingestCommandString>喝{0}</AYWillowTonic.ingestible.ingestCommandString>
+  <AYWillowTonic.ingestible.ingestReportString>正在喝{0}.</AYWillowTonic.ingestible.ingestReportString>
+</LanguageData>

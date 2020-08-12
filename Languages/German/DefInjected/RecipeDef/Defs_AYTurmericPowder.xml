@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYTurmericPowder.label>Stelle Kurkumapulver her</MakeAYTurmericPowder.label>
+  <MakeAYTurmericPowder.description>Stelle 25 Kurkumapulver her.</MakeAYTurmericPowder.description>
+  <MakeAYTurmericPowder.jobString>Stellt Kurkumapulver her.</MakeAYTurmericPowder.jobString>
+  <MakeBulkAYTurmericPowder.label>Stelle Kurkumapulver in Massen her</MakeBulkAYTurmericPowder.label>
+  <MakeBulkAYTurmericPowder.description>Stelle 100 Kurkumapulver her.</MakeBulkAYTurmericPowder.description>
+  <MakeBulkAYTurmericPowder.jobString>Stellt Kurkumapulver her.</MakeBulkAYTurmericPowder.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYKalePowder.label>Stelle Grünkohlpulver her</MakeAYKalePowder.label>
+  <MakeAYKalePowder.description>Stelle 25 Grünkohlpulver her.</MakeAYKalePowder.description>
+  <MakeAYKalePowder.jobString>Stellt Grünkohlpulver her.</MakeAYKalePowder.jobString>
+  <MakeBulkAYKalePowder.label>Stelle Grünkohlpulver in Massen her</MakeBulkAYKalePowder.label>
+  <MakeBulkAYKalePowder.description>Stelle 100 Grünkohlpulver her.</MakeBulkAYKalePowder.description>
+  <MakeBulkAYKalePowder.jobString>Stellt Grünkohlpulver her.</MakeBulkAYKalePowder.jobString>
+</LanguageData>

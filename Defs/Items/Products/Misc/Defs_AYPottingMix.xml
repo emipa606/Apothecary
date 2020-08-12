@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYPottingMix</defName>
+    <label>Potting Mix</label>
+    <description>A fermented mix of compost used as a planting material.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYPottingMix/AYPottingMix</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>200</stackLimit>
+    <statBases>
+      <MarketValue>0.80</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

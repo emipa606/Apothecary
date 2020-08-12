@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGinkgoPowder.label>Stelle Ginkgopulver her</MakeAYGinkgoPowder.label>
+  <MakeAYGinkgoPowder.description>Stelle 25 Ginkgopulver her.</MakeAYGinkgoPowder.description>
+  <MakeAYGinkgoPowder.jobString>Stellt Ginkgopulver her.</MakeAYGinkgoPowder.jobString>
+  <MakeBulkAYGinkgoPowder.label>Stelle Ginkgopulver in Massen her</MakeBulkAYGinkgoPowder.label>
+  <MakeBulkAYGinkgoPowder.description>Stelle 100 Ginkgopulver her.</MakeBulkAYGinkgoPowder.description>
+  <MakeBulkAYGinkgoPowder.jobString>Stellt Ginkgopulver her.</MakeBulkAYGinkgoPowder.jobString>
+</LanguageData>

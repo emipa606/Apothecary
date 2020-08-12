@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeNettleHemp.label>製做蕁麻布</MakeNettleHemp.label>
+  <MakeNettleHemp.description>製做15個蕁麻布</MakeNettleHemp.description>
+  <MakeNettleHemp.jobString>正在製做蕁麻布</MakeNettleHemp.jobString>
+  <MakeBulkAYNettleHemp.label>製做蕁麻布(大量)</MakeBulkAYNettleHemp.label>
+  <MakeBulkAYNettleHemp.description>製做45個蕁麻布</MakeBulkAYNettleHemp.description>
+  <MakeBulkAYNettleHemp.jobString>正在製做蕁麻布</MakeBulkAYNettleHemp.jobString>
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYYarrowCream.label>Schafgarbencreme</AYYarrowCream.label>
+  <AYYarrowCream.description>Schafgarbencreme kann verwendet werden, um Wundinfektionen vorzubeugen. Die Wirkung hält ungefähr einen Tag an.</AYYarrowCream.description>
+  <AYYarrowCream.ingestible.ingestCommandString>Benutze {0}</AYYarrowCream.ingestible.ingestCommandString>
+  <AYYarrowCream.ingestible.ingestReportString>Benutzt {0}.</AYYarrowCream.ingestible.ingestReportString>
+</LanguageData>

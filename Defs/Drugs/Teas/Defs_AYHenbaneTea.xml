@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugTeaBase">
+    <defName>AYHenbaneTea</defName>
+    <label>Henbane Tea</label>
+    <description>Henbane tea, useful for pain relief, can increase aggressiveness and has mild psychoactive properties. Effects last about a day and a half.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Tea/AYHenbaneTea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>4.75</MarketValue>
+      <!-- NP: 25 x 0.19 -->
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHenbaneTeaHigh</hediffDef>
+          <severity>1.5</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHenbaneTolerance</hediffDef>
+          <severity>0.025</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3799</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+        <chemical>AYHenbane</chemical>
+        <addictiveness>0.01</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYHenbaneTeaHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Henbane Tea</label>
+    <description>Henbane tea effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+          <ToxicSensitivity>+0.05</ToxicSensitivity>
+        </statOffsets>
+        <painFactor>0.55</painFactor>
+        <socialFightChanceFactor>1.25</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.02</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.01</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.02</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <minSeverity>1.25</minSeverity>
+        <statOffsets>
+          <ToxicSensitivity>+0.07</ToxicSensitivity>
+        </statOffsets>
+        <painFactor>0.5</painFactor>
+        <socialFightChanceFactor>1.5</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.05</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.03</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>60.0</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYHenbaneTea</defName>
+    <label>Make Henbane Tea</label>
+    <description>Make 1 Henbane Tea.</description>
+    <jobString>Making Henbane Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>300</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYHenbanePowder</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYHenbanePowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYHenbaneTea>1</AYHenbaneTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYHenbaneTea</defName>
+    <label>Make Henbane Tea in bulk</label>
+    <description>Make 5 Henbane Teas.</description>
+    <jobString>Making Henbane Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYHenbanePowder</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYHenbanePowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYHenbaneTea>5</AYHenbaneTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+</Defs>

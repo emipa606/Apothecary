@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugTonicBase">
+    <defName>AYWormwoodTonic</defName>
+    <label>Wormwood Tonic</label>
+    <description>A concentrated tincture of Wormwood that helps ward off malaria and gut worms. Effects last for 4 days.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Tonic/AYWormwoodTonic/AYWormwoodTonic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>10.5</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYWormwoodTonicHigh</hediffDef>
+          <severity>4.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3497</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYWormwoodTonicHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Wormwood Tonic</label>
+    <description>Wormwood Tonic effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>4.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <makeImmuneTo>
+          <li>Malaria</li>
+          <li>GutWorms</li>
+        </makeImmuneTo>
+        <statOffsets>
+          <ToxicSensitivity>-0.07</ToxicSensitivity>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.02</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>2.0</minSeverity>
+        <lifeThreatening>false</lifeThreatening>
+        <makeImmuneTo>
+          <li>Malaria</li>
+          <li>GutWorms</li>
+        </makeImmuneTo>
+        <statOffsets>
+          <ToxicSensitivity>-0.15</ToxicSensitivity>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.04</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYWormwoodTonic</defName>
+    <label>Make Wormwood Tonic</label>
+    <description>Make 1 Wormwood Tonic.</description>
+    <jobString>Making Wormwood Tonic</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>210</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWormwoodOil</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWormwoodOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWormwoodTonic>1</AYWormwoodTonic>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTonics</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYWormwoodTonic</defName>
+    <label>Make Wormwood Tonic</label>
+    <description>Make 5 Wormwood Tonic.</description>
+    <jobString>Making Wormwood Tonic</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1050</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWormwoodOil</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWormwoodOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWormwoodTonic>5</AYWormwoodTonic>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTonics</researchPrerequisite>
+  </RecipeDef>
+</Defs>

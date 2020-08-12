@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYStomachSalts.label>Stelle Magensalz her</MakeAYStomachSalts.label>
+  <MakeAYStomachSalts.description>Stelle ein Magensalz her.</MakeAYStomachSalts.description>
+  <MakeAYStomachSalts.jobString>Stellt Magensalz her.</MakeAYStomachSalts.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYStomachSalts.label>Stelle Magensalze in Massen her</MakeBulkAYStomachSalts.label>
+  <MakeBulkAYStomachSalts.description>Stelle 5 Magensalze her.</MakeBulkAYStomachSalts.description>
+  <MakeBulkAYStomachSalts.jobString>Stellt Magensalz her.</MakeBulkAYStomachSalts.jobString>
+</LanguageData>

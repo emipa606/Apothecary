@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeAYGinsengPowder.label>Make Ginseng Powder</MakeAYGinsengPowder.label>
+  <MakeAYGinsengPowder.description>Make 25 Ginseng Powder</MakeAYGinsengPowder.description>
+  <MakeAYGinsengPowder.jobString>Making Ginseng Powder</MakeAYGinsengPowder.jobString>
+
+  <MakeBulkAYGinsengPowder.label>Make Ginseng Powder in bulk</MakeBulkAYGinsengPowder.label>
+  <MakeBulkAYGinsengPowder.description>Make 100 Ginseng Powder</MakeBulkAYGinsengPowder.description>
+  <MakeBulkAYGinsengPowder.jobString>Making Ginseng Powder</MakeBulkAYGinsengPowder.jobString>
+
+
+</LanguageData>

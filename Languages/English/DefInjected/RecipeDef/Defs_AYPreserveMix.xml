@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYPreserveMix.label>Make Preserve Mix</MakeAYPreserveMix.label>
+  <MakeAYPreserveMix.description>Make 5 Preserve Mix.</MakeAYPreserveMix.description>
+  <MakeAYPreserveMix.jobString>Making Preserve Mix.</MakeAYPreserveMix.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHenbaneTea.label>天仙子茶</AYHenbaneTea.label>
+  <AYHenbaneTea.description>天仙子茶，可用於緩解疼痛，具有輕微的精神興奮會讓人有點侵略性。效果持續約一天半。</AYHenbaneTea.description>
+  <AYHenbaneTea.ingestible.ingestCommandString>喝下{0}</AYHenbaneTea.ingestible.ingestCommandString>
+  <AYHenbaneTea.ingestible.ingestReportString>正在喝下{0}。</AYHenbaneTea.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeNettleHemp.label>Stelle Brennnesselfaser her</MakeNettleHemp.label>
+  <MakeNettleHemp.description>Stelle 15 Brennnesselfasern her.</MakeNettleHemp.description>
+  <MakeNettleHemp.jobString>Stelle Brennnesselfaser her.</MakeNettleHemp.jobString>
+  <MakeBulkAYNettleHemp.label>Stelle Brennnesselfasern in Massen her</MakeBulkAYNettleHemp.label>
+  <MakeBulkAYNettleHemp.description>Stelle 45 Brennnesselfasern her.</MakeBulkAYNettleHemp.description>
+  <MakeBulkAYNettleHemp.jobString>Stelle Brennnesselfaser her.</MakeBulkAYNettleHemp.jobString>
+</LanguageData>

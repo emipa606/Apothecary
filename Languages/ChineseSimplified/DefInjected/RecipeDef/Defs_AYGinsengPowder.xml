@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGinsengPowder.label>研磨人参粉</MakeAYGinsengPowder.label>
+  <MakeAYGinsengPowder.description>研磨25份人参粉</MakeAYGinsengPowder.description>
+  <MakeAYGinsengPowder.jobString>正在研磨人参粉</MakeAYGinsengPowder.jobString>
+  <MakeBulkAYGinsengPowder.label>批量研磨人参粉</MakeBulkAYGinsengPowder.label>
+  <MakeBulkAYGinsengPowder.description>研磨100份人参粉</MakeBulkAYGinsengPowder.description>
+  <MakeBulkAYGinsengPowder.jobString>正在研磨人参粉</MakeBulkAYGinsengPowder.jobString>
+</LanguageData>

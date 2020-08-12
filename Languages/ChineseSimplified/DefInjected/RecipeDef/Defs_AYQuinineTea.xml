@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYQuinineTea.label>冲泡奎宁茶</MakeAYQuinineTea.label>
+  <MakeAYQuinineTea.description>冲泡1杯奎宁茶.</MakeAYQuinineTea.description>
+  <MakeAYQuinineTea.jobString>正在冲泡奎宁茶</MakeAYQuinineTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYQuinineTea.label>批量冲泡奎宁茶</MakeBulkAYQuinineTea.label>
+  <MakeBulkAYQuinineTea.description>冲泡5杯奎宁茶.</MakeBulkAYQuinineTea.description>
+  <MakeBulkAYQuinineTea.jobString>正在冲泡奎宁茶</MakeBulkAYQuinineTea.jobString>
+</LanguageData>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugSaltsBase">
+    <defName>AYStomachSalts</defName>
+    <label>Stomach Salts</label>
+    <description>Stomach salts, can be used to settle upset stomachs and lower acid buildup. The effects last about half a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Salt/AYStomachSalts/AYStomachSalts</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>6.9</MarketValue>
+      <Mass>0.02</Mass>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYStomachSaltsHigh</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3593</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYStomachSaltsHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Stomach Salts</label>
+    <description>Stomach salt effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <postFactor>1.25</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>ThoughtAYStomachSalts</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYStomachSaltsHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Stomach salts</label>
+        <description>makes my stomach feel a little settled</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYStomachSalts</defName>
+    <label>Make Stomach Salts</label>
+    <description>Make 1 Stomach Salts.</description>
+    <jobString>Making Stomach Salts</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYStomachSalts>1</AYStomachSalts>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYSalts</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYStomachSalts</defName>
+    <label>Make Stomach Salts in bulk</label>
+    <description>Make 5 Stomach Salts.</description>
+    <jobString>Making Stomach Salts</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYStomachSalts>5</AYStomachSalts>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYSalts</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYCalciumCarbonate.label>制作碳酸钙</MakeAYCalciumCarbonate.label>
+  <MakeAYCalciumCarbonate.description>制作50份碳酸钙.</MakeAYCalciumCarbonate.description>
+  <MakeAYCalciumCarbonate.jobString>正在制作碳酸钙.</MakeAYCalciumCarbonate.jobString>
+  <MakeAYCalciumCarbonateFromEggs.label>制作碳酸钙(蛋壳)</MakeAYCalciumCarbonateFromEggs.label>
+  <MakeAYCalciumCarbonateFromEggs.description>制作25份碳酸钙.</MakeAYCalciumCarbonateFromEggs.description>
+  <MakeAYCalciumCarbonateFromEggs.jobString>正在制作碳酸钙.</MakeAYCalciumCarbonateFromEggs.jobString>
+  <!-- Lime Stone Blocks -->
+  <Make_StoneBlocksAYLimePlaster.label>浇筑灰泥块</Make_StoneBlocksAYLimePlaster.label>
+  <Make_StoneBlocksAYLimePlaster.description>将灰泥浇筑成可用的砖块.</Make_StoneBlocksAYLimePlaster.description>
+  <Make_StoneBlocksAYLimePlaster.jobString>正在浇筑灰泥块.</Make_StoneBlocksAYLimePlaster.jobString>
+</LanguageData>

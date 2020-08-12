@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AYYarrowCream.label>Yarrow cream</AYYarrowCream.label>
+  <AYYarrowCream.description>Yarrow cream can be used to prevent wound infections. Effects last about a day.</AYYarrowCream.description>
+  <AYYarrowCream.ingestible.ingestCommandString>Apply {0}</AYYarrowCream.ingestible.ingestCommandString>
+  <AYYarrowCream.ingestible.ingestReportString>Applying {0}.</AYYarrowCream.ingestible.ingestReportString>
+
+
+</LanguageData>

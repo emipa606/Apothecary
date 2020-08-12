@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAYYarrowCream.label>Make Yarrow Cream</MakeAYYarrowCream.label>
+  <MakeAYYarrowCream.description>Make 1 Yarrow Cream.</MakeAYYarrowCream.description>
+  <MakeAYYarrowCream.jobString>Making Yarrow Cream</MakeAYYarrowCream.jobString>
+
+
+  <!-- Bulk Recipe -->
+
+  <MakeBulkAYYarrowCream.label>Make Yarrow Cream in bulk</MakeBulkAYYarrowCream.label>
+  <MakeBulkAYYarrowCream.description>Make 5 Yarrow Cream.</MakeBulkAYYarrowCream.description>
+  <MakeBulkAYYarrowCream.jobString>Making Yarrow Cream</MakeBulkAYYarrowCream.jobString>
+
+
+</LanguageData>

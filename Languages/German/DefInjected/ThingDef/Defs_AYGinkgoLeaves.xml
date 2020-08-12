@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Will need harmony patch for mulitple harvested items -->
+  <AYGinkgoLeaves.label>Ginkgo-Blätter</AYGinkgoLeaves.label>
+  <AYGinkgoLeaves.description>Blätter von der Ginkgopflanze. Sie sind leicht giftig.</AYGinkgoLeaves.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYAloeCream.label>蘆薈霜</AYAloeCream.label>
+  <AYAloeCream.description>蘆薈膏是能有效治療皮膚燒傷的藥膏.能治療永久性燒傷疤痕. 治療效果持續1.5天。</AYAloeCream.description>
+  <AYAloeCream.ingestible.ingestCommandString>使用{0}</AYAloeCream.ingestible.ingestCommandString>
+  <AYAloeCream.ingestible.ingestReportString>正在使用{0}。</AYAloeCream.ingestible.ingestReportString>
+</LanguageData>

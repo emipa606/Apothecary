@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYCompost.label>Stelle Blumenerde her</MakeAYCompost.label>
+  <MakeAYCompost.description>Stelle 10 Blumenerde her.</MakeAYCompost.description>
+  <MakeAYCompost.jobString>Stellt Blumenerde her.</MakeAYCompost.jobString>
+  <MakeBulkAYCompost.label>Stelle Blumenerde in Massen her</MakeBulkAYCompost.label>
+  <MakeBulkAYCompost.description>Stelle 25 Blumenerde her.</MakeBulkAYCompost.description>
+  <MakeBulkAYCompost.jobString>Stellt Blumenerde her.</MakeBulkAYCompost.jobString>
+</LanguageData>

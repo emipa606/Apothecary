@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Neutro from ammonia water -->
+  <MakeNeutroFromAmmonia.label>制作中性胺（氨制法）</MakeNeutroFromAmmonia.label>
+  <MakeNeutroFromAmmonia.description>制作5瓶中性胺</MakeNeutroFromAmmonia.description>
+  <MakeNeutroFromAmmonia.jobString>正在制作中性胺（氨制法）</MakeNeutroFromAmmonia.jobString>
+  <MakeBulkNeutroFromAmmonia.label>批量制作中性胺（氨制法）</MakeBulkNeutroFromAmmonia.label>
+  <MakeBulkNeutroFromAmmonia.description>制作10瓶中性胺</MakeBulkNeutroFromAmmonia.description>
+  <MakeBulkNeutroFromAmmonia.jobString>正在制作中性胺（氨制法）</MakeBulkNeutroFromAmmonia.jobString>
+  <!-- Improved Hay -->
+  <MakeAYAmmoniaHay.label>用氨处理干草</MakeAYAmmoniaHay.label>
+  <MakeAYAmmoniaHay.description>用氨对干草进行处理，使它对动物来说更加可口。</MakeAYAmmoniaHay.description>
+  <MakeAYAmmoniaHay.jobString>正在处理干草.</MakeAYAmmoniaHay.jobString>
+</LanguageData>

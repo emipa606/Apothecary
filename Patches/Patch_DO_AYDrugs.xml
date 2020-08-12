@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Medical Supplements</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/HediffDef[defName="Migraine"]/comps</xpath>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/HediffDef[defName="Migraine"]/comps</xpath>
+              <value>
+                <li Class="Apothecary.HediffCompProperties_AYCure">
+                  <CureHoursMin>2</CureHoursMin>
+                  <CureHoursMax>4</CureHoursMax>
+                </li>
+              </value>
+            </match>
+          </li>
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/HediffDef[defName="CommonCold"]/comps</xpath>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/HediffDef[defName="CommonCold"]/comps</xpath>
+              <value>
+                <li Class="Apothecary.HediffCompProperties_AYCure">
+                  <CureHoursMin>2</CureHoursMin>
+                  <CureHoursMax>4</CureHoursMax>
+                </li>
+              </value>
+            </match>
+          </li>
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/HediffDef[defName="Stupor"]/comps</xpath>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/HediffDef[defName="Stupor"]/comps</xpath>
+              <value>
+                <li Class="Apothecary.HediffCompProperties_AYCure">
+                  <CureHoursMin>6</CureHoursMin>
+                  <CureHoursMax>12</CureHoursMax>
+                </li>
+              </value>
+            </match>
+          </li>
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/HediffDef[defName="PTSD"]/comps</xpath>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/HediffDef[defName="PTSD"]/comps</xpath>
+              <value>
+                <li Class="Apothecary.HediffCompProperties_AYCure">
+                  <CureHoursMin>24</CureHoursMin>
+                  <CureHoursMax>30</CureHoursMax>
+                </li>
+              </value>
+            </match>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="AYElixirCalmingHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYElixirCalmingHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Unease</li>
+              <li>PTSD</li>
+              <li>SuicidePreparation</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYElixirCalmingHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Unease</li>
+                <li>PTSD</li>
+                <li>SuicidePreparation</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="AYQuinineTeaHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYQuinineTeaHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Sepsis</li>
+              <li>Toothache</li>
+              <li>CommonCold</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYQuinineTeaHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Sepsis</li>
+                <li>Toothache</li>
+                <li>CommonCold</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="AYStomachSaltsHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYStomachSaltsHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>StomachUlcer</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYStomachSaltsHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>StomachUlcer</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="AYSmellingSaltsHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYSmellingSaltsHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Stupor</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYSmellingSaltsHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Stupor</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="AYKaleTeaHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYKaleTeaHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYKaleTeaHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="AYNettleTeaHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYNettleTeaHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYNettleTeaHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="AYFluTonicHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYFluTonicHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="AYFluTonicHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

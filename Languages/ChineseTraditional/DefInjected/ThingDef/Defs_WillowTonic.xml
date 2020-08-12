@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYWillowTonic.label>白柳補劑</AYWillowTonic.label>
+  <AYWillowTonic.description>濃縮的白柳皮液劑,有效預防瘧疾與某些心臟病.效果持續5天。</AYWillowTonic.description>
+  <AYWillowTonic.ingestible.ingestCommandString>喝下{0}</AYWillowTonic.ingestible.ingestCommandString>
+  <AYWillowTonic.ingestible.ingestReportString>正在喝下{0}。</AYWillowTonic.ingestible.ingestReportString>
+</LanguageData>

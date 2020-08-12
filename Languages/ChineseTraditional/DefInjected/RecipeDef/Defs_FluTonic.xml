@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYFluTonic.label>製做流感補劑</MakeAYFluTonic.label>
+  <MakeAYFluTonic.description>製做1個流感補劑.</MakeAYFluTonic.description>
+  <MakeAYFluTonic.jobString>正在製做流感補劑</MakeAYFluTonic.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYFluTonic.label>製做流感補劑(大量)</MakeBulkAYFluTonic.label>
+  <MakeBulkAYFluTonic.description>製做5個流感補劑.</MakeBulkAYFluTonic.description>
+  <MakeBulkAYFluTonic.jobString>正在製做流感補劑</MakeBulkAYFluTonic.jobString>
+</LanguageData>

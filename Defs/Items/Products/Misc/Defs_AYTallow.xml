@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYTallow</defName>
+    <label>Tallow</label>
+    <description>A hard fatty substance made from rendered animal fat, used (especially formerly) in making candles and soap.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYTallow/AYTallow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.02</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.03</FoodPoisonChanceFixedHuman>
+      <Flammability>1.5</Flammability>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <foodType>Meat</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>12</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYTallow</defName>
+    <label>Make Tallow</label>
+    <description>Make 10 Tallow</description>
+    <jobString>Making Tallow</jobString>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>350</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>AYTallow</li>
+          </disallowedThingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>AYTallow</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYTallow>10</AYTallow>
+    </products>
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>2</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYTallow</defName>
+    <label>Make Tallow in bulk</label>
+    <description>Make 50 Tallow</description>
+    <jobString>Making Tallow</jobString>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1750</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>AYTallow</li>
+          </disallowedThingDefs>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>AYTallow</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYTallow>50</AYTallow>
+    </products>
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYElixirSoothing.label>Stelle Elixier (Schmerzlinderung) her</MakeAYElixirSoothing.label>
+  <MakeAYElixirSoothing.description>Stelle ein Elixier (Schmerzlinderung) her.</MakeAYElixirSoothing.description>
+  <MakeAYElixirSoothing.jobString>Stellt Elixier (Schmerzlinderung) her.</MakeAYElixirSoothing.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYElixirSoothing.label>Stelle Elixier (Schmerzlinderung) in Massen her</MakeBulkAYElixirSoothing.label>
+  <MakeBulkAYElixirSoothing.description>Stelle 5 Elixiere (Schmerzlinderung) her.</MakeBulkAYElixirSoothing.description>
+  <MakeBulkAYElixirSoothing.jobString>Stellt Elixier (Schmerzlinderung) her.</MakeBulkAYElixirSoothing.jobString>
+</LanguageData>

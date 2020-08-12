@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--  Coal -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimOverhaul</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Coal</li>
+        <li>Coal Expanded</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromBenches"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>Coal</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromBenches"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>Coal</li>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <!--  Coke -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimOverhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromBenches"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>CokeCoal</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCharcoalFromBenches"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>CokeCoal</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!--  Smelting -->
+  <!--  *** Cannot add due to custom recipe process on coke furnace *** -->
+  <!--
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RimOverhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingTitanIngots"]/ingredients/li[3]/filter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingTitanIngots"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/RecipeDef[defName="SmeltingTitanIngots"]/allowMixingIngredients</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="SmeltingTitanIngots"]/allowMixingIngredients</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="SmeltingTitanIngots"]</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingChorium"]/ingredients/li[2]/filter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingChorium"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/RecipeDef[defName="SmeltingChorium"]/allowMixingIngredients</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="SmeltingChorium"]/allowMixingIngredients</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="SmeltingChorium"]</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingPlasteel"]/ingredients/li[4]/filter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingPlasteel"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/RecipeDef[defName="SmeltingPlasteel"]/allowMixingIngredients</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="SmeltingPlasteel"]/allowMixingIngredients</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="SmeltingPlasteel"]</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingSteel"]/ingredients/li[2]/filter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingSteel"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/RecipeDef[defName="SmeltingSteel"]/allowMixingIngredients</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="SmeltingSteel"]/allowMixingIngredients</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="SmeltingSteel"]</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingSteelBig"]/ingredients/li[2]/filter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="SmeltingSteelBig"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AYCharcoal</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/RecipeDef[defName="SmeltingSteelBig"]/allowMixingIngredients</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="SmeltingSteelBig"]/allowMixingIngredients</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="SmeltingSteelBig"]</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</nomatch>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	-->
+  <!--  Production Buildings -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimOverhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="SimpleFurnace"]/recipes</xpath>
+          <value>
+            <li>MakeAYCharcoalFromBenches</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="SimpleFurnace"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+          <value>
+            <li>AYCharcoal</li>
+          </value>
+        </li>
+        <!--
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CokeFurnace"]/recipes</xpath>
+					<value>
+						<li>MakeAYCharcoalFromBenches</li>
+					</value>
+				</li>
+				-->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="CokeFurnace"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+          <value>
+            <li>AYCharcoal</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="ArcFurnace"]/recipes</xpath>
+          <value>
+            <li>MakeAYCharcoalFromBenches</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

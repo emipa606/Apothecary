@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYPreserveBarrel.label>保鮮桶</AYPreserveBarrel.label>
+  <AYPreserveBarrel.description>一個裝滿泥土、砂石跟沙子的桶子，可以用於保存蔬菜。</AYPreserveBarrel.description>
+  <AYPreserveBarrel_Blueprint.label>保鮮桶(藍圖)</AYPreserveBarrel_Blueprint.label>
+  <AYPreserveBarrel_Blueprint_Install.label>保鮮桶(藍圖)</AYPreserveBarrel_Blueprint_Install.label>
+  <AYPreserveBarrel_Frame.label>保鮮桶(框架)</AYPreserveBarrel_Frame.label>
+  <AYPreserveBarrel_Frame.description>一個裝滿泥土、砂石跟沙子的桶子，可以用於保存蔬菜。</AYPreserveBarrel_Frame.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeNettleHemp.label>Make Nettle Hemp</MakeNettleHemp.label>
+  <MakeNettleHemp.description>Make 15 Nettle Hemp</MakeNettleHemp.description>
+  <MakeNettleHemp.jobString>Making Nettle Hemp</MakeNettleHemp.jobString>
+
+  <MakeBulkAYNettleHemp.label>Make Nettle Hemp in bulk</MakeBulkAYNettleHemp.label>
+  <MakeBulkAYNettleHemp.description>Make 45 Nettle Hemp</MakeBulkAYNettleHemp.description>
+  <MakeBulkAYNettleHemp.jobString>Making Nettle Hemp</MakeBulkAYNettleHemp.jobString>
+
+
+</LanguageData>

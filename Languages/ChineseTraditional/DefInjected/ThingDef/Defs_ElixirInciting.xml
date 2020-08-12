@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYElixirInciting.label>煽動藥水</AYElixirInciting.label>
+  <AYElixirInciting.description>這種藥水是很好的止痛藥，但可能具有無法忍受的侵略性副作用。 效果持續約半天。</AYElixirInciting.description>
+  <AYElixirInciting.ingestible.ingestCommandString>喝下{0}</AYElixirInciting.ingestible.ingestCommandString>
+  <AYElixirInciting.ingestible.ingestReportString>正在喝下{0}。</AYElixirInciting.ingestible.ingestReportString>
+</LanguageData>

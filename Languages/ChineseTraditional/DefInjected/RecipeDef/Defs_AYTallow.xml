@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYTallow.label>製做脂塊</MakeAYTallow.label>
+  <MakeAYTallow.description>製做10個脂塊</MakeAYTallow.description>
+  <MakeAYTallow.jobString>正在製做脂塊</MakeAYTallow.jobString>
+  <MakeBulkAYTallow.label>製做脂塊 (大量)</MakeBulkAYTallow.label>
+  <MakeBulkAYTallow.description>製做50個脂塊</MakeBulkAYTallow.description>
+  <MakeBulkAYTallow.jobString>正在製做脂塊</MakeBulkAYTallow.jobString>
+</LanguageData>

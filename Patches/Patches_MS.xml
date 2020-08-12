@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medical Supplements</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MSBulkMedicine"]/ingredients/li[3]/filter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MSBulkMedicine"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSWipes" or defName="MakeBulkMSWipes"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSWipes" or defName="MakeBulkMSWipes"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSBandage"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSBandage"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

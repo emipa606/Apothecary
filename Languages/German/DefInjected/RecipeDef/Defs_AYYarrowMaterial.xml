@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Herbal Medicine Recipe -->
+  <MakeAYHerbalMedsFromYarrow.label>Stelle Kräutermedizin (Scharfgarbe) her</MakeAYHerbalMedsFromYarrow.label>
+  <MakeAYHerbalMedsFromYarrow.description>Stelle 5 Kräutermedizin aus Scharfgarbe her.</MakeAYHerbalMedsFromYarrow.description>
+  <MakeAYHerbalMedsFromYarrow.jobString>Stellt Kräutermedizin her.</MakeAYHerbalMedsFromYarrow.jobString>
+  <MakeBulkAYHerbalMedsFromYarrow.label>Stelle Kräutermedizin (Scharfgarbe) in Massen her</MakeBulkAYHerbalMedsFromYarrow.label>
+  <MakeBulkAYHerbalMedsFromYarrow.description>Stelle 25 Kräutermedizin aus Scharfgarbe her.</MakeBulkAYHerbalMedsFromYarrow.description>
+  <MakeBulkAYHerbalMedsFromYarrow.jobString>Stellt Kräutermedizin her.</MakeBulkAYHerbalMedsFromYarrow.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYYarrowCream.label>製做歐蓍霜</MakeAYYarrowCream.label>
+  <MakeAYYarrowCream.description>製做1個歐蓍霜.</MakeAYYarrowCream.description>
+  <MakeAYYarrowCream.jobString>正在製做歐蓍霜</MakeAYYarrowCream.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYYarrowCream.label>製做歐蓍霜(大量)</MakeBulkAYYarrowCream.label>
+  <MakeBulkAYYarrowCream.description>製做5個歐蓍霜.</MakeBulkAYYarrowCream.description>
+  <MakeBulkAYYarrowCream.jobString>正在製做歐蓍霜</MakeBulkAYYarrowCream.jobString>
+</LanguageData>

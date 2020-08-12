@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYYarrowCream.label>Stelle Schafgarbencreme her</MakeAYYarrowCream.label>
+  <MakeAYYarrowCream.description>Stelle eine Schafgarbencreme her.</MakeAYYarrowCream.description>
+  <MakeAYYarrowCream.jobString>Stellt Schafgarbencreme her.</MakeAYYarrowCream.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYYarrowCream.label>Stelle Schafgarbencreme in Massen her</MakeBulkAYYarrowCream.label>
+  <MakeBulkAYYarrowCream.description>Stelle 5 Schafgarbencreme her.</MakeBulkAYYarrowCream.description>
+  <MakeBulkAYYarrowCream.jobString>Stellt Schafgarbencreme her.</MakeBulkAYYarrowCream.jobString>
+</LanguageData>

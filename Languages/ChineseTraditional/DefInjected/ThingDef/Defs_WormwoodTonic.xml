@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYWormwoodTonic.label>艾草補劑</AYWormwoodTonic.label>
+  <AYWormwoodTonic.description>濃縮的艾草液劑,能有效預防瘧疾和蛔蟲.效果持續4天。</AYWormwoodTonic.description>
+  <AYWormwoodTonic.ingestible.ingestCommandString>喝下{0}</AYWormwoodTonic.ingestible.ingestCommandString>
+  <AYWormwoodTonic.ingestible.ingestReportString>正在喝下{0}。</AYWormwoodTonic.ingestible.ingestReportString>
+</LanguageData>

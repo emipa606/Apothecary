@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYLavenderBalm.label>製做薰衣草香膏</MakeAYLavenderBalm.label>
+  <MakeAYLavenderBalm.description>製做1個薰衣草香膏。</MakeAYLavenderBalm.description>
+  <MakeAYLavenderBalm.jobString>正在製做薰衣草香膏</MakeAYLavenderBalm.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYLavenderBalm.label>製做薰衣草香膏(大量)</MakeBulkAYLavenderBalm.label>
+  <MakeBulkAYLavenderBalm.description>製做5個薰衣草香膏。</MakeBulkAYLavenderBalm.description>
+  <MakeBulkAYLavenderBalm.jobString>正在製做薰衣草香膏</MakeBulkAYLavenderBalm.jobString>
+</LanguageData>

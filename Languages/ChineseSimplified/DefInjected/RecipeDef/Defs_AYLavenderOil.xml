@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYLavenderOil.label>萃取薰衣草精油</MakeAYLavenderOil.label>
+  <MakeAYLavenderOil.description>萃取1瓶薰衣草精油</MakeAYLavenderOil.description>
+  <MakeAYLavenderOil.jobString>正在萃取薰衣草精油</MakeAYLavenderOil.jobString>
+  <MakeBulkAYLavenderOil.label>批量萃取薰衣草精油</MakeBulkAYLavenderOil.label>
+  <MakeBulkAYLavenderOil.description>萃取5瓶薰衣草精油</MakeBulkAYLavenderOil.description>
+  <MakeBulkAYLavenderOil.jobString>正在萃取薰衣草精油</MakeBulkAYLavenderOil.jobString>
+</LanguageData>

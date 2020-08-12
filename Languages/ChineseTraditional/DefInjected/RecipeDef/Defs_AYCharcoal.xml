@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Post Kiln Production : No ashes -->
+  <MakeAYCharcoalFromBenches.label>製做木炭</MakeAYCharcoalFromBenches.label>
+  <MakeAYCharcoalFromBenches.description>製做25個木炭.</MakeAYCharcoalFromBenches.description>
+  <MakeAYCharcoalFromBenches.jobString>正在製做木炭</MakeAYCharcoalFromBenches.jobString>
+  <!-- Ammonia Treated Charcoal -->
+  <MakeAYAmmoniaCharcoal.label>製做木炭(氨處理)</MakeAYAmmoniaCharcoal.label>
+  <MakeAYAmmoniaCharcoal.description>製做25個經氨水處理的木炭。</MakeAYAmmoniaCharcoal.description>
+  <MakeAYAmmoniaCharcoal.jobString>正在製做木炭(氨處理)</MakeAYAmmoniaCharcoal.jobString>
+  <!-- Make Chemfuel from charcoal -->
+  <MakeChemfuelFromAYCharcoal.label>用木炭製造化合燃料</MakeChemfuelFromAYCharcoal.label>
+  <MakeChemfuelFromAYCharcoal.description>用木炭製做50個化合燃料</MakeChemfuelFromAYCharcoal.description>
+  <MakeChemfuelFromAYCharcoal.jobString>正在製做化合燃料</MakeChemfuelFromAYCharcoal.jobString>
+</LanguageData>

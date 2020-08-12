@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYGarlicPowder</defName>
+    <label>Garlic Powder</label>
+    <description>Dried and ground garlic</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powders/AYGarlicPowder/AYGarlicPowder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stackLimit>500</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.26</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <Nutrition>0.01</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHedGarlic</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <thingCategories Inherit="false">
+      <li>AYPowders</li>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYGarlicPowder</defName>
+    <label>Make Garlic Powder</label>
+    <description>Make 25 Garlic Powder</description>
+    <jobString>Making Garlic Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>650</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGarlicBulb</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGarlicBulb</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGarlicPowder>25</AYGarlicPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYGarlicPowder</defName>
+    <label>Make Garlic Powder in bulk</label>
+    <description>Make 100 Garlic Powder</description>
+    <jobString>Making Garlic Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2600</workAmount>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGarlicBulb</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGarlicBulb</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGarlicPowder>100</AYGarlicPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+</Defs>

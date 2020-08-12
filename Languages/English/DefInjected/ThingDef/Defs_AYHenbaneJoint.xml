@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AYHenbaneJoint.label>Henbane joint</AYHenbaneJoint.label>
+  <AYHenbaneJoint.description>Henbane leaves prepared in small rolls for smoking. Henbane use increases aggressiveness, increases appetite, but can be useful for pain relief. Henbane use can produce a dependency.\n\nJoints can be produced at a crafting spot without equipment, and are a fixture in many traditional low-industriousness cultures.</AYHenbaneJoint.description>
+  <AYHenbaneJoint.ingestible.ingestCommandString>Smoke {0}</AYHenbaneJoint.ingestible.ingestCommandString>
+  <AYHenbaneJoint.ingestible.ingestReportString>Smoking {0}.</AYHenbaneJoint.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYPassiveCooler.label>Passivkühler (Ammoniak)</AYPassiveCooler.label>
+  <AYPassiveCooler.description>Dieser Kühler ist ein traditioneller Kühler ohne Strom, der durch Wasserverdampfung arbeitet. Er verwendet mit Ammoniak behandelte Holzkohle, um die Verdunstungsraten zu verbessern. Dadurch riecht es etwas streng.</AYPassiveCooler.description>
+  <AYPassiveCooler_Blueprint.label>Passivkühler (Ammoniak) (Entwurf)</AYPassiveCooler_Blueprint.label>
+  <AYPassiveCooler_Frame.label>Passivkühler (Ammoniak) (Im Bau)</AYPassiveCooler_Frame.label>
+  <AYPassiveCooler_Frame.description>Dieser Kühler ist ein traditioneller Kühler ohne Strom, der durch Wasserverdampfung arbeitet. Er verwendet mit Ammoniak behandelte Holzkohle, um die Verdunstungsraten zu verbessern. Dadurch riecht es etwas streng.</AYPassiveCooler_Frame.description>
+</LanguageData>

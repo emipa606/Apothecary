@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYTurmericTea.label>薑黃茶</AYTurmericTea.label>
+  <AYTurmericTea.description>薑黃茶，可有效輕微緩解疼痛. 效果持續約一天。</AYTurmericTea.description>
+  <AYTurmericTea.ingestible.ingestCommandString>喝下{0}</AYTurmericTea.ingestible.ingestCommandString>
+  <AYTurmericTea.ingestible.ingestReportString>正在喝下{0}。</AYTurmericTea.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYElixirCalming.label>制作镇静丸</MakeAYElixirCalming.label>
+  <MakeAYElixirCalming.description>制作1粒镇静丸.</MakeAYElixirCalming.description>
+  <MakeAYElixirCalming.jobString>正在制作镇静丸</MakeAYElixirCalming.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYElixirCalming.label>批量制作镇静丸</MakeBulkAYElixirCalming.label>
+  <MakeBulkAYElixirCalming.description>制作5粒镇静丸.</MakeBulkAYElixirCalming.description>
+  <MakeBulkAYElixirCalming.jobString>正在制作镇静丸</MakeBulkAYElixirCalming.jobString>
+</LanguageData>

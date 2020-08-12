@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AYHerbBox.label>草藥盒</AYHerbBox.label>
+  <AYHerbBox.description>加了盆栽堆肥的簡單盒子，可以種植植物，(生長速度：125%)</AYHerbBox.description>
+  <AYHerbBoxLime.label>草藥盒(石灰)</AYHerbBoxLime.label>
+  <AYHerbBoxLime.description>加了盆栽堆肥的簡單盒子，並用石灰改良，可以種植植物， (生長速度：150%)</AYHerbBoxLime.description>
+</LanguageData>

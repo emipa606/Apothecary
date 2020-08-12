@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYNettlePowder</defName>
+    <label>Nettle Powder</label>
+    <description>Dried and ground nettle</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powders/AYNettlePowder/AYNettlePowder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stackLimit>500</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.15</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPowders</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYNettlePowder</defName>
+    <label>Make Nettle Powder</label>
+    <description>Make 25 Nettle Powder</description>
+    <jobString>Making Nettle Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>475</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYNettleLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYNettleLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYNettlePowder>25</AYNettlePowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYNettlePowder</defName>
+    <label>Make Nettle Powder in bulk</label>
+    <description>Make 100 Nettle Powder</description>
+    <jobString>Making Nettle Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1900</workAmount>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYNettleLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYNettleLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYNettlePowder>100</AYNettlePowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Social Supplements</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYSaltedMeatBarrel"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <value>
+            <li>SSMorel</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYSaltedMeatBarrel"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <value>
+            <li>SSMorel</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYTallow"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <value>
+            <li>SSMorel</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYTallow"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <value>
+            <li>SSMorel</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAYTallow"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <value>
+            <li>SSMorel</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAYTallow"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <value>
+            <li>SSMorel</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

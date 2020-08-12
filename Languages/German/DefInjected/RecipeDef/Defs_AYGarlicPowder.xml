@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGarlicPowder.label>Stelle Knoblauchpulver her</MakeAYGarlicPowder.label>
+  <MakeAYGarlicPowder.description>Stelle 25 Knoblauchpulver her.</MakeAYGarlicPowder.description>
+  <MakeAYGarlicPowder.jobString>Stellt Knoblauchpulver her.</MakeAYGarlicPowder.jobString>
+  <MakeBulkAYGarlicPowder.label>Stelle Knoblauchpulver in Massen her</MakeBulkAYGarlicPowder.label>
+  <MakeBulkAYGarlicPowder.description>Stelle 100 Knoblauchpulver her.</MakeBulkAYGarlicPowder.description>
+  <MakeBulkAYGarlicPowder.jobString>Stellt Knoblauchpulver her.</MakeBulkAYGarlicPowder.jobString>
+</LanguageData>

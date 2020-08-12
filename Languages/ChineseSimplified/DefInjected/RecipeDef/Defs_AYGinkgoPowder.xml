@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAYGinkgoPowder.label>制作银杏粉</MakeAYGinkgoPowder.label>
+  <MakeAYGinkgoPowder.description>制作25份银杏粉</MakeAYGinkgoPowder.description>
+  <MakeAYGinkgoPowder.jobString>正在制作银杏粉</MakeAYGinkgoPowder.jobString>
+  <MakeBulkAYGinkgoPowder.label>批量制作银杏粉</MakeBulkAYGinkgoPowder.label>
+  <MakeBulkAYGinkgoPowder.description>制作100份银杏粉</MakeBulkAYGinkgoPowder.description>
+  <MakeBulkAYGinkgoPowder.jobString>正在制作银杏粉</MakeBulkAYGinkgoPowder.jobString>
+</LanguageData>

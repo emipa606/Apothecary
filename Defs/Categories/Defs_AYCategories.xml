@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AYPlantMatter</defName>
+    <label>Apothecary plant matter</label>
+    <parent>PlantMatter</parent>
+    <iconPath>CatItems/AYPlantMatter</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYProducts</defName>
+    <label>Apothecary products</label>
+    <parent>Manufactured</parent>
+    <iconPath>CatItems/AYProducts</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYOils</defName>
+    <label>Oil Extracts</label>
+    <parent>AYProducts</parent>
+    <iconPath>CatItems/AYOils</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYPowders</defName>
+    <label>Powders</label>
+    <parent>AYProducts</parent>
+    <iconPath>CatItems/AYPowders</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <!-- Drugs -->
+  <ThingCategoryDef>
+    <defName>AYDrugs</defName>
+    <label>Apothecary Drugs</label>
+    <parent>Drugs</parent>
+    <iconPath>CatItems/AYElixirs</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYElixirs</defName>
+    <label>Elixirs</label>
+    <parent>AYDrugs</parent>
+    <iconPath>CatItems/AYElixirs</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYSalts</defName>
+    <label>Salts</label>
+    <parent>AYDrugs</parent>
+    <iconPath>CatItems/AYSalts</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYOintments</defName>
+    <label>Ointments</label>
+    <parent>AYDrugs</parent>
+    <iconPath>CatItems/AYOintments</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYTeas</defName>
+    <label>Herbal Teas</label>
+    <parent>AYDrugs</parent>
+    <iconPath>CatItems/AYTeas</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYTonics</defName>
+    <label>Tonics</label>
+    <parent>AYDrugs</parent>
+    <iconPath>CatItems/AYTonics</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYBooze</defName>
+    <label>Alcohol</label>
+    <parent>AYDrugs</parent>
+    <iconPath>CatItems/AYBooze</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>AYSmokes</defName>
+    <label>Smokes</label>
+    <parent>AYDrugs</parent>
+    <iconPath>CatItems/AYSmokes</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <!-- Plaster Art -->
+  <ThingCategoryDef>
+    <defName>AYPlasterArt</defName>
+    <label>lime plaster art</label>
+    <parent>BuildingsArt</parent>
+  </ThingCategoryDef>
+</Defs>

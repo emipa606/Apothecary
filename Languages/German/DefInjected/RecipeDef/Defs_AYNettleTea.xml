@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYNettleTea.label>Stelle Brennnessel-Tee her</MakeAYNettleTea.label>
+  <MakeAYNettleTea.description>Stelle ein Brennnessel-Tee her.</MakeAYNettleTea.description>
+  <MakeAYNettleTea.jobString>Stellt Brennnessel-Tee her.</MakeAYNettleTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYNettleTea.label>Stelle Brennnessel-Tee in Massen her</MakeBulkAYNettleTea.label>
+  <MakeBulkAYNettleTea.description>Stelle 5 Brennnessel-Tee her.</MakeBulkAYNettleTea.description>
+  <MakeBulkAYNettleTea.jobString>Stellt Brennnessel-Tee her.</MakeBulkAYNettleTea.jobString>
+</LanguageData>

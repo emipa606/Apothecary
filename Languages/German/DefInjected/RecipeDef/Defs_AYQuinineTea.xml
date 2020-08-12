@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAYQuinineTea.label>Stelle Chinin-Tee her</MakeAYQuinineTea.label>
+  <MakeAYQuinineTea.description>Stelle ein Chinin-Tee her.</MakeAYQuinineTea.description>
+  <MakeAYQuinineTea.jobString>Stellt Chinin-Tee her.</MakeAYQuinineTea.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAYQuinineTea.label>Stelle Chinin-Tee in Massen her</MakeBulkAYQuinineTea.label>
+  <MakeBulkAYQuinineTea.description>Stelle 5 Chinin-Tee her.</MakeBulkAYQuinineTea.description>
+  <MakeBulkAYQuinineTea.jobString>Stellt Chinin-Tee her.</MakeBulkAYQuinineTea.jobString>
+</LanguageData>

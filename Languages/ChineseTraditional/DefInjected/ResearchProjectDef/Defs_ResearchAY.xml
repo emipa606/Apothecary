@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Herbalism -->
+  <AYHerbsSimple.label>藥草學 (初級)</AYHerbsSimple.label>
+  <AYHerbsSimple.description>殖民者能種植簡單的藥草.</AYHerbsSimple.description>
+  <AYHerbsIntermediate.label>藥草學 (中級)</AYHerbsIntermediate.label>
+  <AYHerbsIntermediate.description>殖民者能種植少見的草藥.</AYHerbsIntermediate.description>
+  <AYHerbsComplex.label>藥草學 (高級)</AYHerbsComplex.label>
+  <AYHerbsComplex.description>殖民者能種植生長週期長的藥草.</AYHerbsComplex.description>
+  <AYHerbsYield.label>藥草學產量</AYHerbsYield.label>
+  <AYHerbsYield.description>能夠提高藥草的收穫量.</AYHerbsYield.description>
+  <!-- Products -->
+  <AYTallow.label>脂塊</AYTallow.label>
+  <AYTallow.description>解鎖製造脂塊和相關產品的選單.</AYTallow.description>
+  <AYCharcoal.label>木炭</AYCharcoal.label>
+  <AYCharcoal.description>解鎖製造木炭及相關產品的選單.</AYCharcoal.description>
+  <AYPowders.label>粉末</AYPowders.label>
+  <AYPowders.description>解鎖將藥草乾燥後研磨的相關選單.</AYPowders.description>
+  <AYExtracts.label>萃取</AYExtracts.label>
+  <AYExtracts.description>解鎖從藥草提取精油及其他有用物質的相關選單.</AYExtracts.description>
+  <AYSalts.label>鹽類</AYSalts.label>
+  <AYSalts.description>解鎖鹽類的製造選單,在酏劑出現前的主流用藥方式.</AYSalts.description>
+  <!-- Drugs -->
+  <AYTeas.label>草藥茶</AYTeas.label>
+  <AYTeas.description>解鎖制備草藥茶的選單.</AYTeas.description>
+  <AYElixirs.label>酏劑</AYElixirs.label>
+  <AYElixirs.description>解鎖製備酏劑的選單.</AYElixirs.description>
+  <AYOintments.label>軟膏</AYOintments.label>
+  <AYOintments.description>解鎖製備軟膏的選單.</AYOintments.description>
+  <AYTonics.label>補品</AYTonics.label>
+  <AYTonics.description>解鎖製備補品的選單.</AYTonics.description>
+</LanguageData>
