@@ -42,6 +42,11 @@
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <defaultStorageSettings>
         <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>PlantMatter</li>
+          </categories>
+        </filter>
       </defaultStorageSettings>
       <fixedStorageSettings>
         <filter>
@@ -59,6 +64,7 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
     </inspectorTabs>
+    <surfaceType>Item</surfaceType>
     <researchPrerequisites Inherit="false">
       <li>Stonecutting</li>
     </researchPrerequisites>
