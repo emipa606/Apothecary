@@ -17,6 +17,7 @@
     </statBases>
     <thingCategories Inherit="false">
       <li>AYPlantMatter</li>
+      <li>PlantFoodRaw</li>
     </thingCategories>
     <ingestible>
       <preferability>DesperateOnlyForHumanlikes</preferability>
