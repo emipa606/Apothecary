@@ -18,37 +18,6 @@
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
-    <li>Ogliss.Mythos.DiseasesOverhauled</li>
-    <li>Cocaine.ElectricStonecuttingTable</li>
-    <li>Atlas.MaterialsPlus.AT</li>
-    <li>neceros.coalexpanded</li>
-    <li>Dubwise.DubsBadHygiene</li>
-    <li>Solaris.FurnitureBase</li>
-    <li>trasheddt.industrialisation</li>
-    <li>Kura.ExtraStoneCupro</li>
-    <li>LimeTreeSnake.Community.Ammunition</li>
-    <li>LWM.DeepStorage</li>
-    <li>vindar.medievaltimes</li>
-    <li>rimfridge.kv.rw</li>
-    <li>UnlimitedHugs.RemoteTech</li>
-    <li>Mlie.MedicalSupplements</li>
-    <li>jamaicancastle.RF.fertilefields</li>
-    <li>FunkyShit.RimOverhaul.Main</li>
-    <li>Mlie.RimPlas</li>
-    <li>Mlie.Fermenter</li>
-    <li>Mlie.CamouflageandStealth</li>
-    <li>zymex.medicaddons</li>
-    <li>notfood.SeedsPlease</li>
-    <li>bishop.smokeleafindustryreborn</li>
-    <li>Wemd.SimpleCoal</li>
-    <li>dismarzero.VGP.Smokedmeat</li>
-    <li>Mlie.TribalSignalFire</li>
-    <li>Crustypeanut.RC2.BaBE</li>
-    <li>VanillaExpanded.VFECore</li>
-    <li>VanillaExpanded.VFEProduction</li>
-    <li>dismarzero.VGP.VGPGardenTools</li>
-    <li>dismarzero.VGP.VGPVegetableGarden</li>
-    <li>dismarzero.VGP.VGPGardenGourmet</li>
   </loadAfter>
   <description>Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
