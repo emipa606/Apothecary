@@ -17,6 +17,10 @@
               <sources>
                 <li>Plant_AYAloeVera</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Aloe</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -58,6 +62,10 @@
               <sources>
                 <li>Plant_AYBelladonna</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Belladonna</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -99,6 +107,10 @@
               <sources>
                 <li>Plant_AYCinchona</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Cinchona</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -140,6 +152,10 @@
               <sources>
                 <li>Plant_AYGarlic</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Garlic</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -181,6 +197,10 @@
               <sources>
                 <li>Plant_AYGinger</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Ginger</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -222,6 +242,10 @@
               <sources>
                 <li>Plant_AYGinkgoBiloba</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Ginkgo</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -263,6 +287,10 @@
               <sources>
                 <li>Plant_AYGinseng</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Ginseng</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -304,6 +332,10 @@
               <sources>
                 <li>Plant_AYKale</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Kale</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -345,6 +377,10 @@
               <sources>
                 <li>Plant_AYLavender</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Lavender</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -386,6 +422,10 @@
               <sources>
                 <li>Plant_AYNettle</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Nettle</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -427,6 +467,10 @@
               <sources>
                 <li>Plant_AYStarAnise</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/StarAnise</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -468,6 +512,10 @@
               <sources>
                 <li>Plant_AYStJohnsWort</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/StJohnsWort</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -509,6 +557,10 @@
               <sources>
                 <li>Plant_AYWhiteWillow</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/WhiteWillow</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -550,6 +602,10 @@
               <sources>
                 <li>Plant_AYWormwood</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Wormwood</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -591,6 +647,10 @@
               <sources>
                 <li>Plant_AYYarrow</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Yarrow</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -632,6 +692,10 @@
               <sources>
                 <li>Plant_AYTurmeric</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Turmeric</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
@@ -673,6 +737,10 @@
               <sources>
                 <li>Plant_AYHenbane</li>
               </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Henbane</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
             </SeedsPlease.SeedDef>
           </value>
         </li>
