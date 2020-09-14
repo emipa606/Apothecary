@@ -34,7 +34,7 @@
     </ingestible>
     <thingCategories Inherit="false">
       <li>AYPowders</li>
-      <li>PlantFoodRaw</li>
+      <li>AYHerbs</li>
     </thingCategories>
   </ThingDef>
   <RecipeDef>

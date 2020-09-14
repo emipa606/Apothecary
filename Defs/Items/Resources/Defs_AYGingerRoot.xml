@@ -17,7 +17,7 @@
     </statBases>
     <thingCategories Inherit="false">
       <li>AYPlantMatter</li>
-      <li>PlantFoodRaw</li>
+      <li>AYHerbs</li>
     </thingCategories>
     <ingestible>
       <preferability>RawBad</preferability>

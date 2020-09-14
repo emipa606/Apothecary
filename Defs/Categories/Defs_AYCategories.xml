@@ -8,6 +8,13 @@
     <resourceReadoutRoot>true</resourceReadoutRoot>
   </ThingCategoryDef>
   <ThingCategoryDef>
+    <defName>AYHerbs</defName>
+    <label>Apothecary herbs</label>
+    <parent>PlantFoodRaw</parent>
+    <iconPath>CatItems/AYHerbs</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
     <defName>AYProducts</defName>
     <label>Apothecary products</label>
     <parent>Manufactured</parent>
