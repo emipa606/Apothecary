@@ -14,7 +14,7 @@ namespace Apothecary
 		[HarmonyPriority(800)]
 		public static void Postfix(ref CompRottable __instance, ref int __result, float temp)
 		{
-			if (__result < 72000000 && __result > 0 && __instance.parent.Spawned && __instance.parent.Position.GetFirstThingWithComp<CompRottable>(__instance.parent.Map) != null)
+			if (__result < 72000000 && __result > 0 && __instance.parent.Spawned && __instance.parent.Position.GetFirstThingWithComp<CompAYPreserve>(__instance.parent.Map) != null)
 			{
 				float num = GenTemperature.RotRateAtTemperature(temp);
 				float num2 = __instance.PropsRot.TicksToRotStart - __instance.RotProgress;
