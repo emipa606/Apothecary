@@ -14,7 +14,7 @@
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>0.00</researchViewX>
-		<researchViewY>1.25</researchViewY>
+    <researchViewY>1.25</researchViewY>
     <prerequisites>
       <li>PassiveCooler</li>
     </prerequisites>
@@ -27,7 +27,7 @@
     <baseCost>750</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>2</researchViewX>
-		<researchViewY>1.25</researchViewY>
+    <researchViewY>1.25</researchViewY>
     <prerequisites>
       <li>AYHerbsSimple</li>
     </prerequisites>
@@ -53,7 +53,7 @@
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>3</researchViewX>
-		<researchViewY>1.75</researchViewY>
+    <researchViewY>1.75</researchViewY>
     <prerequisites>
       <li>AYHerbsIntermediate</li>
     </prerequisites>
@@ -67,7 +67,7 @@
     <baseCost>250</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>0</researchViewX>
-		<researchViewY>0.60</researchViewY>
+    <researchViewY>0.60</researchViewY>
     <tab>AYApothecaryTab</tab>
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -77,7 +77,7 @@
     <baseCost>350</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
+    <researchViewY>0</researchViewY>
     <prerequisites>
       <li>Stonecutting</li>
       <li>AYTallow</li>
@@ -91,7 +91,7 @@
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1</researchViewX>
-		<researchViewY>2.5</researchViewY>
+    <researchViewY>2.5</researchViewY>
     <prerequisites>
       <li>AYHerbsSimple</li>
     </prerequisites>
@@ -104,7 +104,7 @@
     <baseCost>750</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>3</researchViewX>
-		<researchViewY>1</researchViewY>
+    <researchViewY>1</researchViewY>
     <prerequisites>
       <li>AYHerbsIntermediate</li>
     </prerequisites>
@@ -117,7 +117,7 @@
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>4</researchViewX>
-		<researchViewY>0.75</researchViewY>
+    <researchViewY>0.75</researchViewY>
     <prerequisites>
       <li>AYExtracts</li>
     </prerequisites>
@@ -131,7 +131,7 @@
     <baseCost>200</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>2</researchViewX>
-		<researchViewY>2.5</researchViewY>
+    <researchViewY>2.5</researchViewY>
     <prerequisites>
       <li>AYPowders</li>
     </prerequisites>
@@ -144,7 +144,7 @@
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>3</researchViewX>
-		<researchViewY>2.25</researchViewY>
+    <researchViewY>2.25</researchViewY>
     <prerequisites>
       <li>AYHerbsIntermediate</li>
     </prerequisites>
@@ -157,7 +157,7 @@
     <baseCost>750</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>4</researchViewX>
-		<researchViewY>0.25</researchViewY>
+    <researchViewY>0.25</researchViewY>
     <prerequisites>
       <li>AYTallow</li>
       <li>AYExtracts</li>
@@ -171,7 +171,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>4</researchViewX>
-		<researchViewY>2.5</researchViewY>
+    <researchViewY>2.5</researchViewY>
     <prerequisites>
       <li>AYTeas</li>
       <li>AYElixirs</li>

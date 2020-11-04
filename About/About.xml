@@ -19,23 +19,32 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>Update of peladors mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+- Added textures for seeds when using Seeds Please-mod, thanks DarkSlayerEX
+- The issue with the double-rottime should be fixed, thanks Lade!
 
-Support-chat:
-https://invite.gg/mlie
+If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803
 
-Non-steam version:
-https://github.com/emipa606/Apothecary
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/Apothecary][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-Overview
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+[h1]Overview[/h1] V1.1
 
 A medicinal mod focused on earlier technology epochs prior to the industrial age. (Also more suited to "fantasy" based mods).
 
-Details
+[h1]Details[/h1]
 
 Apothecary is a mod designed to provide herbal remedies and other medicinal preparations more suited to the Neolithic and Medieval epochs. It is designed as a preliminary mod prior to the use of Medical supplements which is more focused on the synthetic drug making process more associated with the industrial period and after.
 
@@ -47,10 +56,10 @@ Where both mods are being utilised, with MS drug versions superseding the apothe
 
 Additional and more specific mod details can be found using the following link:
 
-Apothecary Notes (PDF)
-https://steamcommunity.com/linkfilter/?url=https://1drv.ms/b/s!Au3GsmKyQkDYiqF22066N1tLbFQWdw?e=pDLK05
+[url=https://1drv.ms/b/s!Au3GsmKyQkDYiqF22066N1tLbFQWdw?e=pDLK05]Apothecary Notes (PDF)[/url]
 
-Mod notes
+
+[h1]Mod notes[/h1]
 
 
 Several research projects (in own tab, though not as expansive as MS). Recommend using mods that make the management of research projects more user friendly.
@@ -62,7 +71,7 @@ Mod option to vary the % base cost for all the research projects.
 Can be loaded mid save, removal will require removing all game elements.
 
 
-Compatibilites
+[h1]Compatibilites[/h1] *** Subject to conversion to V1.1 ***
 
 Atlas' Materials - Convert coal and coke into charcoal. Kiln will use charcoal.
 Coal and Coal Extended - Only allows conversion of coal and charcoal based on differing ratios.
@@ -70,41 +79,40 @@ Cupro's Stones - Drops relevant mining bits.
 Diseases Overhauled - Adds additional drug use for conditions. (see pdf notes).
 Dubs Bad hygiene - Log Boiler will use charcoal as fuel.
 Electric stone cutting table - can produce relevant salts.
-Fermenter - adds the ability to make Absinthe. 
+Fermenter - adds the ability to make Absinthe. (V1.1 Compat Checked)
 Industrialisation - Uses Electric arc smelter for charcoal production.
 Gloomy furniture - some of the relevant benches will use charcoal as a fuel.
 Kuratheris's Extra Stone - Extra CaCO3 bits and ability to source from relevant stones.
 LotRim - Smithy will use charcoal as fuel.
-LWM's Deep Storage - Will make use of medical cabinet. 
-Medical Supplements - integrated elements. (Drug cabinet with LWM's DS).
+LWM's Deep Storage - Will make use of medical cabinet. (V1.1 Compat checked)
+Medical Supplements - integrated elements. (Drug cabinet with LWM's DS). (V1.1 Compat Checked)
 Medieval times - Convert coal into charcoal. Various benches and buildings will use charcoal.
 Multiplayer - native support (beta)
 RC2 Bottling and Brewing - Absinthe mash can be made at the electric brewery and brewery point.
 Remote Tech - Make crushed charcoal from charcoal.
 RF Fertile Fields - Makes use of rock mill for precursor elements, crossover elements with composting. Also can make wood ash and scraps bucket.
 RimOverhaul - Convert coal and coke to charcoal, refuel applicable furnaces.
-RimPlas - Production of ammonia water from pitch. 
+RimPlas - Production of ammonia water from pitch. (V1.1 Compat Checked)
 SD Medic add-ons - Medieval surgery lamp will use charcoal as fuel.
 Smoked Meat - Smoke pit and smoke house will use charcoal as fuel.
 Seeds Please - all crops are made available as seeds.
 Smokeleaf Industry and Reborn - Hemp biocoal can be converted to charcoal.
-Social Supplements - Removes Morel Mushrooms from some meat recipes. 
+Social Supplements - Removes Morel Mushrooms from some meat recipes. (V1.1 Compat Checked)
 Tribal Signal Fire - Signal fire will use charcoal as fuel.
 VG Tools - Crossover elements with composting.
 VG Gourmet - Cooking tools linked.
 VFE - Stone campfire and fuelled smelter can be fuelled with charcoal.
 VFE Prod - Linkables applied.
-WD Simple Coal - Convert Coal into charcoal.  *** recommended coal mod ***
+WD Simple Coal - Convert Coal into charcoal. (V1.1 Compat Checked) *** recommended coal mod ***
 
-Recommended
+[h1]Recommended[/h1] *** Subject to conversion to V1.1 ***
 
-Drug Policy Fix - can be used to help manage and correct drugs added or removed part way through a save game. It will also sort the drug listings alphabetically.
-https://steamcommunity.com/sharedfiles/filedetails/?id=2195390245
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2000335507]Drug Policy Fix[/url] - can be used to help manage and correct drugs added or removed part way through a save game. It will also sort the drug listings alphabetically.
 
-Mod Medicine Patch - allows you to specify additional modded medical use (GUI) which works with the mod Pharmacy.
-https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631]Mod Medicine Patch[/url] - allows you to specify additional modded medical use (GUI) which works with the mod Pharmacy.
 
-Credits
+
+[h1]Credits[/h1]
 
 Graphics Revision - Kasmex Forever
 
@@ -115,10 +123,25 @@ Chinese (traditional) translation - SY1102
 Erdnussbrot - German translation.
 
 
-List of mods for refined content review
+[h1]Github[/h1]
+
+https://github.com/PeladorRW/Apothecary (Please select the correct version).
+
+
+[h1]List of mods for refined content review[/h1]
 
 Rimcraft
 Rimhammer
+
+
+[h1]Pelador's Discord[/h1]
+
+https://discord.gg/CFNP26C
+
+[h1]V1.1 Collection[/h1]
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2012817741
+
 
 
 (CC BY-NC-SA 4.0)</description>
