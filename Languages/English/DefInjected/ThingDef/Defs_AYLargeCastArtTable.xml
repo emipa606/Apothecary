@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Large Casting Table -->
-
   <AYLargeCastArtTable.label>Large Casting Table</AYLargeCastArtTable.label>
   <AYLargeCastArtTable.description>A table to cast larger sculptures at using suitable casting materials.</AYLargeCastArtTable.description>
-
-
 </LanguageData>

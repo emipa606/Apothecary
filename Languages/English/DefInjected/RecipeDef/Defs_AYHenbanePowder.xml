@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYHenbanePowder.label>Make Henbane Powder</MakeAYHenbanePowder.label>
   <MakeAYHenbanePowder.description>Make 25 Henbane Powder</MakeAYHenbanePowder.description>
   <MakeAYHenbanePowder.jobString>Making Henbane Powder</MakeAYHenbanePowder.jobString>
-
   <MakeBulkAYHenbanePowder.label>Make Henbane Powder in bulk</MakeBulkAYHenbanePowder.label>
   <MakeBulkAYHenbanePowder.description>Make 100 Henbane Powder</MakeBulkAYHenbanePowder.description>
   <MakeBulkAYHenbanePowder.jobString>Making Henbane Powder</MakeBulkAYHenbanePowder.jobString>
-
-
 </LanguageData>

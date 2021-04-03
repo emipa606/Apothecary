@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYCandle.label>Candle</AYCandle.label>
   <AYCandle.description>A tallow candle for lighting an area. People need light to move and work at full speed. Can be automatically refueled with tallow. Produces a small amount of heat.</AYCandle.description>
   <AYCandle_Blueprint.label>Candle (blueprint)</AYCandle_Blueprint.label>
   <AYCandle_Blueprint_Install.label>Candle (blueprint)</AYCandle_Blueprint_Install.label>
   <AYCandle_Frame.label>Candle (building)</AYCandle_Frame.label>
   <AYCandle_Frame.description>A tallow candle for lighting an area. People need light to move and work at full speed. Can be automatically refueled with tallow. Produces a small amount of heat.</AYCandle_Frame.description>
-
-
 </LanguageData>

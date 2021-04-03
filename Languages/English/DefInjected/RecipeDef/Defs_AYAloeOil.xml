@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYAloeOil.label>Make Aloe Oil</MakeAYAloeOil.label>
   <MakeAYAloeOil.description>Make 1 Aloe oil</MakeAYAloeOil.description>
   <MakeAYAloeOil.jobString>Making Aloe oil</MakeAYAloeOil.jobString>
-
   <MakeBulkAYAloeOil.label>Make Aloe Oil in bulk</MakeBulkAYAloeOil.label>
   <MakeBulkAYAloeOil.description>Make 5 Aloe oil</MakeBulkAYAloeOil.description>
   <MakeBulkAYAloeOil.jobString>Making Aloe oil</MakeBulkAYAloeOil.jobString>
-
-
 </LanguageData>

@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYCompostBarrel.label>Potting Mix Composting barrel</AYCompostBarrel.label>
   <AYCompostBarrel.description>A barrel in which raw compost, after three and a half days, will become potting mix for herb boxes. The barrel is bit ugly though, and pongs.</AYCompostBarrel.description>
   <AYCompostBarrel_Blueprint.label>Potting Mix Composting barrel (blueprint)</AYCompostBarrel_Blueprint.label>
   <AYCompostBarrel_Frame.label>Potting Mix Composting barrel (building)</AYCompostBarrel_Frame.label>
   <AYCompostBarrel_Frame.description>A barrel in which raw compost, after three and a half days, will become potting mix for herb boxes. The barrel is bit ugly though, and pongs.</AYCompostBarrel_Frame.description>
-
-
 </LanguageData>

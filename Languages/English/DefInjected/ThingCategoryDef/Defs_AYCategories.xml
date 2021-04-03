@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYPlantMatter.label>Apothecary plant matter</AYPlantMatter.label>
   <AYHerbs.label>Apothecary herbs</AYHerbs.label>
   <AYProducts.label>Apothecary products</AYProducts.label>
   <AYOils.label>Oil Extracts</AYOils.label>
   <AYPowders.label>Powders</AYPowders.label>
-
-
   <!-- Drugs -->
-
   <AYDrugs.label>Apothecary Drugs</AYDrugs.label>
   <AYElixirs.label>Elixirs</AYElixirs.label>
   <AYSalts.label>Salts</AYSalts.label>
@@ -18,11 +14,6 @@
   <AYTonics.label>Tonics</AYTonics.label>
   <AYBooze.label>Alcohol</AYBooze.label>
   <AYSmokes.label>Smokes</AYSmokes.label>
-
-
   <!-- Plaster Art -->
-
   <AYPlasterArt.label>lime plaster art</AYPlasterArt.label>
-
-
 </LanguageData>

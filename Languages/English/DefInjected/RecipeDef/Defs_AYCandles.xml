@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYCandleSingle.label>Make Candles</MakeAYCandleSingle.label>
   <MakeAYCandleSingle.description>Make 1 Candle</MakeAYCandleSingle.description>
   <MakeAYCandleSingle.jobString>Making Candles</MakeAYCandleSingle.jobString>
-
-
 </LanguageData>

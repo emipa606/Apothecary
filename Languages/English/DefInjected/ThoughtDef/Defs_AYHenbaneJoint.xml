@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYHenbaneHighThought.stages.0.label>high on henbane</AYHenbaneHighThought.stages.0.label>
   <AYHenbaneHighThought.stages.0.description>Groovy.</AYHenbaneHighThought.stages.0.description>
   <AYHenbaneHighThought.stages.1.label>stoned on henbane</AYHenbaneHighThought.stages.1.label>
   <AYHenbaneHighThought.stages.1.description>Super Groovy.</AYHenbaneHighThought.stages.1.description>
-
-
   <!-- Henbane addiction -->
-
   <AYHenbaneWithdrawal.stages.1.label>henbane withdrawal</AYHenbaneWithdrawal.stages.1.label>
   <AYHenbaneWithdrawal.stages.1.description>I really wish I could smoke. I feel jittery, and my gut has that anxious sensation all the time.</AYHenbaneWithdrawal.stages.1.description>
-
-
 </LanguageData>

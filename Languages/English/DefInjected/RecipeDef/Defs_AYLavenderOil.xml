@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYLavenderOil.label>Make Lavender Oil</MakeAYLavenderOil.label>
   <MakeAYLavenderOil.description>Make 1 Lavender oil</MakeAYLavenderOil.description>
   <MakeAYLavenderOil.jobString>Making Lavender oil</MakeAYLavenderOil.jobString>
-
   <MakeBulkAYLavenderOil.label>Make Lavender Oil in bulk</MakeBulkAYLavenderOil.label>
   <MakeBulkAYLavenderOil.description>Make 5 Lavender oil</MakeBulkAYLavenderOil.description>
   <MakeBulkAYLavenderOil.jobString>Making Lavender oil</MakeBulkAYLavenderOil.jobString>
-
-
 </LanguageData>

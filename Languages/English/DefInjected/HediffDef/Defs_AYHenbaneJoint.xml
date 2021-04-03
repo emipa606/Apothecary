@@ -1,20 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYHenbaneHigh.label>stoned on henbane</AYHenbaneHigh.label>
   <AYHenbaneHigh.description>Henbane's active chemical in the bloodstream. Generates pain relief.</AYHenbaneHigh.description>
   <AYHenbaneHigh.labelNoun>a henbane high</AYHenbaneHigh.labelNoun>
-
-
   <!-- Henbane addiction -->
-
   <AYHenbaneTolerance.label>henbane tolerance</AYHenbaneTolerance.label>
   <AYHenbaneTolerance.description>A built-up tolerance to henbane. The more severe this tolerance is, the more henbane it takes to get the same effect.</AYHenbaneTolerance.description>
-
   <AYHenbaneAddiction.label>henbane dependence</AYHenbaneAddiction.label>
   <AYHenbaneAddiction.description>A chemical addiction to henbane. Long-term use of henbane alkaloids has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
 \nWithout regular doses of henbane, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</AYHenbaneAddiction.description>
   <AYHenbaneAddiction.stages.1.label>withdrawal</AYHenbaneAddiction.stages.1.label>
-
-
 </LanguageData>

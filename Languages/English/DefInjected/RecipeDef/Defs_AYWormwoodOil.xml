@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYWormwoodOil.label>Make Wormwood Oil</MakeAYWormwoodOil.label>
   <MakeAYWormwoodOil.description>Make 1 Wormwood oil</MakeAYWormwoodOil.description>
   <MakeAYWormwoodOil.jobString>Making Wormwood oil</MakeAYWormwoodOil.jobString>
-
   <MakeBulkAYWormwoodOil.label>Make Wormwood Oil in bulk</MakeBulkAYWormwoodOil.label>
   <MakeBulkAYWormwoodOil.description>Make 5 Wormwood oil</MakeBulkAYWormwoodOil.description>
   <MakeBulkAYWormwoodOil.jobString>Making Wormwood oil</MakeBulkAYWormwoodOil.jobString>
-
-
 </LanguageData>

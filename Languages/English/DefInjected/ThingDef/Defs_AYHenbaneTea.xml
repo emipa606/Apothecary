@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYHenbaneTea.label>Henbane Tea</AYHenbaneTea.label>
   <AYHenbaneTea.description>Henbane tea, useful for pain relief, can increase aggressiveness and has mild psychoactive properties. Effects last about a day and a half.</AYHenbaneTea.description>
   <AYHenbaneTea.ingestible.ingestCommandString>Drink {0}</AYHenbaneTea.ingestible.ingestCommandString>
   <AYHenbaneTea.ingestible.ingestReportString>Drinking {0}.</AYHenbaneTea.ingestible.ingestReportString>
-
-
 </LanguageData>

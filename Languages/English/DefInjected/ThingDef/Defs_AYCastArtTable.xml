@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Casting Table -->
-
   <AYCastArtTable.label>Casting Table</AYCastArtTable.label>
   <AYCastArtTable.description>A table to cast sculptures at using suitable casting materials.</AYCastArtTable.description>
-
-
 </LanguageData>

@@ -1,22 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Neutro from ammonia water -->
-
   <MakeNeutroFromAmmonia.label>Make Neutroamine (Ammonia)</MakeNeutroFromAmmonia.label>
   <MakeNeutroFromAmmonia.description>Make 5 Neutroamine</MakeNeutroFromAmmonia.description>
   <MakeNeutroFromAmmonia.jobString>Making Neutroamine (Ammonia)</MakeNeutroFromAmmonia.jobString>
-
   <MakeBulkNeutroFromAmmonia.label>Make Neutroamine (Ammonia) in bulk</MakeBulkNeutroFromAmmonia.label>
   <MakeBulkNeutroFromAmmonia.description>Make 10 Neutroamine</MakeBulkNeutroFromAmmonia.description>
   <MakeBulkNeutroFromAmmonia.jobString>Making Neutroamine (Ammonia)</MakeBulkNeutroFromAmmonia.jobString>
-
-
   <!-- Improved Hay -->
-
   <MakeAYAmmoniaHay.label>Treat Hay with ammonia</MakeAYAmmoniaHay.label>
   <MakeAYAmmoniaHay.description>Treat Hay with ammonia to make it more edible for animals</MakeAYAmmoniaHay.description>
   <MakeAYAmmoniaHay.jobString>Treating Hay.</MakeAYAmmoniaHay.jobString>
-
-
 </LanguageData>

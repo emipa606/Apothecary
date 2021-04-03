@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Recipes -->
-
   <MakeAYWillowTonic.label>Make Willow Tonic</MakeAYWillowTonic.label>
   <MakeAYWillowTonic.description>Make 1 Willow Tonic.</MakeAYWillowTonic.description>
   <MakeAYWillowTonic.jobString>Making Willow Tonic</MakeAYWillowTonic.jobString>
-
-
   <!-- Bulk Recipe -->
-
   <MakeBulkAYWillowTonic.label>Make Willow Tonic</MakeBulkAYWillowTonic.label>
   <MakeBulkAYWillowTonic.description>Make 5 Willow Tonic.</MakeBulkAYWillowTonic.description>
   <MakeBulkAYWillowTonic.jobString>Making Willow Tonic</MakeBulkAYWillowTonic.jobString>
-
-
 </LanguageData>

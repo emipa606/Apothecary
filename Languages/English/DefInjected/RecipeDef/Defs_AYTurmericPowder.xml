@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYTurmericPowder.label>Make Turmeric Powder</MakeAYTurmericPowder.label>
   <MakeAYTurmericPowder.description>Make 25 Turmeric Powder</MakeAYTurmericPowder.description>
   <MakeAYTurmericPowder.jobString>Making Turmeric Powder</MakeAYTurmericPowder.jobString>
-
   <MakeBulkAYTurmericPowder.label>Make Turmeric Powder in bulk</MakeBulkAYTurmericPowder.label>
   <MakeBulkAYTurmericPowder.description>Make 100 Turmeric Powder</MakeBulkAYTurmericPowder.description>
   <MakeBulkAYTurmericPowder.jobString>Making Turmeric Powder</MakeBulkAYTurmericPowder.jobString>
-
-
 </LanguageData>

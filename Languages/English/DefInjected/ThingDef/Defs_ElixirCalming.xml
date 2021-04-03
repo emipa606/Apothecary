@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYElixirCalming.label>Elixir of Calming</AYElixirCalming.label>
   <AYElixirCalming.description>This elixir is a mild anti-depressant. Effects last about a day.</AYElixirCalming.description>
   <AYElixirCalming.ingestible.ingestCommandString>Drink {0}</AYElixirCalming.ingestible.ingestCommandString>
   <AYElixirCalming.ingestible.ingestReportString>Drinking {0}.</AYElixirCalming.ingestible.ingestReportString>
-
-
 </LanguageData>

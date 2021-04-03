@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYAloeCream.label>Aloe Cream</AYAloeCream.label>
   <AYAloeCream.description>Aloe cream is an antibiotic skin cream designed to help with burn injuries. It is capable of healing permanent burn scars. Healing effects last 1.5 days.</AYAloeCream.description>
   <AYAloeCream.ingestible.ingestCommandString>Apply {0}</AYAloeCream.ingestible.ingestCommandString>
   <AYAloeCream.ingestible.ingestReportString>Applying {0}.</AYAloeCream.ingestible.ingestReportString>
-
-
 </LanguageData>

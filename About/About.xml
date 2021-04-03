@@ -23,8 +23,9 @@
 Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
 
-- Added textures for seeds when using Seeds Please-mod, thanks DarkSlayerEX
+- Added textures for seeds when using Seeds Please-mod, thanks DarkSlayerEX!
 - The issue with the double-rottime should be fixed, thanks Lade!
+- The research tree should now look better in vanilla research-view, thanks Kayedon!
 
 If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803
@@ -107,7 +108,7 @@ WD Simple Coal - Convert Coal into charcoal. (V1.1 Compat Checked) *** recommend
 
 [h1]Recommended[/h1] *** Subject to conversion to V1.1 ***
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2000335507]Drug Policy Fix[/url] - can be used to help manage and correct drugs added or removed part way through a save game. It will also sort the drug listings alphabetically.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2195390245]Drug Policy Fix[/url] - can be used to help manage and correct drugs added or removed part way through a save game. It will also sort the drug listings alphabetically.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631]Mod Medicine Patch[/url] - allows you to specify additional modded medical use (GUI) which works with the mod Pharmacy.
 
@@ -123,26 +124,24 @@ Chinese (traditional) translation - SY1102
 Erdnussbrot - German translation.
 
 
-[h1]Github[/h1]
-
-https://github.com/PeladorRW/Apothecary (Please select the correct version).
-
-
 [h1]List of mods for refined content review[/h1]
 
 Rimcraft
 Rimhammer
 
 
-[h1]Pelador's Discord[/h1]
-
-https://discord.gg/CFNP26C
-
-[h1]V1.1 Collection[/h1]
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2012817741
+(CC BY-NC-SA 4.0)
 
 
-
-(CC BY-NC-SA 4.0)</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

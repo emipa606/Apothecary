@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Henbane addiction -->
-
   <Chemical_AYHenbane.label>henbane</Chemical_AYHenbane.label>
   <Chemical_AYHenbane.description>Because of a henbane dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</Chemical_AYHenbane.description>
-
-
 </LanguageData>

@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYCompost.label>Make Potting compost</MakeAYCompost.label>
   <MakeAYCompost.description>Make 10 Potting compost</MakeAYCompost.description>
   <MakeAYCompost.jobString>Making Potting compost</MakeAYCompost.jobString>
-
   <MakeBulkAYCompost.label>Make Potting compost in bulk</MakeBulkAYCompost.label>
   <MakeBulkAYCompost.description>Make 25 Potting compost</MakeBulkAYCompost.description>
   <MakeBulkAYCompost.jobString>Making Potting compost</MakeBulkAYCompost.jobString>
-
-
 </LanguageData>

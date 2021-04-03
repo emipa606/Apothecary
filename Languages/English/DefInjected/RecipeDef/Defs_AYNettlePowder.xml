@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYNettlePowder.label>Make Nettle Powder</MakeAYNettlePowder.label>
   <MakeAYNettlePowder.description>Make 25 Nettle Powder</MakeAYNettlePowder.description>
   <MakeAYNettlePowder.jobString>Making Nettle Powder</MakeAYNettlePowder.jobString>
-
   <MakeBulkAYNettlePowder.label>Make Nettle Powder in bulk</MakeBulkAYNettlePowder.label>
   <MakeBulkAYNettlePowder.description>Make 100 Nettle Powder</MakeBulkAYNettlePowder.description>
   <MakeBulkAYNettlePowder.jobString>Making Nettle Powder</MakeBulkAYNettlePowder.jobString>
-
-
 </LanguageData>

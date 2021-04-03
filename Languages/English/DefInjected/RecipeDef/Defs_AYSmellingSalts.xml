@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Recipes -->
-
   <MakeAYSmellingSalts.label>Make Smelling Salts</MakeAYSmellingSalts.label>
   <MakeAYSmellingSalts.description>Make 1 Smelling Salts.</MakeAYSmellingSalts.description>
   <MakeAYSmellingSalts.jobString>Making Smelling Salts</MakeAYSmellingSalts.jobString>
-
-
   <!-- Bulk Recipe -->
-
   <MakeBulkAYSmellingSalts.label>Make Smelling Salts in bulk</MakeBulkAYSmellingSalts.label>
   <MakeBulkAYSmellingSalts.description>Make 5 Smelling Salts.</MakeBulkAYSmellingSalts.description>
   <MakeBulkAYSmellingSalts.jobString>Making Smelling Salts</MakeBulkAYSmellingSalts.jobString>
-
-
 </LanguageData>

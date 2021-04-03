@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYPassiveCooler.label>Passive cooler (Ammonia)</AYPassiveCooler.label>
   <AYPassiveCooler.description>A traditional unpowered cooler that works by water evaporation, this cooler uses ammonia treated charcoal to improve on evaporation rates. It is slightly more smelly as a result.</AYPassiveCooler.description>
   <AYPassiveCooler_Blueprint.label>Passive cooler (Ammonia) (blueprint)</AYPassiveCooler_Blueprint.label>
   <AYPassiveCooler_Frame.label>Passive cooler (Ammonia) (building)</AYPassiveCooler_Frame.label>
   <AYPassiveCooler_Frame.description>A traditional unpowered cooler that works by water evaporation, this cooler uses ammonia treated charcoal to improve on evaporation rates. It is slightly more smelly as a result.</AYPassiveCooler_Frame.description>
-
-
 </LanguageData>

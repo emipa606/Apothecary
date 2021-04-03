@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYLimewaterFromCaCO3AY.label>Make Limewater</MakeAYLimewaterFromCaCO3AY.label>
   <MakeAYLimewaterFromCaCO3AY.description>Make 25 Limewater.</MakeAYLimewaterFromCaCO3AY.description>
   <MakeAYLimewaterFromCaCO3AY.jobString>Making Limewater</MakeAYLimewaterFromCaCO3AY.jobString>
-
   <MakeAYLimewaterFromCaCO3.label>Make Limewater</MakeAYLimewaterFromCaCO3.label>
   <MakeAYLimewaterFromCaCO3.description>Make 25 Limewater.</MakeAYLimewaterFromCaCO3.description>
   <MakeAYLimewaterFromCaCO3.jobString>Making Limewater</MakeAYLimewaterFromCaCO3.jobString>
-
-
 </LanguageData>

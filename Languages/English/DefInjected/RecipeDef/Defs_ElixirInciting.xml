@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Recipes -->
-
   <MakeAYElixirInciting.label>Make Elixir of Inciting</MakeAYElixirInciting.label>
   <MakeAYElixirInciting.description>Make 1 Elixir (Inciting).</MakeAYElixirInciting.description>
   <MakeAYElixirInciting.jobString>Making Elixir (Inciting)</MakeAYElixirInciting.jobString>
-
-
   <!-- Bulk Recipe -->
-
   <MakeBulkAYElixirInciting.label>Make Elixir of Inciting in bulk</MakeBulkAYElixirInciting.label>
   <MakeBulkAYElixirInciting.description>Make 5 Elixir (Inciting).</MakeBulkAYElixirInciting.description>
   <MakeBulkAYElixirInciting.jobString>Making Elixir (Inciting)</MakeBulkAYElixirInciting.jobString>
-
-
 </LanguageData>

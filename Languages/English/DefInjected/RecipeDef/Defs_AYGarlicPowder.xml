@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYGarlicPowder.label>Make Garlic Powder</MakeAYGarlicPowder.label>
   <MakeAYGarlicPowder.description>Make 25 Garlic Powder</MakeAYGarlicPowder.description>
   <MakeAYGarlicPowder.jobString>Making Garlic Powder</MakeAYGarlicPowder.jobString>
-
   <MakeBulkAYGarlicPowder.label>Make Garlic Powder in bulk</MakeBulkAYGarlicPowder.label>
   <MakeBulkAYGarlicPowder.description>Make 100 Garlic Powder</MakeBulkAYGarlicPowder.description>
   <MakeBulkAYGarlicPowder.jobString>Making Garlic Powder</MakeBulkAYGarlicPowder.jobString>
-
-
 </LanguageData>

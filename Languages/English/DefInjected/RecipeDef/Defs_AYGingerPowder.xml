@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYGingerPowder.label>Make Ginger Powder</MakeAYGingerPowder.label>
   <MakeAYGingerPowder.description>Make 25 Ginger Powder</MakeAYGingerPowder.description>
   <MakeAYGingerPowder.jobString>Making Ginger Powder</MakeAYGingerPowder.jobString>
-
   <MakeBulkAYGingerPowder.label>Make Ginger Powder in bulk</MakeBulkAYGingerPowder.label>
   <MakeBulkAYGingerPowder.description>Make 100 Ginger Powder</MakeBulkAYGingerPowder.description>
   <MakeBulkAYGingerPowder.jobString>Making Ginger Powder</MakeBulkAYGingerPowder.jobString>
-
-
 </LanguageData>

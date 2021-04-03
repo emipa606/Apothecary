@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYTallow.label>Make Tallow</MakeAYTallow.label>
   <MakeAYTallow.description>Make 10 Tallow</MakeAYTallow.description>
   <MakeAYTallow.jobString>Making Tallow</MakeAYTallow.jobString>
-
   <MakeBulkAYTallow.label>Make Tallow in bulk</MakeBulkAYTallow.label>
   <MakeBulkAYTallow.description>Make 50 Tallow</MakeBulkAYTallow.description>
   <MakeBulkAYTallow.jobString>Making Tallow</MakeBulkAYTallow.jobString>
-
-
 </LanguageData>

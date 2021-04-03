@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYFluTonic.label>Flu Tonic</AYFluTonic.label>
   <AYFluTonic.description>A concoction of herbs that help ward off flu. Effects last for 3 days.</AYFluTonic.description>
   <AYFluTonic.ingestible.ingestCommandString>Drink {0}</AYFluTonic.ingestible.ingestCommandString>
   <AYFluTonic.ingestible.ingestReportString>Drinking {0}.</AYFluTonic.ingestible.ingestReportString>
-
-
 </LanguageData>

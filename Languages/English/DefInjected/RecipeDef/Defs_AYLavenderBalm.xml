@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Recipes -->
-
   <MakeAYLavenderBalm.label>Make Lavender Balm</MakeAYLavenderBalm.label>
   <MakeAYLavenderBalm.description>Make 1 Lavender Balm.</MakeAYLavenderBalm.description>
   <MakeAYLavenderBalm.jobString>Making Lavender Balm</MakeAYLavenderBalm.jobString>
-
-
   <!-- Bulk Recipe -->
-
   <MakeBulkAYLavenderBalm.label>Make Lavender Balm in bulk</MakeBulkAYLavenderBalm.label>
   <MakeBulkAYLavenderBalm.description>Make 5 Lavender Balm.</MakeBulkAYLavenderBalm.description>
   <MakeBulkAYLavenderBalm.jobString>Making Lavender Balm</MakeBulkAYLavenderBalm.jobString>
-
-
 </LanguageData>

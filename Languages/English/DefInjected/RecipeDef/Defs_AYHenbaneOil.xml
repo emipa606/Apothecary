@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYHenbaneOil.label>Make Henbane Oil</MakeAYHenbaneOil.label>
   <MakeAYHenbaneOil.description>Make 1 Henbane oil</MakeAYHenbaneOil.description>
   <MakeAYHenbaneOil.jobString>Making Henbane oil</MakeAYHenbaneOil.jobString>
-
   <MakeBulkAYHenbaneOil.label>Make Henbane Oil in bulk</MakeBulkAYHenbaneOil.label>
   <MakeBulkAYHenbaneOil.description>Make 5 Henbane oil</MakeBulkAYHenbaneOil.description>
   <MakeBulkAYHenbaneOil.jobString>Making Henbane oil</MakeBulkAYHenbaneOil.jobString>
-
-
 </LanguageData>

@@ -49,9 +49,9 @@
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0.75</resourcesFractionWhenDeconstructed>
-    <placeWorkers>
-      <li>Apothecary.PlaceWorker_Candle</li>
-    </placeWorkers>
+    <!-- <placeWorkers> -->
+    <!-- <li>Apothecary.PlaceWorker_Candle</li> -->
+    <!-- </placeWorkers> -->
     <!--
     	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		-->

@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYCharcoalKiln.label>Charcoal Kiln</AYCharcoalKiln.label>
   <AYCharcoalKiln.description>A temporary crude structure made from stone and filled with wood that will slowly burn with limited air supply to produce charcoal.</AYCharcoalKiln.description>
   <AYCharcoalKiln_Blueprint.label>Charcoal Kiln (blueprint)</AYCharcoalKiln_Blueprint.label>
   <AYCharcoalKiln_Frame.label>Charcoal Kiln (building)</AYCharcoalKiln_Frame.label>
   <AYCharcoalKiln_Frame.description>A temporary crude structure made from stone and filled with wood that will slowly burn with limited air supply to produce charcoal.</AYCharcoalKiln_Frame.description>
-
-
 </LanguageData>

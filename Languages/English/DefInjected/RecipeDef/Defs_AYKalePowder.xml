@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAYKalePowder.label>Make Kale Powder</MakeAYKalePowder.label>
   <MakeAYKalePowder.description>Make 25 Kale Powder</MakeAYKalePowder.description>
   <MakeAYKalePowder.jobString>Making Kale Powder</MakeAYKalePowder.jobString>
-
   <MakeBulkAYKalePowder.label>Make Kale Powder in bulk</MakeBulkAYKalePowder.label>
   <MakeBulkAYKalePowder.description>Make 100 Kale Powder</MakeBulkAYKalePowder.description>
   <MakeBulkAYKalePowder.jobString>Making Kale Powder</MakeBulkAYKalePowder.jobString>
-
-
 </LanguageData>

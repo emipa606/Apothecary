@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYWillowTonic.label>Willow Tonic</AYWillowTonic.label>
   <AYWillowTonic.description>A concentrated tincture of white willow that helps ward off malaria and some heart conditions. Effects last for 5 days.</AYWillowTonic.description>
   <AYWillowTonic.ingestible.ingestCommandString>Drink {0}</AYWillowTonic.ingestible.ingestCommandString>
   <AYWillowTonic.ingestible.ingestReportString>Drinking {0}.</AYWillowTonic.ingestible.ingestReportString>
-
-
 </LanguageData>

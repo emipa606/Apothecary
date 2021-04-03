@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Recipes -->
-
   <MakeAYElixirSoothing.label>Make Elixir of Soothing</MakeAYElixirSoothing.label>
   <MakeAYElixirSoothing.description>Make 1 Elixir (Soothing).</MakeAYElixirSoothing.description>
   <MakeAYElixirSoothing.jobString>Making Elixir (Soothing)</MakeAYElixirSoothing.jobString>
-
-
   <!-- Bulk Recipe -->
-
   <MakeBulkAYElixirSoothing.label>Make Elixir of Soothing in bulk</MakeBulkAYElixirSoothing.label>
   <MakeBulkAYElixirSoothing.description>Make 5 Elixir (Soothing).</MakeBulkAYElixirSoothing.description>
   <MakeBulkAYElixirSoothing.jobString>Making Elixir (Soothing)</MakeBulkAYElixirSoothing.jobString>
-
-
 </LanguageData>

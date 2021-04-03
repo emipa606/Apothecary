@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AYBrazier.label>Charcoal Brazier</AYBrazier.label>
   <AYBrazier.description>Cooks meals and produces heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</AYBrazier.description>
   <AYBrazier_Blueprint.label>Charcoal Brazier (blueprint)</AYBrazier_Blueprint.label>
   <AYBrazier_Frame.label>Charcoal Brazier (building)</AYBrazier_Frame.label>
   <AYBrazier_Frame.description>Cooks meals and produces heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</AYBrazier_Frame.description>
-
-
 </LanguageData>

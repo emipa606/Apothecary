@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Recipes -->
-
   <MakeAYKaleTea.label>Make Kale Tea</MakeAYKaleTea.label>
   <MakeAYKaleTea.description>Make 1 Kale Tea.</MakeAYKaleTea.description>
   <MakeAYKaleTea.jobString>Making Kale Tea</MakeAYKaleTea.jobString>
-
-
   <!-- Bulk Recipe -->
-
   <MakeBulkAYKaleTea.label>Make Kale Tea in bulk</MakeBulkAYKaleTea.label>
   <MakeBulkAYKaleTea.description>Make 5 Kale Teas.</MakeBulkAYKaleTea.description>
   <MakeBulkAYKaleTea.jobString>Making Kale Tea</MakeBulkAYKaleTea.jobString>
-
-
 </LanguageData>
