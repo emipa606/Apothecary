@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYTurmericRoot</defName>
+    <label>Turmeric Roots</label>
+    <description>Turmeric rhizomes are used fresh or boiled in water and dried, after which they are ground into a deep orange-yellow powder commonly used as a coloring and flavoring agent in many cuisines, especially for curries, as well as for dyeing. Turmeric powder has a warm, bitter, black pepper-like flavor and earthy, mustard-like aroma.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYTurmericRoot/AYTurmericRoot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.04</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+      <li>AYHerbs</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHedTurmeric</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>24</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYHedTurmeric</defName>
+    <label>Ate Turmeric</label>
+    <description>Turmeric effect</description>
+    <initialSeverity>0.5</initialSeverity>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <defaultLabelColor>(0.65, 0.65, 0.65)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.92</painFactor>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.01</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.01</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.87</painFactor>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.03</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

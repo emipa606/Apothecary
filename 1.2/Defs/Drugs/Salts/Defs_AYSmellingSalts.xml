@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugSaltsBase">
+    <defName>AYSmellingSalts</defName>
+    <label>Smelling Salts</label>
+    <description>Smelling salts, the common name for ammonia salts have strong stimulating properties. The effects are short lived.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Salt/AYSmellingSalts/AYSmellingSalts</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>220</WorkToMake>
+      <MarketValue>14.5</MarketValue>
+      <Mass>0.02</Mass>
+      <DeteriorationRate>5.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYSmellingSaltsHigh</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3589</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYSmellingSaltsHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Smelling Salts</label>
+    <description>Smelling salt effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.25</maxSeverity>
+    <initialSeverity>0.25</initialSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+      <li Class="Apothecary.HediffCompProperties_AYWakeAnasthetic">
+        <sevReduce>0.2</sevReduce>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <restFallFactor>0.9</restFallFactor>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>+0.05</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>+0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYSmellingSalts</defName>
+    <label>Make Smelling Salts</label>
+    <description>Make 1 Smelling Salts.</description>
+    <jobString>Making Smelling Salts</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>220</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAmmoniaWater</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYAmmoniaWater</li>
+        <li>AYCalciumCarbonate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYSmellingSalts>1</AYSmellingSalts>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYSalts</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYSmellingSalts</defName>
+    <label>Make Smelling Salts in bulk</label>
+    <description>Make 5 Smelling Salts.</description>
+    <jobString>Making Smelling Salts</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1100</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAmmoniaWater</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYAmmoniaWater</li>
+        <li>AYCalciumCarbonate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYSmellingSalts>5</AYSmellingSalts>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYSalts</researchPrerequisite>
+  </RecipeDef>
+</Defs>

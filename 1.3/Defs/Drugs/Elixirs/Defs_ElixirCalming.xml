@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugElixirBase">
+    <defName>AYElixirCalming</defName>
+    <label>Elixir of Calming</label>
+    <description>This elixir is a mild anti-depressant. Effects last about a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Elixir/AYElixirCalming/AYElixirCalming</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>23.1</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYElixirCalmingHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3788</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYElixirCalmingHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Elixir (Calming)</label>
+    <description>Elixir Calming effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.93</painFactor>
+        <statOffsets>
+          <GlobalLearningFactor>+0.05</GlobalLearningFactor>
+          <ToxicSensitivity>-0.05</ToxicSensitivity>
+          <PsychicSensitivity>-0.1</PsychicSensitivity>
+        </statOffsets>
+        <restFallFactor>1.15</restFallFactor>
+        <socialFightChanceFactor>0.8</socialFightChanceFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>AYElixirCalming_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYElixirCalmingHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Elixir (Calming)</label>
+        <description>Feeling calmed</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYElixirCalming</defName>
+    <label>Make Elixir of Calming</label>
+    <description>Make 1 Elixir (Calming).</description>
+    <jobString>Making Elixir (Calming)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYStJohnsWortOil</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYStJohnsWortOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirCalming>1</AYElixirCalming>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYElixirCalming</defName>
+    <label>Make Elixir of Calming in bulk</label>
+    <description>Make 5 Elixir (Calming).</description>
+    <jobString>Making Elixir (Calming)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYStJohnsWortOil</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYStJohnsWortOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirCalming>5</AYElixirCalming>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+</Defs>

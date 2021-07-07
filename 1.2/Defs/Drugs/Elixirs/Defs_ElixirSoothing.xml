@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugElixirBase">
+    <defName>AYElixirSoothing</defName>
+    <label>Elixir of Soothing</label>
+    <description>This elixir is a mild sedative and pain killer. Effects last about a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Elixir/AYElixirSoothing/AYElixirSoothing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>220</WorkToMake>
+      <MarketValue>18</MarketValue>
+      <!-- BO: 15 x 1.2 -->
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYElixirSoothingHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3588</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYElixirSoothingHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Elixir (Soothing)</label>
+    <description>Elixir Soothing effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.70</painFactor>
+        <statOffsets>
+          <GlobalLearningFactor>-0.15</GlobalLearningFactor>
+          <ResearchSpeed>-0.07</ResearchSpeed>
+          <PsychicSensitivity>+0.08</PsychicSensitivity>
+          <ToxicSensitivity>-0.1</ToxicSensitivity>
+        </statOffsets>
+        <restFallFactor>1.5</restFallFactor>
+        <socialFightChanceFactor>0.75</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>-0.10</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>AYElixirSoothing_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYElixirSoothingHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Elixir (Soothing)</label>
+        <description>Feeling slightly soothed</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYElixirSoothing</defName>
+    <label>Make Elixir of Soothing</label>
+    <description>Make 1 Elixir (Soothing).</description>
+    <jobString>Making Elixir (Soothing)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>220</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYBelladonnaBerries</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYBelladonnaBerries</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirSoothing>1</AYElixirSoothing>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYElixirSoothing</defName>
+    <label>Make Elixir of Soothing in bulk</label>
+    <description>Make 5 Elixir (Soothing).</description>
+    <jobString>Making Elixir (Soothing)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1100</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYBelladonnaBerries</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYBelladonnaBerries</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirSoothing>5</AYElixirSoothing>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+</Defs>

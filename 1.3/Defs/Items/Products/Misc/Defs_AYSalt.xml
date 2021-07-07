@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYSalt</defName>
+    <label>Coarse rock salt</label>
+    <description>A white crystalline salt more commonly known as halite that is the mineral version of "common" salt (Sodium Chloride).</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYSalt/AYSalt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>200</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+  <RecipeDef>
+    <defName>MakeAYSalt</defName>
+    <label>Make Salt</label>
+    <description>Make 50 Salt.</description>
+    <jobString>Making Salt.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>700</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <AYSalt>50</AYSalt>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>2</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeAYSaltBlocks</defName>
+    <label>Make Salt (Blocks)</label>
+    <description>Make 50 Salt from stone blocks</description>
+    <jobString>Making Salt</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>700</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <AYSalt>50</AYSalt>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+  <!--  Salted Meat -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYBarrelSaltedMeat</defName>
+    <label>Barrel (Salted Meat)</label>
+    <description>A barrel full of various meats that have been salted to preserve them.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/RawMeat/AYBarrelSaltedMeat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>3</stackLimit>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <MarketValue>349.8</MarketValue>
+      <Mass>9.0</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>0.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYSaltedMeatBarrel</defName>
+    <label>Make Barrel (Salted Meat)</label>
+    <description>Make a barrel of salted meats.</description>
+    <jobString>Making Barrel (Salted Meat).</jobString>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredientValueGetterClass>Apothecary.IngredientValueGetter_BarrelSalting</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>AYSaltedMeat</li>
+            <li>AYTallow</li>
+          </disallowedThingDefs>
+        </filter>
+        <count>7.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYSalt</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>AYSaltedMeat</li>
+        <li>AYTallow</li>
+      </disallowedThingDefs>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>AYSalt</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYBarrelSaltedMeat>1</AYBarrelSaltedMeat>
+    </products>
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYSaltedMeat</defName>
+    <label>Salted Meat</label>
+    <description>Meat that has been preserved in salt.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/RawMeat/AYSaltedMeat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.04</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <foodType>Meat</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>128</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>ExtractAYSaltedMeatFromBarrel</defName>
+    <label>Extract salted meats from barrel</label>
+    <description>Extract 150 salted meat from a barrel.</description>
+    <jobString>Extracting salted meat.</jobString>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1750</workAmount>
+    <targetCountAdjustment>150</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYBarrelSaltedMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYBarrelSaltedMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYSaltedMeat>150</AYSaltedMeat>
+    </products>
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>2</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+</Defs>

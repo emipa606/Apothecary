@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Allows immunity potential to certain illnesses ==================== -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+      <match Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+        <value>
+          <li Class="HediffCompProperties_Immunizable">
+            <severityPerDayNotImmune>-0.1</severityPerDayNotImmune>
+            <immunityPerDaySick>0.00</immunityPerDaySick>
+            <severityPerDayImmune>-0.5</severityPerDayImmune>
+            <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps</xpath>
+        <value>
+          <li Class="HediffCompProperties_Immunizable">
+            <severityPerDayNotImmune>-0.1</severityPerDayNotImmune>
+            <immunityPerDaySick>0.00</immunityPerDaySick>
+            <severityPerDayImmune>-0.5</severityPerDayImmune>
+            <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+          </li>
+        </value>
+      </nomatch>
+    </nomatch>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+      <match Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+        <value>
+          <li Class="HediffCompProperties_Immunizable">
+            <severityPerDayNotImmune>-0.5</severityPerDayNotImmune>
+            <severityPerDayNotImmuneRandomFactor>
+              <min>0.3</min>
+              <max>0.6</max>
+            </severityPerDayNotImmuneRandomFactor>
+            <severityPerDayImmune>-0.95</severityPerDayImmune>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps</xpath>
+        <value>
+          <li Class="HediffCompProperties_Immunizable">
+            <severityPerDayNotImmune>-0.5</severityPerDayNotImmune>
+            <severityPerDayNotImmuneRandomFactor>
+              <min>0.3</min>
+              <max>0.6</max>
+            </severityPerDayNotImmuneRandomFactor>
+            <severityPerDayImmune>-0.95</severityPerDayImmune>
+          </li>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/HediffDef[defName="GutWorms"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/HediffDef[defName="GutWorms"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+      <value>
+        <li Class="HediffCompProperties_Immunizable">
+          <severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+          <immunityPerDaySick>0.00</immunityPerDaySick>
+          <severityPerDayImmune>0.00</severityPerDayImmune>
+          <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/HediffDef[defName="GutWorms"]/comps</xpath>
+      <value>
+        <li Class="HediffCompProperties_Immunizable">
+          <severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+          <immunityPerDaySick>0.00</immunityPerDaySick>
+          <severityPerDayImmune>0.00</severityPerDayImmune>
+          <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/HediffDef[defName="MuscleParasites"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/HediffDef[defName="MuscleParasites"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+      <value>
+        <li Class="HediffCompProperties_Immunizable">
+          <severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+          <immunityPerDaySick>0.00</immunityPerDaySick>
+          <severityPerDayImmune>0.00</severityPerDayImmune>
+          <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/HediffDef[defName="MuscleParasites"]/comps</xpath>
+      <value>
+        <li Class="HediffCompProperties_Immunizable">
+          <severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+          <immunityPerDaySick>0.00</immunityPerDaySick>
+          <severityPerDayImmune>0.00</severityPerDayImmune>
+          <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/HediffDef[defName="Dementia"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/HediffDef[defName="Dementia"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+      <value>
+        <li Class="HediffCompProperties_Immunizable">
+          <severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+          <immunityPerDaySick>0.00</immunityPerDaySick>
+          <severityPerDayImmune>0.00</severityPerDayImmune>
+          <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/HediffDef[defName="Dementia"]/comps</xpath>
+      <value>
+        <li Class="HediffCompProperties_Immunizable">
+          <severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+          <immunityPerDaySick>0.00</immunityPerDaySick>
+          <severityPerDayImmune>0.00</severityPerDayImmune>
+          <immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+  <!--
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+		<li Class="PatchOperationTest">
+			<xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/HediffDef[defName="FoodPoisoning"]/comps</xpath>
+	  		<value>
+				<li Class="HediffCompProperties_Immunizable">
+					<severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+					<immunityPerDaySick>0.00</immunityPerDaySick>
+        			<severityPerDayImmune>0.00</severityPerDayImmune>
+        			<immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+		  		</li>
+	  		</value>
+		</li>
+	</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+		<li Class="PatchOperationTest">
+			<xpath>/Defs/HediffDef[defName="GutWorms"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/HediffDef[defName="GutWorms"]/comps</xpath>
+	  		<value>
+				<li Class="HediffCompProperties_Immunizable">
+		  			<severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+					<immunityPerDaySick>0.00</immunityPerDaySick>
+        			<severityPerDayImmune>0.00</severityPerDayImmune>
+        			<immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+				</li>
+	  		</value>
+		</li>
+	</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+		<li Class="PatchOperationTest">
+			<xpath>/Defs/HediffDef[defName="MuscleParasites"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/HediffDef[defName="MuscleParasites"]/comps</xpath>
+	  		<value>
+				<li Class="HediffCompProperties_Immunizable">
+		  			<severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+					<immunityPerDaySick>0.00</immunityPerDaySick>
+        			<severityPerDayImmune>0.00</severityPerDayImmune>
+        			<immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+				</li>
+	  		</value>
+		</li>
+	</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+		<li Class="PatchOperationTest">
+			<xpath>/Defs/HediffDef[defName="Dementia"]/comps/li[@Class="HediffCompProperties_Immunizable"]</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/HediffDef[defName="Dementia"]/comps</xpath>
+	  		<value>
+				<li Class="HediffCompProperties_Immunizable">
+		  			<severityPerDayNotImmune>0.00</severityPerDayNotImmune>
+					<immunityPerDaySick>0.00</immunityPerDaySick>
+        			<severityPerDayImmune>0.00</severityPerDayImmune>
+        			<immunityPerDayNotSick>0.00</immunityPerDayNotSick>
+				</li>
+	  		</value>
+		</li>
+	</operations>
+	</Operation>
+	-->
+</Patch>

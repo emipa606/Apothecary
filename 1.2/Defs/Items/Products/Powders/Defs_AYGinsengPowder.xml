@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYGinsengPowder</defName>
+    <label>Ginseng Powder</label>
+    <description>Dried and ground ginseng</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powders/AYGinsengPowder/AYGinsengPowder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stackLimit>500</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.3</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPowders</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYGinsengPowder</defName>
+    <label>Make Ginseng Powder</label>
+    <description>Make 25 Ginseng Powder</description>
+    <jobString>Making Ginseng Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>725</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGinsengRoot</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGinsengRoot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGinsengPowder>25</AYGinsengPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYGinsengPowder</defName>
+    <label>Make Ginseng Powder in bulk</label>
+    <description>Make 100 Ginseng Powder</description>
+    <jobString>Making Ginseng Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2900</workAmount>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGinsengRoot</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGinsengRoot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGinsengPowder>100</AYGinsengPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+</Defs>

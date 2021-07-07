@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>AYapothecaryOutfit</defName>
+    <label>Apothecary robe</label>
+    <techLevel>Medieval</techLevel>
+    <description>A robe stylised for an apothecarist, it helps slightly when working with the preperation of apothecary materials and remedies, aswell as working with plants.</description>
+    <graphicData>
+      <texPath>Things/Item/Apparel/AYapothecaryOutfit/AYapothecaryOutfit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <Beauty>1</Beauty>
+      <SellPriceFactor>0.5</SellPriceFactor>
+      <EquipDelay>2.0</EquipDelay>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <DrugSynthesisSpeed>+0.10</DrugSynthesisSpeed>
+      <DrugCookingSpeed>+0.10</DrugCookingSpeed>
+      <PlantWorkSpeed>+0.05</PlantWorkSpeed>
+      <PlantHarvestYield>+0.10</PlantHarvestYield>
+    </equippedStatOffsets>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <AYNettleHemp>10</AYNettleHemp>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <generateCommonality>0.05</generateCommonality>
+    <apparel>
+      <tags>
+        <li>Non_AY</li>
+      </tags>
+      <wornGraphicPath>Things/Item/Apparel/AYapothecaryOutfit/AYapothecaryOutfit</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>AYapothecaryhat</defName>
+    <label>Apothecary hat</label>
+    <description>A comfortable beret that denotes the status of apothecarist.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Apparel/AYapothecaryhat/AYapothecaryhat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <AYNettleHemp>5</AYNettleHemp>
+    </costList>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>0.12</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.05</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/AYapothecaryhat/AYapothecaryhat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Non_AY</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+</Defs>

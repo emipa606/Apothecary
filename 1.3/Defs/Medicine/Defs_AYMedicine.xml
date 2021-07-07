@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Yarrow Bandages -->
+  <ThingDef ParentName="MedicineBase">
+    <defName>AYYarrowBandage</defName>
+    <label>Yarrow bandages</label>
+    <description>A gauze made from cloth or nettle hemp infused with yarrow oil. It can be used to tend similar to medicine but is slightly less effective.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/AYYarrowBandage</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.95</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <MarketValue>9.25</MarketValue>
+      <Mass>0.04</Mass>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>0.75</MedicalPotency>
+      <MedicalQualityMax>0.85</MedicalQualityMax>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <WorkToMake>150</WorkToMake>
+    </statBases>
+    <stackLimit>150</stackLimit>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYYarrowBandage</defName>
+    <label>Make bandages (Yarrow)</label>
+    <description>Make 5 bandages (Yarrow).</description>
+    <jobString>Crafting bandages.</jobString>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workAmount>750</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+            <li>AYNettleHemp</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYYarrowOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>AYNettleHemp</li>
+        <li>AYYarrowOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYYarrowBandage>5</AYYarrowBandage>
+    </products>
+    <skillRequirements>
+      <Crafting>3</Crafting>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+  <!--  Treated Herbal Medicine -->
+  <ThingDef ParentName="MedicineBase">
+    <defName>AYTreatedMedHerb</defName>
+    <label>Treated Herbal Medicine</label>
+    <description>Improved Herbal medicine by infusing it with yarrow oil and aloe oil.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/AYTreatedMedHerb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.95</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <MarketValue>22.5</MarketValue>
+      <Mass>0.37</Mass>
+      <Flammability>0.9</Flammability>
+      <MedicalPotency>0.83</MedicalPotency>
+      <MedicalQualityMax>0.9</MedicalQualityMax>
+      <DeteriorationRate>4.0</DeteriorationRate>
+      <WorkToMake>300</WorkToMake>
+    </statBases>
+    <stackLimit>25</stackLimit>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>200</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYTreatedMedHerb</defName>
+    <label>Make treated herbal medicine</label>
+    <description>Make 5 treated herbal meds.</description>
+    <jobString>Treating herbal medicine.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>1500</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAloeOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYYarrowOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineHerbal</li>
+        <li>AYAloeOil</li>
+        <li>AYYarrowOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYTreatedMedHerb>5</AYTreatedMedHerb>
+    </products>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <researchPrerequisite>AYExtracts</researchPrerequisite>
+  </RecipeDef>
+</Defs>

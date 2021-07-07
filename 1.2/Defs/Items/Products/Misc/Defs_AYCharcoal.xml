@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYCharcoal</defName>
+    <label>Charcoal</label>
+    <description>Charcoal is a lightweight black carbon residue produced by removing water and other volatile constituents from animal and plant materials. Charcoal is usually produced by slow pyrolysis — the heating of wood or other organic materials in the absence of oxygen. This process is called charcoal burning.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYCharcoal/AYCharcoal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYWoodAshes</defName>
+    <label>Wood Ashes</label>
+    <description>Wood ashes are the residue powder left after the combustion of wood.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYWoodAshes/AYWoodAshes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>300</stackLimit>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Post Kiln Production : No ashes -->
+  <RecipeDef>
+    <defName>MakeAYCharcoalFromBenches</defName>
+    <label>Make Charcoal</label>
+    <description>Make 25 Charcoal.</description>
+    <jobString>Making Charcoal</jobString>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYCharcoal>25</AYCharcoal>
+    </products>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>AYCharcoal</researchPrerequisite>
+  </RecipeDef>
+  <!--  Ammonia Treated Charcoal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYAmmoniaCharcoal</defName>
+    <label>Charcoal (Ammonia Treated)</label>
+    <description>Charcoal treated with ammonia to be used as a fuel for evapouration in specialised passive coolers</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYAmmoniaCharcoal/AYAmmoniaCharcoal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>1.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYAmmoniaCharcoal</defName>
+    <label>Make Ammonia Charcoal</label>
+    <description>Make 25 Ammonia treated Charcoal.</description>
+    <jobString>Making Ammonia Charcoal</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCharcoal</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAmmoniaWater</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCharcoal</li>
+        <li>AYAmmoniaWater</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYAmmoniaCharcoal>25</AYAmmoniaCharcoal>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYCharcoal</researchPrerequisite>
+  </RecipeDef>
+  <!--  Make Chemfuel from charcoal -->
+  <RecipeDef>
+    <defName>MakeChemfuelFromAYCharcoal</defName>
+    <label>Make Chemfuel from Charcoal</label>
+    <description>Make 50 Chemfuel from Charcoal</description>
+    <jobString>Making Chemfuel</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCharcoal</li>
+            <li>AYAmmoniaCharcoal</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCharcoal</li>
+        <li>AYAmmoniaCharcoal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Chemfuel>50</Chemfuel>
+    </products>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <researchPrerequisite>AYCharcoal</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Raw Material -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYYarrowMaterial</defName>
+    <label>Yarrow Material</label>
+    <description>Yarrow is known as herbal militaris, for its use in stanching the flow of blood from wounds. It can also be used as animal feed.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYYarrowMaterial/AYYarrowMaterial</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.04</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>5</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>44</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Herbal Medicine Recipe -->
+  <RecipeDef>
+    <defName>MakeAYHerbalMedsFromYarrow</defName>
+    <label>Make Herbal Medicine</label>
+    <description>Make 5 Herbal Medicine (from Yarrow).</description>
+    <jobString>Making Herbal Medicine</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYYarrowMaterial</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYYarrowMaterial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MedicineHerbal>5</MedicineHerbal>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYHerbsIntermediate</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYHerbalMedsFromYarrow</defName>
+    <label>Make Herbal Medicine in Bulk</label>
+    <description>Make 25 Herbal Medicine (from Yarrow).</description>
+    <jobString>Making Herbal Medicine</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYYarrowMaterial</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYYarrowMaterial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MedicineHerbal>25</MedicineHerbal>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYHerbsIntermediate</researchPrerequisite>
+  </RecipeDef>
+</Defs>

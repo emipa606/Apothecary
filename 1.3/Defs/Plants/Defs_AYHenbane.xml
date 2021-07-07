@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Henbane -->
+  <!-- Plant -->
+  <ThingDef ParentName="AYWildPlant">
+    <defName>Plant_AYHenbane</defName>
+    <label>Henbane</label>
+    <description>Hyoscyamus niger, commonly known as henbane, black henbane or stinking nightshade, is a poisonous plant in the family Solanaceae. The leaves of this plant when prepared has psychoactive properties and can offer relief from pain.</description>
+    <graphicData>
+      <texPath>Things/Plant/AYHenbane</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>0.04</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <plant>
+      <immatureGraphicPath>Things/Plant/AYHenbane/AYHenbaneImmature</immatureGraphicPath>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestedThingDef>AYHenbaneLeaves</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <topWindExposure>0.4</topWindExposure>
+      <growDays>7</growDays>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <fertilityMin>0.7</fertilityMin>
+      <visualSizeRange>
+        <min>0.4</min>
+        <max>1.00</max>
+      </visualSizeRange>
+      <wildBiomes>
+        <TemperateForest>0.07</TemperateForest>
+        <TemperateSwamp>0.08</TemperateSwamp>
+        <TropicalRainforest>0.07</TropicalRainforest>
+        <TropicalSwamp>0.08</TropicalSwamp>
+        <BorealForest>0.06</BorealForest>
+        <ColdBog>0.05</ColdBog>
+        <AridShrubland>0.05</AridShrubland>
+        <Desert>0.02</Desert>
+      </wildBiomes>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowWork>350</sowWork>
+      <harvestWork>250</harvestWork>
+      <purpose>Health</purpose>
+      <sowResearchPrerequisites>
+        <li>AYHerbsIntermediate</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+</Defs>

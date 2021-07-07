@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Stone_Campfire"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+          <value>
+            <li>AYCharcoal</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="VFE_FueledSmelter"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+          <value>
+            <li>AYCharcoal</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'VFE_KitchenSinkCabinet']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>VFE_KitchenSinkCabinet</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps</xpath>
+            <value>
+              <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                  <li>VFE_KitchenSinkCabinet</li>
+                </linkableFacilities>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'VFE_KitchenSinkCabinet']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>VFE_KitchenSinkCabinet</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps</xpath>
+            <value>
+              <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                  <li>VFE_KitchenSinkCabinet</li>
+                </linkableFacilities>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="AYCharcoalSmithy"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'VFE_SmithyCabinet']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="AYCharcoalSmithy"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYCharcoalSmithy"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>VFE_SmithyCabinet</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYCharcoalSmithy"]/comps</xpath>
+            <value>
+              <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                  <li>VFE_SmithyCabinet</li>
+                </linkableFacilities>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

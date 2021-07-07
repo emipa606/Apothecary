@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugTeaBase">
+    <defName>AYGingerTea</defName>
+    <label>Ginger Tea</label>
+    <description>Ginger tea, a useful aid for stomach upsets and helps to prevent gut worms. Effects last about a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Tea/AYGingerTea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>210</WorkToMake>
+      <MarketValue>5.5</MarketValue>
+      <!-- GP: 25 x 0.22-->
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYGingerTeaHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3588</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYGingerTeaHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Ginger Tea</label>
+    <description>Ginger tea effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <makeImmuneTo>
+          <li>GutWorms</li>
+        </makeImmuneTo>
+        <painFactor>0.95</painFactor>
+        <statOffsets>
+          <ToxicSensitivity>-0.05</ToxicSensitivity>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>+0.05</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYGingerTea</defName>
+    <label>Make Ginger Tea</label>
+    <description>Make 1 Ginger Tea.</description>
+    <jobString>Making Ginger Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>180</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGingerPowder</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGingerPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGingerTea>1</AYGingerTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>2</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYGingerTea</defName>
+    <label>Make Ginger Tea in bulk</label>
+    <description>Make 5 Ginger Teas.</description>
+    <jobString>Making Ginger Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>900</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGingerPowder</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGingerPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGingerTea>5</AYGingerTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugOintmentBase">
+    <defName>AYLavenderSoap</defName>
+    <label>Lavender Soap</label>
+    <description>Lavender soap is a sweet smelling surfactant cleaning compound used for personal or other cleaning. Effects last about a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Ointment/AYLavenderSoap/AYLavenderSoap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>250</WorkToMake>
+      <MarketValue>13.2</MarketValue>
+      <!-- T: 4 x 0.5, LO: 1 x 7.7, P: 1 x 3.5 -->
+      <Mass>0.25</Mass>
+      <DeteriorationRate>2.5</DeteriorationRate>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYLavenderSoapHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3587</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYLavenderSoapHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Lavender Soap</label>
+    <description>Laender Soap effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+          <SocialImpact>+0.15</SocialImpact>
+        </statOffsets>
+        <restFallFactor>1.1</restFallFactor>
+        <socialFightChanceFactor>0.95</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>AYLavenderSoap_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYLavenderSoapHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Soap</label>
+        <description>Feeling clean</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AYLavSoap</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>Apothecary.ThoughtWorker_AYSoap</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>clean smell</label>
+        <baseOpinionOffset>3</baseOpinionOffset>
+      </li>
+      <li>
+        <label>appealing smell</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYLavenderSoap</defName>
+    <label>Make Lavender Soap</label>
+    <description>Make 1 Lavender Soap.</description>
+    <jobString>Making Lavender Soap</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>250</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYLavenderOil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYPotash</li>
+            <li>AYLimewater</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYTallow</li>
+        <li>AYLavenderOil</li>
+        <li>AYPotash</li>
+        <li>AYLimewater</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYLavenderSoap>1</AYLavenderSoap>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYLavenderSoap</defName>
+    <label>Make Lavender Soap in bulk</label>
+    <description>Make 5 Lavender Soap.</description>
+    <jobString>Making Lavender Soap</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYLavenderOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYPotash</li>
+            <li>AYLimewater</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYTallow</li>
+        <li>AYLavenderOil</li>
+        <li>AYPotash</li>
+        <li>AYLimewater</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYLavenderSoap>5</AYLavenderSoap>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+</Defs>

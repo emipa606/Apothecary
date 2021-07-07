@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYPotash</defName>
+    <label>Potash</label>
+    <description>Potash is a compound containing potassium. Leeched from wood ashes it is used in making soaps.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYPotash/AYPotash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>200</stackLimit>
+    <statBases>
+      <MarketValue>3.5</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYLimewater</defName>
+    <label>Limewater</label>
+    <description>Limewater is a solution of Sodium or Calcium Hydroxide. It is an alkali that can be used in making soaps.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYLimewater/AYLimewater</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>4.6</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYLimewaterFromCaCO3AY</defName>
+    <label>Make Limewater</label>
+    <description>Make 25 Limewater.</description>
+    <jobString>Making Limewater</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYSalt</li>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYSalt</li>
+        <li>AYCalciumCarbonate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYLimewater>25</AYLimewater>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYSalts</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeAYLimewaterFromCaCO3</defName>
+    <label>Make Limewater</label>
+    <description>Make 25 Limewater.</description>
+    <jobString>Making Limewater</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYSalt</li>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYSalt</li>
+        <li>AYCalciumCarbonate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYLimewater>25</AYLimewater>
+    </products>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
+  </RecipeDef>
+</Defs>
