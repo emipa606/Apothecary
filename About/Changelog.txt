@@ -1,5 +1,8 @@
 # Changelog for Apothecary
 
+1.0.12.0 - Added support for Simple FX: Smoke
+
+
 1.0.11.0 - Mod updated for 1.3 and passed autotests
 
 

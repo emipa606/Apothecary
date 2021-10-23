@@ -1,6 +1,6 @@
 # Apothecary
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
@@ -12,25 +12,16 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
 If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/Apothecary]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 # Overview
  V1.1
 
-A medicinal mod focused on earlier technology epochs prior to the industrial age. (Also more suited to &quot;fantasy&quot; based mods).
+A medicinal mod focused on earlier technology epochs prior to the industrial age. (Also more suited to "fantasy" based mods).
 
 # Details
 
@@ -64,19 +55,19 @@ Can be loaded mid save, removal will require removing all game elements.
 # Compatibilites
  *** Subject to conversion to V1.1 ***
 
-Atlas&apos; Materials - Convert coal and coke into charcoal. Kiln will use charcoal.
+Atlas' Materials - Convert coal and coke into charcoal. Kiln will use charcoal.
 Coal and Coal Extended - Only allows conversion of coal and charcoal based on differing ratios.
-Cupro&apos;s Stones - Drops relevant mining bits.
+Cupro's Stones - Drops relevant mining bits.
 Diseases Overhauled - Adds additional drug use for conditions. (see pdf notes).
 Dubs Bad hygiene - Log Boiler will use charcoal as fuel.
 Electric stone cutting table - can produce relevant salts.
 Fermenter - adds the ability to make Absinthe. (V1.1 Compat Checked)
 Industrialisation - Uses Electric arc smelter for charcoal production.
 Gloomy furniture - some of the relevant benches will use charcoal as a fuel.
-Kuratheris&apos;s Extra Stone - Extra CaCO3 bits and ability to source from relevant stones.
+Kuratheris's Extra Stone - Extra CaCO3 bits and ability to source from relevant stones.
 LotRim - Smithy will use charcoal as fuel.
-LWM&apos;s Deep Storage - Will make use of medical cabinet. (V1.1 Compat checked)
-Medical Supplements - integrated elements. (Drug cabinet with LWM&apos;s DS). (V1.1 Compat Checked)
+LWM's Deep Storage - Will make use of medical cabinet. (V1.1 Compat checked)
+Medical Supplements - integrated elements. (Drug cabinet with LWM's DS). (V1.1 Compat Checked)
 Medieval times - Convert coal into charcoal. Various benches and buildings will use charcoal.
 Multiplayer - native support (beta)
 RC2 Bottling and Brewing - Absinthe mash can be made at the electric brewery and brewery point.
@@ -126,7 +117,7 @@ Rimhammer
 (CC BY-NC-SA 4.0)
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -136,7 +127,6 @@ Rimhammer
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 
