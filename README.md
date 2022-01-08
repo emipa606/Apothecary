@@ -8,6 +8,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
 - Added textures for seeds when using Seeds Please-mod, thanks DarkSlayerEX!
 - The issue with the double-rottime should be fixed, thanks Lade!
 - The research tree should now look better in vanilla research-view, thanks Kayedon!
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 
 If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803

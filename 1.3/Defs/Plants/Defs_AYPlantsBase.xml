@@ -16,7 +16,7 @@
       <Nutrition>0.1</Nutrition>
       <Flammability>1</Flammability>
     </statBases>
-    <neverMultiSelect>true</neverMultiSelect>
+    <neverMultiSelect>false</neverMultiSelect>
     <drawerType>MapMeshOnly</drawerType>
     <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
     <selectable>true</selectable>
@@ -57,7 +57,7 @@
       <Nutrition>0.1</Nutrition>
       <Flammability>1</Flammability>
     </statBases>
-    <neverMultiSelect>true</neverMultiSelect>
+    <neverMultiSelect>false</neverMultiSelect>
     <drawerType>MapMeshOnly</drawerType>
     <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
     <selectable>true</selectable>
@@ -109,7 +109,7 @@
       <Nutrition>0.5</Nutrition>
       <Flammability>0.9</Flammability>
     </statBases>
-    <neverMultiSelect>true</neverMultiSelect>
+    <neverMultiSelect>false</neverMultiSelect>
     <drawerType>MapMeshOnly</drawerType>
     <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
     <selectable>true</selectable>
