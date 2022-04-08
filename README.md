@@ -9,6 +9,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
 - The issue with the double-rottime should be fixed, thanks Lade!
 - The research tree should now look better in vanilla research-view, thanks Kayedon!
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
+- For detailed description, download the https://github.com/emipa606/Apothecary/raw/main/Source/ApothecaryNotes.pdf]PDF
 
 If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803
