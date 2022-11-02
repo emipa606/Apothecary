@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>AYBurnProducts</defName>
+    <label>Burn apothecary products</label>
+    <description>Burn unwanted products to completely destroy them.</description>
+    <jobString>Burning apothecary products.</jobString>
+    <workAmount>50</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <requiredGiverWorkType>Hauling</requiredGiverWorkType>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>AYProducts</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>AYProducts</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

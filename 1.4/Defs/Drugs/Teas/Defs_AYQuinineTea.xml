@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugTeaBase">
+    <defName>AYQuinineTea</defName>
+    <label>Quinine Tea</label>
+    <description>Quinine tea, helpful to avoid malaria and acts as a mild antibiotic. Effects last about half a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Tea/AYQuinineTea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>4</MarketValue>
+      <!-- NP: 25 x 0.15 -->
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYQuinineTeaHigh</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3799</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYQuinineTeaHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Quinine Tea</label>
+    <description>Quinine tea effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+          <ToxicResistance>0.10</ToxicResistance>
+        </statOffsets>
+        <makeImmuneTo>
+          <li>Malaria</li>
+        </makeImmuneTo>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYQuinineTea</defName>
+    <label>Make Quinine Tea</label>
+    <description>Make 1 Quinine Tea.</description>
+    <jobString>Making Quinine Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCinchonaPowder</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCinchonaPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYQuinineTea>1</AYQuinineTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYQuinineTea</defName>
+    <label>Make Quinine Tea in bulk</label>
+    <description>Make 5 Quinine Teas.</description>
+    <jobString>Making Quinine Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCinchonaPowder</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCinchonaPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYQuinineTea>5</AYQuinineTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+</Defs>

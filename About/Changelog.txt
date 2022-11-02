@@ -1,5 +1,9 @@
 # Changelog for Apothecary
 
+1.4.1 - Mod updated for 1.4 and passed autotests.
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.3.2 - Removed the english translation files that were still in the mod for some reason
 
 

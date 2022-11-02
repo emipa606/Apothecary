@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugElixirBase">
+    <defName>AYElixirInciting</defName>
+    <label>Elixir of Inciting</label>
+    <description>This elixir is a good pain killer, but can have intolerable aggressive side effects. Effects last about half a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Elixir/AYElixirInciting/AYElixirInciting</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>250</WorkToMake>
+      <MarketValue>29.1</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYElixirIncitingHigh</hediffDef>
+          <severity>0.5</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>-0.1</offset>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYHenbaneTolerance</hediffDef>
+          <severity>0.030</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3588</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+        <chemical>AYHenbane</chemical>
+        <addictiveness>0.02</addictiveness>
+        <minToleranceToAddict>0.20</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYElixirIncitingHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Elixir (Inciting)</label>
+    <description>Elixir Inciting effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.35</painFactor>
+        <socialFightChanceFactor>1.33</socialFightChanceFactor>
+        <statOffsets>
+          <GlobalLearningFactor>-0.10</GlobalLearningFactor>
+          <ResearchSpeed>-0.05</ResearchSpeed>
+          <PsychicSensitivity>+0.08</PsychicSensitivity>
+          <ToxicResistance>-0.1</ToxicResistance>
+        </statOffsets>
+        <restFallFactor>1.2</restFallFactor>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>+0.05</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>60.0</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>AYElixirInciting_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYElixirIncitingHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Elixir (Inciting)</label>
+        <description>Feeling slightly irritable and dulled</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYElixirInciting</defName>
+    <label>Make Elixir of Inciting</label>
+    <description>Make 1 Elixir (Inciting).</description>
+    <jobString>Making Elixir (Inciting)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>250</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYHenbaneOil</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYHenbaneOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirInciting>1</AYElixirInciting>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYElixirInciting</defName>
+    <label>Make Elixir of Inciting in bulk</label>
+    <description>Make 5 Elixir (Inciting).</description>
+    <jobString>Making Elixir (Inciting)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYHenbaneOil</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYHenbaneOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYElixirInciting>5</AYElixirInciting>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYElixirs</researchPrerequisite>
+  </RecipeDef>
+</Defs>

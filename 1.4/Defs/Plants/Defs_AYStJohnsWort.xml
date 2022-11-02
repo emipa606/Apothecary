@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- StJohnsWort -->
+  <!-- Plant -->
+  <ThingDef ParentName="AYWildBush">
+    <defName>Plant_AYStJohnsWort</defName>
+    <label>St Johns Wort</label>
+    <description>Hypericum perforatum, known as perforate St John's-wort, common Saint John's wort and St John's wort, is a flowering plant in the family Hypericaceae. A calming medicinal herb, the plant is poisonous to livestock.</description>
+    <graphicData>
+      <texPath>Things/Plant/AYStJohnsWort</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Nutrition>0.05</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <ingestible />
+    <plant>
+      <immatureGraphicPath>Things/Plant/AYStJohnsWort/AYStJohnsWortImmature</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plant/AYStJohnsWort/AYStJohnsWortLeafless</leaflessGraphicPath>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>AYStJohnsWortFlowers</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <topWindExposure>0.2</topWindExposure>
+      <growDays>8</growDays>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <fertilityMin>0.7</fertilityMin>
+      <wildBiomes>
+        <TemperateForest>0.04</TemperateForest>
+        <TemperateSwamp>0.04</TemperateSwamp>
+        <TropicalRainforest>0.04</TropicalRainforest>
+        <TropicalSwamp>0.03</TropicalSwamp>
+        <BorealForest>0.02</BorealForest>
+        <ColdBog>0.02</ColdBog>
+        <AridShrubland>0.02</AridShrubland>
+        <Desert>0.01</Desert>
+      </wildBiomes>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowWork>350</sowWork>
+      <harvestWork>250</harvestWork>
+      <purpose>Health</purpose>
+      <sowResearchPrerequisites>
+        <li>AYHerbsIntermediate</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+</Defs>

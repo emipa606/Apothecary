@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYAmmoniaWater</defName>
+    <label>Ammonia Water</label>
+    <description>Ammonium hydroxide, also known as ammonia water, ammonia solution, ammoniacal liquor, ammonia liquor, aqua ammonia, aqueous ammonia, or (inaccurately) ammonia, is a solution of ammonia in water.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYAmmoniaWater/AYAmmoniaWater</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Neutro from ammonia water -->
+  <RecipeDef>
+    <defName>MakeNeutroFromAmmonia</defName>
+    <label>Make Neutroamine (Ammonia)</label>
+    <description>Make 5 Neutroamine</description>
+    <jobString>Making Neutroamine (Ammonia)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1200</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAmmoniaWater</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Beer</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYAmmoniaWater</li>
+        <li>Beer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Neutroamine>5</Neutroamine>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkNeutroFromAmmonia</defName>
+    <label>Make Neutroamine (Ammonia) in bulk</label>
+    <description>Make 10 Neutroamine</description>
+    <jobString>Making Neutroamine (Ammonia)</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2400</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAmmoniaWater</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Beer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYAmmoniaWater</li>
+        <li>Beer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Neutroamine>10</Neutroamine>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+  <!-- Improved Hay -->
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>AYAmmoniaHay</defName>
+    <label>hay (ammonia treated)</label>
+    <description>Improved hay treated with ammonia water to make it more edible for animals.</description>
+    <stackLimit>200</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYAmmoniaHay</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+      <Mass>0.014</Mass>
+      <Flammability>1.5</Flammability>
+      <Nutrition>0.06</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>80</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <optimalityOffsetFeedingAnimals>9</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYAmmoniaHay</defName>
+    <label>Treat Hay with ammonia</label>
+    <description>Treat Hay with ammonia to make it more edible for animals</description>
+    <jobString>Treating Hay.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hay</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAmmoniaWater</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <AYAmmoniaHay>50</AYAmmoniaHay>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hay</li>
+        <li>AYAmmoniaWater</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+    <researchPrerequisite>AYHerbsSimple</researchPrerequisite>
+  </RecipeDef>
+</Defs>

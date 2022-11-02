@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--  Deep Storage -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>LWM's Deep Storage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="AYPreserveBarrel"]/inspectorTabs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYPreserveBarrel"]/inspectorTabs</xpath>
+            <value>
+              <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYPreserveBarrel"]</xpath>
+            <value>
+              <inspectorTabs>
+                <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+              </inspectorTabs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="AYPreserveBarrel"]/comps</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYPreserveBarrel"]/comps</xpath>
+            <value>
+              <li Class="LWM.DeepStorage.Properties">
+                <maxNumberStacks>5</maxNumberStacks>
+                <minTimeStoringTakes>400</minTimeStoringTakes>
+                <additionalTimeEachStack>20</additionalTimeEachStack>
+                <additionalTimeEachDef>20</additionalTimeEachDef>
+                <overlayType>SumOfAllItems</overlayType>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYPreserveBarrel"]</xpath>
+            <value>
+              <comps>
+                <li Class="LWM.DeepStorage.Properties">
+                  <maxNumberStacks>5</maxNumberStacks>
+                  <minTimeStoringTakes>400</minTimeStoringTakes>
+                  <additionalTimeEachStack>20</additionalTimeEachStack>
+                  <additionalTimeEachDef>20</additionalTimeEachDef>
+                  <overlayType>SumOfAllItems</overlayType>
+                </li>
+              </comps>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

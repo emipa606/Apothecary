@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimPlas (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Ammonia Water -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>MakeAYAmmoniaWaterFromPitch</defName>
+              <label>Make Ammonia Water from Pitch</label>
+              <description>Make 50 Ammonia Water.</description>
+              <jobString>Making Ammonia Water</jobString>
+              <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+              <effectWorking>Cremate</effectWorking>
+              <soundWorking>Recipe_Cremate</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>2000</workAmount>
+              <targetCountAdjustment>50</targetCountAdjustment>
+              <workSkill>Intellectual</workSkill>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>CarboPitch</li>
+                    </thingDefs>
+                  </filter>
+                  <count>75</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>CarboPitch</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <AYAmmoniaWater>50</AYAmmoniaWater>
+              </products>
+              <recipeUsers>
+                <li>BiofuelRefinery</li>
+              </recipeUsers>
+              <researchPrerequisite>RimPlas_CarboSynth</researchPrerequisite>
+              <skillRequirements>
+                <Intellectual>6</Intellectual>
+              </skillRequirements>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

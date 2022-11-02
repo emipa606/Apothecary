@@ -1,106 +1,103 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using Verse;
 
-namespace Apothecary
+namespace Apothecary;
+
+[StaticConstructorOnStartup]
+public class InjRecipesCSmithy
 {
-    // Token: 0x0200001F RID: 31
-    [StaticConstructorOnStartup]
-    public class InjRecipesCSmithy
+    private static void InjectRecipesCSmithy()
     {
-        // Token: 0x06000060 RID: 96 RVA: 0x000046E8 File Offset: 0x000028E8
-        private static void InjectRecipesCSmithy()
+        var RCPadd = new List<RecipeDef>();
+        var THGadd = new List<RecipeDef>();
+        var source = DefDatabase<ThingDef>.GetNamed("FueledSmithy", false);
+        var dest = DefDatabase<ThingDef>.GetNamed("AYCharcoalSmithy", false);
+        if (source == null || dest == null)
         {
-            var RCPadd = new List<RecipeDef>();
-            var THGadd = new List<RecipeDef>();
-            var source = DefDatabase<ThingDef>.GetNamed("FueledSmithy", false);
-            var dest = DefDatabase<ThingDef>.GetNamed("AYCharcoalSmithy", false);
-            if (source == null || dest == null)
-            {
-                return;
-            }
+            return;
+        }
 
-            var allRecipes = source.AllRecipes;
-            var destRCPs = dest.AllRecipes;
-            foreach (var sourceRCP in allRecipes)
+        var allRecipes = source.AllRecipes;
+        var destRCPs = dest.AllRecipes;
+        foreach (var sourceRCP in allRecipes)
+        {
+            if (!destRCPs.Contains(sourceRCP))
             {
-                if (!destRCPs.Contains(sourceRCP))
+                THGadd.AddDistinct(sourceRCP);
+            }
+        }
+
+        var Recipes = DefDatabase<RecipeDef>.AllDefsListForReading;
+        if (Recipes.Count > 0)
+        {
+            foreach (var recipe in Recipes)
+            {
+                var benches = recipe.AllRecipeUsers.ToList();
+                if (benches.Count <= 0)
                 {
-                    THGadd.AddDistinct(sourceRCP);
+                    continue;
                 }
-            }
 
-            var Recipes = DefDatabase<RecipeDef>.AllDefsListForReading;
-            if (Recipes.Count > 0)
-            {
-                foreach (var recipe in Recipes)
+                var sourceFound = false;
+                var destFound = false;
+                foreach (var thingDef in benches)
                 {
-                    var benches = recipe.AllRecipeUsers.ToList();
-                    if (benches.Count <= 0)
+                    if (thingDef == source)
                     {
-                        continue;
+                        sourceFound = true;
                     }
 
-                    var sourceFound = false;
-                    var destFound = false;
-                    foreach (var thingDef in benches)
+                    if (thingDef == dest)
                     {
-                        if (thingDef == source)
-                        {
-                            sourceFound = true;
-                        }
-
-                        if (thingDef == dest)
-                        {
-                            destFound = true;
-                        }
-
-                        if (sourceFound && destFound)
-                        {
-                            break;
-                        }
+                        destFound = true;
                     }
 
-                    if (sourceFound && !destFound)
+                    if (sourceFound && destFound)
                     {
-                        RCPadd.AddDistinct(recipe);
+                        break;
                     }
                 }
-            }
 
-            var rcpbenchadd = 0;
-            if (THGadd.Count > 0)
-            {
-                foreach (var rcp in THGadd)
+                if (sourceFound && !destFound)
                 {
-                    dest.recipes.AddDistinct(rcp);
-                    rcpbenchadd++;
+                    RCPadd.AddDistinct(recipe);
                 }
-
-                DefDatabase<RecipeDef>.ResolveAllReferences();
             }
+        }
 
-            var rcpattachadd = 0;
-            if (RCPadd.Count > 0)
+        var rcpbenchadd = 0;
+        if (THGadd.Count > 0)
+        {
+            foreach (var rcp in THGadd)
             {
-                foreach (var recipeDef in RCPadd)
-                {
-                    recipeDef.recipeUsers.AddDistinct(dest);
-                    rcpattachadd++;
-                }
-
-                DefDatabase<ThingDef>.ResolveAllReferences();
+                dest.recipes.AddDistinct(rcp);
+                rcpbenchadd++;
             }
 
-            if (rcpbenchadd > 0)
+            DefDatabase<RecipeDef>.ResolveAllReferences();
+        }
+
+        var rcpattachadd = 0;
+        if (RCPadd.Count > 0)
+        {
+            foreach (var recipeDef in RCPadd)
             {
-                Log.Message(rcpbenchadd + " recipes added to apothecary charcoal bench.");
+                recipeDef.recipeUsers.AddDistinct(dest);
+                rcpattachadd++;
             }
 
-            if (rcpattachadd > 0)
-            {
-                Log.Message(rcpattachadd + "recipes have attached the charcoal bench for use.");
-            }
+            DefDatabase<ThingDef>.ResolveAllReferences();
+        }
+
+        if (rcpbenchadd > 0)
+        {
+            Log.Message($"{rcpbenchadd} recipes added to apothecary charcoal bench.");
+        }
+
+        if (rcpattachadd > 0)
+        {
+            Log.Message($"{rcpattachadd}recipes have attached the charcoal bench for use.");
         }
     }
 }

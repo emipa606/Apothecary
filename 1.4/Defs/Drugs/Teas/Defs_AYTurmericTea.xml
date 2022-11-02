@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugTeaBase">
+    <defName>AYTurmericTea</defName>
+    <label>Turmeric Tea</label>
+    <description>Turmeric tea, a useful aid for mild pain relief. Effects last about a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Tea/AYTurmericTea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>210</WorkToMake>
+      <MarketValue>7.5</MarketValue>
+      <!-- GP: 25 x 0.3-->
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYTurmericTeaHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3589</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYTurmericTeaHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Turmeric Tea</label>
+    <description>Turmeric tea effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.77</painFactor>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>+0.05</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYTurmericTea</defName>
+    <label>Make Turmeric Tea</label>
+    <description>Make 1 Turmeric Tea.</description>
+    <jobString>Making Turmeric Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>180</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTurmericPowder</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYTurmericPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYTurmericTea>1</AYTurmericTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>2</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYTurmericTea</defName>
+    <label>Make Turmeric Tea in bulk</label>
+    <description>Make 5 Turmeric Teas.</description>
+    <jobString>Making Turmeric Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>900</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTurmericPowder</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYTurmericPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYTurmericTea>5</AYTurmericTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+</Defs>

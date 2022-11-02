@@ -1,30 +1,30 @@
-﻿using System;
+using System;
 using HarmonyLib;
 using RimWorld;
 using Verse;
 using Verse.AI;
 
-namespace Apothecary
+namespace Apothecary;
+
+[HarmonyPatch(typeof(JobDriver_PlantCut), "PlantWorkDoneToil", null)]
+public static class JobDriver_PlantCut_PlantWorkDoneToil
 {
-    // Token: 0x02000020 RID: 32
-    [HarmonyPatch(typeof(JobDriver_PlantCut), "PlantWorkDoneToil", null)]
-    public static class JobDriver_PlantCut_PlantWorkDoneToil
+    private static void Postfix(ref Toil __result, ref JobDriver_PlantCut __instance)
     {
-        // Token: 0x06000062 RID: 98 RVA: 0x00004944 File Offset: 0x00002B44
-        private static void Postfix(ref Toil __result, ref JobDriver_PlantCut __instance)
+        var unused = __instance.pawn.Map;
+        var actor = __instance.pawn;
+        __result.initAction = (Action)Delegate.Combine(__result.initAction, new Action(delegate
         {
-            var unused = __instance.pawn.Map;
-            var actor = __instance.pawn;
-            __result.initAction = (Action) Delegate.Combine(__result.initAction, new Action(delegate
+            var plant = (Plant)actor.jobs.curJob.GetTarget(TargetIndex.A).Thing;
+            AYPlantUtility.AddYield(actor, plant);
+            switch (plant.def.defName)
             {
-                var plant = (Plant) actor.jobs.curJob.GetTarget(TargetIndex.A).Thing;
-                AYPlantUtility.AddYield(actor, plant);
-                if (plant.def.defName == "Plant_AYGinkgoBiloba")
+                case "Plant_AYGinkgoBiloba":
                 {
                     var skillRatio = 0.5f;
                     if (actor.skills != null)
                     {
-                        skillRatio = (actor.skills.GetSkill(SkillDefOf.Plants).levelInt + 5) / (float) 20;
+                        skillRatio = (actor.skills.GetSkill(SkillDefOf.Plants).levelInt + 5) / (float)20;
                         if (skillRatio > 1f)
                         {
                             skillRatio = 1f;
@@ -39,19 +39,21 @@ namespace Apothecary
                     var thing = ThingMaker.MakeThing(ThingDef.Named("AYGinkgoLeaves"));
                     var num = plant.def.plant.harvestYield * 2f * plant.Growth * skillRatio;
                     num = AdjustYield(num);
-                    thing.stackCount = checked((int) num);
+                    thing.stackCount = checked((int)num);
                     if (thing.stackCount > 0)
                     {
                         GenPlace.TryPlaceThing(thing, actor.Position, actor.Map, ThingPlaceMode.Near);
                     }
+
+                    break;
                 }
-                else if (plant.def.defName == "BurnedTree")
+                case "BurnedTree":
                 {
                     var skillRatio2 = 0.5f;
                     var actor2 = actor;
                     if (actor2.skills != null)
                     {
-                        skillRatio2 = (actor.skills.GetSkill(SkillDefOf.Plants).levelInt + 5) / (float) 20;
+                        skillRatio2 = (actor.skills.GetSkill(SkillDefOf.Plants).levelInt + 5) / (float)20;
                         if (skillRatio2 > 1f)
                         {
                             skillRatio2 = 1f;
@@ -73,8 +75,8 @@ namespace Apothecary
                     numTwo = AdjustYield(numTwo);
                     checked
                     {
-                        thingOne.stackCount = (int) numOne;
-                        thingTwo.stackCount = (int) numTwo;
+                        thingOne.stackCount = (int)numOne;
+                        thingTwo.stackCount = (int)numTwo;
                         if (thingOne.stackCount > 0)
                         {
                             GenPlace.TryPlaceThing(thingOne, actor.Position, actor.Map, ThingPlaceMode.Near);
@@ -85,15 +87,16 @@ namespace Apothecary
                             GenPlace.TryPlaceThing(thingTwo, actor.Position, actor.Map, ThingPlaceMode.Near);
                         }
                     }
-                }
-            }));
-        }
 
-        // Token: 0x06000063 RID: 99 RVA: 0x00004995 File Offset: 0x00002B95
-        public static float AdjustYield(float num)
-        {
-            num *= Rand.Range(0.8f, 1.2f);
-            return num;
-        }
+                    break;
+                }
+            }
+        }));
+    }
+
+    public static float AdjustYield(float num)
+    {
+        num *= Rand.Range(0.8f, 1.2f);
+        return num;
     }
 }

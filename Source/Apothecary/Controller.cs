@@ -1,30 +1,28 @@
-﻿using UnityEngine;
+using Mlie;
+using UnityEngine;
 using Verse;
 
-namespace Apothecary
+namespace Apothecary;
+
+public class Controller : Mod
 {
-    // Token: 0x02000012 RID: 18
-    public class Controller : Mod
+    public static Settings Settings;
+    public static string currentVersion;
+
+    public Controller(ModContentPack content) : base(content)
     {
-        // Token: 0x0400003F RID: 63
-        public static Settings Settings;
+        Settings = GetSettings<Settings>();
+        currentVersion =
+            VersionFromManifest.GetVersionFromModMetaData(ModLister.GetActiveModWithIdentifier("Mlie.Apothecary"));
+    }
 
-        // Token: 0x06000036 RID: 54 RVA: 0x00003832 File Offset: 0x00001A32
-        public Controller(ModContentPack content) : base(content)
-        {
-            Settings = GetSettings<Settings>();
-        }
+    public override string SettingsCategory()
+    {
+        return "AY.Name".Translate();
+    }
 
-        // Token: 0x06000034 RID: 52 RVA: 0x00003814 File Offset: 0x00001A14
-        public override string SettingsCategory()
-        {
-            return "AY.Name".Translate();
-        }
-
-        // Token: 0x06000035 RID: 53 RVA: 0x00003825 File Offset: 0x00001A25
-        public override void DoSettingsWindowContents(Rect canvas)
-        {
-            Settings.DoWindowContents(canvas);
-        }
+    public override void DoSettingsWindowContents(Rect canvas)
+    {
+        Settings.DoWindowContents(canvas);
     }
 }

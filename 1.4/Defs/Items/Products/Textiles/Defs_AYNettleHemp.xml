@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYNettleHemp</defName>
+    <label>Nettle hemp</label>
+    <description>Cloth woven from nettle fibres</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Textiles/AYNettleHemp</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <color>(123,159,94)</color> -->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <MarketValue>1.52</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>5.5</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.38</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.05</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.20</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <color>(123,159,94)</color>
+      <statFactors>
+        <Flammability>1.0</Flammability>
+      </statFactors>
+      <commonality>0.25</commonality>
+      <allowColorGenerators>false</allowColorGenerators>
+    </stuffProps>
+    <thingCategories Inherit="false">
+      <li>Textiles</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <techLevel>Neolithic</techLevel>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <burnableByRecipe>true</burnableByRecipe>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeNettleHemp</defName>
+    <label>Make Nettle Hemp</label>
+    <description>Make 15 Nettle Hemp</description>
+    <jobString>Making Nettle Hemp</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>15</targetCountAdjustment>
+    <workSkill>Crafting</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYNettleLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYNettleLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYNettleHemp>15</AYNettleHemp>
+    </products>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYNettleHemp</defName>
+    <label>Make Nettle Hemp in bulk</label>
+    <description>Make 45 Nettle Hemp</description>
+    <jobString>Making Nettle Hemp</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>45</targetCountAdjustment>
+    <workSkill>Crafting</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYNettleLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>90</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYNettleLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYNettleHemp>45</AYNettleHemp>
+    </products>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="AYDrugBase" ParentName="DrugBase" Abstract="True">
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <preferability>NeverForNutrition</preferability>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories Inherit="false">
+      <li>AYDrugs</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Name="AYDrugElixirBase" ParentName="AYDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>60</baseIngestTicks>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+    </ingestible>
+    <thingCategories Inherit="false">
+      <li>AYElixirs</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Name="AYDrugSaltsBase" ParentName="AYDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>70</baseIngestTicks>
+      <ingestSound>Ingest_Pill</ingestSound>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
+    </ingestible>
+    <thingCategories Inherit="false">
+      <li>AYSalts</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Name="AYDrugOintmentBase" ParentName="AYDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>100</baseIngestTicks>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <ingestCommandString>Apply {0}</ingestCommandString>
+      <ingestReportString>Applying {0}.</ingestReportString>
+    </ingestible>
+    <thingCategories Inherit="false">
+      <li>AYOintments</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Name="AYDrugTeaBase" ParentName="AYDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>90</baseIngestTicks>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+    </ingestible>
+    <thingCategories Inherit="false">
+      <li>AYTeas</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Name="AYDrugTonicBase" ParentName="AYDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>75</baseIngestTicks>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+    </ingestible>
+    <thingCategories Inherit="false">
+      <li>AYTonics</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

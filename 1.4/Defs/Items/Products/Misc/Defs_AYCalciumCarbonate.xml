@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYCalciumCarbonate</defName>
+    <label>Calcium Carbonate</label>
+    <description>A white crystalline salt/powder used as a precursor chemical in medicinal processes, potting additive and construction material when combined with tallow to form Lime (plaster).</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYCalciumCarbonate/AYCalciumCarbonate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>200</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2.3</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+  <RecipeDef>
+    <defName>MakeAYCalciumCarbonate</defName>
+    <label>Make CalciumCarbonate</label>
+    <description>Make 50 Calcium Carbonate.</description>
+    <jobString>Making Calcium Carbonate.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>900</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+            <li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+        <li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYCalciumCarbonate>50</AYCalciumCarbonate>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeAYCalciumCarbonateFromEggs</defName>
+    <label>Make Calcium Carbonate (Eggs)</label>
+    <description>Make 25 Calcium Carbonate.</description>
+    <jobString>Making Calcium Carbonate.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>EggsUnfertilized</li>
+            <li>EggsFertilized</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>EggsUnfertilized</li>
+        <li>EggsFertilized</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <AYCalciumCarbonate>25</AYCalciumCarbonate>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeAYCalciumCarbonateBlocks</defName>
+    <label>Make Calcium Carbonate (Blocks)</label>
+    <description>Make 50 Calcium Carbonate from blocks.</description>
+    <jobString>Making Calcium Carbonate.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>900</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BlocksLimestone</li>
+            <li>BlocksMarble</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BlocksLimestone</li>
+        <li>BlocksMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYCalciumCarbonate>50</AYCalciumCarbonate>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+  <!-- Lime Plaster floors -->
+  <TerrainDef ParentName="FloorBase">
+    <defName>TileAYPlaster</defName>
+    <label>Lime Plaster Tile</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>Lime plaster tiles. A basic construction that is relatively quick to lay.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(150,145,127)</color>
+    <statBases>
+      <WorkToBuild>350</WorkToBuild>
+      <Beauty>0.5</Beauty>
+    </statBases>
+    <costList>
+      <AYCalciumCarbonate>10</AYCalciumCarbonate>
+      <AYTallow>2</AYTallow>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc4</designationHotKey>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+      <li>AYTallow</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+  </TerrainDef>
+  <!--  Salted Tile terrain -->
+  <TerrainDef ParentName="FloorBase">
+    <defName>TileAYPlasterSalt</defName>
+    <label>Lime Plaster Tile (Salted)</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>Salt encrusted lime plaster tiles. Will prevent snow from forming on the surface and has a slight improvement to cleanliness.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(201, 196, 177)</color>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+      <Cleanliness>0.2</Cleanliness>
+      <Beauty>1</Beauty>
+    </statBases>
+    <holdSnow>false</holdSnow>
+    <costList>
+      <AYSalt>20</AYSalt>
+      <AYCalciumCarbonate>10</AYCalciumCarbonate>
+      <AYTallow>2</AYTallow>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc4</designationHotKey>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+      <li>AYTallow</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  <!-- Lime Stone Blocks -->
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksAYLimePlaster</defName>
+    <label>lime plaster blocks</label>
+    <description>Blocks of lime plaster.</description>
+    <graphicData>
+      <color>(150,145,127)</color>
+    </graphicData>
+    <statBases>
+      <Mass>0.9</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(150,145,127)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>lime plaster</stuffAdjective>
+      <commonality>0.10</commonality>
+      <!-- because there are so many stone types -->
+      <statOffsets>
+        <WorkToBuild>120</WorkToBuild>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>1.53</MaxHitPoints>
+        <ConstructionSpeedFactor>0.75</ConstructionSpeedFactor>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>1.2</WorkToMake>
+        <DoorOpenSpeed>0.50</DoorOpenSpeed>
+        <BedRestEffectiveness>0.9</BedRestEffectiveness>
+        <MeleeWeapon_CooldownMultiplier>1.28</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_StoneBlocksAYLimePlaster</defName>
+    <label>Cast lime plaster blocks</label>
+    <description>Cast lime into usable blocks.</description>
+    <jobString>Casting plaster blocks.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+        <li>AYTallow</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BlocksAYLimePlaster>20</BlocksAYLimePlaster>
+    </products>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+</Defs>

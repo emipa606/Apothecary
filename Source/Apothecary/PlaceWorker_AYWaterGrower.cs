@@ -1,73 +1,64 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using RimWorld;
 using Verse;
 
-namespace Apothecary
+namespace Apothecary;
+
+public class PlaceWorker_AYWaterGrower : PlaceWorker
 {
-    // Token: 0x02000024 RID: 36
-    public class PlaceWorker_AYWaterGrower : PlaceWorker
+    public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map,
+        Thing thingToIgnore = null, Thing thing = null)
     {
-        // Token: 0x0600006C RID: 108 RVA: 0x00004C64 File Offset: 0x00002E64
-        public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map,
-            Thing thingToIgnore = null, Thing thing = null)
+        if (!loc.InBounds(map))
         {
-            if (!loc.InBounds(map))
-            {
-                return false;
-            }
-
-            if (loc.Filled(map))
-            {
-                return false;
-            }
-
-            if (!map.terrainGrid.TerrainAt(loc).IsWater)
-            {
-                return false;
-            }
-
-            if (map.terrainGrid.TerrainAt(loc).pathCost > 30)
-            {
-                return false;
-            }
-
-            if (map.terrainGrid.TerrainAt(loc).defName.Contains("Ocean") ||
-                map.terrainGrid.TerrainAt(loc).defName.Contains("ocean"))
-            {
-                return false;
-            }
-
-            var list = map.thingGrid.ThingsListAt(loc);
-            foreach (var thingy in list)
-            {
-                if (thingy.def.IsBlueprint || thingy.def.IsFrame)
-                {
-                    return false;
-                }
-
-                if (thingy.def.category == ThingCategory.Plant)
-                {
-                    return false;
-                }
-
-                if (thingy.def.category == ThingCategory.Building)
-                {
-                    return false;
-                }
-
-                if (thingy.def.category == ThingCategory.Item)
-                {
-                    return false;
-                }
-            }
-
-            return true;
+            return false;
         }
 
-        // Token: 0x0600006D RID: 109 RVA: 0x00004D9B File Offset: 0x00002F9B
-        public override IEnumerable<TerrainAffordanceDef> DisplayAffordances()
+        if (loc.Filled(map))
         {
-            yield return TerrainAffordanceDefOf.Bridgeable;
+            return false;
         }
+
+        if (!map.terrainGrid.TerrainAt(loc).IsWater)
+        {
+            return false;
+        }
+
+        if (map.terrainGrid.TerrainAt(loc).pathCost > 30)
+        {
+            return false;
+        }
+
+        if (map.terrainGrid.TerrainAt(loc).defName.Contains("Ocean") ||
+            map.terrainGrid.TerrainAt(loc).defName.Contains("ocean"))
+        {
+            return false;
+        }
+
+        var list = map.thingGrid.ThingsListAt(loc);
+        foreach (var thingy in list)
+        {
+            if (thingy.def.IsBlueprint || thingy.def.IsFrame)
+            {
+                return false;
+            }
+
+            switch (thingy.def.category)
+            {
+                case ThingCategory.Plant:
+                    return false;
+                case ThingCategory.Building:
+                    return false;
+                case ThingCategory.Item:
+                    return false;
+            }
+        }
+
+        return true;
+    }
+
+    public override IEnumerable<TerrainAffordanceDef> DisplayAffordances()
+    {
+        yield return TerrainAffordanceDefOf.Bridgeable;
     }
 }

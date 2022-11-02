@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugOintmentBase">
+    <defName>AYScarCream</defName>
+    <label>Scar Cream</label>
+    <description>Scar cream is an antibiotic and regenerative skin cream designed to help with permanent scar injuries. It is capable of healing permanent scars. Healing effects last 1.0 days.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Ointment/AYScarCream/AYScarCream</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>52</MarketValue>
+      <!-- MH: 30, T: 5 x 0.5, AO: 2 x 7, YO: 1 x 5.5 -->
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYScarCreamHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3588</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYScarCreamHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Scar Cream</label>
+    <description>Scar cream effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+      <li Class="Apothecary.HediffCompProperties_AYRegen">
+        <RegenHoursMin>8</RegenHoursMin>
+        <RegenHoursMax>12</RegenHoursMax>
+        <RegenHealVal>2</RegenHealVal>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.90</painFactor>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYScarCream</defName>
+    <label>Make Scar Cream</label>
+    <description>Make 1 Scar Cream.</description>
+    <jobString>Making Scar Cream</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>300</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAloeOil</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYYarrowOil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineHerbal</li>
+        <li>AYTallow</li>
+        <li>AYAloeOil</li>
+        <li>AYYarrowOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYScarCream>1</AYScarCream>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYScarCream</defName>
+    <label>Make Scar Cream in bulk</label>
+    <description>Make 5 Scar Cream.</description>
+    <jobString>Making Scar Cream</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAloeOil</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYYarrowOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineHerbal</li>
+        <li>AYTallow</li>
+        <li>AYAloeOil</li>
+        <li>AYYarrowOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYScarCream>5</AYScarCream>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+</Defs>

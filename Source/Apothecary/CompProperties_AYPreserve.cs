@@ -1,14 +1,11 @@
-﻿using Verse;
+using Verse;
 
-namespace Apothecary
+namespace Apothecary;
+
+public class CompProperties_AYPreserve : CompProperties
 {
-    // Token: 0x0200000E RID: 14
-    public class CompProperties_AYPreserve : CompProperties
+    public CompProperties_AYPreserve()
     {
-        // Token: 0x06000028 RID: 40 RVA: 0x000034F8 File Offset: 0x000016F8
-        public CompProperties_AYPreserve()
-        {
-            compClass = typeof(CompAYPreserve);
-        }
+        compClass = typeof(CompAYPreserve);
     }
 }

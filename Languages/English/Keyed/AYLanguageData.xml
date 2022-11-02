@@ -6,6 +6,7 @@
   <AY.Progress>Progress:</AY.Progress>
   <!--  Settings -->
   <AY.Name>Apothecary</AY.Name>
+  <AY.CurrentModVersion>Installed mod-version: {0}</AY.CurrentModVersion>
   <AY.RealismBandages>Apply realistic bandage use:</AY.RealismBandages>
   <AY.AllowCollapseRocks>Allow Collapsed rocks to produce mining bits:</AY.AllowCollapseRocks>
   <AY.WashLowersQual>Washing apparel lowers quality:</AY.WashLowersQual>

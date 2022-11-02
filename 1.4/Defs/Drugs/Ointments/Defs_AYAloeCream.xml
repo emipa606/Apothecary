@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugOintmentBase">
+    <defName>AYAloeCream</defName>
+    <label>Aloe Cream</label>
+    <description>Aloe cream is an antibiotic skin cream designed to help with burn injuries. It is capable of healing permanent burn scars. Healing effects last 1.5 days.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Ointment/AYAloeCream/AYAloeCream</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>250</WorkToMake>
+      <MarketValue>26.5</MarketValue>
+      <!-- MH: 10, T: 5 x 0.5, AO: 2 x 7 -->
+      <Mass>0.15</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYAloeCreamHigh</hediffDef>
+          <severity>1.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3587</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYAloeCreamHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Aloe Cream</label>
+    <description>Aloe cream effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+      <li Class="Apothecary.HediffCompProperties_AYRegen">
+        <RegenHoursMin>5</RegenHoursMin>
+        <RegenHoursMax>6</RegenHoursMax>
+        <RegenHealVal>3</RegenHealVal>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painFactor>0.95</painFactor>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYAloeCream</defName>
+    <label>Make Aloe Cream</label>
+    <description>Make 1 Aloe Cream.</description>
+    <jobString>Making Aloe Cream</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>250</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAloeOil</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineHerbal</li>
+        <li>AYTallow</li>
+        <li>AYAloeOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYAloeCream>1</AYAloeCream>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYAloeCream</defName>
+    <label>Make Aloe Cream in bulk</label>
+    <description>Make 5 Aloe Cream.</description>
+    <jobString>Making Aloe Cream</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYAloeOil</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineHerbal</li>
+        <li>AYTallow</li>
+        <li>AYAloeOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYAloeCream>5</AYAloeCream>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+</Defs>

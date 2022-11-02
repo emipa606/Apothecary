@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fertile Fields [1.1]</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Potting Compost -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCompost" or defName="MakeBulkAYCompost"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <value>
+            <li>RawCompost</li>
+            <li>PlantScraps</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCompost" or defName="MakeBulkAYCompost"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>RawCompost</li>
+            <li>PlantScraps</li>
+          </value>
+        </li>
+        <!-- CaCO3 -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCalciumCarbonate"or defName="Make_StoneBlocksAYLimePlaster" or defName="MakeAYSalt"]/recipeUsers</xpath>
+          <value>
+            <li>RockMill</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCalciumCarbonateBlocks" or defName="MakeAYSaltBlocks" or defName="MakeAYPreserveMix"]/recipeUsers</xpath>
+          <value>
+            <li>RockMill</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ThingDef ParentName="AYWoodAshMakeableGun">
+              <defName>AYAshScraps_Bucket</defName>
+              <label>Bucket (Ash/Scraps)</label>
+              <description>A bucket full of wood ash and plant scraps. Can be thrown onto areas where trees grow to slightly improve their growth, remove blight from plants and prevent fires from catching.</description>
+              <graphicData>
+                <texPath>Things/Item/Equipment/AYAshScrap_Bucket/AYAshScrap_Bucket</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+              <soundInteract>Standard_Pickup</soundInteract>
+              <recipeMaker>
+                <researchPrerequisite>AYCharcoal</researchPrerequisite>
+                <skillRequirements>
+                  <Crafting>2</Crafting>
+                </skillRequirements>
+                <recipeUsers Inherit="false">
+                  <li>CraftingSpot</li>
+                  <li>AYApothecaryTable</li>
+                </recipeUsers>
+              </recipeMaker>
+              <techLevel>Medieval</techLevel>
+              <weaponTags Inherit="false">
+                <li>WoodAsh_NotUsed</li>
+              </weaponTags>
+              <thingCategories Inherit="false">
+                <li>AYProducts</li>
+              </thingCategories>
+              <generateCommonality>0.0001</generateCommonality>
+              <statBases>
+                <WorkToMake>1400</WorkToMake>
+                <Mass>2.2</Mass>
+                <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+                <Flammability>0.05</Flammability>
+                <SellPriceFactor>0.25</SellPriceFactor>
+              </statBases>
+              <costList>
+                <WoodLog>4</WoodLog>
+                <AYWoodAshes>30</AYWoodAshes>
+                <PlantScraps>20</PlantScraps>
+              </costList>
+              <tradeTags>
+                <li>Exotic</li>
+              </tradeTags>
+              <verbs>
+                <li>
+                  <forcedMissRadius>1</forcedMissRadius>
+                  <verbClass>Verb_ShootOneUse</verbClass>
+                  <hasStandardCommand>true</hasStandardCommand>
+                  <defaultProjectile>Bullet_AYAshScrap</defaultProjectile>
+                  <warmupTime>1.5</warmupTime>
+                  <range>4</range>
+                  <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+                  <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                  </targetParams>
+                  <burstShotCount>1</burstShotCount>
+                  <soundCast>GunTail_Light</soundCast>
+                  <soundCastTail>GunTail_Light</soundCastTail>
+                  <muzzleFlashScale>0</muzzleFlashScale>
+                </li>
+              </verbs>
+            </ThingDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ThingDef ParentName="BaseBullet">
+              <defName>Bullet_AYAshScrap</defName>
+              <label>Ash/Scrap</label>
+              <graphicData>
+                <texPath>Things/Projectile/AYAshScrap_Proj</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+              </graphicData>
+              <thingClass>Projectile_Explosive</thingClass>
+              <projectile>
+                <damageDef>AYWoodAshDmg</damageDef>
+                <!-- damage amount is the damage def default -->
+                <speed>25</speed>
+                <explosionRadius>3</explosionRadius>
+                <flyOverhead>false</flyOverhead>
+                <soundExplode>GunTail_Light</soundExplode>
+                <postExplosionSpawnThingDef>AYAshScrap_Filth</postExplosionSpawnThingDef>
+                <postExplosionSpawnChance>1</postExplosionSpawnChance>
+                <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+                <applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
+              </projectile>
+            </ThingDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

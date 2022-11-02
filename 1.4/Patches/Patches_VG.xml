@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Tools</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Fertile Fields [1.1]</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <!-- Potting Compost -->
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCompost" or defName="MakeBulkAYCompost"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>VG_Compost</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAYCompost" or defName="MakeBulkAYCompost"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>VG_Compost</li>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYSaltedMeatBarrel"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <value>
+            <li>RawRedLentil</li>
+            <li>Rawmushroom</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYSaltedMeatBarrel"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <value>
+            <li>RawRedLentil</li>
+            <li>Rawmushroom</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYTallow"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <value>
+            <li>RawRedLentil</li>
+            <li>Rawmushroom</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYTallow"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <value>
+            <li>RawRedLentil</li>
+            <li>Rawmushroom</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAYTallow"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <value>
+            <li>RawRedLentil</li>
+            <li>Rawmushroom</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAYTallow"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <value>
+            <li>RawRedLentil</li>
+            <li>Rawmushroom</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Gourmet</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'CookingTools']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>CookingTools</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYCharcoalStove"]/comps</xpath>
+            <value>
+              <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                  <li>CookingTools</li>
+                </linkableFacilities>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Gourmet</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'CookingTools']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>CookingTools</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYBrazier"]/comps</xpath>
+            <value>
+              <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                  <li>CookingTools</li>
+                </linkableFacilities>
+              </li>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

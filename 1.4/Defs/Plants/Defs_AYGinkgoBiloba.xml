@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ginkgo Biloba -->
+  <!-- Plant -->
+  <ThingDef ParentName="AYWildTree">
+    <defName>Plant_AYGinkgoBiloba</defName>
+    <label>Ginkgo Biloba</label>
+    <description>Ginkgo biloba, commonly known as ginkgo or gingko, also known as the maidenhair tree, is the only living species in the division Ginkgophyta, all others being extinct. The tree is widely cultivated, and was cultivated early in human history. It has various uses in traditional medicine and as a source of food.</description>
+    <graphicData>
+      <texPath>Things/Plant/AYGinkgoBiloba</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <Nutrition>0.1</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <plant>
+      <immatureGraphicPath>Things/Plant/AYGinkgoBiloba/AYGinkgoBilobaImmature</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plant/AYGinkgoBiloba/AYGinkgoBilobaLeafless</leaflessGraphicPath>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>AYGinkgoSeeds</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <harvestAfterGrowth>0.75</harvestAfterGrowth>
+      <sowMinSkill>6</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>12</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <fertilityMin>0.6</fertilityMin>
+      <wildBiomes>
+        <TemperateForest>0.05</TemperateForest>
+        <TemperateSwamp>0.04</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <BorealForest>0.05</BorealForest>
+        <ColdBog>0.04</ColdBog>
+        <AridShrubland>0.05</AridShrubland>
+        <Desert>0.02</Desert>
+        <ExtremeDesert>0.00</ExtremeDesert>
+      </wildBiomes>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowWork>3540</sowWork>
+      <harvestWork>540</harvestWork>
+      <purpose>Food</purpose>
+      <sowResearchPrerequisites>
+        <li>AYHerbsComplex</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+</Defs>

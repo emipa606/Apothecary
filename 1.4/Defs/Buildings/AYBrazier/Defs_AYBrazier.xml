@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>AYBrazier</defName>
+    <label>Charcoal Brazier</label>
+    <description>Cooks meals and produces heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/AYCharcoal/AYBrazier/AYBrazier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <rect>(0.2,0,0.6,0.1)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/AYCharcoal/AYBrazier/AYBrazier</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <constructEffect>ConstructMetal</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.3</fillPercent>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>0</Flammability>
+      <WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+      <MeditationFocusStrength>0.1</MeditationFocusStrength>
+    </statBases>
+    <selectable>true</selectable>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0.75</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>7.5</fuelConsumptionRate>
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>AYCharcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>23</heatPerSecond>
+        <heatPushMaxTemperature>25</heatPushMaxTemperature>
+      </li>
+      <!--  <li Class="Apothecary.CompProperties_AYHeatBrazier" /> -->
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Natural</li>
+          <li>Minimal</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_Lit">
+            <offset>0.1</offset>
+          </li>
+        </offsets>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <designationHotKey>Misc1</designationHotKey>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <recipes>
+      <li>CookMealSimple</li>
+      <li>CookMealFine</li>
+      <li>CookMealLavish</li>
+      <li>CookMealSurvival</li>
+      <li>CookMealSimpleBulk</li>
+      <li>CookMealFineBulk</li>
+      <li>CookMealLavishBulk</li>
+      <li>CookMealSurvivalBulk</li>
+      <li>Make_Pemmican</li>
+      <li>Make_PemmicanBulk</li>
+      <li>BurnApparel</li>
+      <li>BurnWeapon</li>
+      <li>BurnDrugs</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <isMealSource>true</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+  </ThingDef>
+</Defs>

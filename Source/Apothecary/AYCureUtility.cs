@@ -1,39 +1,36 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Verse;
 
-namespace Apothecary
+namespace Apothecary;
+
+public class AYCureUtility
 {
-    // Token: 0x02000004 RID: 4
-    public class AYCureUtility
+    internal static bool ImmuneTo(Pawn pawn, HediffDef def, out List<string> Immunities)
     {
-        // Token: 0x0600000A RID: 10 RVA: 0x00002B14 File Offset: 0x00000D14
-        internal static bool ImmuneTo(Pawn pawn, HediffDef def, out List<string> Immunities)
+        Immunities = new List<string>();
+        var immune = false;
+        var hediffs = pawn.health.hediffSet.hediffs;
+        foreach (var hediff in hediffs)
         {
-            Immunities = new List<string>();
-            var immune = false;
-            var hediffs = pawn.health.hediffSet.hediffs;
-            foreach (var hediff in hediffs)
+            var curStage = hediff.CurStage;
+            if (curStage?.makeImmuneTo == null)
             {
-                var curStage = hediff.CurStage;
-                if (curStage?.makeImmuneTo == null)
+                continue;
+            }
+
+
+            foreach (var hediffDef in curStage.makeImmuneTo)
+            {
+                if (hediffDef != def)
                 {
                     continue;
                 }
 
-
-                foreach (var hediffDef in curStage.makeImmuneTo)
-                {
-                    if (hediffDef != def)
-                    {
-                        continue;
-                    }
-
-                    Immunities.AddDistinct(hediff.def.defName);
-                    immune = true;
-                }
+                Immunities.AddDistinct(hediff.def.defName);
+                immune = true;
             }
-
-            return immune;
         }
+
+        return immune;
     }
 }

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medical Supplements (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MSBulkMedicine"]/ingredients/li[3]/filter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MSBulkMedicine"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSWipes" or defName="MakeBulkMSWipes"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSWipes" or defName="MakeBulkMSWipes"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSBandage"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeMSBandage"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>AYNettleHemp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>MakeGlycerolFromTallow</defName>
+              <label>Make Glycerol (Tallow)</label>
+              <description>Make 25 Glycerol</description>
+              <jobString>Making Glycerol from tallow</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_CookMeal</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>2750</workAmount>
+              <targetCountAdjustment>25</targetCountAdjustment>
+              <workSkill>Cooking</workSkill>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYTallow</li>
+                    </thingDefs>
+                  </filter>
+                  <count>100</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>MSSulphuricAcid</li>
+                    </thingDefs>
+                  </filter>
+                  <count>50</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYTallow</li>
+                  <li>MSSulphuricAcid</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <MSGlycerol>25</MSGlycerol>
+              </products>
+              <recipeUsers>
+                <li>DrugLab</li>
+                <li>AYApothecaryTable</li>
+                <li>FueledStove</li>
+                <li>ElectricStove</li>
+              </recipeUsers>
+              <skillRequirements>
+                <Cooking>8</Cooking>
+                <Intellectual>5</Intellectual>
+              </skillRequirements>
+              <researchPrerequisite>MSGlycerol</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeNeutroFromAmmonia" or defName="MakeBulkNeutroFromAmmonia"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <value>
+            <li>MSEthanol</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeNeutroFromAmmonia" or defName="MakeBulkNeutroFromAmmonia"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>MSEthanol</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>MakeMSHydrochloricAcidFromAYSalt</defName>
+              <label>Make Hydrochloric Acid from salt.</label>
+              <description>Make 10 Hydrochloric Acid.</description>
+              <jobString>Preparing Hydrochloric Acid.</jobString>
+              <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_CookMeal</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>10</targetCountAdjustment>
+              <workSkill>Intellectual</workSkill>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYSalt</li>
+                    </thingDefs>
+                  </filter>
+                  <count>32</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>MSSulphuricAcid</li>
+                    </thingDefs>
+                  </filter>
+                  <count>4</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYSalt</li>
+                  <li>MSSulphuricAcid</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <MSHydrochloricAcid>10</MSHydrochloricAcid>
+              </products>
+              <recipeUsers>
+                <li>DrugLab</li>
+              </recipeUsers>
+              <skillRequirements>
+                <Intellectual>5</Intellectual>
+              </skillRequirements>
+              <researchPrerequisite>DrugProduction</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AYApothecaryTable"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <value>
+            <li>DrugCabinet</li>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="DrugCabinet"]/building/fixedStorageSettings/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="DrugCabinet"]/building/fixedStorageSettings/filter/categories</xpath>
+            <value>
+              <li>AYProducts</li>
+              <li>AYOils</li>
+              <li>AYPowders</li>
+              <li>AYDrugs</li>
+              <li>AYElixirs</li>
+              <li>AYSalts</li>
+              <li>AYOintments</li>
+              <li>AYTeas</li>
+              <li>AYTonics</li>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[KV] RimFridge - 1.2</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Medical Supplements (Continued)</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AYApothecaryTable"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>DrugCabinetFridge</li>
+            </value>
+          </li>
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/building/fixedStorageSettings/filter/categories</xpath>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/building/fixedStorageSettings/filter/categories</xpath>
+              <value>
+                <li>AYProducts</li>
+                <li>AYOils</li>
+                <li>AYPowders</li>
+                <li>AYDrugs</li>
+                <li>AYElixirs</li>
+                <li>AYSalts</li>
+                <li>AYOintments</li>
+                <li>AYTeas</li>
+                <li>AYTonics</li>
+                <li>AYPlantMatter</li>
+              </value>
+            </match>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
