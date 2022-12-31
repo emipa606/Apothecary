@@ -1,5 +1,8 @@
 # Changelog for Apothecary
 
+1.4.2 - Charcoal brazier is now minifiable and can use coal and charcoal from Coal Expanded
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests.
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 
