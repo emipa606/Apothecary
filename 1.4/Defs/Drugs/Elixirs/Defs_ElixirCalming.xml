@@ -17,6 +17,9 @@
     </statBases>
     <techLevel>Neolithic</techLevel>
     <ingestible>
+      <drugCategory>Social</drugCategory>
+      <joyKind>Chemical</joyKind>
+      <joy>0.05</joy>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AYElixirCalmingHigh</hediffDef>

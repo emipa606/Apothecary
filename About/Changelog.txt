@@ -1,5 +1,8 @@
 # Changelog for Apothecary
 
+1.4.3 - Added some of the drugs as socially consumable and also to fill drug desire
+
+
 1.4.2 - Charcoal brazier is now minifiable and can use coal and charcoal from Coal Expanded
 
 

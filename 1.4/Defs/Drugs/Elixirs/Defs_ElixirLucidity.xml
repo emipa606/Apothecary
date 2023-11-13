@@ -18,6 +18,9 @@
     </statBases>
     <techLevel>Neolithic</techLevel>
     <ingestible>
+      <drugCategory>Social</drugCategory>
+      <joyKind>Chemical</joyKind>
+      <joy>0.1</joy>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AYElixirLucidityHigh</hediffDef>
