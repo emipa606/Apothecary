@@ -1,5 +1,8 @@
 # Changelog for Apothecary
 
+1.4.4 - Charcoal kiln and brazer should now be able to cook biotech and ideology specific meals
+
+
 1.4.3 - Added some of the drugs as socially consumable and also to fill drug desire
 
 
