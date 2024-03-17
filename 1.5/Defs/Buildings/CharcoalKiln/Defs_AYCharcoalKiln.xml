@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYBuildingBase">
+    <defName>AYCharcoalKiln</defName>
+    <label>Charcoal Kiln</label>
+    <thingClass>Apothecary.Building_AYCompostBin</thingClass>
+    <description>A temporary crude structure made from stone and filled with wood that will slowly burn with limited air supply to produce charcoal.</description>
+    <graphicData>
+      <texPath>Things/Building/AYCharcoal/AYCharcoalKiln/AYCharcoalKiln</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <blockLight>false</blockLight>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <canOverlapZones>false</canOverlapZones>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToBuild>750</WorkToBuild>
+      <Beauty>-5</Beauty>
+      <Cleanliness>-3</Cleanliness>
+    </statBases>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>150</WoodLog>
+    </costList>
+    <useHitPoints>true</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="Apothecary.CompProperties_AYCompostBin">
+        <fermentTicks>600</fermentTicks>
+        <productOne>AYCharcoal</productOne>
+        <numProductOne>150</numProductOne>
+        <productTwo>AYWoodAshes</productTwo>
+        <numProductTwo>150</numProductTwo>
+      </li>
+    </comps>
+    <pathCost>75</pathCost>
+    <researchPrerequisites Inherit="false">
+      <li>AYCharcoal</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

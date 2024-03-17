@@ -97,10 +97,10 @@ public class AYBitsUtility
     public const int AYWoodAshesBits = 20;
 
     private static readonly Pair<string, float>[] bitschance =
-    {
+    [
         new Pair<string, float>("AYCalciumCarbonate", 1f),
         new Pair<string, float>("AYSalt", 1f)
-    };
+    ];
 
     internal static bool GetIsBitsSource(ThingDef defSource, bool isSource, Pawn pawn, out ThingDef bitsdef,
         out int bitsyield, out ThingDef newthingdef)

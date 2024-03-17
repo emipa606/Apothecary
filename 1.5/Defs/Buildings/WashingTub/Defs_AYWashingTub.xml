@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsAYApparelWashingTub</defName>
+    <label>Washing Clothes</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cleaning</workType>
+    <priorityInType>20</priorityInType>
+    <fixedBillGiverDefs>
+      <li>AYApparelWashingTub</li>
+    </fixedBillGiverDefs>
+    <verb>washing clothes</verb>
+    <gerund>washing clothes at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!-- Apothecary Apparel washing tub -->
+  <ThingDef ParentName="BenchBase">
+    <defName>AYApparelWashingTub</defName>
+    <label>Clothes washing tub</label>
+    <description>A manual washing tub with scrubbing facilities, can be used to remove the taint from clothing items.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Building/AYApparelWashingTub/AYApparelWashingTub</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--  <shaderType>CutoutComplex</shaderType> -->
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories Inherit="false">
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <Mass>5</Mass>
+      <WorkToBuild>2500</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>AYOintments</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </ThingDef>
+</Defs>

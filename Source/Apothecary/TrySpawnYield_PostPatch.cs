@@ -5,11 +5,11 @@ using Verse;
 
 namespace Apothecary;
 
-[HarmonyPatch(typeof(Mineable), "TrySpawnYield")]
+[HarmonyPatch(typeof(Mineable), "TrySpawnYield", typeof(Map), typeof(bool), typeof(Pawn))]
 public class TrySpawnYield_PostPatch
 {
     [HarmonyPostfix]
-    public static void PostFix(ref Mineable __instance, Map map, float yieldChance, bool moteOnWaste, Pawn pawn)
+    public static void PostFix(ref Mineable __instance, Map map, Pawn pawn)
     {
         if (pawn == null)
         {

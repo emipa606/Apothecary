@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYDrugTeaBase">
+    <defName>AYGinsengTea</defName>
+    <label>Ginseng Tea</label>
+    <description>Ginseng tea, when consumed it will help elevate mood. Effects last about half a day.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Tea/AYGinsengTea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>7.5</MarketValue>
+      <!-- GP: 25 x 0.3-->
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <joyKind>Chemical</joyKind>
+      <joy>0.07</joy>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AYGinsengTeaHigh</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3598</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AYGinsengTeaHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Ginseng Tea</label>
+    <description>Ginger tea effect</description>
+    <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <socialFightChanceFactor>0.85</socialFightChanceFactor>
+        <statOffsets>
+          <ToxicResistance>0.02</ToxicResistance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>+0.02</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>+0.01</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>AYGinsengTea_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AYGinsengTeaHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Ginseng Tea</label>
+        <description>This tea makes me feel calmer.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ====== Recipes ====== -->
+  <RecipeDef>
+    <defName>MakeAYGinsengTea</defName>
+    <label>Make Ginseng Tea</label>
+    <description>Make 1 Ginseng Tea.</description>
+    <jobString>Making Ginseng Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>190</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGinsengPowder</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGingerPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGinsengTea>1</AYGinsengTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkAYGinsengTea</defName>
+    <label>Make Ginseng Tea in bulk</label>
+    <description>Make 5 Ginseng Teas.</description>
+    <jobString>Making Ginseng Tea</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>950</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYGinsengPowder</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYGinsengPowder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYGinsengTea>5</AYGinsengTea>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYTeas</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYWormwoodOil</defName>
+    <label>Wormwood Oil</label>
+    <description>An extract of Wormwood</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Oils/AYWormwoodOil/AYWormwoodOil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>7.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.70</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYOils</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYWormwoodOil</defName>
+    <label>Make Wormwood Oil</label>
+    <description>Make 1 Wormwood oil</description>
+    <jobString>Making Wormwood oil</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWormwoodLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWormwoodLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWormwoodOil>1</AYWormwoodOil>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYExtracts</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYWormwoodOil</defName>
+    <label>Make Wormwood Oil in bulk</label>
+    <description>Make 5 Wormwood oil</description>
+    <jobString>Making Wormwood oil</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWormwoodLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWormwoodLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWormwoodOil>5</AYWormwoodOil>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYExtracts</researchPrerequisite>
+  </RecipeDef>
+</Defs>

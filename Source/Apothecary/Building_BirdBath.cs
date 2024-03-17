@@ -51,12 +51,7 @@ public class Building_BirdBath : Building_Art
         var needs = p.needs;
         var b = needs?.beauty != null;
 
-        if (b && GenSight.LineOfSight(p.Position, BB.Position, BB.Map, true))
-        {
-            return true;
-        }
-
-        return false;
+        return b && GenSight.LineOfSight(p.Position, BB.Position, BB.Map, true);
     }
 
     public bool IsInspired(int chance)

@@ -10,7 +10,7 @@ public class AYFoodUtility_AddFoodPoisoningHediff_prepatch
 {
     [HarmonyPrefix]
     [HarmonyPriority(800)]
-    public static bool Prefix(Pawn pawn, Thing ingestible, FoodPoisonCause cause)
+    public static bool Prefix(Pawn pawn)
     {
         return !ImmuneToFP(pawn, HediffDefOf.FoodPoisoning);
     }

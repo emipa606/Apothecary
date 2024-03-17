@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ginger -->
+  <!-- Plant -->
+  <ThingDef ParentName="AYWildPlant">
+    <defName>Plant_AYGinger</defName>
+    <label>Ginger</label>
+    <description>Ginger (Zingiber officinale) is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine.</description>
+    <graphicData>
+      <texPath>Things/Plant/AYGinger</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>0.18</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestedThingDef>AYGingerRoot</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <fertilityMin>0.4</fertilityMin>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.00</max>
+      </visualSizeRange>
+      <wildBiomes>
+        <TemperateForest>0.04</TemperateForest>
+        <TemperateSwamp>0.05</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TropicalSwamp>0.05</TropicalSwamp>
+        <BorealForest>0.03</BorealForest>
+        <ColdBog>0.02</ColdBog>
+        <AridShrubland>0.06</AridShrubland>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.00</ExtremeDesert>
+      </wildBiomes>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowWork>340</sowWork>
+      <harvestWork>240</harvestWork>
+      <purpose>Food</purpose>
+      <sowResearchPrerequisites>
+        <li>AYHerbsSimple</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+</Defs>

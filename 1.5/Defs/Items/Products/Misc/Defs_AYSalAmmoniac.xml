@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYSalAmmoniac</defName>
+    <label>Sal ammoniac</label>
+    <description>Sal ammoniac is a mineral salt which is ammonium chloride. The mineral is commonly formed on burning coal/charcoal from the condensation of derived gases</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYSalAmmoniac/AYSalAmmoniac</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- From Charcoal -->
+  <RecipeDef>
+    <defName>MakeSalAmmoniacFromCharcoal</defName>
+    <label>Make Sal Ammoniac</label>
+    <description>Make 25 Sal Ammoniac</description>
+    <jobString>Making Sal Ammoniac</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>600</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCharcoal</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCharcoal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYSalAmmoniac>25</AYSalAmmoniac>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYCharcoal</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkSalAmmoniacFromCharcoal</defName>
+    <label>Make Sal Ammoniac in bulk</label>
+    <description>Make 100 Sal Ammoniac</description>
+    <jobString>Making Sal Ammoniac</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2400</workAmount>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCharcoal</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCharcoal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYSalAmmoniac>100</AYSalAmmoniac>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYCharcoal</researchPrerequisite>
+  </RecipeDef>
+  <!-- Ammonia Water -->
+  <RecipeDef>
+    <defName>MakeAmmoniaWaterFromSalAmmoniac</defName>
+    <label>Make Ammonia water (Sal ammoniac)</label>
+    <description>Make 5 Ammonia Water from Sal ammoniac</description>
+    <jobString>Making Ammonia water</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>300</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYSalAmmoniac</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYSalAmmoniac</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYAmmoniaWater>5</AYAmmoniaWater>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYCharcoal</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAmmoniaWaterFromSalAmmoniac</defName>
+    <label>Make Ammonia water in bulk (Sal ammoniac)</label>
+    <description>Make 25 Ammonia Water from Sal ammoniac</description>
+    <jobString>Making Ammonia water</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYSalAmmoniac</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYSalAmmoniac</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYAmmoniaWater>25</AYAmmoniaWater>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>AYCharcoal</researchPrerequisite>
+  </RecipeDef>
+</Defs>

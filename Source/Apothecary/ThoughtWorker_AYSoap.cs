@@ -1,45 +1,38 @@
 using RimWorld;
 using Verse;
 
-namespace Apothecary
+namespace Apothecary;
+
+public class ThoughtWorker_AYSoap : ThoughtWorker
 {
-    public class ThoughtWorker_AYSoap : ThoughtWorker
+    public readonly HediffDef AYHedCheckLavSoap = HediffDefAYSoaps.AYLavenderSoapHigh;
+
+    protected override ThoughtState CurrentSocialStateInternal(Pawn pawn, Pawn other)
     {
-        public HediffDef AYHedCheckLavSoap = HediffDefAYSoaps.AYLavenderSoapHigh;
-
-        protected override ThoughtState CurrentSocialStateInternal(Pawn pawn, Pawn other)
+        if (!other.RaceProps.Humanlike || !RelationsUtility.PawnsKnowEachOther(pawn, other))
         {
-            if (!other.RaceProps.Humanlike || !RelationsUtility.PawnsKnowEachOther(pawn, other))
-            {
-                return false;
-            }
-
-            if (!pawn.health.capacities.CapableOf(PawnCapacityDefOf.Breathing))
-            {
-                return false;
-            }
-
-            if (other.health == null)
-            {
-                return false;
-            }
-
-            var health = other.health;
-            var hediffSet = health?.hediffSet;
-
-            var hedSet = hediffSet;
-            if (hedSet?.GetFirstHediffOfDef(AYHedCheckLavSoap) != null)
-            {
-                return ThoughtState.ActiveAtStage(1);
-            }
-
             return false;
         }
 
-        [DefOf]
-        public static class HediffDefAYSoaps
+        if (!pawn.health.capacities.CapableOf(PawnCapacityDefOf.Breathing))
         {
-            public static HediffDef AYLavenderSoapHigh;
+            return false;
         }
+
+        if (other.health == null)
+        {
+            return false;
+        }
+
+        var health = other.health;
+        var hediffSet = health?.hediffSet;
+
+        return hediffSet?.GetFirstHediffOfDef(AYHedCheckLavSoap) != null ? ThoughtState.ActiveAtStage(1) : false;
+    }
+
+    [DefOf]
+    public static class HediffDefAYSoaps
+    {
+        public static HediffDef AYLavenderSoapHigh;
     }
 }

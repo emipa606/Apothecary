@@ -83,11 +83,6 @@ public class HediffComp_AYCure : HediffComp
 
     public override string CompDebugString()
     {
-        if (curing)
-        {
-            return $"AYticksToCure: {ticksToCure}";
-        }
-
-        return "No active cure.";
+        return curing ? $"AYticksToCure: {ticksToCure}" : "No active cure.";
     }
 }

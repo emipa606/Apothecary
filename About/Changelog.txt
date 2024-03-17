@@ -1,5 +1,8 @@
 # Changelog for Apothecary
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.4 - Charcoal kiln and brazer should now be able to cook biotech and ideology specific meals
 
 

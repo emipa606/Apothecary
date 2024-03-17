@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Cinchona -->
+  <!-- Plant -->
+  <ThingDef ParentName="AYWildTree">
+    <defName>Plant_AYCinchona</defName>
+    <label>Cinchona</label>
+    <description>Cinchona plants belong to the family Rubiaceae and are large shrubs or small trees with evergreen foliage. The bark has medicinal properties to help with malaria, fevers and infections.</description>
+    <graphicData>
+      <texPath>Things/Plant/AYCinchona</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <Nutrition>0.01</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <plant>
+      <immatureGraphicPath>Things/Plant/AYCinchona/AYCinchonaImmature</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plant/AYCinchona/AYCinchonaLeafless</leaflessGraphicPath>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>AYCinchonaBark</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <sowMinSkill>8</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>11</growDays>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <fertilityMin>0.65</fertilityMin>
+      <wildBiomes>
+        <TemperateForest>0.05</TemperateForest>
+        <TemperateSwamp>0.06</TemperateSwamp>
+        <TropicalRainforest>0.06</TropicalRainforest>
+        <TropicalSwamp>0.07</TropicalSwamp>
+        <BorealForest>0.05</BorealForest>
+        <ColdBog>0.02</ColdBog>
+        <AridShrubland>0.02</AridShrubland>
+        <Desert>0.00</Desert>
+      </wildBiomes>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowWork>4250</sowWork>
+      <harvestWork>425</harvestWork>
+      <harvestAfterGrowth>0.75</harvestAfterGrowth>
+      <purpose>Health</purpose>
+      <sowResearchPrerequisites>
+        <li>AYHerbsIntermediate</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+</Defs>

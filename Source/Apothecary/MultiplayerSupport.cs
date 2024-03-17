@@ -18,7 +18,7 @@ internal static class MultiplayerSupport
         }
 
         MethodInfo[] array =
-        {
+        [
             AccessTools.Method(typeof(AYBitsUtility), "GetBitsYield"),
             AccessTools.Method(typeof(Building_AYCompostBin), "PlaceProduct"),
             AccessTools.Method(typeof(HediffComp_AYRegen), "ResetTicksToHeal"),
@@ -28,7 +28,7 @@ internal static class MultiplayerSupport
             AccessTools.Method(typeof(AYFilth_Salt), "GetRndMelt"),
             AccessTools.Method(typeof(HediffComp_AYCure), "SetTicksToCure"),
             AccessTools.Method(typeof(Building_BirdBath), "IsInspired")
-        };
+        ];
         foreach (var methodInfo in array)
         {
             FixRNG(methodInfo);

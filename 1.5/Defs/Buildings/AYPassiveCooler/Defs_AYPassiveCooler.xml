@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>AYPassiveCooler</defName>
+    <label>Passive cooler (Ammonia)</label>
+    <description>A traditional unpowered cooler that works by water evaporation, this cooler uses ammonia treated charcoal to improve on evaporation rates. It is slightly more smelly as a result.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/AYPassiveCooler/AYPassiveCooler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <shadowData>
+        <volume>(0.9,0.3,0.9)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0,0.6,0.1)</rect>
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <constructEffect>ConstructDirt</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.40</fillPercent>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+      <Flammability>1.2</Flammability>
+      <Beauty>-3</Beauty>
+      <Cleanliness>+1</Cleanliness>
+    </statBases>
+    <selectable>true</selectable>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_CoolerSimple</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>-13</heatPerSecond>
+        <heatPushMinTemperature>11</heatPushMinTemperature>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>15.0</fuelConsumptionRate>
+        <fuelCapacity>75.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>AYAmmoniaCharcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>PassiveCooler</li>
+      <li>AYCharcoal</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

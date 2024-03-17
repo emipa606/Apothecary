@@ -11,7 +11,7 @@ public static class JobDriver_PlantHarvest_PlantWorkDoneToil
 {
     private static void Postfix(ref Toil __result, ref JobDriver_PlantHarvest __instance)
     {
-        var unused = __instance.pawn.Map;
+        _ = __instance.pawn.Map;
         var actor = __instance.pawn;
         __result.initAction = (Action)Delegate.Combine(__result.initAction, new Action(delegate
         {

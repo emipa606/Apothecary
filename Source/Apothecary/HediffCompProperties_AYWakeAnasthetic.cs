@@ -4,7 +4,7 @@ namespace Apothecary;
 
 public class HediffCompProperties_AYWakeAnasthetic : HediffCompProperties
 {
-    public float sevReduce = 0.2f;
+    public readonly float sevReduce = 0.2f;
 
     public HediffCompProperties_AYWakeAnasthetic()
     {

@@ -7,7 +7,7 @@ namespace Apothecary;
 
 public class Building_AYCompostBin : Building
 {
-    public static string AYCharcoalKiln = "AYCharcoalKiln";
+    public static readonly string AYCharcoalKiln = "AYCharcoalKiln";
 
     private CompAYCompostBin compostBinComp;
 

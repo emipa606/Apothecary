@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="AYSaltMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+    <weaponTags>
+      <li>Salt_NotUsed</li>
+    </weaponTags>
+  </ThingDef>
+  <ThingDef ParentName="AYSaltMakeableGun">
+    <defName>AYSalt_Bucket</defName>
+    <label>Bucket (Rock Salt)</label>
+    <description>A bucket full of rock salt. Can be thrown onto snow to help clear it over time.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/AYSalt_Bucket/AYSalt_Bucket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>Stonecutting</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="false">
+        <li>CraftingSpot</li>
+        <li>AYApothecaryTable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags Inherit="false">
+      <li>Salt_NotUsed</li>
+    </weaponTags>
+    <thingCategories Inherit="false">
+      <li>AYProducts</li>
+    </thingCategories>
+    <generateCommonality>0.0001</generateCommonality>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <Mass>2.0</Mass>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+      <Flammability>0.05</Flammability>
+      <SellPriceFactor>0.25</SellPriceFactor>
+    </statBases>
+    <costList>
+      <WoodLog>4</WoodLog>
+      <AYSalt>50</AYSalt>
+    </costList>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <forcedMissRadius>1</forcedMissRadius>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AYSalt</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>4</range>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>GunTail_Light</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <DamageDef>
+    <defName>AYSaltDmg</defName>
+    <label>Salt</label>
+    <workerClass>Apothecary.DamageWorker_AYSalt</workerClass>
+    <canInterruptJobs>false</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>0</defaultDamage>
+    <explosionCellMote>Mote_ExtinguisherPuff</explosionCellMote>
+    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+    <harmsHealth>false</harmsHealth>
+    <soundExplosion>GunTail_Light</soundExplosion>
+    <combatLogRules>Damage_Smoke</combatLogRules>
+  </DamageDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AYSalt</defName>
+    <label>Salt</label>
+    <graphicData>
+      <texPath>Things/Projectile/AYSalt_Proj</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>AYSaltDmg</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>25</speed>
+      <explosionRadius>3</explosionRadius>
+      <flyOverhead>false</flyOverhead>
+      <soundExplode>GunTail_Light</soundExplode>
+      <postExplosionSpawnThingDef>AYSalt_Filth</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      <applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="AYBaseFilth">
+    <defName>AYSalt_Filth</defName>
+    <label>Rock Salt</label>
+    <thingClass>Apothecary.AYFilth_Salt</thingClass>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Beauty>-3</Beauty>
+      <Cleanliness>+1</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/AYSalt_Filth</texPath>
+    </graphicData>
+    <pathCost>1</pathCost>
+    <filth>
+      <rainWashes>false</rainWashes>
+      <cleaningWorkToReduceThickness>50</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <allowsFire>true</allowsFire>
+    </filth>
+  </ThingDef>
+</Defs>

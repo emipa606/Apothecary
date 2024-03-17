@@ -11,7 +11,7 @@ public static class JobDriver_PlantCut_PlantWorkDoneToil
 {
     private static void Postfix(ref Toil __result, ref JobDriver_PlantCut __instance)
     {
-        var unused = __instance.pawn.Map;
+        _ = __instance.pawn.Map;
         var actor = __instance.pawn;
         __result.initAction = (Action)Delegate.Combine(__result.initAction, new Action(delegate
         {
@@ -50,8 +50,7 @@ public static class JobDriver_PlantCut_PlantWorkDoneToil
                 case "BurnedTree":
                 {
                     var skillRatio2 = 0.5f;
-                    var actor2 = actor;
-                    if (actor2.skills != null)
+                    if (actor.skills != null)
                     {
                         skillRatio2 = (actor.skills.GetSkill(SkillDefOf.Plants).levelInt + 5) / (float)20;
                         if (skillRatio2 > 1f)

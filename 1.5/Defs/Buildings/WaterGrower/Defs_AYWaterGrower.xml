@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="AYWaterGrowBase">
+    <defName>AYWaterGrower</defName>
+    <label>Water Grower</label>
+    <description>Simple wooden frame that allows you to grow plants in shallow fresh water.</description>
+    <thingClass>Building_PlantGrower</thingClass>
+    <tickerType>Rare</tickerType>
+    <graphicData>
+      <texPath>Things/Building/AYWaterGrower/AYWaterGrower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!-- <shaderType>CutoutComplex</shaderType> -->
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>Apothecary.PlaceWorker_AYWaterGrower</li>
+    </placeWorkers>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.1</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>500</WorkToBuild>
+      <MaxHitPoints>25</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <size>(1,1)</size>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>5</costStuffCount>
+    <fertility>0.85</fertility>
+    <building>
+      <defaultPlantToGrow>Plant_Healroot</defaultPlantToGrow>
+      <sowTag>Hydroponic</sowTag>
+    </building>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>false</transmitsPower>
+      </li>
+    </comps>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites>
+      <li>AYHerbsComplex</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>
