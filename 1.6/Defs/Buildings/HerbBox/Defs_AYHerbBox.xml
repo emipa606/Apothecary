@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="AYHerbBoxBase">
+    <defName>AYHerbBox</defName>
+    <label>Herb Box</label>
+    <description>Simple box with a potting mix added that allows you to grow plants, (fertility is 125%)</description>
+    <thingClass>Building_PlantGrower</thingClass>
+    <tickerType>Rare</tickerType>
+    <graphicData>
+      <texPath>Things/Building/AYHerbBox/AYHerbBox</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!-- <shaderType>CutoutComplex</shaderType> -->
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.25</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>750</WorkToBuild>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <size>(1,1)</size>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>5</costStuffCount>
+    <costList>
+      <AYPottingMix>5</AYPottingMix>
+    </costList>
+    <fertility>1.25</fertility>
+    <building>
+      <defaultPlantToGrow>Plant_Healroot</defaultPlantToGrow>
+      <sowTag>Hydroponic</sowTag>
+    </building>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>false</transmitsPower>
+      </li>
+    </comps>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites>
+      <li>AYHerbsSimple</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="AYHerbBoxBase">
+    <defName>AYHerbBoxLime</defName>
+    <label>Herb Box (Limed)</label>
+    <description>Simple box with a potting mix added that has been improved with lime that allows you to grow plants, (fertility is 150%)</description>
+    <graphicData>
+      <texPath>Things/Building/AYHerbBoxLime/AYHerbBoxLime</texPath>
+    </graphicData>
+    <costList>
+      <AYPottingMix>5</AYPottingMix>
+      <AYCalciumCarbonate>5</AYCalciumCarbonate>
+    </costList>
+    <fertility>1.5</fertility>
+  </ThingDef>
+</Defs>

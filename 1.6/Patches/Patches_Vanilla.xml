@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Remove AY Products -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="BurnDrugs"]/ingredients/li[1]/filter/categories</xpath>
+        <value>
+          <li>AYProducts</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="BurnDrugs"]/fixedIngredientFilter/categories</xpath>
+        <value>
+          <li>AYProducts</li>
+        </value>
+      </li>
+      <!-- Add ammonia treated hay to kibble -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="Make_Kibble"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <value>
+          <li>AYAmmoniaHay</li>
+          <li>AYYarrowMaterial</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="Make_Kibble"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>AYAmmoniaHay</li>
+          <li>AYYarrowMaterial</li>
+        </value>
+      </li>
+      <!--  Traders to trade plant materials -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+        <value>
+          <li Class="StockGenerator_Category">
+            <categoryDef>AYPlantMatter</categoryDef>
+            <thingDefCountRange>
+              <min>3</min>
+              <max>8</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>300</min>
+              <max>600</max>
+            </totalPriceRange>
+          </li>
+          <li Class="StockGenerator_Category">
+            <categoryDef>AYProducts</categoryDef>
+            <thingDefCountRange>
+              <min>5</min>
+              <max>10</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>300</min>
+              <max>600</max>
+            </totalPriceRange>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
+        <value>
+          <li Class="StockGenerator_Category">
+            <categoryDef>AYPlantMatter</categoryDef>
+            <thingDefCountRange>
+              <min>5</min>
+              <max>12</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>200</min>
+              <max>400</max>
+            </totalPriceRange>
+          </li>
+          <li Class="StockGenerator_Category">
+            <categoryDef>AYDrugs</categoryDef>
+            <thingDefCountRange>
+              <min>5</min>
+              <max>10</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>300</min>
+              <max>600</max>
+            </totalPriceRange>
+          </li>
+          <li Class="StockGenerator_Category">
+            <categoryDef>AYProducts</categoryDef>
+            <thingDefCountRange>
+              <min>2</min>
+              <max>5</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>150</min>
+              <max>300</max>
+            </totalPriceRange>
+          </li>
+        </value>
+      </li>
+      <!--  AYCharcoal -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WoodFiredGenerator"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+        <value>
+          <li>AYCharcoal</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="FueledSmithy" or defName="FueledStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+        <value>
+          <li>AYCharcoal</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Campfire"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+        <value>
+          <li>AYCharcoal</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

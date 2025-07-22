@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>AY_WashApparel</defName>
+    <label>Wash Apparel</label>
+    <description>Wash taint out of apparel</description>
+    <jobString>washing apparel</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYLavenderSoap</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+      <thingDefs>
+        <li>AYLavenderSoap</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowNonDeadmansApparel</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <forceHiddenSpecialFilters>
+      <li>AllowDeadmansApparel</li>
+    </forceHiddenSpecialFilters>
+    <recipeUsers>
+      <li>AYApparelWashingTub</li>
+    </recipeUsers>
+    <researchPrerequisite>AYOintments</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -88,7 +88,7 @@ public class AYWashUtility
             return;
         }
 
-        var newHaul = HaulAIUtility.HaulToStorageJob(p, t);
+        var newHaul = HaulAIUtility.HaulToStorageJob(p, t, true);
         if (newHaul != null)
         {
             p.jobs.jobQueue.EnqueueFirst(newHaul, JobTag.MiscWork);

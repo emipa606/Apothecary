@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Apothecary (Continued)</name>
+  <packageId>Mlie.Apothecary</packageId>
+  <author>pelador</author>
+  <url>https://github.com/emipa606/Apothecary</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of peladors mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
+
+- Added textures for seeds when using Seeds Please-mod, thanks DarkSlayerEX!
+- The issue with the double-rottime should be fixed, thanks Lade!
+- The research tree should now look better in vanilla research-view, thanks Kayedon!
+- Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke[/url]
+- For detailed description, download the [url=https://github.com/emipa606/Apothecary/raw/main/Source/ApothecaryNotes.pdf]PDF[/url]
+
+If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/Apothecary][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+
+[h1]Overview[/h1] V1.1
+
+A medicinal mod focused on earlier technology epochs prior to the industrial age. (Also more suited to "fantasy" based mods).
+
+[h1]Details[/h1]
+
+Apothecary is a mod designed to provide herbal remedies and other medicinal preparations more suited to the Neolithic and Medieval epochs. It is designed as a preliminary mod prior to the use of Medical supplements which is more focused on the synthetic drug making process more associated with the industrial period and after.
+
+As such it can be used as a standalone mod for inclusion in other mod elements that limit the time periods to earlier epochs for game play or where the mod theme may be more suited to those time periods.
+
+The drugs are not quite as capable as the medical supplement mod versions, but still provide a capable solution with a broad spectrum of medicinal preparations for various illnesses and conditions prior to the industrial period.
+
+Where both mods are being utilised, with MS drug versions superseding the apothecary versions with later research, the apothecary items can still be later utilised as a source of income as preferred.
+
+Additional and more specific mod details can be found using the following link:
+
+[url=https://1drv.ms/b/s!Au3GsmKyQkDYiqF22066N1tLbFQWdw?e=pDLK05]Apothecary Notes (PDF)[/url]
+
+
+[h1]Mod notes[/h1]
+
+
+Several research projects (in own tab, though not as expansive as MS). Recommend using mods that make the management of research projects more user friendly.
+
+Mod option to use bandages more realistically (wont be present if Medical Supplements is loaded).
+
+Mod option to vary the % base cost for all the research projects.
+
+Can be loaded mid save, removal will require removing all game elements.
+
+
+[h1]Compatibilites[/h1] *** Subject to conversion to V1.1 ***
+
+Atlas' Materials - Convert coal and coke into charcoal. Kiln will use charcoal.
+Coal and Coal Extended - Only allows conversion of coal and charcoal based on differing ratios.
+Cupro's Stones - Drops relevant mining bits.
+Diseases Overhauled - Adds additional drug use for conditions. (see pdf notes).
+Dubs Bad hygiene - Log Boiler will use charcoal as fuel.
+Electric stone cutting table - can produce relevant salts.
+Fermenter - adds the ability to make Absinthe. (V1.1 Compat Checked)
+Industrialisation - Uses Electric arc smelter for charcoal production.
+Gloomy furniture - some of the relevant benches will use charcoal as a fuel.
+Kuratheris's Extra Stone - Extra CaCO3 bits and ability to source from relevant stones.
+LotRim - Smithy will use charcoal as fuel.
+LWM's Deep Storage - Will make use of medical cabinet. (V1.1 Compat checked)
+Medical Supplements - integrated elements. (Drug cabinet with LWM's DS). (V1.1 Compat Checked)
+Medieval times - Convert coal into charcoal. Various benches and buildings will use charcoal.
+Multiplayer - native support (beta)
+RC2 Bottling and Brewing - Absinthe mash can be made at the electric brewery and brewery point.
+Remote Tech - Make crushed charcoal from charcoal.
+RF Fertile Fields - Makes use of rock mill for precursor elements, crossover elements with composting. Also can make wood ash and scraps bucket.
+RimOverhaul - Convert coal and coke to charcoal, refuel applicable furnaces.
+RimPlas - Production of ammonia water from pitch. (V1.1 Compat Checked)
+SD Medic add-ons - Medieval surgery lamp will use charcoal as fuel.
+Smoked Meat - Smoke pit and smoke house will use charcoal as fuel.
+Seeds Please - all crops are made available as seeds.
+Smokeleaf Industry and Reborn - Hemp biocoal can be converted to charcoal.
+Social Supplements - Removes Morel Mushrooms from some meat recipes. (V1.1 Compat Checked)
+Tribal Signal Fire - Signal fire will use charcoal as fuel.
+VG Tools - Crossover elements with composting.
+VG Gourmet - Cooking tools linked.
+VFE - Stone campfire and fuelled smelter can be fuelled with charcoal.
+VFE Prod - Linkables applied.
+WD Simple Coal - Convert Coal into charcoal. (V1.1 Compat Checked) *** recommended coal mod ***
+
+[h1]Recommended[/h1] *** Subject to conversion to V1.1 ***
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2195390245]Drug Policy Fix[/url] - can be used to help manage and correct drugs added or removed part way through a save game. It will also sort the drug listings alphabetically.
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631]Mod Medicine Patch[/url] - allows you to specify additional modded medical use (GUI) which works with the mod Pharmacy.
+
+
+[h1]Credits[/h1]
+
+Graphics Revision - Kasmex Forever
+
+RF Fertile fields - modified versions of composting and multiple crop harvested product routines.
+
+Maxwell.J - Chinese (simplified) translation.
+Chinese (traditional) translation - SY1102
+Erdnussbrot - German translation.
+
+
+[h1]List of mods for refined content review[/h1]
+
+Rimcraft
+Rimhammer
+
+
+(CC BY-NC-SA 4.0)
+
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195469123][img]https://img.shields.io/github/v/release/emipa606/Apothecary?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
+  <modIconPath IgnoreIfNoMatchingField="True">ModIcon/Apothecary</modIconPath>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+</ModMetaData>

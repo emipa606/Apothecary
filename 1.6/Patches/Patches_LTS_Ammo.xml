@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ammunition[1.1]</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName="AYSalt_Bucket"]</xpath>
+          <value>
+            <li Class="Ammunition.AmmoExtension">
+              <ammo>none</ammo>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName="AYWoodAsh_Bucket" or defName="AYAshScraps_Bucket"]</xpath>
+          <value>
+            <li Class="Ammunition.AmmoExtension">
+              <ammo>none</ammo>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

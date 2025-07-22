@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<loadFolders>
+	<v1.5>
+    <li>Common</li>
+		<li>1.5</li>
+		<li IfModActive="CETeam.CombatExtended">1.5/CE</li>
+		<li IfModNotActive="CETeam.CombatExtended">1.5/Vanilla</li>
+	</v1.5>
+  <v1.6>
+    <li>Common</li>
+    <li>1.6</li>
+    <li IfModActive="CETeam.CombatExtended">1.6/CE</li>
+    <li IfModNotActive="CETeam.CombatExtended">1.6/Vanilla</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul">1.6/Mods/MedievalOverhaul</li>
+  </v1.6>
+</loadFolders>

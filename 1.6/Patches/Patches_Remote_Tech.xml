@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Remote Tech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Potting Compost -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="rxMakeCharcoal"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>AYCharcoal</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="rxMakeCharcoal"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>AYCharcoal</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
