@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Plaster Item Base -->
+  <ThingDef ParentName="BuildingBase" Name="AYPlasterBase" Abstract="True">
+    <thingClass>Building_Art</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(150,145,127)</color>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories Inherit="false">
+      <li>AYPlasterArt</li>
+    </thingCategories>
+    <statBases>
+      <Mass>3</Mass>
+      <Flammability>0.5</Flammability>
+      <SellPriceFactor>1.10</SellPriceFactor>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+        <canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+  <!-- Unfinished ThingDef -->
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedAYPlaster</defName>
+    <label>unfinished plaster work</label>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedSculpture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(150,145,127)</color>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+  <!-- Planter -->
+  <ThingDef ParentName="AYPlasterBase">
+    <defName>AYPlasterPlanter</defName>
+    <label>Planter</label>
+    <description>An ornate planter cast from lime plaster.</description>
+    <graphicData>
+      <texPath>Things/Building/Art/AYPlasterPlanter/AYPlasterPlanter</texPath>
+    </graphicData>
+    <thingClass>Building_PlantGrower</thingClass>
+    <tickerType>Rare</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>5</Mass>
+      <Beauty>25</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <building>
+      <defaultPlantToGrow>Plant_Daylily</defaultPlantToGrow>
+      <sowTag>Decorative</sowTag>
+    </building>
+    <fertility>1.0</fertility>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYPlasterPlanter</defName>
+    <label>Cast Planter</label>
+    <description>Cast Planter from plaster.</description>
+    <jobString>Casting Planter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Sculpt</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>9000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedAYPlaster</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+        <li>AYTallow</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYPlasterPlanter>1</AYPlasterPlanter>
+    </products>
+    <recipeUsers>
+      <li>AYCastArtTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Artistic>5</Artistic>
+    </skillRequirements>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+  <!--  Bird Bath -->
+  <ThingDef ParentName="AYPlasterBase">
+    <defName>AYPlasterBirdBath</defName>
+    <label>Bird bath</label>
+    <description>A bird bath cast from lime plaster.</description>
+    <graphicData>
+      <texPath>Things/Building/Art/AYPlasterBirdBath/AYPlasterBirdBath</texPath>
+    </graphicData>
+    <thingClass>Apothecary.Building_BirdBath</thingClass>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>10</Mass>
+      <Beauty>50</Beauty>
+      <Cleanliness>+1</Cleanliness>
+    </statBases>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYPlasterBirdBath</defName>
+    <label>Cast Bird Bath</label>
+    <description>Cast Bird Bath from plaster.</description>
+    <jobString>Casting Bird Bath.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Sculpt</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>12000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedAYPlaster</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+        <li>AYTallow</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYPlasterBirdBath>1</AYPlasterBirdBath>
+    </products>
+    <recipeUsers>
+      <li>AYCastArtTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Artistic>6</Artistic>
+    </skillRequirements>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+  <!-- Bat -->
+  <ThingDef ParentName="AYPlasterBase">
+    <defName>AYPlasterBat</defName>
+    <label>Bat sculpture</label>
+    <description>A bat sculpture cast from lime plaster.</description>
+    <graphicData>
+      <texPath>Things/Building/Art/AYPlasterBat/AYPlasterBat</texPath>
+    </graphicData>
+    <thingClass>Building_Art</thingClass>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>42</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>5</Mass>
+      <Beauty>50</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYPlasterBat</defName>
+    <label>Cast Bat sculpture</label>
+    <description>Cast Bat sculpture from plaster.</description>
+    <jobString>Casting Bat sculpture.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Sculpt</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>9500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedAYPlaster</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+        <li>AYTallow</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYPlasterBat>1</AYPlasterBat>
+    </products>
+    <recipeUsers>
+      <li>AYCastArtTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Artistic>4</Artistic>
+    </skillRequirements>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+  <!--  Large -->
+  <!--  Edgy -->
+  <ThingDef ParentName="AYPlasterBase">
+    <defName>AYPlasterLargeEdgy</defName>
+    <label>Large Edgy sculpture</label>
+    <description>An abstract edgy sculpture cast from lime plaster.</description>
+    <graphicData>
+      <texPath>Things/Building/Art/AYPlasterLargeEdgy/AYPlasterLargeEdgy</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <thingClass>Building_Art</thingClass>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>80</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>7.5</Mass>
+      <Beauty>100</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYPlasterLargeEdgy</defName>
+    <label>Cast Large edgy sculpture</label>
+    <description>Cast large edgy sculpture from plaster.</description>
+    <jobString>Casting large sculpture.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Sculpt</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>20000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedAYPlaster</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+        <li>AYTallow</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYPlasterLargeEdgy>1</AYPlasterLargeEdgy>
+    </products>
+    <recipeUsers>
+      <li>AYLargeCastArtTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Artistic>6</Artistic>
+    </skillRequirements>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+  <!--  Owly -->
+  <ThingDef ParentName="AYPlasterBase">
+    <defName>AYPlasterLargeOwly</defName>
+    <label>Large Owly sculpture</label>
+    <description>An abstract owl faced sculpture cast from lime plaster.</description>
+    <graphicData>
+      <texPath>Things/Building/Art/AYPlasterLargeOwly/AYPlasterLargeOwly</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <thingClass>Building_Art</thingClass>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>80</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>7.5</Mass>
+      <Beauty>100</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYPlasterLargeOwly</defName>
+    <label>Cast Large Owly sculpture</label>
+    <description>Cast large owly sculpture from plaster.</description>
+    <jobString>Casting large sculpture.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Sculpt</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>20000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedAYPlaster</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYCalciumCarbonate</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYTallow</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYCalciumCarbonate</li>
+        <li>AYTallow</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYPlasterLargeOwly>1</AYPlasterLargeOwly>
+    </products>
+    <recipeUsers>
+      <li>AYLargeCastArtTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Artistic>6</Artistic>
+    </skillRequirements>
+    <researchPrerequisite>AYTallow</researchPrerequisite>
+  </RecipeDef>
+</Defs>

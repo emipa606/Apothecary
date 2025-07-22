@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYBuildingBase">
+    <defName>AYCompostBarrel</defName>
+    <label>Potting Mix Composting barrel</label>
+    <thingClass>Apothecary.Building_AYCompostBin</thingClass>
+    <description>A barrel in which raw compost, after three and a half days, will become potting mix for herb boxes. The barrel is bit ugly though, and pongs.</description>
+    <graphicData>
+      <texPath>Things/Building/AYCompostBarrel/AYCompostBarrel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <blockLight>false</blockLight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToBuild>450</WorkToBuild>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <constructEffect>ConstructWood</constructEffect>
+    <costList>
+      <WoodLog>25</WoodLog>
+      <Steel>4</Steel>
+      <AYCompost>50</AYCompost>
+    </costList>
+    <useHitPoints>true</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="Apothecary.CompProperties_AYCompostBin">
+        <fermentTicks>840</fermentTicks>
+        <productOne>AYPottingMix</productOne>
+        <numProductOne>40</numProductOne>
+        <productTwo>AYAmmoniaWater</productTwo>
+        <numProductTwo>25</numProductTwo>
+      </li>
+    </comps>
+    <pathCost>60</pathCost>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Electric Stonecutting Table</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeAYCalciumCarbonate" or defName="MakeAYSalt" or defName="MakeAYPreserveMix"]/recipeUsers</xpath>
+          <value>
+            <li>TableStonecutterElectric</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

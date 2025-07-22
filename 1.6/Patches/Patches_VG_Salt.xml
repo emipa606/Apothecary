@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Gourmet</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>RefineAYSaltToVGSalt</defName>
+              <label>Refine Coarse salt to salt chunks</label>
+              <description>Refines coarse salt into salt chunks (VG).</description>
+              <jobString>Refining salt</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workAmount>600</workAmount>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_CookMeal</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <targetCountAdjustment>10</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYSalt</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYSalt</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <ChunkSalt>10</ChunkSalt>
+              </products>
+              <workSkill>Cooking</workSkill>
+              <skillRequirements>
+                <Intellectual>2</Intellectual>
+              </skillRequirements>
+              <researchPrerequisite>Stonecutting</researchPrerequisite>
+              <recipeUsers>
+                <li>AYApothecaryTable</li>
+              </recipeUsers>
+            </RecipeDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYSaltedMeatBarrel"]/ingredients/li[3]/filter/thingDefs</xpath>
+          <value>
+            <li>ChunkSalt</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYSaltedMeatBarrel"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>ChunkSalt</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

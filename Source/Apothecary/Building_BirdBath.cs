@@ -8,7 +8,7 @@ public class Building_BirdBath : Building_Art
 {
     public readonly int inspirationTicks = 30000;
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (!Spawned || !this.IsHashIntervalTick(inspirationTicks))

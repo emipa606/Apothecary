@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Camouflage and Stealth (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/TerrainDef[defName="TileAYPlaster" or defName="TileAYPlasterSalt"]</xpath>
+          <value>
+            <li Class="CompCamo.CompCamoDefs">
+              <CamoType>Stone</CamoType>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

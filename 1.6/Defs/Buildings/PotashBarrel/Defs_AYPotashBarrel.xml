@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYBuildingBase">
+    <defName>AYPotashBarrel</defName>
+    <label>Potash barrel</label>
+    <thingClass>Apothecary.Building_AYCompostBin</thingClass>
+    <description>A barrel filled with wood ashes and hay that will slowly leech potash over time.</description>
+    <graphicData>
+      <texPath>Things/Building/AYPotashBarrel/AYPotashBarrel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <blockLight>false</blockLight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToBuild>450</WorkToBuild>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <constructEffect>ConstructWood</constructEffect>
+    <costList>
+      <WoodLog>25</WoodLog>
+      <Steel>4</Steel>
+      <AYWoodAshes>300</AYWoodAshes>
+      <Hay>100</Hay>
+    </costList>
+    <useHitPoints>true</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="Apothecary.CompProperties_AYCompostBin">
+        <fermentTicks>960</fermentTicks>
+        <productOne>AYPotash</productOne>
+        <numProductOne>30</numProductOne>
+        <productTwo>AYPottingMix</productTwo>
+        <numProductTwo>10</numProductTwo>
+      </li>
+    </comps>
+    <pathCost>60</pathCost>
+    <researchPrerequisites Inherit="false">
+      <li>AYCharcoal</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

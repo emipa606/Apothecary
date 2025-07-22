@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SeedsPlease</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Aloe Vera -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYAloeVera</defName>
+              <label>aloe vera shoots</label>
+              <sources>
+                <li>Plant_AYAloeVera</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Aloe</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYAloeVera</defName>
+              <label>extract aloe vera shoots</label>
+              <description>Extract shoots from aloe vera.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYAloeLeaves</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYAloeLeaves</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYAloeVera>3</Seed_AYAloeVera>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Belladonna -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYBelladonna</defName>
+              <label>belladonna seeds</label>
+              <sources>
+                <li>Plant_AYBelladonna</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Belladonna</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYBelladonna</defName>
+              <label>extract belladonna seeds</label>
+              <description>Extract seeds from belladonna.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYBelladonnaBerries</li>
+                    </thingDefs>
+                  </filter>
+                  <count>6</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYBelladonnaBerries</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYBelladonna>4</Seed_AYBelladonna>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Cinchona -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYCinchona</defName>
+              <label>Cinchona shoots</label>
+              <sources>
+                <li>Plant_AYCinchona</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Cinchona</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYCinchona</defName>
+              <label>extract cinchona shoots</label>
+              <description>Extract shoots from cinchona.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYCinchonaBark</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYCinchonaBark</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYCinchona>2</Seed_AYCinchona>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Garlic -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYGarlic</defName>
+              <label>garlic bulbs</label>
+              <sources>
+                <li>Plant_AYGarlic</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Garlic</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYGarlic</defName>
+              <label>extract garlic bulbs</label>
+              <description>Extract bulbs from garlic.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYGarlicBulb</li>
+                    </thingDefs>
+                  </filter>
+                  <count>4</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYGarlicBulb</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYGarlic>4</Seed_AYGarlic>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Ginger -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYGinger</defName>
+              <label>ginger roots</label>
+              <sources>
+                <li>Plant_AYGinger</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Ginger</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYGingerRoot</defName>
+              <label>extract ginger roots</label>
+              <description>Extract roots from ginger.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYGingerRoot</li>
+                    </thingDefs>
+                  </filter>
+                  <count>3</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYGingerRoot</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYGinger>3</Seed_AYGinger>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Ginkgo -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYGinkgo</defName>
+              <label>Ginkgo seeds</label>
+              <sources>
+                <li>Plant_AYGinkgoBiloba</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Ginkgo</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYGinkgo</defName>
+              <label>extract Ginkgo seeds</label>
+              <description>Extract seeds from Ginkgo.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYGinkgoSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYGinkgoSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYGinkgo>5</Seed_AYGinkgo>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Ginseng -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYGinseng</defName>
+              <label>ginseng roots</label>
+              <sources>
+                <li>Plant_AYGinseng</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Ginseng</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYGinseng</defName>
+              <label>extract Ginseng roots</label>
+              <description>Extract roots from Ginseng.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYGinsengRoot</li>
+                    </thingDefs>
+                  </filter>
+                  <count>2</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYGinsengRoot</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYGinseng>2</Seed_AYGinseng>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Kale -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYKale</defName>
+              <label>kale seeds</label>
+              <sources>
+                <li>Plant_AYKale</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Kale</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYKale</defName>
+              <label>extract kale seeds</label>
+              <description>Extract seeds from kale.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYKaleLeaves</li>
+                    </thingDefs>
+                  </filter>
+                  <count>8</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYKaleLeaves</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYKale>4</Seed_AYKale>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Lavender -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYLavender</defName>
+              <label>lavender seeds</label>
+              <sources>
+                <li>Plant_AYLavender</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Lavender</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYLavender</defName>
+              <label>extract lavender seeds</label>
+              <description>Extract seeds from lavender.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYLavenderFlowers</li>
+                    </thingDefs>
+                  </filter>
+                  <count>6</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYLavenderFlowers</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYLavender>4</Seed_AYLavender>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Nettle -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYNettle</defName>
+              <label>nettle seeds</label>
+              <sources>
+                <li>Plant_AYNettle</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Nettle</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYNettle</defName>
+              <label>extract nettle seeds</label>
+              <description>Extract seeds from nettle.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYNettleLeaves</li>
+                    </thingDefs>
+                  </filter>
+                  <count>8</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYNettleLeaves</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYNettle>8</Seed_AYNettle>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Star Anise -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYStarAnise</defName>
+              <label>star anise seeds</label>
+              <sources>
+                <li>Plant_AYStarAnise</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/StarAnise</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYStarAnise</defName>
+              <label>extract star anise seeds</label>
+              <description>Extract seeds from star anise.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYStarAniseFlowers</li>
+                    </thingDefs>
+                  </filter>
+                  <count>4</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYStarAniseFlowers</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYStarAnise>2</Seed_AYStarAnise>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- St Johns Wort -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYStJohnsWort</defName>
+              <label>St Johns wort seeds</label>
+              <sources>
+                <li>Plant_AYStJohnsWort</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/StJohnsWort</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYStJohnsWort</defName>
+              <label>extract St Johns wort seeds</label>
+              <description>Extract seeds from St Johns wort.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYStJohnsWortFlowers</li>
+                    </thingDefs>
+                  </filter>
+                  <count>4</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYStJohnsWortFlowers</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYStJohnsWort>3</Seed_AYStJohnsWort>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- White willow -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYWhiteWillow</defName>
+              <label>white willow shoots</label>
+              <sources>
+                <li>Plant_AYWhiteWillow</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/WhiteWillow</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYWhiteWillow</defName>
+              <label>extract white willow shoots</label>
+              <description>Extract shoots from white willow.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYWhiteWillowBark</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYWhiteWillowBark</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYWhiteWillow>2</Seed_AYWhiteWillow>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Wormwood -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYWormwood</defName>
+              <label>Wormwood shoots</label>
+              <sources>
+                <li>Plant_AYWormwood</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Wormwood</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYWormwood</defName>
+              <label>extract wormwood shoots</label>
+              <description>Extract shoots from wormwood.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYWormwoodLeaves</li>
+                    </thingDefs>
+                  </filter>
+                  <count>4</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYWormwoodLeaves</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYWormwood>2</Seed_AYWormwood>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Yarrow -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYYarrow</defName>
+              <label>yarrow seeds</label>
+              <sources>
+                <li>Plant_AYYarrow</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Yarrow</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYYarrow</defName>
+              <label>extract yarrow seeds</label>
+              <description>Extract seeds from yarrow.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYYarrowMaterial</li>
+                    </thingDefs>
+                  </filter>
+                  <count>7</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYYarrowMaterial</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYYarrow>5</Seed_AYYarrow>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Turmeric -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYTurmeric</defName>
+              <label>Turmeric roots</label>
+              <sources>
+                <li>Plant_AYTurmeric</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Turmeric</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYTurmericRoot</defName>
+              <label>extract turmeric roots</label>
+              <description>Extract roots from turmeric.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYTurmericRoot</li>
+                    </thingDefs>
+                  </filter>
+                  <count>3</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYTurmericRoot</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYTurmeric>4</Seed_AYTurmeric>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Henbane -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_AYHenbane</defName>
+              <label>Henbane seeds</label>
+              <sources>
+                <li>Plant_AYHenbane</li>
+              </sources>
+              <graphicData>
+                <texPath>Things/Item/Seeds/Henbane</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_AYHenbaneSeed</defName>
+              <label>extract henbane seeds</label>
+              <description>Extract seeds from henbane.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>AYHenbaneLeaves</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>AYHenbaneLeaves</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_AYHenbane>4</Seed_AYHenbane>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

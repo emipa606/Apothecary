@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Tab -->
+  <ResearchTabDef>
+    <defName>AYApothecaryTab</defName>
+    <label>Apothecary</label>
+  </ResearchTabDef>
+  <!-- Projects -->
+  <!-- Herbalism -->
+  <ResearchProjectDef>
+    <defName>AYHerbsSimple</defName>
+    <label>Herbalism (Simple)</label>
+    <description>Grants the ability to cultivate simple herbs.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.25</researchViewY>
+    <prerequisites>
+      <li>PassiveCooler</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYHerbsIntermediate</defName>
+    <label>Herbalism (Intermediate)</label>
+    <description>Grants the ability to cultivate uncommon herbs.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.25</researchViewY>
+    <prerequisites>
+      <li>AYHerbsSimple</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYHerbsComplex</defName>
+    <label>Herbalism (Complex)</label>
+    <description>Grants the ability to cultivate complex herbs.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1.25</researchViewY>
+    <prerequisites>
+      <li>AYHerbsIntermediate</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYHerbsYield</defName>
+    <label>Herbalism Yields</label>
+    <description>Grants the ability to improve yields from apothecary herbs.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1.75</researchViewY>
+    <prerequisites>
+      <li>AYHerbsIntermediate</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <!-- Products -->
+  <ResearchProjectDef>
+    <defName>AYTallow</defName>
+    <label>Tallow</label>
+    <description>Grants the ability to make tallow and associated products.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0.60</researchViewY>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYCharcoal</defName>
+    <label>Charcoal</label>
+    <description>Grants the ability to make charcoal and associated products.</description>
+    <baseCost>350</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>Stonecutting</li>
+      <li>AYTallow</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYPowders</defName>
+    <label>Powders</label>
+    <description>Grants the ability to grind and dry plant materials into powders.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.5</researchViewY>
+    <prerequisites>
+      <li>AYHerbsSimple</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYExtracts</defName>
+    <label>Extracts</label>
+    <description>Grants the ability to extract useful oils and other elements from plant materials.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>AYHerbsIntermediate</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYSalts</defName>
+    <label>Salts</label>
+    <description>Grants the ability to make salts, an early form of medicinal use prior to later pills.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0.75</researchViewY>
+    <prerequisites>
+      <li>AYExtracts</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <!-- Drugs -->
+  <ResearchProjectDef>
+    <defName>AYTeas</defName>
+    <label>Herbal Teas</label>
+    <description>Grants the ability to prepare herbal teas.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.5</researchViewY>
+    <prerequisites>
+      <li>AYPowders</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYElixirs</defName>
+    <label>Elixirs</label>
+    <description>Grants the ability to prepare Elixirs.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2.25</researchViewY>
+    <prerequisites>
+      <li>AYHerbsIntermediate</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYOintments</defName>
+    <label>Ointments</label>
+    <description>Grants the ability to prepare ointments.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0.25</researchViewY>
+    <prerequisites>
+      <li>AYTallow</li>
+      <li>AYExtracts</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AYTonics</defName>
+    <label>Tonics</label>
+    <description>Grants the ability to prepare tonics.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2.5</researchViewY>
+    <prerequisites>
+      <li>AYTeas</li>
+      <li>AYElixirs</li>
+    </prerequisites>
+    <tab>AYApothecaryTab</tab>
+  </ResearchProjectDef>
+</Defs>

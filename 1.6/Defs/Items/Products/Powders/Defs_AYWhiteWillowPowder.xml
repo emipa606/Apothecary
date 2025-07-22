@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYWhiteWillowPowder</defName>
+    <label>White willow Powder</label>
+    <description>Dried and ground white willow bark</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powders/AYWhiteWillowPowder/AYWhiteWillowPowder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stackLimit>500</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.14</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.85</Flammability>
+      <DeteriorationRate>0.75</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPowders</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeAYWhiteWillowPowder</defName>
+    <label>Make White willow Powder</label>
+    <description>Make 25 White willow Powder</description>
+    <jobString>Making White willow Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>400</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWhiteWillowBark</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWhiteWillowBark</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWhiteWillowPowder>25</AYWhiteWillowPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkAYWhiteWillowPowder</defName>
+    <label>Make White willow Powder in bulk</label>
+    <description>Make 100 White willow Powder</description>
+    <jobString>Making White willow Powder</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1600</workAmount>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AYWhiteWillowBark</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AYWhiteWillowBark</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AYWhiteWillowPowder>100</AYWhiteWillowPowder>
+    </products>
+    <recipeUsers>
+      <li>AYApothecaryTable</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AYPowders</researchPrerequisite>
+  </RecipeDef>
+</Defs>

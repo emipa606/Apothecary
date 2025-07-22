@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AYBuildingBase">
+    <defName>AYPreserveBarrel</defName>
+    <label>Preserving barrel</label>
+    <thingClass>Building_Storage</thingClass>
+    <description>A barrel that contains a mix of crushed rocks, sand and dirt that can be used to store vegetable matter and help preserve it.</description>
+    <graphicData>
+      <texPath>Things/Building/AYPreserveBarrel/AYPreserveBarrel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <blockLight>false</blockLight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories Inherit="false">
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>450</WorkToBuild>
+      <Beauty>-1</Beauty>
+      <Mass>5</Mass>
+    </statBases>
+    <constructEffect>ConstructWood</constructEffect>
+    <costList>
+      <WoodLog>25</WoodLog>
+      <Steel>4</Steel>
+      <AYPreserveMix>3</AYPreserveMix>
+    </costList>
+    <useHitPoints>true</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="Apothecary.CompProperties_AYPreserve" />
+    </comps>
+    <pathCost>60</pathCost>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>PlantMatter</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>PlantMatter</li>
+          </categories>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+            <li>AYTreatedMedHerb</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites Inherit="false">
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

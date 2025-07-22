@@ -14,7 +14,7 @@ public class AYFilth_Salt : Filth
         Scribe_Values.Look(ref AYspawnTick, "AYspawnTick");
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         AYspawnTick++;
         var removeDelay = 180000;

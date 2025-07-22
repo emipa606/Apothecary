@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[K]Extra Stone(w/ Cupro's Textures)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCalciumCarbonate"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>ChunkEmperadordark</li>
+            <li>ChunkBlueschist</li>
+            <li>ChunkSerpentinite</li>
+            <li>ChunkDacite</li>
+            <li>ChunkSovite</li>
+            <li>ChunkChalk</li>
+            <li>ChunkCreoleMarble</li>
+            <li>ChunkEtowahMarble</li>
+            <li>ChunkGreenSchist</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCalciumCarbonate"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>ChunkEmperadordark</li>
+            <li>ChunkBlueschist</li>
+            <li>ChunkSerpentinite</li>
+            <li>ChunkDacite</li>
+            <li>ChunkSovite</li>
+            <li>ChunkChalk</li>
+            <li>ChunkCreoleMarble</li>
+            <li>ChunkEtowahMarble</li>
+            <li>ChunkGreenSchist</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

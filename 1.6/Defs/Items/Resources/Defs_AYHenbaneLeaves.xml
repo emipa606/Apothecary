@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Raw Material -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>AYHenbaneLeaves</defName>
+    <label>Henbane Leaves</label>
+    <description>Leaves of the henbane that are slightly poisonous, and also used as medicinal herbs.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/AYHenbaneLeaves/AYHenbaneLeaves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.97</MarketValue>
+      <Mass>0.02</Mass>
+      <Nutrition>0.01</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.25</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>AYPlantMatter</li>
+      <li>AYHerbs</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>32</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

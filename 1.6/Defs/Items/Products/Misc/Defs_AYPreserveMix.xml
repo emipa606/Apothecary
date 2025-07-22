@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AYPreserveMix</defName>
+    <label>Preserve Mix</label>
+    <description>A coarse mix of dirt, sand and stones.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Misc/AYPreserveMix/AYPreserveMix</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.5</MarketValue>
+      <Mass>1</Mass>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>AYProducts</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+  <RecipeDef>
+    <defName>MakeAYPreserveMix</defName>
+    <label>Make Preserve Mix</label>
+    <description>Make 5 Preserve Mix.</description>
+    <jobString>Making Preserve Mix.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <AYPreserveMix>5</AYPreserveMix>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>1</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+</Defs>

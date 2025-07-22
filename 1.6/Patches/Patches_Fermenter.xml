@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fermenter (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!--  Corn -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_AYFRMT_CornOil</defName>
+              <label>make corn oil</label>
+              <description>Make 5 corn oil using pestle and mortar.</description>
+              <jobString>Making corn oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawCorn</li>
+                    </thingDefs>
+                  </filter>
+                  <count>20</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawCorn</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_CornOil>5</FRMT_CornOil>
+              </products>
+              <recipeUsers>
+                <li>AYApothecaryTable</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Olive -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_AYFRMT_OliveOil</defName>
+              <label>make olive oil</label>
+              <description>Make 5 olive oil using pestle and mortar.</description>
+              <jobString>Making olive oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_Olives</li>
+                    </thingDefs>
+                  </filter>
+                  <count>20</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_Olives</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_OliveOil>5</FRMT_OliveOil>
+              </products>
+              <recipeUsers>
+                <li>AYApothecaryTable</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilTrees</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sesame -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_AYFRMT_SesameOil</defName>
+              <label>make sesame oil</label>
+              <description>Make 5 sesame oil using pestle and mortar.</description>
+              <jobString>Making sesame oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SesameSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>20</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SesameSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SesameOil>5</FRMT_SesameOil>
+              </products>
+              <recipeUsers>
+                <li>AYApothecaryTable</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sunflower -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_AYFRMT_SunflowerOil</defName>
+              <label>make sunflower oil</label>
+              <description>Make 5 sunflower oil using pestle and mortar.</description>
+              <jobString>Making sunflower oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SunflowerSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>20</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SunflowerSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SunflowerOil>5</FRMT_SunflowerOil>
+              </products>
+              <recipeUsers>
+                <li>AYApothecaryTable</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>AYGarlicBulb</li>
+              <li>AYGingerRoot</li>
+              <li>AYGinkgoSeeds</li>
+              <li>AYGinsengRoot</li>
+              <li>AYKaleLeaves</li>
+              <li>AYTurmericRoot</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>AYGarlicBulb</li>
+                <li>AYGingerRoot</li>
+                <li>AYGinkgoSeeds</li>
+                <li>AYGinsengRoot</li>
+                <li>AYKaleLeaves</li>
+                <li>AYTurmericRoot</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>AYGarlicBulb</li>
+              <li>AYGingerRoot</li>
+              <li>AYGinkgoSeeds</li>
+              <li>AYGinsengRoot</li>
+              <li>AYKaleLeaves</li>
+              <li>AYTurmericRoot</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>AYGarlicBulb</li>
+                <li>AYGingerRoot</li>
+                <li>AYGinkgoSeeds</li>
+                <li>AYGinsengRoot</li>
+                <li>AYKaleLeaves</li>
+                <li>AYTurmericRoot</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+            <value>
+              <li>AYPowders</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>AYPowders</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+            <value>
+              <li>AYPowders</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>AYPowders</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCompost" or defName="MakeBulkAYCompost"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <value>
+            <li>SpoilMash</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeAYCompost" or defName="MakeBulkAYCompost"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>SpoilMash</li>
+          </value>
+        </li>
+        <!--  Absinthe -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_AYAbsinthe</defName>
+              <Product>AYAbsinthe</Product>
+              <Resource>AYAbsintheMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>150.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_AYAbsintheMash"]</xpath>
+          <value>
+            <recipeUsers>
+              <li>Brewery</li>
+              <li>AYApothecaryTable</li>
+            </recipeUsers>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>AYAbsinthe</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>AYAbsinthe</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>AYAbsinthe</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>AYAbsinthe</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fermenter (Continued)</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>VGP Vegetable Garden</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_AYFRMT_OliveOil"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>RawOlive</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_AYFRMT_OliveOil"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RawOlive</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fermenter (Continued)</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>RimCuisine 2: Bottling and Booze Expansion (Continued)</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_AYAbsintheMash"]/recipeUsers</xpath>
+            <value>
+              <li>RC2_ElectricBrewery</li>
+              <li>RC2_BrewingSpot</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
