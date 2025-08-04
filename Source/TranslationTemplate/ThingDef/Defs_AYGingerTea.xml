@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Ginger Tea -->
+  <AYGingerTea.label>Ginger Tea</AYGingerTea.label>
+  <!-- EN: Ginger tea, a useful aid for stomach upsets and helps to prevent gut worms. Effects last about a day. -->
+  <AYGingerTea.description>Ginger tea, a useful aid for stomach upsets and helps to prevent gut worms. Effects last about a day.</AYGingerTea.description>
+  <!-- EN: Drink {0} -->
+  <AYGingerTea.ingestible.ingestCommandString>Drink {0}</AYGingerTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYGingerTea.ingestible.ingestReportString>Drinking {0}.</AYGingerTea.ingestible.ingestReportString>
+</LanguageData>

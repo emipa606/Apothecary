@@ -8,7 +8,7 @@ public static class AYPlantUtility
 {
     public static void AddYield(Pawn pawn, Plant plant)
     {
-        if (!AYResearch.AYHerbsYield.IsFinished || !isAYPlant(plant))
+        if (!AYResearch.AYHerbsYield.IsFinished || !isAyPlant(plant))
         {
             return;
         }
@@ -25,26 +25,26 @@ public static class AYPlantUtility
             thingDef = plant2?.harvestedThingDef;
         }
 
-        var HarvDef = thingDef;
-        if (HarvDef == null)
+        var harvDef = thingDef;
+        if (harvDef == null)
         {
             return;
         }
 
-        var HarvNum = plant.def.plant.harvestYield;
-        if (!(HarvNum > 0f))
+        var harvNum = plant.def.plant.harvestYield;
+        if (!(harvNum > 0f))
         {
             return;
         }
 
-        var addyield = GetAddYield(pawn, plant, HarvNum);
+        var addyield = getAddYield(pawn, plant, harvNum);
         if (addyield > 0f)
         {
-            GenAddYield(pawn, plant, HarvDef, addyield);
+            genAddYield(pawn, harvDef, addyield);
         }
     }
 
-    public static bool isAYPlant(Plant plant)
+    private static bool isAyPlant(Plant plant)
     {
         if (plant == null)
         {
@@ -80,18 +80,15 @@ public static class AYPlantUtility
             list = plant3?.sowResearchPrerequisites;
         }
 
-        var PlantResearch = list;
-        if (PlantResearch is { Count: <= 0 })
+        var plantResearch = list;
+        switch (plantResearch)
         {
-            return false;
+            case { Count: <= 0 }:
+            case null:
+                return false;
         }
 
-        if (PlantResearch == null)
-        {
-            return false;
-        }
-
-        foreach (var researchProjectDef in PlantResearch)
+        foreach (var researchProjectDef in plantResearch)
         {
             if (researchProjectDef.defName.StartsWith("AYHerbs"))
             {
@@ -102,7 +99,7 @@ public static class AYPlantUtility
         return false;
     }
 
-    public static float GetAddYield(Pawn pawn, Plant plant, float yield)
+    private static float getAddYield(Pawn pawn, Plant plant, float yield)
     {
         if (pawn == null || plant == null)
         {
@@ -129,7 +126,7 @@ public static class AYPlantUtility
         return yield * plant.Growth * skillRatio * 0.4f;
     }
 
-    public static void GenAddYield(Pawn pawn, Plant plant, ThingDef harvDef, float yield)
+    private static void genAddYield(Pawn pawn, ThingDef harvDef, float yield)
     {
         var thing = ThingMaker.MakeThing(harvDef);
         thing.stackCount = checked((int)yield);

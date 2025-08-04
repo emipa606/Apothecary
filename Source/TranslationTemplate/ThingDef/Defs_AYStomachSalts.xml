@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Stomach Salts -->
+  <AYStomachSalts.label>Stomach Salts</AYStomachSalts.label>
+  <!-- EN: Stomach salts, can be used to settle upset stomachs and lower acid buildup. The effects last about half a day. -->
+  <AYStomachSalts.description>Stomach salts, can be used to settle upset stomachs and lower acid buildup. The effects last about half a day.</AYStomachSalts.description>
+  <!-- EN: Take {0} -->
+  <AYStomachSalts.ingestible.ingestCommandString>Take {0}</AYStomachSalts.ingestible.ingestCommandString>
+  <!-- EN: Taking {0}. -->
+  <AYStomachSalts.ingestible.ingestReportString>Taking {0}.</AYStomachSalts.ingestible.ingestReportString>
+</LanguageData>

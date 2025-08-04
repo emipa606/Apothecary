@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Candles -->
+  <MakeAYCandleSingle.label>Make Candles</MakeAYCandleSingle.label>
+  <!-- EN: Make 1 Candle -->
+  <MakeAYCandleSingle.description>Make 1 Candle</MakeAYCandleSingle.description>
+  <!-- EN: Making Candles -->
+  <MakeAYCandleSingle.jobString>Making Candles</MakeAYCandleSingle.jobString>
+</LanguageData>

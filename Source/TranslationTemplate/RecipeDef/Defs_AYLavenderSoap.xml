@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Lavender Soap -->
+  <MakeAYLavenderSoap.label>Make Lavender Soap</MakeAYLavenderSoap.label>
+  <!-- EN: Make 1 Lavender Soap. -->
+  <MakeAYLavenderSoap.description>Make 1 Lavender Soap.</MakeAYLavenderSoap.description>
+  <!-- EN: Making Lavender Soap -->
+  <MakeAYLavenderSoap.jobString>Making Lavender Soap</MakeAYLavenderSoap.jobString>
+  <!-- EN: Make Lavender Soap in bulk -->
+  <MakeBulkAYLavenderSoap.label>Make Lavender Soap in bulk</MakeBulkAYLavenderSoap.label>
+  <!-- EN: Make 5 Lavender Soap. -->
+  <MakeBulkAYLavenderSoap.description>Make 5 Lavender Soap.</MakeBulkAYLavenderSoap.description>
+  <!-- EN: Making Lavender Soap -->
+  <MakeBulkAYLavenderSoap.jobString>Making Lavender Soap</MakeBulkAYLavenderSoap.jobString>
+</LanguageData>

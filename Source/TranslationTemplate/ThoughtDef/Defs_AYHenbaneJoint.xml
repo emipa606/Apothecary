@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: high on henbane -->
+  <AYHenbaneHighThought.stages.high_on_henbane.label>high on henbane</AYHenbaneHighThought.stages.high_on_henbane.label>
+  <!-- EN: Groovy. -->
+  <AYHenbaneHighThought.stages.high_on_henbane.description>Groovy.</AYHenbaneHighThought.stages.high_on_henbane.description>
+  <!-- EN: stoned on henbane -->
+  <AYHenbaneHighThought.stages.stoned_on_henbane.label>stoned on henbane</AYHenbaneHighThought.stages.stoned_on_henbane.label>
+  <!-- EN: Super Groovy. -->
+  <AYHenbaneHighThought.stages.stoned_on_henbane.description>Super Groovy.</AYHenbaneHighThought.stages.stoned_on_henbane.description>
+  <!-- EN: henbane withdrawal -->
+  <AYHenbaneWithdrawal.stages.henbane_withdrawal.label>henbane withdrawal</AYHenbaneWithdrawal.stages.henbane_withdrawal.label>
+  <!-- EN: I really wish I could smoke. I feel jittery, and my gut has that anxious sensation all the time. -->
+  <AYHenbaneWithdrawal.stages.henbane_withdrawal.description>I really wish I could smoke. I feel jittery, and my gut has that anxious sensation all the time.</AYHenbaneWithdrawal.stages.henbane_withdrawal.description>
+</LanguageData>

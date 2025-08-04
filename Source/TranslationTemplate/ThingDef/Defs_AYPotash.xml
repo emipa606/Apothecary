@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Limewater -->
+  <AYLimewater.label>Limewater</AYLimewater.label>
+  <!-- EN: Limewater is a solution of Sodium or Calcium Hydroxide. It is an alkali that can be used in making soaps. -->
+  <AYLimewater.description>Limewater is a solution of Sodium or Calcium Hydroxide. It is an alkali that can be used in making soaps.</AYLimewater.description>
+  <!-- EN: Potash -->
+  <AYPotash.label>Potash</AYPotash.label>
+  <!-- EN: Potash is a compound containing potassium. Leeched from wood ashes it is used in making soaps. -->
+  <AYPotash.description>Potash is a compound containing potassium. Leeched from wood ashes it is used in making soaps.</AYPotash.description>
+</LanguageData>

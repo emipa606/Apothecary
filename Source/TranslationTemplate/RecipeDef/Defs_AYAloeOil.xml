@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Aloe Oil -->
+  <MakeAYAloeOil.label>Make Aloe Oil</MakeAYAloeOil.label>
+  <!-- EN: Make 1 Aloe oil -->
+  <MakeAYAloeOil.description>Make 1 Aloe oil</MakeAYAloeOil.description>
+  <!-- EN: Making Aloe oil -->
+  <MakeAYAloeOil.jobString>Making Aloe oil</MakeAYAloeOil.jobString>
+  <!-- EN: Make Aloe Oil in bulk -->
+  <MakeBulkAYAloeOil.label>Make Aloe Oil in bulk</MakeBulkAYAloeOil.label>
+  <!-- EN: Make 5 Aloe oil -->
+  <MakeBulkAYAloeOil.description>Make 5 Aloe oil</MakeBulkAYAloeOil.description>
+  <!-- EN: Making Aloe oil -->
+  <MakeBulkAYAloeOil.jobString>Making Aloe oil</MakeBulkAYAloeOil.jobString>
+</LanguageData>

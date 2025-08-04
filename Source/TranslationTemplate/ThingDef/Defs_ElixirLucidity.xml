@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Elixir of Lucidity -->
+  <AYElixirLucidity.label>Elixir of Lucidity</AYElixirLucidity.label>
+  <!-- EN: This elixir improves concentration and memory. Effects last about a day. -->
+  <AYElixirLucidity.description>This elixir improves concentration and memory. Effects last about a day.</AYElixirLucidity.description>
+  <!-- EN: Drink {0} -->
+  <AYElixirLucidity.ingestible.ingestCommandString>Drink {0}</AYElixirLucidity.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYElixirLucidity.ingestible.ingestReportString>Drinking {0}.</AYElixirLucidity.ingestible.ingestReportString>
+</LanguageData>

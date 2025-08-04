@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Treated Herbal Medicine -->
+  <AYTreatedMedHerb.label>Treated Herbal Medicine</AYTreatedMedHerb.label>
+  <!-- EN: Improved Herbal medicine by infusing it with yarrow oil and aloe oil. -->
+  <AYTreatedMedHerb.description>Improved Herbal medicine by infusing it with yarrow oil and aloe oil.</AYTreatedMedHerb.description>
+  <!-- EN: Yarrow bandages -->
+  <AYYarrowBandage.label>Yarrow bandages</AYYarrowBandage.label>
+  <!-- EN: A gauze made from cloth or nettle hemp infused with yarrow oil. It can be used to tend similar to medicine but is slightly less effective. -->
+  <AYYarrowBandage.description>A gauze made from cloth or nettle hemp infused with yarrow oil. It can be used to tend similar to medicine but is slightly less effective.</AYYarrowBandage.description>
+</LanguageData>

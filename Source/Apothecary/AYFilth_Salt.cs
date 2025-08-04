@@ -14,7 +14,7 @@ public class AYFilth_Salt : Filth
         Scribe_Values.Look(ref AYspawnTick, "AYspawnTick");
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         AYspawnTick++;
         var removeDelay = 180000;
@@ -29,19 +29,19 @@ public class AYFilth_Salt : Filth
             return;
         }
 
-        var TargetMap = Map;
-        var TargetCell = Position;
-        var SnowDepth = TargetMap.snowGrid.GetDepth(TargetCell);
-        if (!(SnowDepth > 0f))
+        var targetMap = Map;
+        var targetCell = Position;
+        var snowDepth = targetMap.snowGrid.GetDepth(targetCell);
+        if (!(snowDepth > 0f))
         {
             return;
         }
 
-        SnowDepth -= Math.Max(0f, GetRndMelt());
-        TargetMap.snowGrid.SetDepth(TargetCell, SnowDepth);
+        snowDepth -= Math.Max(0f, GetRndMelt());
+        targetMap.snowGrid.SetDepth(targetCell, snowDepth);
     }
 
-    public float GetRndMelt()
+    public static float GetRndMelt()
     {
         return Rand.Range(0.05f, 0.1f);
     }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Herbal Medicine -->
+  <MakeAYHerbalMedsFromYarrow.label>Make Herbal Medicine</MakeAYHerbalMedsFromYarrow.label>
+  <!-- EN: Make 5 Herbal Medicine (from Yarrow). -->
+  <MakeAYHerbalMedsFromYarrow.description>Make 5 Herbal Medicine (from Yarrow).</MakeAYHerbalMedsFromYarrow.description>
+  <!-- EN: Making Herbal Medicine -->
+  <MakeAYHerbalMedsFromYarrow.jobString>Making Herbal Medicine</MakeAYHerbalMedsFromYarrow.jobString>
+  <!-- EN: Make Herbal Medicine in Bulk -->
+  <MakeBulkAYHerbalMedsFromYarrow.label>Make Herbal Medicine in Bulk</MakeBulkAYHerbalMedsFromYarrow.label>
+  <!-- EN: Make 25 Herbal Medicine (from Yarrow). -->
+  <MakeBulkAYHerbalMedsFromYarrow.description>Make 25 Herbal Medicine (from Yarrow).</MakeBulkAYHerbalMedsFromYarrow.description>
+  <!-- EN: Making Herbal Medicine -->
+  <MakeBulkAYHerbalMedsFromYarrow.jobString>Making Herbal Medicine</MakeBulkAYHerbalMedsFromYarrow.jobString>
+</LanguageData>

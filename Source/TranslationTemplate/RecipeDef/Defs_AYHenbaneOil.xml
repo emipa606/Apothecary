@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Henbane Oil -->
+  <MakeAYHenbaneOil.label>Make Henbane Oil</MakeAYHenbaneOil.label>
+  <!-- EN: Make 1 Henbane oil -->
+  <MakeAYHenbaneOil.description>Make 1 Henbane oil</MakeAYHenbaneOil.description>
+  <!-- EN: Making Henbane oil -->
+  <MakeAYHenbaneOil.jobString>Making Henbane oil</MakeAYHenbaneOil.jobString>
+  <!-- EN: Make Henbane Oil in bulk -->
+  <MakeBulkAYHenbaneOil.label>Make Henbane Oil in bulk</MakeBulkAYHenbaneOil.label>
+  <!-- EN: Make 5 Henbane oil -->
+  <MakeBulkAYHenbaneOil.description>Make 5 Henbane oil</MakeBulkAYHenbaneOil.description>
+  <!-- EN: Making Henbane oil -->
+  <MakeBulkAYHenbaneOil.jobString>Making Henbane oil</MakeBulkAYHenbaneOil.jobString>
+</LanguageData>

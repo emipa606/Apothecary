@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Quinine Tea -->
+  <MakeAYQuinineTea.label>Make Quinine Tea</MakeAYQuinineTea.label>
+  <!-- EN: Make 1 Quinine Tea. -->
+  <MakeAYQuinineTea.description>Make 1 Quinine Tea.</MakeAYQuinineTea.description>
+  <!-- EN: Making Quinine Tea -->
+  <MakeAYQuinineTea.jobString>Making Quinine Tea</MakeAYQuinineTea.jobString>
+  <!-- EN: Make Quinine Tea in bulk -->
+  <MakeBulkAYQuinineTea.label>Make Quinine Tea in bulk</MakeBulkAYQuinineTea.label>
+  <!-- EN: Make 5 Quinine Teas. -->
+  <MakeBulkAYQuinineTea.description>Make 5 Quinine Teas.</MakeBulkAYQuinineTea.description>
+  <!-- EN: Making Quinine Tea -->
+  <MakeBulkAYQuinineTea.jobString>Making Quinine Tea</MakeBulkAYQuinineTea.jobString>
+</LanguageData>

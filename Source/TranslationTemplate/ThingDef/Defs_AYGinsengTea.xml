@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Ginseng Tea -->
+  <AYGinsengTea.label>Ginseng Tea</AYGinsengTea.label>
+  <!-- EN: Ginseng tea, when consumed it will help elevate mood. Effects last about half a day. -->
+  <AYGinsengTea.description>Ginseng tea, when consumed it will help elevate mood. Effects last about half a day.</AYGinsengTea.description>
+  <!-- EN: Drink {0} -->
+  <AYGinsengTea.ingestible.ingestCommandString>Drink {0}</AYGinsengTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYGinsengTea.ingestible.ingestReportString>Drinking {0}.</AYGinsengTea.ingestible.ingestReportString>
+</LanguageData>

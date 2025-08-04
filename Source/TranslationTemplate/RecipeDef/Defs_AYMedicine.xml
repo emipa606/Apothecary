@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make treated herbal medicine -->
+  <MakeAYTreatedMedHerb.label>Make treated herbal medicine</MakeAYTreatedMedHerb.label>
+  <!-- EN: Make 5 treated herbal meds. -->
+  <MakeAYTreatedMedHerb.description>Make 5 treated herbal meds.</MakeAYTreatedMedHerb.description>
+  <!-- EN: Treating herbal medicine. -->
+  <MakeAYTreatedMedHerb.jobString>Treating herbal medicine.</MakeAYTreatedMedHerb.jobString>
+  <!-- EN: Make bandages (Yarrow) -->
+  <MakeAYYarrowBandage.label>Make bandages (Yarrow)</MakeAYYarrowBandage.label>
+  <!-- EN: Make 5 bandages (Yarrow). -->
+  <MakeAYYarrowBandage.description>Make 5 bandages (Yarrow).</MakeAYYarrowBandage.description>
+  <!-- EN: Crafting bandages. -->
+  <MakeAYYarrowBandage.jobString>Crafting bandages.</MakeAYYarrowBandage.jobString>
+</LanguageData>

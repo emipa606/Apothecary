@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Lime Plaster Tile -->
+  <TileAYPlaster.label>Lime Plaster Tile</TileAYPlaster.label>
+  <!-- EN: Lime plaster tiles. A basic construction that is relatively quick to lay. -->
+  <TileAYPlaster.description>Lime plaster tiles. A basic construction that is relatively quick to lay.</TileAYPlaster.description>
+  <!-- EN: Lime Plaster Tile (Salted) -->
+  <TileAYPlasterSalt.label>Lime Plaster Tile (Salted)</TileAYPlasterSalt.label>
+  <!-- EN: Salt encrusted lime plaster tiles. Will prevent snow from forming on the surface and has a slight improvement to cleanliness. -->
+  <TileAYPlasterSalt.description>Salt encrusted lime plaster tiles. Will prevent snow from forming on the surface and has a slight improvement to cleanliness.</TileAYPlasterSalt.description>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Ammonia Charcoal -->
+  <MakeAYAmmoniaCharcoal.label>Make Ammonia Charcoal</MakeAYAmmoniaCharcoal.label>
+  <!-- EN: Make 25 Ammonia treated Charcoal. -->
+  <MakeAYAmmoniaCharcoal.description>Make 25 Ammonia treated Charcoal.</MakeAYAmmoniaCharcoal.description>
+  <!-- EN: Making Ammonia Charcoal -->
+  <MakeAYAmmoniaCharcoal.jobString>Making Ammonia Charcoal</MakeAYAmmoniaCharcoal.jobString>
+  <!-- EN: Make Charcoal -->
+  <MakeAYCharcoalFromBenches.label>Make Charcoal</MakeAYCharcoalFromBenches.label>
+  <!-- EN: Make 25 Charcoal. -->
+  <MakeAYCharcoalFromBenches.description>Make 25 Charcoal.</MakeAYCharcoalFromBenches.description>
+  <!-- EN: Making Charcoal -->
+  <MakeAYCharcoalFromBenches.jobString>Making Charcoal</MakeAYCharcoalFromBenches.jobString>
+  <!-- EN: Make Chemfuel from Charcoal -->
+  <MakeChemfuelFromAYCharcoal.label>Make Chemfuel from Charcoal</MakeChemfuelFromAYCharcoal.label>
+  <!-- EN: Make 50 Chemfuel from Charcoal -->
+  <MakeChemfuelFromAYCharcoal.description>Make 50 Chemfuel from Charcoal</MakeChemfuelFromAYCharcoal.description>
+  <!-- EN: Making Chemfuel -->
+  <MakeChemfuelFromAYCharcoal.jobString>Making Chemfuel</MakeChemfuelFromAYCharcoal.jobString>
+</LanguageData>

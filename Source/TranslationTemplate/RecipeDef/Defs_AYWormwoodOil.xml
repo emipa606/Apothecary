@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Wormwood Oil -->
+  <MakeAYWormwoodOil.label>Make Wormwood Oil</MakeAYWormwoodOil.label>
+  <!-- EN: Make 1 Wormwood oil -->
+  <MakeAYWormwoodOil.description>Make 1 Wormwood oil</MakeAYWormwoodOil.description>
+  <!-- EN: Making Wormwood oil -->
+  <MakeAYWormwoodOil.jobString>Making Wormwood oil</MakeAYWormwoodOil.jobString>
+  <!-- EN: Make Wormwood Oil in bulk -->
+  <MakeBulkAYWormwoodOil.label>Make Wormwood Oil in bulk</MakeBulkAYWormwoodOil.label>
+  <!-- EN: Make 5 Wormwood oil -->
+  <MakeBulkAYWormwoodOil.description>Make 5 Wormwood oil</MakeBulkAYWormwoodOil.description>
+  <!-- EN: Making Wormwood oil -->
+  <MakeBulkAYWormwoodOil.jobString>Making Wormwood oil</MakeBulkAYWormwoodOil.jobString>
+</LanguageData>

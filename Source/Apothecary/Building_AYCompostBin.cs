@@ -7,7 +7,7 @@ namespace Apothecary;
 
 public class Building_AYCompostBin : Building
 {
-    public static readonly string AYCharcoalKiln = "AYCharcoalKiln";
+    private const string AyCharcoalKiln = "AYCharcoalKiln";
 
     private CompAYCompostBin compostBinComp;
 
@@ -34,7 +34,7 @@ public class Building_AYCompostBin : Building
         {
             fermentTicks++;
             var heat = 4f;
-            if (def.defName == AYCharcoalKiln)
+            if (def.defName == AyCharcoalKiln)
             {
                 FleckMaker.ThrowSmoke(Position.ToVector3(), Map, 1f);
                 heat = 12f;
@@ -59,12 +59,12 @@ public class Building_AYCompostBin : Building
         var thing2 = ThingMaker.MakeThing(ThingDef.Named(compostBinComp.Props.productTwo));
         thing2.stackCount = compostBinComp.Props.numProductTwo;
         GenPlace.TryPlaceThing(thing2, position, map, ThingPlaceMode.Near);
-        if (def.defName != AYCharcoalKiln)
+        if (def.defName != AyCharcoalKiln)
         {
             var random = new Random();
-            var Chance = random.Next(3);
+            var chance = random.Next(3);
             var num = random.Next(3);
-            if (Chance < 2)
+            if (chance < 2)
             {
                 GenPlace.TryPlaceThing(ThingMaker.MakeThing(ThingDef.Named("WoodLog")), position, map,
                     ThingPlaceMode.Near);

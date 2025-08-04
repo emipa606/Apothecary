@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Nettle Powder -->
+  <MakeAYNettlePowder.label>Make Nettle Powder</MakeAYNettlePowder.label>
+  <!-- EN: Make 25 Nettle Powder -->
+  <MakeAYNettlePowder.description>Make 25 Nettle Powder</MakeAYNettlePowder.description>
+  <!-- EN: Making Nettle Powder -->
+  <MakeAYNettlePowder.jobString>Making Nettle Powder</MakeAYNettlePowder.jobString>
+  <!-- EN: Make Nettle Powder in bulk -->
+  <MakeBulkAYNettlePowder.label>Make Nettle Powder in bulk</MakeBulkAYNettlePowder.label>
+  <!-- EN: Make 100 Nettle Powder -->
+  <MakeBulkAYNettlePowder.description>Make 100 Nettle Powder</MakeBulkAYNettlePowder.description>
+  <!-- EN: Making Nettle Powder -->
+  <MakeBulkAYNettlePowder.jobString>Making Nettle Powder</MakeBulkAYNettlePowder.jobString>
+</LanguageData>

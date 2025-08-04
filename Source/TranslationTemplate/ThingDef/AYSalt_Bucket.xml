@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bucket (Rock Salt) -->
+  <AYSalt_Bucket.label>Bucket (Rock Salt)</AYSalt_Bucket.label>
+  <!-- EN: A bucket full of rock salt. Can be thrown onto snow to help clear it over time. -->
+  <AYSalt_Bucket.description>A bucket full of rock salt. Can be thrown onto snow to help clear it over time.</AYSalt_Bucket.description>
+  <!-- EN: Bucket (Rock Salt) -->
+  <AYSalt_Bucket.verbs.Verb_ShootOneUse.label>Bucket (Rock Salt)</AYSalt_Bucket.verbs.Verb_ShootOneUse.label>
+  <!-- EN: Rock Salt -->
+  <AYSalt_Filth.label>Rock Salt</AYSalt_Filth.label>
+  <!-- EN: Salt -->
+  <Bullet_AYSalt.label>Salt</Bullet_AYSalt.label>
+</LanguageData>

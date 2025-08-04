@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Elixir of Inciting -->
+  <MakeAYElixirInciting.label>Make Elixir of Inciting</MakeAYElixirInciting.label>
+  <!-- EN: Make 1 Elixir (Inciting). -->
+  <MakeAYElixirInciting.description>Make 1 Elixir (Inciting).</MakeAYElixirInciting.description>
+  <!-- EN: Making Elixir (Inciting) -->
+  <MakeAYElixirInciting.jobString>Making Elixir (Inciting)</MakeAYElixirInciting.jobString>
+  <!-- EN: Make Elixir of Inciting in bulk -->
+  <MakeBulkAYElixirInciting.label>Make Elixir of Inciting in bulk</MakeBulkAYElixirInciting.label>
+  <!-- EN: Make 5 Elixir (Inciting). -->
+  <MakeBulkAYElixirInciting.description>Make 5 Elixir (Inciting).</MakeBulkAYElixirInciting.description>
+  <!-- EN: Making Elixir (Inciting) -->
+  <MakeBulkAYElixirInciting.jobString>Making Elixir (Inciting)</MakeBulkAYElixirInciting.jobString>
+</LanguageData>

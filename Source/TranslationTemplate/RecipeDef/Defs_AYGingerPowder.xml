@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Ginger Powder -->
+  <MakeAYGingerPowder.label>Make Ginger Powder</MakeAYGingerPowder.label>
+  <!-- EN: Make 25 Ginger Powder -->
+  <MakeAYGingerPowder.description>Make 25 Ginger Powder</MakeAYGingerPowder.description>
+  <!-- EN: Making Ginger Powder -->
+  <MakeAYGingerPowder.jobString>Making Ginger Powder</MakeAYGingerPowder.jobString>
+  <!-- EN: Make Ginger Powder in bulk -->
+  <MakeBulkAYGingerPowder.label>Make Ginger Powder in bulk</MakeBulkAYGingerPowder.label>
+  <!-- EN: Make 100 Ginger Powder -->
+  <MakeBulkAYGingerPowder.description>Make 100 Ginger Powder</MakeBulkAYGingerPowder.description>
+  <!-- EN: Making Ginger Powder -->
+  <MakeBulkAYGingerPowder.jobString>Making Ginger Powder</MakeBulkAYGingerPowder.jobString>
+</LanguageData>

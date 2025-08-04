@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Lavender Soap -->
+  <AYLavenderSoap.label>Lavender Soap</AYLavenderSoap.label>
+  <!-- EN: Lavender soap is a sweet smelling surfactant cleaning compound used for personal or other cleaning. Effects last about a day. -->
+  <AYLavenderSoap.description>Lavender soap is a sweet smelling surfactant cleaning compound used for personal or other cleaning. Effects last about a day.</AYLavenderSoap.description>
+  <!-- EN: Apply {0} -->
+  <AYLavenderSoap.ingestible.ingestCommandString>Apply {0}</AYLavenderSoap.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <AYLavenderSoap.ingestible.ingestReportString>Applying {0}.</AYLavenderSoap.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Elixir of Soothing -->
+  <MakeAYElixirSoothing.label>Make Elixir of Soothing</MakeAYElixirSoothing.label>
+  <!-- EN: Make 1 Elixir (Soothing). -->
+  <MakeAYElixirSoothing.description>Make 1 Elixir (Soothing).</MakeAYElixirSoothing.description>
+  <!-- EN: Making Elixir (Soothing) -->
+  <MakeAYElixirSoothing.jobString>Making Elixir (Soothing)</MakeAYElixirSoothing.jobString>
+  <!-- EN: Make Elixir of Soothing in bulk -->
+  <MakeBulkAYElixirSoothing.label>Make Elixir of Soothing in bulk</MakeBulkAYElixirSoothing.label>
+  <!-- EN: Make 5 Elixir (Soothing). -->
+  <MakeBulkAYElixirSoothing.description>Make 5 Elixir (Soothing).</MakeBulkAYElixirSoothing.description>
+  <!-- EN: Making Elixir (Soothing) -->
+  <MakeBulkAYElixirSoothing.jobString>Making Elixir (Soothing)</MakeBulkAYElixirSoothing.jobString>
+</LanguageData>

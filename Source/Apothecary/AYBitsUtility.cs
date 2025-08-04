@@ -98,8 +98,8 @@ public class AYBitsUtility
 
     private static readonly Pair<string, float>[] bitschance =
     [
-        new Pair<string, float>("AYCalciumCarbonate", 1f),
-        new Pair<string, float>("AYSalt", 1f)
+        new("AYCalciumCarbonate", 1f),
+        new("AYSalt", 1f)
     ];
 
     internal static bool GetIsBitsSource(ThingDef defSource, bool isSource, Pawn pawn, out ThingDef bitsdef,
@@ -108,7 +108,7 @@ public class AYBitsUtility
         bitsdef = null;
         newthingdef = null;
         bitsyield = 0;
-        if (!GetBitsSource(defSource) && !isSource)
+        if (!getBitsSource(defSource) && !isSource)
         {
             return false;
         }
@@ -194,7 +194,7 @@ public class AYBitsUtility
         return yield;
     }
 
-    internal static uint ComputeStringHash(string s)
+    private static uint computeStringHash(string s)
     {
         uint num = 0;
         if (s == null)
@@ -211,7 +211,7 @@ public class AYBitsUtility
         return num;
     }
 
-    internal static bool GetBitsSource(ThingDef def)
+    private static bool getBitsSource(ThingDef def)
     {
         var isBitsSource = false;
         if (def == null)
@@ -220,14 +220,14 @@ public class AYBitsUtility
         }
 
         var defName = def.defName;
-        var num = ComputeStringHash(defName);
-        if (num <= 1154306412U)
+        var num = computeStringHash(defName);
+        switch (num)
         {
-            if (num <= 702995605U)
+            case <= 1154306412U and <= 702995605U:
             {
-                if (num <= 334370396U)
+                switch (num)
                 {
-                    if (num <= 135430043U)
+                    case <= 334370396U and <= 135430043U:
                     {
                         if (num != 130326325U)
                         {
@@ -245,8 +245,10 @@ public class AYBitsUtility
                         {
                             isBitsSource = true;
                         }
+
+                        break;
                     }
-                    else if (num != 237089535U)
+                    case <= 334370396U when num != 237089535U:
                     {
                         if (num != 334370396U)
                         {
@@ -257,15 +259,19 @@ public class AYBitsUtility
                         {
                             isBitsSource = true;
                         }
+
+                        break;
                     }
-                    else if (defName == "ChunkGreenSchist")
+                    case <= 334370396U:
                     {
-                        isBitsSource = true;
+                        if (defName == "ChunkGreenSchist")
+                        {
+                            isBitsSource = true;
+                        }
+
+                        break;
                     }
-                }
-                else if (num <= 459180747U)
-                {
-                    if (num != 450668030U)
+                    case <= 459180747U when num != 450668030U:
                     {
                         if (num != 459180747U)
                         {
@@ -276,37 +282,51 @@ public class AYBitsUtility
                         {
                             isBitsSource = true;
                         }
-                    }
-                    else if (defName == "ChunkAnorthosite")
-                    {
-                        isBitsSource = true;
-                    }
-                }
-                else if (num != 468849279U)
-                {
-                    if (num != 497423552U)
-                    {
-                        if (num != 702995605U)
-                        {
-                            return false;
-                        }
 
-                        if (defName == "ChunkDarkAndesite")
+                        break;
+                    }
+                    case <= 459180747U:
+                    {
+                        if (defName == "ChunkAnorthosite")
                         {
                             isBitsSource = true;
                         }
+
+                        break;
                     }
-                    else if (defName == "ChunkDiorite")
+                    default:
                     {
-                        isBitsSource = true;
+                        if (num != 468849279U)
+                        {
+                            if (num != 497423552U)
+                            {
+                                if (num != 702995605U)
+                                {
+                                    return false;
+                                }
+
+                                if (defName == "ChunkDarkAndesite")
+                                {
+                                    isBitsSource = true;
+                                }
+                            }
+                            else if (defName == "ChunkDiorite")
+                            {
+                                isBitsSource = true;
+                            }
+                        }
+                        else if (defName == "ChunkGneiss")
+                        {
+                            isBitsSource = true;
+                        }
+
+                        break;
                     }
                 }
-                else if (defName == "ChunkGneiss")
-                {
-                    isBitsSource = true;
-                }
+
+                break;
             }
-            else if (num <= 990094961U)
+            case <= 990094961U:
             {
                 if (num <= 803651291U)
                 {
@@ -350,8 +370,10 @@ public class AYBitsUtility
                 {
                     isBitsSource = true;
                 }
+
+                break;
             }
-            else if (num <= 1113897122U)
+            case <= 1113897122U:
             {
                 if (num != 1103574401U)
                 {
@@ -369,8 +391,10 @@ public class AYBitsUtility
                 {
                     isBitsSource = true;
                 }
+
+                break;
             }
-            else if (num != 1117948611U)
+            case <= 1154306412U when num != 1117948611U:
             {
                 if (num != 1138947383U)
                 {
@@ -388,117 +412,121 @@ public class AYBitsUtility
                 {
                     isBitsSource = true;
                 }
+
+                break;
             }
-            else if (defName == "ChunkMarble")
+            case <= 1154306412U:
             {
-                isBitsSource = true;
-            }
-        }
-        else if (num <= 3134642644U)
-        {
-            switch (num)
-            {
-                case <= 2223887258U and <= 1807593693U:
+                if (defName == "ChunkMarble")
                 {
-                    if (num != 1789891285U)
-                    {
-                        if (num != 1807593693U)
-                        {
-                            return false;
-                        }
-
-                        if (defName == "ChunkChalk")
-                        {
-                            isBitsSource = true;
-                        }
-                    }
-                    else if (defName == "ChunkMonzonite")
-                    {
-                        isBitsSource = true;
-                    }
-
-                    break;
+                    isBitsSource = true;
                 }
-                case <= 2223887258U when num != 2078373069U:
+
+                break;
+            }
+            case <= 3134642644U:
+                switch (num)
                 {
-                    if (num != 2104149328U)
+                    case <= 2223887258U and <= 1807593693U:
                     {
-                        if (num == 2223887258U)
+                        if (num != 1789891285U)
                         {
-                            if (defName == "ChunkSovite")
+                            if (num != 1807593693U)
+                            {
+                                return false;
+                            }
+
+                            if (defName == "ChunkChalk")
                             {
                                 isBitsSource = true;
                             }
                         }
-                    }
-                    else if (defName == "ChunkRhyolite")
-                    {
-                        isBitsSource = true;
-                    }
-
-                    break;
-                }
-                case <= 2223887258U:
-                {
-                    if (defName == "ChunkVibrantDunite")
-                    {
-                        isBitsSource = true;
-                    }
-
-                    break;
-                }
-                case <= 2723944204U when num != 2277173191U:
-                {
-                    if (num == 2723944204U)
-                    {
-                        if (defName == "ChunkClayStone")
+                        else if (defName == "ChunkMonzonite")
                         {
                             isBitsSource = true;
                         }
-                    }
 
-                    break;
-                }
-                case <= 2723944204U:
-                {
-                    if (defName == "ChunkScoria")
-                    {
-                        isBitsSource = true;
+                        break;
                     }
-
-                    break;
-                }
-                default:
-                {
-                    if (num != 2981327554U)
+                    case <= 2223887258U when num != 2078373069U:
                     {
-                        if (num != 3027871598U)
+                        if (num != 2104149328U)
                         {
-                            if (num == 3134642644U)
+                            if (num == 2223887258U)
                             {
-                                if (defName == "ChunkGranite")
+                                if (defName == "ChunkSovite")
                                 {
                                     isBitsSource = true;
                                 }
                             }
                         }
-                        else if (defName == "ChunkGreenGabbro")
+                        else if (defName == "ChunkRhyolite")
                         {
                             isBitsSource = true;
                         }
-                    }
-                    else if (defName == "ChunkSerpentinite")
-                    {
-                        isBitsSource = true;
-                    }
 
-                    break;
+                        break;
+                    }
+                    case <= 2223887258U:
+                    {
+                        if (defName == "ChunkVibrantDunite")
+                        {
+                            isBitsSource = true;
+                        }
+
+                        break;
+                    }
+                    case <= 2723944204U when num != 2277173191U:
+                    {
+                        if (num == 2723944204U)
+                        {
+                            if (defName == "ChunkClayStone")
+                            {
+                                isBitsSource = true;
+                            }
+                        }
+
+                        break;
+                    }
+                    case <= 2723944204U:
+                    {
+                        if (defName == "ChunkScoria")
+                        {
+                            isBitsSource = true;
+                        }
+
+                        break;
+                    }
+                    default:
+                    {
+                        if (num != 2981327554U)
+                        {
+                            if (num != 3027871598U)
+                            {
+                                if (num == 3134642644U)
+                                {
+                                    if (defName == "ChunkGranite")
+                                    {
+                                        isBitsSource = true;
+                                    }
+                                }
+                            }
+                            else if (defName == "ChunkGreenGabbro")
+                            {
+                                isBitsSource = true;
+                            }
+                        }
+                        else if (defName == "ChunkSerpentinite")
+                        {
+                            isBitsSource = true;
+                        }
+
+                        break;
+                    }
                 }
-            }
-        }
-        else if (num <= 3386876289U)
-        {
-            if (num <= 3317400192U)
+
+                break;
+            case <= 3386876289U and <= 3317400192U:
             {
                 if (num != 3242717934U)
                 {
@@ -516,8 +544,10 @@ public class AYBitsUtility
                 {
                     isBitsSource = true;
                 }
+
+                break;
             }
-            else if (num != 3349364057U)
+            case <= 3386876289U when num != 3349364057U:
             {
                 if (num != 3354811171U)
                 {
@@ -535,15 +565,19 @@ public class AYBitsUtility
                 {
                     isBitsSource = true;
                 }
+
+                break;
             }
-            else if (defName == "ChunkCharnockite")
+            case <= 3386876289U:
             {
-                isBitsSource = true;
+                if (defName == "ChunkCharnockite")
+                {
+                    isBitsSource = true;
+                }
+
+                break;
             }
-        }
-        else if (num <= 3660010543U)
-        {
-            if (num != 3604908289U)
+            case <= 3660010543U when num != 3604908289U:
             {
                 if (num != 3660010543U)
                 {
@@ -554,34 +588,46 @@ public class AYBitsUtility
                 {
                     isBitsSource = true;
                 }
-            }
-            else if (defName == "ChunkJaspillite")
-            {
-                isBitsSource = true;
-            }
-        }
-        else if (num != 3782560473U)
-        {
-            if (num != 4006516401U)
-            {
-                if (num != 4282638488U)
-                {
-                    return false;
-                }
 
-                if (defName == "ChunkLimestone")
+                break;
+            }
+            case <= 3660010543U:
+            {
+                if (defName == "ChunkJaspillite")
                 {
                     isBitsSource = true;
                 }
+
+                break;
             }
-            else if (defName == "ChunkAndesite")
+            default:
             {
-                isBitsSource = true;
+                if (num != 3782560473U)
+                {
+                    if (num != 4006516401U)
+                    {
+                        if (num != 4282638488U)
+                        {
+                            return false;
+                        }
+
+                        if (defName == "ChunkLimestone")
+                        {
+                            isBitsSource = true;
+                        }
+                    }
+                    else if (defName == "ChunkAndesite")
+                    {
+                        isBitsSource = true;
+                    }
+                }
+                else if (defName == "ChunkThometzekite")
+                {
+                    isBitsSource = true;
+                }
+
+                break;
             }
-        }
-        else if (defName == "ChunkThometzekite")
-        {
-            isBitsSource = true;
         }
 
         return isBitsSource;

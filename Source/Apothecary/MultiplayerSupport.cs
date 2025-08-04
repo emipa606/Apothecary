@@ -8,7 +8,7 @@ namespace Apothecary;
 [StaticConstructorOnStartup]
 internal static class MultiplayerSupport
 {
-    private static readonly Harmony harmony = new Harmony("rimworld.pelador.apothecary.multiplayersupport");
+    private static readonly Harmony harmony = new("rimworld.pelador.apothecary.multiplayersupport");
 
     static MultiplayerSupport()
     {
@@ -19,15 +19,16 @@ internal static class MultiplayerSupport
 
         MethodInfo[] array =
         [
-            AccessTools.Method(typeof(AYBitsUtility), "GetBitsYield"),
-            AccessTools.Method(typeof(Building_AYCompostBin), "PlaceProduct"),
-            AccessTools.Method(typeof(HediffComp_AYRegen), "ResetTicksToHeal"),
-            AccessTools.Method(typeof(HediffComp_AYRegen), "TryHealRandomOldWound"),
-            AccessTools.Method(typeof(JobDriver_PlantHarvest_PlantWorkDoneToil), "adjustYield"),
-            AccessTools.Method(typeof(TrySpawnYield_PostPatch), "GenRnd100"),
-            AccessTools.Method(typeof(AYFilth_Salt), "GetRndMelt"),
-            AccessTools.Method(typeof(HediffComp_AYCure), "SetTicksToCure"),
-            AccessTools.Method(typeof(Building_BirdBath), "IsInspired")
+            AccessTools.Method(typeof(AYBitsUtility), nameof(AYBitsUtility.GetBitsYield)),
+            AccessTools.Method(typeof(Building_AYCompostBin), nameof(Building_AYCompostBin.PlaceProduct)),
+            AccessTools.Method(typeof(HediffComp_AYRegen), nameof(HediffComp_AYRegen.ResetTicksToHeal)),
+            AccessTools.Method(typeof(HediffComp_AYRegen), nameof(HediffComp_AYRegen.TryHealRandomOldWound)),
+            AccessTools.Method(typeof(JobDriver_PlantHarvest_PlantWorkDoneToil),
+                nameof(JobDriver_PlantHarvest_PlantWorkDoneToil.AdjustYield)),
+            AccessTools.Method(typeof(Mineable_TrySpawnYield), nameof(Mineable_TrySpawnYield.GenRnd100)),
+            AccessTools.Method(typeof(AYFilth_Salt), nameof(AYFilth_Salt.GetRndMelt)),
+            AccessTools.Method(typeof(HediffComp_AYCure), nameof(HediffComp_AYCure.SetTicksToCure)),
+            AccessTools.Method(typeof(Building_BirdBath), nameof(Building_BirdBath.IsInspired))
         ];
         foreach (var methodInfo in array)
         {
@@ -37,8 +38,8 @@ internal static class MultiplayerSupport
 
     private static void FixRNG(MethodInfo method)
     {
-        harmony.Patch(method, new HarmonyMethod(typeof(MultiplayerSupport), "FixRNGPre"),
-            new HarmonyMethod(typeof(MultiplayerSupport), "FixRNGPos"));
+        harmony.Patch(method, new HarmonyMethod(typeof(MultiplayerSupport), nameof(FixRNGPre)),
+            new HarmonyMethod(typeof(MultiplayerSupport), nameof(FixRNGPos)));
     }
 
     private static void FixRNGPre()

@@ -9,8 +9,8 @@ public class InjRecipesCSmithy
 {
     private static void InjectRecipesCSmithy()
     {
-        var RCPadd = new List<RecipeDef>();
-        var THGadd = new List<RecipeDef>();
+        var rcPadd = new List<RecipeDef>();
+        var thGadd = new List<RecipeDef>();
         var source = DefDatabase<ThingDef>.GetNamed("FueledSmithy", false);
         var dest = DefDatabase<ThingDef>.GetNamed("AYCharcoalSmithy", false);
         if (source == null || dest == null)
@@ -24,14 +24,14 @@ public class InjRecipesCSmithy
         {
             if (!destRCPs.Contains(sourceRCP))
             {
-                THGadd.AddDistinct(sourceRCP);
+                thGadd.AddDistinct(sourceRCP);
             }
         }
 
-        var Recipes = DefDatabase<RecipeDef>.AllDefsListForReading;
-        if (Recipes.Count > 0)
+        var recipes = DefDatabase<RecipeDef>.AllDefsListForReading;
+        if (recipes.Count > 0)
         {
-            foreach (var recipe in Recipes)
+            foreach (var recipe in recipes)
             {
                 var benches = recipe.AllRecipeUsers.ToList();
                 if (benches.Count <= 0)
@@ -61,15 +61,15 @@ public class InjRecipesCSmithy
 
                 if (sourceFound && !destFound)
                 {
-                    RCPadd.AddDistinct(recipe);
+                    rcPadd.AddDistinct(recipe);
                 }
             }
         }
 
         var rcpbenchadd = 0;
-        if (THGadd.Count > 0)
+        if (thGadd.Count > 0)
         {
-            foreach (var rcp in THGadd)
+            foreach (var rcp in thGadd)
             {
                 dest.recipes.AddDistinct(rcp);
                 rcpbenchadd++;
@@ -79,9 +79,9 @@ public class InjRecipesCSmithy
         }
 
         var rcpattachadd = 0;
-        if (RCPadd.Count > 0)
+        if (rcPadd.Count > 0)
         {
-            foreach (var recipeDef in RCPadd)
+            foreach (var recipeDef in rcPadd)
             {
                 recipeDef.recipeUsers.AddDistinct(dest);
                 rcpattachadd++;

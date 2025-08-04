@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Garlic Powder -->
+  <MakeAYGarlicPowder.label>Make Garlic Powder</MakeAYGarlicPowder.label>
+  <!-- EN: Make 25 Garlic Powder -->
+  <MakeAYGarlicPowder.description>Make 25 Garlic Powder</MakeAYGarlicPowder.description>
+  <!-- EN: Making Garlic Powder -->
+  <MakeAYGarlicPowder.jobString>Making Garlic Powder</MakeAYGarlicPowder.jobString>
+  <!-- EN: Make Garlic Powder in bulk -->
+  <MakeBulkAYGarlicPowder.label>Make Garlic Powder in bulk</MakeBulkAYGarlicPowder.label>
+  <!-- EN: Make 100 Garlic Powder -->
+  <MakeBulkAYGarlicPowder.description>Make 100 Garlic Powder</MakeBulkAYGarlicPowder.description>
+  <!-- EN: Making Garlic Powder -->
+  <MakeBulkAYGarlicPowder.jobString>Making Garlic Powder</MakeBulkAYGarlicPowder.jobString>
+</LanguageData>

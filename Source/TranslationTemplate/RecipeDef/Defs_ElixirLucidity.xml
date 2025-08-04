@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Elixir of Lucidity -->
+  <MakeAYElixirLucidity.label>Make Elixir of Lucidity</MakeAYElixirLucidity.label>
+  <!-- EN: Make 1 Elixir (Lucidity). -->
+  <MakeAYElixirLucidity.description>Make 1 Elixir (Lucidity).</MakeAYElixirLucidity.description>
+  <!-- EN: Making Elixir (Lucidity) -->
+  <MakeAYElixirLucidity.jobString>Making Elixir (Lucidity)</MakeAYElixirLucidity.jobString>
+  <!-- EN: Make Elixir of Lucidity in bulk -->
+  <MakeBulkAYElixirLucidity.label>Make Elixir of Lucidity in bulk</MakeBulkAYElixirLucidity.label>
+  <!-- EN: Make 5 Elixir (Lucidity). -->
+  <MakeBulkAYElixirLucidity.description>Make 5 Elixir (Lucidity).</MakeBulkAYElixirLucidity.description>
+  <!-- EN: Making Elixir (Lucidity) -->
+  <MakeBulkAYElixirLucidity.jobString>Making Elixir (Lucidity)</MakeBulkAYElixirLucidity.jobString>
+</LanguageData>

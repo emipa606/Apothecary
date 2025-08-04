@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Apothecary.WoundHealed>{PAWN_labelShort}的{2}已經痊癒了。原因：{0}</Apothecary.WoundHealed>
   <Apothecary.CureMsg>{0}的狀態{1}已治愈。</Apothecary.CureMsg>

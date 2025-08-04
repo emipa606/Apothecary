@@ -2,5 +2,14 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 82206,
+  "LinesOfXML": 560135,
+  "CodeBaseSize": 92,
+  "LastXmlCleaning": "2025-08-04T20:59:49.7600654+02:00",
+  "SocialImageSet": true,
+  "SearchTags": " herbal remedies"
 }

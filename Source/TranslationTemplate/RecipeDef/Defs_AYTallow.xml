@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Tallow -->
+  <MakeAYTallow.label>Make Tallow</MakeAYTallow.label>
+  <!-- EN: Make 10 Tallow -->
+  <MakeAYTallow.description>Make 10 Tallow</MakeAYTallow.description>
+  <!-- EN: Making Tallow -->
+  <MakeAYTallow.jobString>Making Tallow</MakeAYTallow.jobString>
+  <!-- EN: Make Tallow in bulk -->
+  <MakeBulkAYTallow.label>Make Tallow in bulk</MakeBulkAYTallow.label>
+  <!-- EN: Make 50 Tallow -->
+  <MakeBulkAYTallow.description>Make 50 Tallow</MakeBulkAYTallow.description>
+  <!-- EN: Making Tallow -->
+  <MakeBulkAYTallow.jobString>Making Tallow</MakeBulkAYTallow.jobString>
+</LanguageData>

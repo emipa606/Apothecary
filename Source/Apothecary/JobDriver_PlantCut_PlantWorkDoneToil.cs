@@ -38,7 +38,7 @@ public static class JobDriver_PlantCut_PlantWorkDoneToil
 
                     var thing = ThingMaker.MakeThing(ThingDef.Named("AYGinkgoLeaves"));
                     var num = plant.def.plant.harvestYield * 2f * plant.Growth * skillRatio;
-                    num = AdjustYield(num);
+                    num = adjustYield(num);
                     thing.stackCount = checked((int)num);
                     if (thing.stackCount > 0)
                     {
@@ -70,8 +70,8 @@ public static class JobDriver_PlantCut_PlantWorkDoneToil
                     var thingTwo = ThingMaker.MakeThing(defTwo);
                     var numOne = 10f * skillRatio2;
                     var numTwo = 20f * skillRatio2;
-                    numOne = AdjustYield(numOne);
-                    numTwo = AdjustYield(numTwo);
+                    numOne = adjustYield(numOne);
+                    numTwo = adjustYield(numTwo);
                     checked
                     {
                         thingOne.stackCount = (int)numOne;
@@ -93,7 +93,7 @@ public static class JobDriver_PlantCut_PlantWorkDoneToil
         }));
     }
 
-    public static float AdjustYield(float num)
+    private static float adjustYield(float num)
     {
         num *= Rand.Range(0.8f, 1.2f);
         return num;

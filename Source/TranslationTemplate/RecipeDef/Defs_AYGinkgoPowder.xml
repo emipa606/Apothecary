@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Ginkgo Powder -->
+  <MakeAYGinkgoPowder.label>Make Ginkgo Powder</MakeAYGinkgoPowder.label>
+  <!-- EN: Make 25 Ginkgo Powder -->
+  <MakeAYGinkgoPowder.description>Make 25 Ginkgo Powder</MakeAYGinkgoPowder.description>
+  <!-- EN: Making Ginkgo Powder -->
+  <MakeAYGinkgoPowder.jobString>Making Ginkgo Powder</MakeAYGinkgoPowder.jobString>
+  <!-- EN: Make Ginkgo Powder in bulk -->
+  <MakeBulkAYGinkgoPowder.label>Make Ginkgo Powder in bulk</MakeBulkAYGinkgoPowder.label>
+  <!-- EN: Make 100 Ginkgo Powder -->
+  <MakeBulkAYGinkgoPowder.description>Make 100 Ginkgo Powder</MakeBulkAYGinkgoPowder.description>
+  <!-- EN: Making Ginkgo Powder -->
+  <MakeBulkAYGinkgoPowder.jobString>Making Ginkgo Powder</MakeBulkAYGinkgoPowder.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Herbalist hat -->
+  <AYHerbalistHat.label>Herbalist hat</AYHerbalistHat.label>
+  <!-- EN: A hat that denotes the status of Herbalist. -->
+  <AYHerbalistHat.description>A hat that denotes the status of Herbalist.</AYHerbalistHat.description>
+  <!-- EN: Herbalist robe -->
+  <AYHerbalistOutfit.label>Herbalist robe</AYHerbalistOutfit.label>
+  <!-- EN: A robe stylised for an Herbalist, it helps slightly when working with the preperation of apothecary materials and remedies, aswell as working with plants. -->
+  <AYHerbalistOutfit.description>A robe stylised for an Herbalist, it helps slightly when working with the preperation of apothecary materials and remedies, aswell as working with plants.</AYHerbalistOutfit.description>
+</LanguageData>

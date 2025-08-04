@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Yarrow Oil -->
+  <MakeAYYarrowOil.label>Make Yarrow Oil</MakeAYYarrowOil.label>
+  <!-- EN: Make 1 Yarrow oil -->
+  <MakeAYYarrowOil.description>Make 1 Yarrow oil</MakeAYYarrowOil.description>
+  <!-- EN: Making Yarrow oil -->
+  <MakeAYYarrowOil.jobString>Making Yarrow oil</MakeAYYarrowOil.jobString>
+  <!-- EN: Make Yarrow Oil in bulk -->
+  <MakeBulkAYYarrowOil.label>Make Yarrow Oil in bulk</MakeBulkAYYarrowOil.label>
+  <!-- EN: Make 5 Yarrow oil -->
+  <MakeBulkAYYarrowOil.description>Make 5 Yarrow oil</MakeBulkAYYarrowOil.description>
+  <!-- EN: Making Yarrow oil -->
+  <MakeBulkAYYarrowOil.jobString>Making Yarrow oil</MakeBulkAYYarrowOil.jobString>
+</LanguageData>

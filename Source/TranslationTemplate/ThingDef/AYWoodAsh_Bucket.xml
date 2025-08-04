@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Ash/Plant Scraps -->
+  <AYAshScrap_Filth.label>Ash/Plant Scraps</AYAshScrap_Filth.label>
+  <!-- EN: Bucket (Wood Ash) -->
+  <AYWoodAsh_Bucket.label>Bucket (Wood Ash)</AYWoodAsh_Bucket.label>
+  <!-- EN: A bucket full of wood ash. Can be thrown onto areas where trees grow to slightly improve their growth, remove blight from plants and prevent fires from catching. -->
+  <AYWoodAsh_Bucket.description>A bucket full of wood ash. Can be thrown onto areas where trees grow to slightly improve their growth, remove blight from plants and prevent fires from catching.</AYWoodAsh_Bucket.description>
+  <!-- EN: Bucket (Wood Ash) -->
+  <AYWoodAsh_Bucket.verbs.Verb_ShootOneUse.label>Bucket (Wood Ash)</AYWoodAsh_Bucket.verbs.Verb_ShootOneUse.label>
+  <!-- EN: Wood Ash -->
+  <AYWoodAsh_Filth.label>Wood Ash</AYWoodAsh_Filth.label>
+  <!-- EN: Wood Ash -->
+  <Bullet_AYWoodAsh.label>Wood Ash</Bullet_AYWoodAsh.label>
+</LanguageData>

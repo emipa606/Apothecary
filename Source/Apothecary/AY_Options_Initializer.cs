@@ -9,10 +9,10 @@ internal static class AY_Options_Initializer
 {
     static AY_Options_Initializer()
     {
-        LongEventHandler.QueueLongEvent(Setup, "LibraryStartup", false, null);
+        LongEventHandler.QueueLongEvent(setup, "LibraryStartup", false, null);
     }
 
-    public static void Setup()
+    private static void setup()
     {
         var allDefs = DefDatabase<ResearchProjectDef>.AllDefsListForReading;
         if (allDefs.Count <= 0)
@@ -20,21 +20,21 @@ internal static class AY_Options_Initializer
             return;
         }
 
-        var AYList = AYResearchList();
-        foreach (var ResDef in allDefs)
+        var ayList = ayResearchList();
+        foreach (var resDef in allDefs)
         {
-            if (!AYList.Contains(ResDef.defName))
+            if (!ayList.Contains(resDef.defName))
             {
                 continue;
             }
 
-            var Resbase = ResDef.baseCost;
-            Resbase = checked((int)Math.Round(Resbase * (Controller.Settings.ResPct / 100f)));
-            ResDef.baseCost = Resbase;
+            var resbase = resDef.baseCost;
+            resbase = checked((int)Math.Round(resbase * (Controller.Settings.ResPct / 100f)));
+            resDef.baseCost = resbase;
         }
     }
 
-    public static List<string> AYResearchList()
+    private static List<string> ayResearchList()
     {
         var list = new List<string>();
         list.AddDistinct("AYHerbsSimple");

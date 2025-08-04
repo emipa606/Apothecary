@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Barrel (Salted Meat) -->
+  <AYBarrelSaltedMeat.label>Barrel (Salted Meat)</AYBarrelSaltedMeat.label>
+  <!-- EN: A barrel full of various meats that have been salted to preserve them. -->
+  <AYBarrelSaltedMeat.description>A barrel full of various meats that have been salted to preserve them.</AYBarrelSaltedMeat.description>
+  <!-- EN: Coarse rock salt -->
+  <AYSalt.label>Coarse rock salt</AYSalt.label>
+  <!-- EN: A white crystalline salt more commonly known as halite that is the mineral version of "common" salt (Sodium Chloride). -->
+  <AYSalt.description>A white crystalline salt more commonly known as halite that is the mineral version of "common" salt (Sodium Chloride).</AYSalt.description>
+  <!-- EN: Salted Meat -->
+  <AYSaltedMeat.label>Salted Meat</AYSaltedMeat.label>
+  <!-- EN: Meat that has been preserved in salt. -->
+  <AYSaltedMeat.description>Meat that has been preserved in salt.</AYSaltedMeat.description>
+</LanguageData>

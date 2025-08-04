@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Candle -->
+  <AYCandle.label>Candle</AYCandle.label>
+  <!-- EN: A tallow candle for lighting an area. People need light to move and work at full speed. Can be automatically refueled with tallow. Produces a small amount of heat. -->
+  <AYCandle.description>A tallow candle for lighting an area. People need light to move and work at full speed. Can be automatically refueled with tallow. Produces a small amount of heat.</AYCandle.description>
+</LanguageData>

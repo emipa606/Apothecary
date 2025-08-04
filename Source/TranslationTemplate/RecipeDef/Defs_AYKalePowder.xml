@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Kale Powder -->
+  <MakeAYKalePowder.label>Make Kale Powder</MakeAYKalePowder.label>
+  <!-- EN: Make 25 Kale Powder -->
+  <MakeAYKalePowder.description>Make 25 Kale Powder</MakeAYKalePowder.description>
+  <!-- EN: Making Kale Powder -->
+  <MakeAYKalePowder.jobString>Making Kale Powder</MakeAYKalePowder.jobString>
+  <!-- EN: Make Kale Powder in bulk -->
+  <MakeBulkAYKalePowder.label>Make Kale Powder in bulk</MakeBulkAYKalePowder.label>
+  <!-- EN: Make 100 Kale Powder -->
+  <MakeBulkAYKalePowder.description>Make 100 Kale Powder</MakeBulkAYKalePowder.description>
+  <!-- EN: Making Kale Powder -->
+  <MakeBulkAYKalePowder.jobString>Making Kale Powder</MakeBulkAYKalePowder.jobString>
+</LanguageData>

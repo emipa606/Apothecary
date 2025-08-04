@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Charcoal Brazier -->
+  <AYBrazier.label>Charcoal Brazier</AYBrazier.label>
+  <!-- EN: Cooks meals and produces heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable. -->
+  <AYBrazier.description>Cooks meals and produces heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</AYBrazier.description>
+</LanguageData>

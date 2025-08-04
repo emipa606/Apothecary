@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Willow Tonic -->
+  <MakeAYWillowTonic.label>Make Willow Tonic</MakeAYWillowTonic.label>
+  <!-- EN: Make 1 Willow Tonic. -->
+  <MakeAYWillowTonic.description>Make 1 Willow Tonic.</MakeAYWillowTonic.description>
+  <!-- EN: Making Willow Tonic -->
+  <MakeAYWillowTonic.jobString>Making Willow Tonic</MakeAYWillowTonic.jobString>
+  <!-- EN: Make Willow Tonic -->
+  <MakeBulkAYWillowTonic.label>Make Willow Tonic</MakeBulkAYWillowTonic.label>
+  <!-- EN: Make 5 Willow Tonic. -->
+  <MakeBulkAYWillowTonic.description>Make 5 Willow Tonic.</MakeBulkAYWillowTonic.description>
+  <!-- EN: Making Willow Tonic -->
+  <MakeBulkAYWillowTonic.jobString>Making Willow Tonic</MakeBulkAYWillowTonic.jobString>
+</LanguageData>

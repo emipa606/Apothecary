@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Apothecary hat -->
+  <AYapothecaryhat.label>Apothecary hat</AYapothecaryhat.label>
+  <!-- EN: A comfortable beret that denotes the status of apothecarist. -->
+  <AYapothecaryhat.description>A comfortable beret that denotes the status of apothecarist.</AYapothecaryhat.description>
+  <!-- EN: Apothecary robe -->
+  <AYapothecaryOutfit.label>Apothecary robe</AYapothecaryOutfit.label>
+  <!-- EN: A robe stylised for an apothecarist, it helps slightly when working with the preperation of apothecary materials and remedies, aswell as working with plants. -->
+  <AYapothecaryOutfit.description>A robe stylised for an apothecarist, it helps slightly when working with the preperation of apothecary materials and remedies, aswell as working with plants.</AYapothecaryOutfit.description>
+</LanguageData>

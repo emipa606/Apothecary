@@ -13,7 +13,7 @@ public class AYFilth_WoodAsh : Filth
         Scribe_Values.Look(ref AYspawnTick, "AYspawnTick");
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         AYspawnTick++;
         var removeDelay = 300000;
@@ -33,44 +33,44 @@ public class AYFilth_WoodAsh : Filth
             return;
         }
 
-        var TargetMap = Map;
-        var TargetCell = Position;
-        var Thinglist = TargetCell.GetThingList(TargetMap);
-        if (Thinglist.Count <= 0)
+        var targetMap = Map;
+        var targetCell = Position;
+        var thingList = targetCell.GetThingList(targetMap);
+        if (thingList.Count <= 0)
         {
             return;
         }
 
-        foreach (var thing in Thinglist)
+        foreach (var thing in thingList)
         {
             switch (thing)
             {
-                case Blight when thing.Position == TargetCell:
-                    DoAYToxicDamage(thing);
+                case Blight when thing.Position == targetCell:
+                    doAyToxicDamage(thing);
                     break;
                 case Plant plant when plant.def.plant.IsTree &&
-                                      plant.Position == TargetCell:
-                    DoAYTreeBenefit(plant, thickness);
+                                      plant.Position == targetCell:
+                    doAyTreeBenefit(plant, thickness);
                     break;
             }
         }
     }
 
-    private void DoAYTreeBenefit(Thing targ, int thick)
+    private static void doAyTreeBenefit(Thing targ, int thick)
     {
         if (targ is not Plant { Growth: < 1f } tree)
         {
             return;
         }
 
-        tree.Growth += AYGrowthPerTick(tree) * (1f - (thick / 20f));
+        tree.Growth += ayGrowthPerTick(tree) * (1f - (thick / 20f));
         if (tree.Growth > 1f)
         {
             tree.Growth = 1f;
         }
     }
 
-    private float AYGrowthPerTick(Plant tree)
+    private static float ayGrowthPerTick(Plant tree)
     {
         if (tree.LifeStage != PlantLifeStage.Growing || GenLocalDate.DayPercent(tree) < 0.25f ||
             GenLocalDate.DayPercent(tree) > 0.8f)
@@ -81,15 +81,15 @@ public class AYFilth_WoodAsh : Filth
         return 1f / (60000f * tree.def.plant.growDays) * tree.GrowthRate * 400f;
     }
 
-    private void DoAYToxicDamage(Thing targ)
+    private static void doAyToxicDamage(Thing targ)
     {
         if (targ is not Blight blight)
         {
             return;
         }
 
-        var Dmg = 1f;
-        blight.Severity -= Dmg;
+        const float dmg = 1f;
+        blight.Severity -= dmg;
         if (blight.Severity <= 0f)
         {
             blight.Destroy();

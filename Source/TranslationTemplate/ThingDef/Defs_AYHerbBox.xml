@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Herb Box -->
+  <AYHerbBox.label>Herb Box</AYHerbBox.label>
+  <!-- EN: Simple box with a potting mix added that allows you to grow plants, (fertility is 125%) -->
+  <AYHerbBox.description>Simple box with a potting mix added that allows you to grow plants, (fertility is 125%)</AYHerbBox.description>
+  <!-- EN: Herb Box (Limed) -->
+  <AYHerbBoxLime.label>Herb Box (Limed)</AYHerbBoxLime.label>
+  <!-- EN: Simple box with a potting mix added that has been improved with lime that allows you to grow plants, (fertility is 150%) -->
+  <AYHerbBoxLime.description>Simple box with a potting mix added that has been improved with lime that allows you to grow plants, (fertility is 150%)</AYHerbBoxLime.description>
+</LanguageData>

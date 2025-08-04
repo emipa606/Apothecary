@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: hay (ammonia treated) -->
+  <AYAmmoniaHay.label>hay (ammonia treated)</AYAmmoniaHay.label>
+  <!-- EN: Improved hay treated with ammonia water to make it more edible for animals. -->
+  <AYAmmoniaHay.description>Improved hay treated with ammonia water to make it more edible for animals.</AYAmmoniaHay.description>
+  <!-- EN: Ammonia Water -->
+  <AYAmmoniaWater.label>Ammonia Water</AYAmmoniaWater.label>
+  <!-- EN: Ammonium hydroxide, also known as ammonia water, ammonia solution, ammoniacal liquor, ammonia liquor, aqua ammonia, aqueous ammonia, or (inaccurately) ammonia, is a solution of ammonia in water. -->
+  <AYAmmoniaWater.description>Ammonium hydroxide, also known as ammonia water, ammonia solution, ammoniacal liquor, ammonia liquor, aqua ammonia, aqueous ammonia, or (inaccurately) ammonia, is a solution of ammonia in water.</AYAmmoniaWater.description>
+</LanguageData>

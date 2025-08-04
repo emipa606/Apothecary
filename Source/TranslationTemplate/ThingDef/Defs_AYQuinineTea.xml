@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Quinine Tea -->
+  <AYQuinineTea.label>Quinine Tea</AYQuinineTea.label>
+  <!-- EN: Quinine tea, helpful to avoid malaria and acts as a mild antibiotic. Effects last about half a day. -->
+  <AYQuinineTea.description>Quinine tea, helpful to avoid malaria and acts as a mild antibiotic. Effects last about half a day.</AYQuinineTea.description>
+  <!-- EN: Drink {0} -->
+  <AYQuinineTea.ingestible.ingestCommandString>Drink {0}</AYQuinineTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYQuinineTea.ingestible.ingestReportString>Drinking {0}.</AYQuinineTea.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Star Anise Oil -->
+  <MakeAYStarAniseOil.label>Make Star Anise Oil</MakeAYStarAniseOil.label>
+  <!-- EN: Make 1 Star Anise oil -->
+  <MakeAYStarAniseOil.description>Make 1 Star Anise oil</MakeAYStarAniseOil.description>
+  <!-- EN: Making Star Anise oil -->
+  <MakeAYStarAniseOil.jobString>Making Star Anise oil</MakeAYStarAniseOil.jobString>
+  <!-- EN: Make Star Anise Oil in bulk -->
+  <MakeBulkAYStarAniseOil.label>Make Star Anise Oil in bulk</MakeBulkAYStarAniseOil.label>
+  <!-- EN: Make 5 Star Anise oil -->
+  <MakeBulkAYStarAniseOil.description>Make 5 Star Anise oil</MakeBulkAYStarAniseOil.description>
+  <!-- EN: Making Star Anise oil -->
+  <MakeBulkAYStarAniseOil.jobString>Making Star Anise oil</MakeBulkAYStarAniseOil.jobString>
+</LanguageData>

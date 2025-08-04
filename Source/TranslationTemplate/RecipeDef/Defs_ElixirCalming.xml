@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Elixir of Calming -->
+  <MakeAYElixirCalming.label>Make Elixir of Calming</MakeAYElixirCalming.label>
+  <!-- EN: Make 1 Elixir (Calming). -->
+  <MakeAYElixirCalming.description>Make 1 Elixir (Calming).</MakeAYElixirCalming.description>
+  <!-- EN: Making Elixir (Calming) -->
+  <MakeAYElixirCalming.jobString>Making Elixir (Calming)</MakeAYElixirCalming.jobString>
+  <!-- EN: Make Elixir of Calming in bulk -->
+  <MakeBulkAYElixirCalming.label>Make Elixir of Calming in bulk</MakeBulkAYElixirCalming.label>
+  <!-- EN: Make 5 Elixir (Calming). -->
+  <MakeBulkAYElixirCalming.description>Make 5 Elixir (Calming).</MakeBulkAYElixirCalming.description>
+  <!-- EN: Making Elixir (Calming) -->
+  <MakeBulkAYElixirCalming.jobString>Making Elixir (Calming)</MakeBulkAYElixirCalming.jobString>
+</LanguageData>

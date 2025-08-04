@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Kale Tea -->
+  <AYKaleTea.label>Kale Tea</AYKaleTea.label>
+  <!-- EN: Kale tea, packed with vitamins. Can ward off food poisoning and the flu. Effects last about a day. -->
+  <AYKaleTea.description>Kale tea, packed with vitamins. Can ward off food poisoning and the flu. Effects last about a day.</AYKaleTea.description>
+  <!-- EN: Drink {0} -->
+  <AYKaleTea.ingestible.ingestCommandString>Drink {0}</AYKaleTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYKaleTea.ingestible.ingestReportString>Drinking {0}.</AYKaleTea.ingestible.ingestReportString>
+</LanguageData>

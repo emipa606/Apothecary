@@ -6,12 +6,12 @@ namespace Apothecary;
 
 public class Building_BirdBath : Building_Art
 {
-    public readonly int inspirationTicks = 30000;
+    private const int InspirationTicks = 30000;
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
-        if (!Spawned || !this.IsHashIntervalTick(inspirationTicks))
+        if (!Spawned || !this.IsHashIntervalTick(InspirationTicks))
         {
             return;
         }
@@ -26,7 +26,7 @@ public class Building_BirdBath : Building_Art
         foreach (var thing in things)
         {
             Pawn p;
-            if ((p = thing as Pawn) == null || !IsValidForInspiration(thing, this) || !IsInspired(25) ||
+            if ((p = thing as Pawn) == null || !isValidForInspiration(thing, this) || !IsInspired(25) ||
                 p.mindState.inspirationHandler.Inspired)
             {
                 continue;
@@ -39,7 +39,7 @@ public class Building_BirdBath : Building_Art
         }
     }
 
-    public bool IsValidForInspiration(Thing thing, Building BB)
+    private static bool isValidForInspiration(Thing thing, Building BB)
     {
         Pawn p;
         if ((p = thing as Pawn) == null || !thing.Spawned || !p.Awake() ||
@@ -54,7 +54,7 @@ public class Building_BirdBath : Building_Art
         return b && GenSight.LineOfSight(p.Position, BB.Position, BB.Map, true);
     }
 
-    public bool IsInspired(int chance)
+    public static bool IsInspired(int chance)
     {
         return Rand.Range(1, 100) < chance;
     }

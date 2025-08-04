@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Henbane Powder -->
+  <MakeAYHenbanePowder.label>Make Henbane Powder</MakeAYHenbanePowder.label>
+  <!-- EN: Make 25 Henbane Powder -->
+  <MakeAYHenbanePowder.description>Make 25 Henbane Powder</MakeAYHenbanePowder.description>
+  <!-- EN: Making Henbane Powder -->
+  <MakeAYHenbanePowder.jobString>Making Henbane Powder</MakeAYHenbanePowder.jobString>
+  <!-- EN: Make Henbane Powder in bulk -->
+  <MakeBulkAYHenbanePowder.label>Make Henbane Powder in bulk</MakeBulkAYHenbanePowder.label>
+  <!-- EN: Make 100 Henbane Powder -->
+  <MakeBulkAYHenbanePowder.description>Make 100 Henbane Powder</MakeBulkAYHenbanePowder.description>
+  <!-- EN: Making Henbane Powder -->
+  <MakeBulkAYHenbanePowder.jobString>Making Henbane Powder</MakeBulkAYHenbanePowder.jobString>
+</LanguageData>

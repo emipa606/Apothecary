@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Nettle Tea -->
+  <MakeAYNettleTea.label>Make Nettle Tea</MakeAYNettleTea.label>
+  <!-- EN: Make 1 Nettle Tea. -->
+  <MakeAYNettleTea.description>Make 1 Nettle Tea.</MakeAYNettleTea.description>
+  <!-- EN: Making Nettle Tea -->
+  <MakeAYNettleTea.jobString>Making Nettle Tea</MakeAYNettleTea.jobString>
+  <!-- EN: Make Nettle Tea in bulk -->
+  <MakeBulkAYNettleTea.label>Make Nettle Tea in bulk</MakeBulkAYNettleTea.label>
+  <!-- EN: Make 5 Nettle Teas. -->
+  <MakeBulkAYNettleTea.description>Make 5 Nettle Teas.</MakeBulkAYNettleTea.description>
+  <!-- EN: Making Nettle Tea -->
+  <MakeBulkAYNettleTea.jobString>Making Nettle Tea</MakeBulkAYNettleTea.jobString>
+</LanguageData>

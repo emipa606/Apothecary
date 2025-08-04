@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Elixir of Soothing -->
+  <AYElixirSoothing.label>Elixir of Soothing</AYElixirSoothing.label>
+  <!-- EN: This elixir is a mild sedative and pain killer. Effects last about a day. -->
+  <AYElixirSoothing.description>This elixir is a mild sedative and pain killer. Effects last about a day.</AYElixirSoothing.description>
+  <!-- EN: Drink {0} -->
+  <AYElixirSoothing.ingestible.ingestCommandString>Drink {0}</AYElixirSoothing.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYElixirSoothing.ingestible.ingestReportString>Drinking {0}.</AYElixirSoothing.ingestible.ingestReportString>
+</LanguageData>

@@ -8,19 +8,17 @@ namespace Apothecary;
 
 public class AYWashUtility
 {
-    public static Thing AYWashApparel(ref Thing ingredient, Map map, bool loseQual)
+    public static Thing AyWashApparel(ref Thing ingredient, Map map, bool loseQual)
     {
-        var CQ = ingredient.TryGetComp<CompQuality>();
-        if (CQ != null)
+        var cq = ingredient.TryGetComp<CompQuality>();
+        if (cq != null)
         {
-            var quality = CQ.Quality;
+            var quality = cq.Quality;
             if (loseQual)
             {
-                switch (CQ.Quality)
+                switch (cq.Quality)
                 {
                     case QualityCategory.Awful:
-                        quality = QualityCategory.Awful;
-                        break;
                     case QualityCategory.Poor:
                         quality = QualityCategory.Awful;
                         break;
@@ -45,14 +43,14 @@ public class AYWashUtility
                 }
             }
 
-            CQ.SetQuality(quality, ArtGenerationContext.Colony);
+            cq.SetQuality(quality, ArtGenerationContext.Colony);
         }
 
-        NonPublicFields.wornCorpse.SetValue(ingredient, false);
+        NonPublicFields.WornCorpse.SetValue(ingredient, false);
         return ingredient;
     }
 
-    public static void AYWashHaulJob(Thing t)
+    public static void AyWashHaulJob(Thing t)
     {
         if (!t.Spawned)
         {
@@ -88,15 +86,15 @@ public class AYWashUtility
             return;
         }
 
-        var newHaul = HaulAIUtility.HaulToStorageJob(p, t);
+        var newHaul = HaulAIUtility.HaulToStorageJob(p, t, false);
         if (newHaul != null)
         {
             p.jobs.jobQueue.EnqueueFirst(newHaul, JobTag.MiscWork);
         }
     }
 
-    public static class NonPublicFields
+    private static class NonPublicFields
     {
-        public static readonly FieldInfo wornCorpse = AccessTools.Field(typeof(Apparel), "wornByCorpseInt");
+        public static readonly FieldInfo WornCorpse = AccessTools.Field(typeof(Apparel), "wornByCorpseInt");
     }
 }

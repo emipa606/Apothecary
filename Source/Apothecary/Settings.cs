@@ -15,38 +15,38 @@ public class Settings : ModSettings
 
     public void DoWindowContents(Rect canvas)
     {
-        var listing_Standard = new Listing_Standard { ColumnWidth = canvas.width };
-        listing_Standard.Begin(canvas);
-        listing_Standard.Gap();
+        var listingStandard = new Listing_Standard { ColumnWidth = canvas.width };
+        listingStandard.Begin(canvas);
+        listingStandard.Gap();
         if (!ModLister.HasActiveModWithName("Medical Supplements"))
         {
-            listing_Standard.CheckboxLabeled("AY.RealismBandages".Translate(), ref RealismBandages);
-            listing_Standard.Gap();
+            listingStandard.CheckboxLabeled("AY.RealismBandages".Translate(), ref RealismBandages);
+            listingStandard.Gap();
         }
 
-        listing_Standard.CheckboxLabeled("AY.WashLowersQual".Translate(), ref WashLowersQual);
-        listing_Standard.Gap();
-        listing_Standard.CheckboxLabeled("AY.AllowCollapseRocks".Translate(), ref AllowCollapseRocks);
-        listing_Standard.Gap(36f);
+        listingStandard.CheckboxLabeled("AY.WashLowersQual".Translate(), ref WashLowersQual);
+        listingStandard.Gap();
+        listingStandard.CheckboxLabeled("AY.AllowCollapseRocks".Translate(), ref AllowCollapseRocks);
+        listingStandard.Gap(36f);
         checked
         {
-            listing_Standard.Label("AY.ResPct".Translate() + "  " + (int)ResPct);
-            ResPct = (int)listing_Standard.Slider((int)ResPct, 10f, 200f);
-            listing_Standard.Gap();
+            listingStandard.Label("AY.ResPct".Translate() + "  " + (int)ResPct);
+            ResPct = (int)listingStandard.Slider((int)ResPct, 10f, 200f);
+            listingStandard.Gap();
             Text.Font = GameFont.Tiny;
-            listing_Standard.Label("          " + "AY.ResWarn".Translate());
-            listing_Standard.Gap();
-            listing_Standard.Label("          " + "AY.ResTip".Translate());
+            listingStandard.Label("          " + "AY.ResWarn".Translate());
+            listingStandard.Gap();
+            listingStandard.Label("          " + "AY.ResTip".Translate());
             Text.Font = GameFont.Small;
-            if (Controller.currentVersion != null)
+            if (Controller.CurrentVersion != null)
             {
-                listing_Standard.Gap();
+                listingStandard.Gap();
                 GUI.contentColor = Color.gray;
-                listing_Standard.Label("AY.CurrentModVersion".Translate(Controller.currentVersion));
+                listingStandard.Label("AY.CurrentModVersion".Translate(Controller.CurrentVersion));
                 GUI.contentColor = Color.white;
             }
 
-            listing_Standard.End();
+            listingStandard.End();
         }
     }
 

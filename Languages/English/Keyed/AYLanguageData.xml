@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Apothecary.WoundHealed>{PAWN_labelShort}'s {2} has healed. Cause: {0}</Apothecary.WoundHealed>
   <Apothecary.CureMsg>{0}'s condition of {1} has been cured.</Apothecary.CureMsg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Flu Tonic -->
+  <AYFluTonic.label>Flu Tonic</AYFluTonic.label>
+  <!-- EN: A concoction of herbs that help ward off flu. Effects last for 3 days. -->
+  <AYFluTonic.description>A concoction of herbs that help ward off flu. Effects last for 3 days.</AYFluTonic.description>
+  <!-- EN: Drink {0} -->
+  <AYFluTonic.ingestible.ingestCommandString>Drink {0}</AYFluTonic.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYFluTonic.ingestible.ingestReportString>Drinking {0}.</AYFluTonic.ingestible.ingestReportString>
+</LanguageData>

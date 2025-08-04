@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Treat Hay with ammonia -->
+  <MakeAYAmmoniaHay.label>Treat Hay with ammonia</MakeAYAmmoniaHay.label>
+  <!-- EN: Treat Hay with ammonia to make it more edible for animals -->
+  <MakeAYAmmoniaHay.description>Treat Hay with ammonia to make it more edible for animals</MakeAYAmmoniaHay.description>
+  <!-- EN: Treating Hay. -->
+  <MakeAYAmmoniaHay.jobString>Treating Hay.</MakeAYAmmoniaHay.jobString>
+  <!-- EN: Make Neutroamine (Ammonia) in bulk -->
+  <MakeBulkNeutroFromAmmonia.label>Make Neutroamine (Ammonia) in bulk</MakeBulkNeutroFromAmmonia.label>
+  <!-- EN: Make 10 Neutroamine -->
+  <MakeBulkNeutroFromAmmonia.description>Make 10 Neutroamine</MakeBulkNeutroFromAmmonia.description>
+  <!-- EN: Making Neutroamine (Ammonia) -->
+  <MakeBulkNeutroFromAmmonia.jobString>Making Neutroamine (Ammonia)</MakeBulkNeutroFromAmmonia.jobString>
+  <!-- EN: Make Neutroamine (Ammonia) -->
+  <MakeNeutroFromAmmonia.label>Make Neutroamine (Ammonia)</MakeNeutroFromAmmonia.label>
+  <!-- EN: Make 5 Neutroamine -->
+  <MakeNeutroFromAmmonia.description>Make 5 Neutroamine</MakeNeutroFromAmmonia.description>
+  <!-- EN: Making Neutroamine (Ammonia) -->
+  <MakeNeutroFromAmmonia.jobString>Making Neutroamine (Ammonia)</MakeNeutroFromAmmonia.jobString>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Kale Tea -->
+  <MakeAYKaleTea.label>Make Kale Tea</MakeAYKaleTea.label>
+  <!-- EN: Make 1 Kale Tea. -->
+  <MakeAYKaleTea.description>Make 1 Kale Tea.</MakeAYKaleTea.description>
+  <!-- EN: Making Kale Tea -->
+  <MakeAYKaleTea.jobString>Making Kale Tea</MakeAYKaleTea.jobString>
+  <!-- EN: Make Kale Tea in bulk -->
+  <MakeBulkAYKaleTea.label>Make Kale Tea in bulk</MakeBulkAYKaleTea.label>
+  <!-- EN: Make 5 Kale Teas. -->
+  <MakeBulkAYKaleTea.description>Make 5 Kale Teas.</MakeBulkAYKaleTea.description>
+  <!-- EN: Making Kale Tea -->
+  <MakeBulkAYKaleTea.jobString>Making Kale Tea</MakeBulkAYKaleTea.jobString>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Flu Tonic -->
+  <MakeAYFluTonic.label>Make Flu Tonic</MakeAYFluTonic.label>
+  <!-- EN: Make 1 Flu Tonic. -->
+  <MakeAYFluTonic.description>Make 1 Flu Tonic.</MakeAYFluTonic.description>
+  <!-- EN: Making Flu Tonic -->
+  <MakeAYFluTonic.jobString>Making Flu Tonic</MakeAYFluTonic.jobString>
+  <!-- EN: Make Flu Tonic in bulk -->
+  <MakeBulkAYFluTonic.label>Make Flu Tonic in bulk</MakeBulkAYFluTonic.label>
+  <!-- EN: Make 5 Flu Tonic. -->
+  <MakeBulkAYFluTonic.description>Make 5 Flu Tonic.</MakeBulkAYFluTonic.description>
+  <!-- EN: Making Flu Tonic -->
+  <MakeBulkAYFluTonic.jobString>Making Flu Tonic</MakeBulkAYFluTonic.jobString>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Ammonia water (Sal ammoniac) -->
+  <MakeAmmoniaWaterFromSalAmmoniac.label>Make Ammonia water (Sal ammoniac)</MakeAmmoniaWaterFromSalAmmoniac.label>
+  <!-- EN: Make 5 Ammonia Water from Sal ammoniac -->
+  <MakeAmmoniaWaterFromSalAmmoniac.description>Make 5 Ammonia Water from Sal ammoniac</MakeAmmoniaWaterFromSalAmmoniac.description>
+  <!-- EN: Making Ammonia water -->
+  <MakeAmmoniaWaterFromSalAmmoniac.jobString>Making Ammonia water</MakeAmmoniaWaterFromSalAmmoniac.jobString>
+  <!-- EN: Make Ammonia water in bulk (Sal ammoniac) -->
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.label>Make Ammonia water in bulk (Sal ammoniac)</MakeBulkAmmoniaWaterFromSalAmmoniac.label>
+  <!-- EN: Make 25 Ammonia Water from Sal ammoniac -->
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.description>Make 25 Ammonia Water from Sal ammoniac</MakeBulkAmmoniaWaterFromSalAmmoniac.description>
+  <!-- EN: Making Ammonia water -->
+  <MakeBulkAmmoniaWaterFromSalAmmoniac.jobString>Making Ammonia water</MakeBulkAmmoniaWaterFromSalAmmoniac.jobString>
+  <!-- EN: Make Sal Ammoniac in bulk -->
+  <MakeBulkSalAmmoniacFromCharcoal.label>Make Sal Ammoniac in bulk</MakeBulkSalAmmoniacFromCharcoal.label>
+  <!-- EN: Make 100 Sal Ammoniac -->
+  <MakeBulkSalAmmoniacFromCharcoal.description>Make 100 Sal Ammoniac</MakeBulkSalAmmoniacFromCharcoal.description>
+  <!-- EN: Making Sal Ammoniac -->
+  <MakeBulkSalAmmoniacFromCharcoal.jobString>Making Sal Ammoniac</MakeBulkSalAmmoniacFromCharcoal.jobString>
+  <!-- EN: Make Sal Ammoniac -->
+  <MakeSalAmmoniacFromCharcoal.label>Make Sal Ammoniac</MakeSalAmmoniacFromCharcoal.label>
+  <!-- EN: Make 25 Sal Ammoniac -->
+  <MakeSalAmmoniacFromCharcoal.description>Make 25 Sal Ammoniac</MakeSalAmmoniacFromCharcoal.description>
+  <!-- EN: Making Sal Ammoniac -->
+  <MakeSalAmmoniacFromCharcoal.jobString>Making Sal Ammoniac</MakeSalAmmoniacFromCharcoal.jobString>
+</LanguageData>

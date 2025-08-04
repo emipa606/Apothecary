@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Turmeric Tea -->
+  <AYTurmericTea.label>Turmeric Tea</AYTurmericTea.label>
+  <!-- EN: Turmeric tea, a useful aid for mild pain relief. Effects last about a day. -->
+  <AYTurmericTea.description>Turmeric tea, a useful aid for mild pain relief. Effects last about a day.</AYTurmericTea.description>
+  <!-- EN: Drink {0} -->
+  <AYTurmericTea.ingestible.ingestCommandString>Drink {0}</AYTurmericTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYTurmericTea.ingestible.ingestReportString>Drinking {0}.</AYTurmericTea.ingestible.ingestReportString>
+</LanguageData>

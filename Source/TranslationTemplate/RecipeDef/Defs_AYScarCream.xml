@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Scar Cream -->
+  <MakeAYScarCream.label>Make Scar Cream</MakeAYScarCream.label>
+  <!-- EN: Make 1 Scar Cream. -->
+  <MakeAYScarCream.description>Make 1 Scar Cream.</MakeAYScarCream.description>
+  <!-- EN: Making Scar Cream -->
+  <MakeAYScarCream.jobString>Making Scar Cream</MakeAYScarCream.jobString>
+  <!-- EN: Make Scar Cream in bulk -->
+  <MakeBulkAYScarCream.label>Make Scar Cream in bulk</MakeBulkAYScarCream.label>
+  <!-- EN: Make 5 Scar Cream. -->
+  <MakeBulkAYScarCream.description>Make 5 Scar Cream.</MakeBulkAYScarCream.description>
+  <!-- EN: Making Scar Cream -->
+  <MakeBulkAYScarCream.jobString>Making Scar Cream</MakeBulkAYScarCream.jobString>
+</LanguageData>

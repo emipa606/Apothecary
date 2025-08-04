@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Cast Bat sculpture -->
+  <MakeAYPlasterBat.label>Cast Bat sculpture</MakeAYPlasterBat.label>
+  <!-- EN: Cast Bat sculpture from plaster. -->
+  <MakeAYPlasterBat.description>Cast Bat sculpture from plaster.</MakeAYPlasterBat.description>
+  <!-- EN: Casting Bat sculpture. -->
+  <MakeAYPlasterBat.jobString>Casting Bat sculpture.</MakeAYPlasterBat.jobString>
+  <!-- EN: Cast Bird Bath -->
+  <MakeAYPlasterBirdBath.label>Cast Bird Bath</MakeAYPlasterBirdBath.label>
+  <!-- EN: Cast Bird Bath from plaster. -->
+  <MakeAYPlasterBirdBath.description>Cast Bird Bath from plaster.</MakeAYPlasterBirdBath.description>
+  <!-- EN: Casting Bird Bath. -->
+  <MakeAYPlasterBirdBath.jobString>Casting Bird Bath.</MakeAYPlasterBirdBath.jobString>
+  <!-- EN: Cast Large edgy sculpture -->
+  <MakeAYPlasterLargeEdgy.label>Cast Large edgy sculpture</MakeAYPlasterLargeEdgy.label>
+  <!-- EN: Cast large edgy sculpture from plaster. -->
+  <MakeAYPlasterLargeEdgy.description>Cast large edgy sculpture from plaster.</MakeAYPlasterLargeEdgy.description>
+  <!-- EN: Casting large sculpture. -->
+  <MakeAYPlasterLargeEdgy.jobString>Casting large sculpture.</MakeAYPlasterLargeEdgy.jobString>
+  <!-- EN: Cast Large Owly sculpture -->
+  <MakeAYPlasterLargeOwly.label>Cast Large Owly sculpture</MakeAYPlasterLargeOwly.label>
+  <!-- EN: Cast large owly sculpture from plaster. -->
+  <MakeAYPlasterLargeOwly.description>Cast large owly sculpture from plaster.</MakeAYPlasterLargeOwly.description>
+  <!-- EN: Casting large sculpture. -->
+  <MakeAYPlasterLargeOwly.jobString>Casting large sculpture.</MakeAYPlasterLargeOwly.jobString>
+  <!-- EN: Cast Planter -->
+  <MakeAYPlasterPlanter.label>Cast Planter</MakeAYPlasterPlanter.label>
+  <!-- EN: Cast Planter from plaster. -->
+  <MakeAYPlasterPlanter.description>Cast Planter from plaster.</MakeAYPlasterPlanter.description>
+  <!-- EN: Casting Planter. -->
+  <MakeAYPlasterPlanter.jobString>Casting Planter.</MakeAYPlasterPlanter.jobString>
+</LanguageData>

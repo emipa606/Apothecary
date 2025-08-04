@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Cinchona Powder -->
+  <MakeAYCinchonaPowder.label>Make Cinchona Powder</MakeAYCinchonaPowder.label>
+  <!-- EN: Make 25 Cinchona Powder -->
+  <MakeAYCinchonaPowder.description>Make 25 Cinchona Powder</MakeAYCinchonaPowder.description>
+  <!-- EN: Making Cinchona Powder -->
+  <MakeAYCinchonaPowder.jobString>Making Cinchona Powder</MakeAYCinchonaPowder.jobString>
+  <!-- EN: Make Cinchona Powder in bulk -->
+  <MakeBulkAYCinchonaPowder.label>Make Cinchona Powder in bulk</MakeBulkAYCinchonaPowder.label>
+  <!-- EN: Make 100 Cinchona Powder -->
+  <MakeBulkAYCinchonaPowder.description>Make 100 Cinchona Powder</MakeBulkAYCinchonaPowder.description>
+  <!-- EN: Making Cinchona Powder -->
+  <MakeBulkAYCinchonaPowder.jobString>Making Cinchona Powder</MakeBulkAYCinchonaPowder.jobString>
+</LanguageData>

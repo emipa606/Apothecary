@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Passive cooler (Ammonia) -->
+  <AYPassiveCooler.label>Passive cooler (Ammonia)</AYPassiveCooler.label>
+  <!-- EN: A traditional unpowered cooler that works by water evaporation, this cooler uses ammonia treated charcoal to improve on evaporation rates. It is slightly more smelly as a result. -->
+  <AYPassiveCooler.description>A traditional unpowered cooler that works by water evaporation, this cooler uses ammonia treated charcoal to improve on evaporation rates. It is slightly more smelly as a result.</AYPassiveCooler.description>
+</LanguageData>

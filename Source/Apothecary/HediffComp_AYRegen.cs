@@ -12,7 +12,7 @@ public class HediffComp_AYRegen : HediffComp
 
     private int ticksToHeal;
 
-    public HediffCompProperties_AYRegen AYProps => (HediffCompProperties_AYRegen)props;
+    private HediffCompProperties_AYRegen AYProps => (HediffCompProperties_AYRegen)props;
 
     public override void CompPostMake()
     {
@@ -22,7 +22,7 @@ public class HediffComp_AYRegen : HediffComp
 
     public void ResetTicksToHeal()
     {
-        var period = 2500;
+        const int period = 2500;
         if (AYProps.RegenHoursMin > 0 && AYProps.RegenHoursMax > 0 &&
             AYProps.RegenHoursMax >= AYProps.RegenHoursMin)
         {
@@ -113,7 +113,7 @@ public class HediffComp_AYRegen : HediffComp
         if (hediffToHeal.IsTended())
         {
             healAmount = (int)(healAmount * 1.2f);
-            var healfactor = GetHealFactor(Def, hediffToHeal);
+            var healfactor = getHealFactor(Def, hediffToHeal);
             if (healfactor > 0f)
             {
                 healAmount = (int)(healAmount * healfactor);
@@ -140,7 +140,7 @@ public class HediffComp_AYRegen : HediffComp
         hediffToHeal.Severity = 0f;
     }
 
-    internal float GetHealFactor(HediffDef rootDef, Hediff h)
+    private static float getHealFactor(HediffDef rootDef, Hediff h)
     {
         var hf = 1f;
         if (h.def == HediffDefOf.Scratch)
@@ -155,11 +155,7 @@ public class HediffComp_AYRegen : HediffComp
         {
             hf = rootDef.defName == "AYAloeCreamHigh" ? 1.2f : 1f;
         }
-        else if (h.def == DefDatabase<HediffDef>.GetNamed("Crack"))
-        {
-            hf = 0.8f;
-        }
-        else if (h.def == DefDatabase<HediffDef>.GetNamed("Crush"))
+        else if (h.def == DefDatabase<HediffDef>.GetNamed("Crack") || h.def == DefDatabase<HediffDef>.GetNamed("Crush"))
         {
             hf = 0.8f;
         }
@@ -171,7 +167,7 @@ public class HediffComp_AYRegen : HediffComp
         return hf;
     }
 
-    internal bool AYIsRegenInjury(Hediff h)
+    internal bool AyIsRegenInjury(Hediff h)
     {
         return h.Bleeding || h.def == HediffDefOf.Cut || h.def == HediffDefOf.Burn ||
                h.def == HediffDefOf.Gunshot || h.def == HediffDefOf.Scratch || h.def == HediffDefOf.Stab ||

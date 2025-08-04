@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Smelling Salts -->
+  <MakeAYSmellingSalts.label>Make Smelling Salts</MakeAYSmellingSalts.label>
+  <!-- EN: Make 1 Smelling Salts. -->
+  <MakeAYSmellingSalts.description>Make 1 Smelling Salts.</MakeAYSmellingSalts.description>
+  <!-- EN: Making Smelling Salts -->
+  <MakeAYSmellingSalts.jobString>Making Smelling Salts</MakeAYSmellingSalts.jobString>
+  <!-- EN: Make Smelling Salts in bulk -->
+  <MakeBulkAYSmellingSalts.label>Make Smelling Salts in bulk</MakeBulkAYSmellingSalts.label>
+  <!-- EN: Make 5 Smelling Salts. -->
+  <MakeBulkAYSmellingSalts.description>Make 5 Smelling Salts.</MakeBulkAYSmellingSalts.description>
+  <!-- EN: Making Smelling Salts -->
+  <MakeBulkAYSmellingSalts.jobString>Making Smelling Salts</MakeBulkAYSmellingSalts.jobString>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Wood Ash -->
+  <AYWoodAshDmg.label>Wood Ash</AYWoodAshDmg.label>
+  <!-- EN: {0} has been killed. -->
+  <AYWoodAshDmg.deathMessage>{0} has been killed.</AYWoodAshDmg.deathMessage>
+</LanguageData>

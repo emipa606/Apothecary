@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Calcium Carbonate -->
+  <AYCalciumCarbonate.label>Calcium Carbonate</AYCalciumCarbonate.label>
+  <!-- EN: A white crystalline salt/powder used as a precursor chemical in medicinal processes, potting additive and construction material when combined with tallow to form Lime (plaster). -->
+  <AYCalciumCarbonate.description>A white crystalline salt/powder used as a precursor chemical in medicinal processes, potting additive and construction material when combined with tallow to form Lime (plaster).</AYCalciumCarbonate.description>
+  <!-- EN: lime plaster blocks -->
+  <BlocksAYLimePlaster.label>lime plaster blocks</BlocksAYLimePlaster.label>
+  <!-- EN: Blocks of lime plaster. -->
+  <BlocksAYLimePlaster.description>Blocks of lime plaster.</BlocksAYLimePlaster.description>
+  <!-- EN: lime plaster -->
+  <BlocksAYLimePlaster.stuffProps.stuffAdjective>lime plaster</BlocksAYLimePlaster.stuffProps.stuffAdjective>
+</LanguageData>

@@ -10,6 +10,7 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -32,14 +33,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke[/url]
 - For detailed description, download the [url=https://github.com/emipa606/Apothecary/raw/main/Source/ApothecaryNotes.pdf]PDF[/url]
 
-If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
-https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803
-
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/Apothecary][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
@@ -146,14 +144,13 @@ Rimhammer
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195469123][img]https://img.shields.io/github/v/release/emipa606/Apothecary?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modIconPath IgnoreIfNoMatchingField="True">ModIcon/Apothecary</modIconPath>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195469123][img]https://img.shields.io/github/v/release/emipa606/Apothecary?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  herbal remedies</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Wormwood Tonic -->
+  <MakeAYWormwoodTonic.label>Make Wormwood Tonic</MakeAYWormwoodTonic.label>
+  <!-- EN: Make 1 Wormwood Tonic. -->
+  <MakeAYWormwoodTonic.description>Make 1 Wormwood Tonic.</MakeAYWormwoodTonic.description>
+  <!-- EN: Making Wormwood Tonic -->
+  <MakeAYWormwoodTonic.jobString>Making Wormwood Tonic</MakeAYWormwoodTonic.jobString>
+  <!-- EN: Make Wormwood Tonic -->
+  <MakeBulkAYWormwoodTonic.label>Make Wormwood Tonic</MakeBulkAYWormwoodTonic.label>
+  <!-- EN: Make 5 Wormwood Tonic. -->
+  <MakeBulkAYWormwoodTonic.description>Make 5 Wormwood Tonic.</MakeBulkAYWormwoodTonic.description>
+  <!-- EN: Making Wormwood Tonic -->
+  <MakeBulkAYWormwoodTonic.jobString>Making Wormwood Tonic</MakeBulkAYWormwoodTonic.jobString>
+</LanguageData>

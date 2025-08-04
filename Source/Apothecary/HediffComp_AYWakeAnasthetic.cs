@@ -5,7 +5,7 @@ namespace Apothecary;
 
 public class HediffComp_AYWakeAnasthetic : HediffComp
 {
-    public HediffCompProperties_AYWakeAnasthetic AYProps => (HediffCompProperties_AYWakeAnasthetic)props;
+    private HediffCompProperties_AYWakeAnasthetic AYProps => (HediffCompProperties_AYWakeAnasthetic)props;
 
     public override void CompPostTick(ref float severityAdjustment)
     {

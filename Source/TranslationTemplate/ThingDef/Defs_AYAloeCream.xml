@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Aloe Cream -->
+  <AYAloeCream.label>Aloe Cream</AYAloeCream.label>
+  <!-- EN: Aloe cream is an antibiotic skin cream designed to help with burn injuries. It is capable of healing permanent burn scars. Healing effects last 1.5 days. -->
+  <AYAloeCream.description>Aloe cream is an antibiotic skin cream designed to help with burn injuries. It is capable of healing permanent burn scars. Healing effects last 1.5 days.</AYAloeCream.description>
+  <!-- EN: Apply {0} -->
+  <AYAloeCream.ingestible.ingestCommandString>Apply {0}</AYAloeCream.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <AYAloeCream.ingestible.ingestReportString>Applying {0}.</AYAloeCream.ingestible.ingestReportString>
+</LanguageData>

@@ -9,7 +9,7 @@ public class HediffComp_AYCure : HediffComp
 
     private int ticksToCure;
 
-    public HediffCompProperties_AYCure MSProps => (HediffCompProperties_AYCure)props;
+    private HediffCompProperties_AYCure MSProps => (HediffCompProperties_AYCure)props;
 
     public void SetTicksToCure()
     {
@@ -52,21 +52,21 @@ public class HediffComp_AYCure : HediffComp
                 return;
         }
 
-        if (!AYCureUtility.ImmuneTo(Pawn, Def, out var Immunities))
+        if (!AYCureUtility.ImmuneTo(Pawn, Def, out var immunities))
         {
             return;
         }
 
-        var ImmunitiesAsCure = 0;
-        foreach (var s in Immunities)
+        var immunitiesAsCure = 0;
+        foreach (var s in immunities)
         {
             if (s != "MSCondom_High")
             {
-                ImmunitiesAsCure++;
+                immunitiesAsCure++;
             }
         }
 
-        if (ImmunitiesAsCure <= 0)
+        if (immunitiesAsCure <= 0)
         {
             return;
         }

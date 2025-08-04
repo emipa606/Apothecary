@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make St Johns Wort Oil -->
+  <MakeAYStJohnsWortOil.label>Make St Johns Wort Oil</MakeAYStJohnsWortOil.label>
+  <!-- EN: Make 1 St Johns Wort oil -->
+  <MakeAYStJohnsWortOil.description>Make 1 St Johns Wort oil</MakeAYStJohnsWortOil.description>
+  <!-- EN: Making St Johns Wort oil -->
+  <MakeAYStJohnsWortOil.jobString>Making St Johns Wort oil</MakeAYStJohnsWortOil.jobString>
+  <!-- EN: Make St Johns Wort Oil in bulk -->
+  <MakeBulkAYStJohnsWortOil.label>Make St Johns Wort Oil in bulk</MakeBulkAYStJohnsWortOil.label>
+  <!-- EN: Make 5 St Johns Wort oil -->
+  <MakeBulkAYStJohnsWortOil.description>Make 5 St Johns Wort oil</MakeBulkAYStJohnsWortOil.description>
+  <!-- EN: Making St Johns Wort oil -->
+  <MakeBulkAYStJohnsWortOil.jobString>Making St Johns Wort oil</MakeBulkAYStJohnsWortOil.jobString>
+</LanguageData>

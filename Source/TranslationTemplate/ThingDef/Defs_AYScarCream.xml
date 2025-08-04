@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Scar Cream -->
+  <AYScarCream.label>Scar Cream</AYScarCream.label>
+  <!-- EN: Scar cream is an antibiotic and regenerative skin cream designed to help with permanent scar injuries. It is capable of healing permanent scars. Healing effects last 1.0 days. -->
+  <AYScarCream.description>Scar cream is an antibiotic and regenerative skin cream designed to help with permanent scar injuries. It is capable of healing permanent scars. Healing effects last 1.0 days.</AYScarCream.description>
+  <!-- EN: Apply {0} -->
+  <AYScarCream.ingestible.ingestCommandString>Apply {0}</AYScarCream.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <AYScarCream.ingestible.ingestReportString>Applying {0}.</AYScarCream.ingestible.ingestReportString>
+</LanguageData>

@@ -1,4 +1,4 @@
-# Apothecary
+# [Apothecary (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2195469123)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -8,17 +8,12 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851
 - Added textures for seeds when using Seeds Please-mod, thanks DarkSlayerEX!
 - The issue with the double-rottime should be fixed, thanks Lade!
 - The research tree should now look better in vanilla research-view, thanks Kayedon!
-- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
-- For detailed description, download the https://github.com/emipa606/Apothecary/raw/main/Source/ApothecaryNotes.pdf]PDF
-
-If you feel that the mod is too cluttered Kayedon has made Rebalanced version of the mod:
-https://steamcommunity.com/sharedfiles/filedetails/?id=2265152803
+- Added support for [Simple FX: Smoke](https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704)
+- For detailed description, download the [PDF](https://github.com/emipa606/Apothecary/raw/main/Source/ApothecaryNotes.pdf)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 # Overview
  V1.1
@@ -38,7 +33,7 @@ Where both mods are being utilised, with MS drug versions superseding the apothe
 
 Additional and more specific mod details can be found using the following link:
 
-https://1drv.ms/b/s!Au3GsmKyQkDYiqF22066N1tLbFQWdw?e=pDLK05]Apothecary Notes (PDF)
+[Apothecary Notes (PDF)](https://1drv.ms/b/s!Au3GsmKyQkDYiqF22066N1tLbFQWdw?e=pDLK05)
 
 
 # Mod notes
@@ -92,9 +87,9 @@ WD Simple Coal - Convert Coal into charcoal. (V1.1 Compat Checked) *** recommend
 # Recommended
  *** Subject to conversion to V1.1 ***
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2195390245]Drug Policy Fix - can be used to help manage and correct drugs added or removed part way through a save game. It will also sort the drug listings alphabetically.
+[Drug Policy Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=2195390245) - can be used to help manage and correct drugs added or removed part way through a save game. It will also sort the drug listings alphabetically.
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631]Mod Medicine Patch - allows you to specify additional modded medical use (GUI) which works with the mod Pharmacy.
+[Mod Medicine Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631) - allows you to specify additional modded medical use (GUI) which works with the mod Pharmacy.
 
 
 # Credits
@@ -125,13 +120,12 @@ Rimhammer
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2195469123]![Image](https://img.shields.io/github/v/release/emipa606/Apothecary?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/Apothecary?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2195469123) | tags:  herbal remedies

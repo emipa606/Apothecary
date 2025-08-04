@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Soap -->
+  <AYLavenderSoap_Thought.stages.Soap.label>Soap</AYLavenderSoap_Thought.stages.Soap.label>
+  <!-- EN: Feeling clean -->
+  <AYLavenderSoap_Thought.stages.Soap.description>Feeling clean</AYLavenderSoap_Thought.stages.Soap.description>
+  <!-- EN: clean smell -->
+  <AYLavSoap.stages.clean_smell.label>clean smell</AYLavSoap.stages.clean_smell.label>
+  <!-- EN: appealing smell -->
+  <AYLavSoap.stages.appealing_smell.label>appealing smell</AYLavSoap.stages.appealing_smell.label>
+</LanguageData>

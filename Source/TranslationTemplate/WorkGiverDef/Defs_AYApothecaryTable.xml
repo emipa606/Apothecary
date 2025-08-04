@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Apothecary -->
+  <DoBillsAYApothecary.label>Apothecary</DoBillsAYApothecary.label>
+  <!-- EN: producing remedies at -->
+  <DoBillsAYApothecary.gerund>producing remedies at</DoBillsAYApothecary.gerund>
+  <!-- EN: produce remedies -->
+  <DoBillsAYApothecary.verb>produce remedies</DoBillsAYApothecary.verb>
+</LanguageData>

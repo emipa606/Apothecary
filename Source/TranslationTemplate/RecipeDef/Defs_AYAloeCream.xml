@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Aloe Cream -->
+  <MakeAYAloeCream.label>Make Aloe Cream</MakeAYAloeCream.label>
+  <!-- EN: Make 1 Aloe Cream. -->
+  <MakeAYAloeCream.description>Make 1 Aloe Cream.</MakeAYAloeCream.description>
+  <!-- EN: Making Aloe Cream -->
+  <MakeAYAloeCream.jobString>Making Aloe Cream</MakeAYAloeCream.jobString>
+  <!-- EN: Make Aloe Cream in bulk -->
+  <MakeBulkAYAloeCream.label>Make Aloe Cream in bulk</MakeBulkAYAloeCream.label>
+  <!-- EN: Make 5 Aloe Cream. -->
+  <MakeBulkAYAloeCream.description>Make 5 Aloe Cream.</MakeBulkAYAloeCream.description>
+  <!-- EN: Making Aloe Cream -->
+  <MakeBulkAYAloeCream.jobString>Making Aloe Cream</MakeBulkAYAloeCream.jobString>
+</LanguageData>

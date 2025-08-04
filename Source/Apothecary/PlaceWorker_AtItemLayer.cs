@@ -28,9 +28,7 @@ public class PlaceWorker_AtItemLayer : PlaceWorker
             switch (thingy.def.category)
             {
                 case ThingCategory.Plant:
-                    return false;
                 case ThingCategory.Building when thingy.def.surfaceType != SurfaceType.Item:
-                    return false;
                 case ThingCategory.Item:
                     return false;
             }

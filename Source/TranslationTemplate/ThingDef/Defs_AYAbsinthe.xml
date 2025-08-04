@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Absinthe -->
+  <AYAbsinthe.label>Absinthe</AYAbsinthe.label>
+  <!-- EN: Absinthe is historically described as a distilled, highly alcoholic beverage. It is an anise-flavoured spirit derived from botanicals, including the flowers and leaves of Artemisia absinthium (Wormwood), sometimes together with medicinal and culinary herbs. -->
+  <AYAbsinthe.description>Absinthe is historically described as a distilled, highly alcoholic beverage. It is an anise-flavoured spirit derived from botanicals, including the flowers and leaves of Artemisia absinthium (Wormwood), sometimes together with medicinal and culinary herbs.</AYAbsinthe.description>
+  <!-- EN: Drink {0} -->
+  <AYAbsinthe.ingestible.ingestCommandString>Drink {0}</AYAbsinthe.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYAbsinthe.ingestible.ingestReportString>Drinking {0}.</AYAbsinthe.ingestible.ingestReportString>
+  <!-- EN: bottle -->
+  <AYAbsinthe.tools.bottle.label>bottle</AYAbsinthe.tools.bottle.label>
+  <!-- EN: neck -->
+  <AYAbsinthe.tools.neck.label>neck</AYAbsinthe.tools.neck.label>
+  <!-- EN: Absinthe Mash -->
+  <AYAbsintheMash.label>Absinthe Mash</AYAbsintheMash.label>
+  <!-- EN: Un-fermented asbsinthe materials. This substance needs to ferment. -->
+  <AYAbsintheMash.description>Un-fermented asbsinthe materials. This substance needs to ferment.</AYAbsintheMash.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make absinthe mash -->
+  <Make_AYAbsintheMash.label>make absinthe mash</Make_AYAbsintheMash.label>
+  <!-- EN: Make absinthe mash from wormwood and anise. -->
+  <Make_AYAbsintheMash.description>Make absinthe mash from wormwood and anise.</Make_AYAbsintheMash.description>
+  <!-- EN: Making absinthe mash. -->
+  <Make_AYAbsintheMash.jobString>Making absinthe mash.</Make_AYAbsintheMash.jobString>
+</LanguageData>

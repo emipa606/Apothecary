@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Ginseng Tea -->
+  <MakeAYGinsengTea.label>Make Ginseng Tea</MakeAYGinsengTea.label>
+  <!-- EN: Make 1 Ginseng Tea. -->
+  <MakeAYGinsengTea.description>Make 1 Ginseng Tea.</MakeAYGinsengTea.description>
+  <!-- EN: Making Ginseng Tea -->
+  <MakeAYGinsengTea.jobString>Making Ginseng Tea</MakeAYGinsengTea.jobString>
+  <!-- EN: Make Ginseng Tea in bulk -->
+  <MakeBulkAYGinsengTea.label>Make Ginseng Tea in bulk</MakeBulkAYGinsengTea.label>
+  <!-- EN: Make 5 Ginseng Teas. -->
+  <MakeBulkAYGinsengTea.description>Make 5 Ginseng Teas.</MakeBulkAYGinsengTea.description>
+  <!-- EN: Making Ginseng Tea -->
+  <MakeBulkAYGinsengTea.jobString>Making Ginseng Tea</MakeBulkAYGinsengTea.jobString>
+</LanguageData>

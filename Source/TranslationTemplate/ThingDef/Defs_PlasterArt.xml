@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bat sculpture -->
+  <AYPlasterBat.label>Bat sculpture</AYPlasterBat.label>
+  <!-- EN: A bat sculpture cast from lime plaster. -->
+  <AYPlasterBat.description>A bat sculpture cast from lime plaster.</AYPlasterBat.description>
+  <!-- EN: Bird bath -->
+  <AYPlasterBirdBath.label>Bird bath</AYPlasterBirdBath.label>
+  <!-- EN: A bird bath cast from lime plaster. -->
+  <AYPlasterBirdBath.description>A bird bath cast from lime plaster.</AYPlasterBirdBath.description>
+  <!-- EN: Large Edgy sculpture -->
+  <AYPlasterLargeEdgy.label>Large Edgy sculpture</AYPlasterLargeEdgy.label>
+  <!-- EN: An abstract edgy sculpture cast from lime plaster. -->
+  <AYPlasterLargeEdgy.description>An abstract edgy sculpture cast from lime plaster.</AYPlasterLargeEdgy.description>
+  <!-- EN: Large Owly sculpture -->
+  <AYPlasterLargeOwly.label>Large Owly sculpture</AYPlasterLargeOwly.label>
+  <!-- EN: An abstract owl faced sculpture cast from lime plaster. -->
+  <AYPlasterLargeOwly.description>An abstract owl faced sculpture cast from lime plaster.</AYPlasterLargeOwly.description>
+  <!-- EN: Planter -->
+  <AYPlasterPlanter.label>Planter</AYPlasterPlanter.label>
+  <!-- EN: An ornate planter cast from lime plaster. -->
+  <AYPlasterPlanter.description>An ornate planter cast from lime plaster.</AYPlasterPlanter.description>
+  <!-- EN: unfinished plaster work -->
+  <UnfinishedAYPlaster.label>unfinished plaster work</UnfinishedAYPlaster.label>
+</LanguageData>

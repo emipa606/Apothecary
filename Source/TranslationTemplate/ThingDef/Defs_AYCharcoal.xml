@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Charcoal (Ammonia Treated) -->
+  <AYAmmoniaCharcoal.label>Charcoal (Ammonia Treated)</AYAmmoniaCharcoal.label>
+  <!-- EN: Charcoal treated with ammonia to be used as a fuel for evapouration in specialised passive coolers -->
+  <AYAmmoniaCharcoal.description>Charcoal treated with ammonia to be used as a fuel for evapouration in specialised passive coolers</AYAmmoniaCharcoal.description>
+  <!-- EN: Charcoal -->
+  <AYCharcoal.label>Charcoal</AYCharcoal.label>
+  <!-- EN: Charcoal is a lightweight black carbon residue produced by removing water and other volatile constituents from animal and plant materials. Charcoal is usually produced by slow pyrolysis — the heating of wood or other organic materials in the absence of oxygen. This process is called charcoal burning. -->
+  <AYCharcoal.description>Charcoal is a lightweight black carbon residue produced by removing water and other volatile constituents from animal and plant materials. Charcoal is usually produced by slow pyrolysis — the heating of wood or other organic materials in the absence of oxygen. This process is called charcoal burning.</AYCharcoal.description>
+  <!-- EN: Wood Ashes -->
+  <AYWoodAshes.label>Wood Ashes</AYWoodAshes.label>
+  <!-- EN: Wood ashes are the residue powder left after the combustion of wood. -->
+  <AYWoodAshes.description>Wood ashes are the residue powder left after the combustion of wood.</AYWoodAshes.description>
+</LanguageData>

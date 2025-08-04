@@ -5,7 +5,7 @@ namespace Apothecary;
 
 public class ThoughtWorker_AYSoap : ThoughtWorker
 {
-    public readonly HediffDef AYHedCheckLavSoap = HediffDefAYSoaps.AYLavenderSoapHigh;
+    private readonly HediffDef AYHedCheckLavSoap = HediffDefAYSoaps.AYLavenderSoapHigh;
 
     protected override ThoughtState CurrentSocialStateInternal(Pawn pawn, Pawn other)
     {
@@ -31,7 +31,7 @@ public class ThoughtWorker_AYSoap : ThoughtWorker
     }
 
     [DefOf]
-    public static class HediffDefAYSoaps
+    private static class HediffDefAYSoaps
     {
         public static HediffDef AYLavenderSoapHigh;
     }

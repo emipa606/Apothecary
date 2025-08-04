@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Alcohol -->
+  <AYBooze.label>Alcohol</AYBooze.label>
+  <!-- EN: Apothecary Drugs -->
+  <AYDrugs.label>Apothecary Drugs</AYDrugs.label>
+  <!-- EN: Elixirs -->
+  <AYElixirs.label>Elixirs</AYElixirs.label>
+  <!-- EN: Apothecary herbs -->
+  <AYHerbs.label>Apothecary herbs</AYHerbs.label>
+  <!-- EN: Oil Extracts -->
+  <AYOils.label>Oil Extracts</AYOils.label>
+  <!-- EN: Ointments -->
+  <AYOintments.label>Ointments</AYOintments.label>
+  <!-- EN: Apothecary plant matter -->
+  <AYPlantMatter.label>Apothecary plant matter</AYPlantMatter.label>
+  <!-- EN: lime plaster art -->
+  <AYPlasterArt.label>lime plaster art</AYPlasterArt.label>
+  <!-- EN: Powders -->
+  <AYPowders.label>Powders</AYPowders.label>
+  <!-- EN: Apothecary products -->
+  <AYProducts.label>Apothecary products</AYProducts.label>
+  <!-- EN: Salts -->
+  <AYSalts.label>Salts</AYSalts.label>
+  <!-- EN: Smokes -->
+  <AYSmokes.label>Smokes</AYSmokes.label>
+  <!-- EN: Herbal Teas -->
+  <AYTeas.label>Herbal Teas</AYTeas.label>
+  <!-- EN: Tonics -->
+  <AYTonics.label>Tonics</AYTonics.label>
+</LanguageData>

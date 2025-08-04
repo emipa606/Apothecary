@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Charcoal crematorium -->
+  <AYCharcoalCrematorium.label>Charcoal crematorium</AYCharcoalCrematorium.label>
+  <!-- EN: A huge stone crematorium which vaporizes corpses with extremely high temperatures. -->
+  <AYCharcoalCrematorium.description>A huge stone crematorium which vaporizes corpses with extremely high temperatures.</AYCharcoalCrematorium.description>
+  <!-- EN: Charcoal-fired generator -->
+  <AYCharcoalFiredGenerator.label>Charcoal-fired generator</AYCharcoalFiredGenerator.label>
+  <!-- EN: Produces power by consuming charcoal. Must be periodically loaded with charcoal fuel by hand. -->
+  <AYCharcoalFiredGenerator.description>Produces power by consuming charcoal. Must be periodically loaded with charcoal fuel by hand.</AYCharcoalFiredGenerator.description>
+  <!-- EN: Charcoal smithy -->
+  <AYCharcoalSmithy.label>Charcoal smithy</AYCharcoalSmithy.label>
+  <!-- EN: A Charcoal-fueled station for smithing non-mechanical weapons and tools. -->
+  <AYCharcoalSmithy.description>A Charcoal-fueled station for smithing non-mechanical weapons and tools.</AYCharcoalSmithy.description>
+  <!-- EN: Charcoal stove -->
+  <AYCharcoalStove.label>Charcoal stove</AYCharcoalStove.label>
+  <!-- EN: A charcoal-fueled stove with an attached countertop for preparing meals. -->
+  <AYCharcoalStove.description>A charcoal-fueled stove with an attached countertop for preparing meals.</AYCharcoalStove.description>
+</LanguageData>

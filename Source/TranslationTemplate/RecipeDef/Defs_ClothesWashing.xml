@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Wash Apparel -->
+  <AY_WashApparel.label>Wash Apparel</AY_WashApparel.label>
+  <!-- EN: Wash taint out of apparel -->
+  <AY_WashApparel.description>Wash taint out of apparel</AY_WashApparel.description>
+  <!-- EN: washing apparel -->
+  <AY_WashApparel.jobString>washing apparel</AY_WashApparel.jobString>
+</LanguageData>

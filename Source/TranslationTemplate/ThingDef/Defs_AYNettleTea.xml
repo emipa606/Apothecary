@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Nettle Tea -->
+  <AYNettleTea.label>Nettle Tea</AYNettleTea.label>
+  <!-- EN: Nettle tea, helpful to avoid asthma and the flu, has additional natural properties as an antihistamine. Effects last about a day. -->
+  <AYNettleTea.description>Nettle tea, helpful to avoid asthma and the flu, has additional natural properties as an antihistamine. Effects last about a day.</AYNettleTea.description>
+  <!-- EN: Drink {0} -->
+  <AYNettleTea.ingestible.ingestCommandString>Drink {0}</AYNettleTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AYNettleTea.ingestible.ingestReportString>Drinking {0}.</AYNettleTea.ingestible.ingestReportString>
+</LanguageData>

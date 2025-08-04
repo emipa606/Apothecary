@@ -28,10 +28,8 @@ public class PlaceWorker_Candle : PlaceWorker
             switch (thingy.def.category)
             {
                 case ThingCategory.Plant:
-                    return false;
                 case ThingCategory.Building when thingy.def.surfaceType != SurfaceType.Item &&
                                                  thingy.def.surfaceType != SurfaceType.Eat:
-                    return false;
                 case ThingCategory.Item:
                     return false;
             }

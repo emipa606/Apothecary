@@ -46,9 +46,7 @@ public class PlaceWorker_AYWaterGrower : PlaceWorker
             switch (thingy.def.category)
             {
                 case ThingCategory.Plant:
-                    return false;
                 case ThingCategory.Building:
-                    return false;
                 case ThingCategory.Item:
                     return false;
             }
